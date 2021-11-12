@@ -1,0 +1,2950 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * survey
+# 
+# Translators:
+# David Sanchez <david.sanchez@jarsa.com.mx>, 2016
+# Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2016
+# Carles Antoli <carlesantoli@hotmail.com>, 2016
+# Sergio Hevia <sah@talleresbernesga.com>, 2016
+# Leonardo Chianea <noamixcontenidos@gmail.com>, 2016
+# Ivan Nieto <ivan.n.s@tuta.io>, 2016
+# Glen Sojo <inactive+glen.sojo@transifex.com>, 2016
+# Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2017
+# Fernando San Martín Woerner <fsnmartin@gmail.com>, 2017
+# Christopher Ormaza <chris.ormaza@gmail.com>, 2017
+# e2f <projects@e2f.com>, 2018
+# Pedro M. Baeza <pedro.baeza@gmail.com>, 2018
+# Ana Juaristi <ajuaristio@gmail.com>, 2018
+# Manuel Vázquez Acosta <mva.led@gmail.com>, 2018
+# Alejandro Santana <alejandrosantana@anubia.es>, 2018
+# oihane <oihanecruce@gmail.com>, 2018
+# Javier Ramirez <elbomba887@gmail.com>, 2018
+# José Vicente <txusev@gmail.com>, 2018
+# Antonio Trueba, 2018
+# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# Miguel Orueta <mo@landoo.es>, 2018
+# Miquel Torner <miq@odoo.com>, 2018
+# Luis M. Ontalba <luis.martinez@tecnativa.com>, 2019
+# Nicolás Broggi <rnbroggi@gmail.com>, 2019
+# Cristopher Cravioto <ccr@odoo.com>, 2019
+# Cristian Salamea <ovnicraft@gmail.com>, 2019
+# Martin Trigaux, 2019
+# Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
+# Pierre-Antoine Magnet <pma@odoo.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-20 13:50+0000\n"
+"PO-Revision-Date: 2016-08-05 13:10+0000\n"
+"Last-Translator: Pierre-Antoine Magnet <pma@odoo.com>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:186
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (copia)"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid "&amp;times;"
+msgstr "&amp;times;"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_header
+msgid "00:00"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_1_choice_4
+msgid "100$"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_1_choice_1
+msgid "20$"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_1_choice_5
+msgid "200$"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_1_choice_6
+msgid "300$"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.403
+msgid "403: Forbidden"
+msgstr "403: Prohibido"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_1_choice_2
+msgid "50$"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_1_choice_3
+msgid "80$"
+msgstr ""
+
+#. module: survey
+#: model:mail.template,body_html:survey.mail_template_certification
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+"                    <table style=\"width:600px;margin:5px auto;\">\n"
+"                        <tbody>\n"
+"                            <tr><td>\n"
+"                                <!-- We use the logo of the company that created the survey (to handle multi company cases) -->\n"
+"                                <a href=\"/\"><img src=\"/logo.png?company=${object.survey_id.create_uid.company_id.id}\" style=\"vertical-align:baseline;max-width:100px;\"/></a>\n"
+"                            </td><td style=\"text-align:right;vertical-align:middle;\">\n"
+"                                    Certification: ${object.survey_id.display_name}\n"
+"                            </td></tr>\n"
+"                        </tbody>\n"
+"                    </table>\n"
+"                    <table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
+"                        <tbody>\n"
+"                            <tr><td style=\"padding:15px 20px 10px 20px;\">\n"
+"                                <p>Dear <span>${object.partner_id.name or 'participant'}</span></p>\n"
+"                                <p>\n"
+"                                    Here is, in attachment, your certification document for\n"
+"                                        <strong>${object.survey_id.display_name}</strong>\n"
+"                                </p>\n"
+"                                <p>Congratulations for succeeding the test!</p>\n"
+"                            </td></tr>\n"
+"                        </tbody>\n"
+"                    </table>\n"
+"                </div>\n"
+"            "
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "<b>Question </b>"
+msgstr "<b>Pregunta </b>"
+
+#. module: survey
+#: model:mail.template,body_html:survey.mail_template_user_input_invite
+msgid ""
+"<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Dear ${object.partner_id.name or 'participant'}<br/><br/>\n"
+"        % if object.survey_id.certificate:\n"
+"            You have been invited to take a new certification.\n"
+"        % else:\n"
+"            We are conducting a survey and your response would be appreciated.\n"
+"        % endif\n"
+"        <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"            <a href=\"${('%s?answer_token=%s' % (object.survey_id.public_url, object.token)) | safe}\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"                % if object.survey_id.certificate:\n"
+"                    Start Certification\n"
+"                % else:\n"
+"                    Start Survey\n"
+"                % endif\n"
+"            </a>\n"
+"        </div>\n"
+"        % if object.deadline:\n"
+"            Please answer the survey for ${format_date(object.deadline)}.<br/><br/>\n"
+"        % endif\n"
+"        Thank you for your participation.\n"
+"    </p>\n"
+"</div>\n"
+"            "
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "<i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123..</i>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid ""
+"<i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple "
+"lines\" title=\"Multiple Lines\"/>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_matrix
+msgid ""
+"<i class=\"fa fa-bar-chart\"/>\n"
+"                    Graph"
+msgstr ""
+"<i class=\"fa fa-bar-chart\"/>\n"
+"                    Gráfico"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_choice
+msgid "<i class=\"fa fa-bar-chart-o\"/> Graph"
+msgstr "<i class=\"fa fa-bar-chart-o\"/> Gráfico"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_choice
+msgid "<i class=\"fa fa-bar-chart-o\"/> Pie Chart"
+msgstr "<i class=\"fa fa-bar-chart-o\"/> Gráfico de sectores"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "<i class=\"fa fa-check-square-o fa-lg\"/> answer"
+msgstr "<i class=\"fa fa-check-square-o fa-lg\"/> respuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "<i class=\"fa fa-circle-o  fa-lg\"/> answer"
+msgstr "<i class=\"fa fa-circle-o  fa-lg\"/> respuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid ""
+"<i class=\"fa fa-circle-o fa-lg\" role=\"img\" aria-label=\"Not checked\" "
+"title=\"Not checked\"/>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid ""
+"<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"Checked\" "
+"title=\"Checked\"/>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "<i class=\"fa fa-dot-circle-o fa-lg\"/> answer"
+msgstr "<i class=\"fa fa-dot-circle-o fa-lg\"/> respuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid ""
+"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
+"                                        Download certification"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_number
+msgid ""
+"<i class=\"fa fa-list-alt\"/>\n"
+"                    All Data"
+msgstr ""
+"<i class=\"fa fa-list-alt\"/>\n"
+"Todos los datos"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_matrix
+msgid ""
+"<i class=\"fa fa-list-alt\"/>\n"
+"                    Data"
+msgstr ""
+"<i class=\"fa fa-list-alt\"/>\n"
+"Datos"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_choice
+msgid "<i class=\"fa fa-list-alt\"/> Data"
+msgstr "<i class=\"fa fa-list-alt\"/> Fecha"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_number
+msgid ""
+"<i class=\"fa fa-list-ol\"/>\n"
+"                    Most Common"
+msgstr ""
+"<i class=\"fa fa-list-ol\"/>\n"
+"Más común"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid ""
+"<i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" "
+"title=\"Single Line\"/>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "<i class=\"fa fa-square-o fa-lg\"/> answer"
+msgstr "<i class=\"fa fa-square-o fa-lg\"/> respuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "<i class=\"fa fa-times\"/> Clear All Filters"
+msgstr "<i class=\"fa fa-times\"/> Quitar todos los filtros"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid ""
+"<span attrs=\"{'invisible': [('is_time_limited', '=', False)]}\"> "
+"minutes</span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid ""
+"<span class=\"badge badge-primary only_left_radius filter-all\">All "
+"surveys</span><span class=\"badge badge-secondary only_right_radius filter-"
+"finished\">Finished surveys</span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid ""
+"<span class=\"badge badge-primary only_left_radius\"><i class=\"fa fa-"
+"filter\" role=\"img\" aria-label=\"Filter\" title=\"Filter\"/></span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid ""
+"<span class=\"badge badge-secondary only_left_radius filter-all\">All "
+"surveys</span><span class=\"badge badge-primary only_right_radius filter-"
+"finished\">Finished surveys</span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_number
+msgid "<span class=\"badge badge-secondary only_left_radius\">Average </span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_number
+msgid "<span class=\"badge badge-secondary only_left_radius\">Maximum </span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_number
+msgid "<span class=\"badge badge-secondary only_left_radius\">Minimum </span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_number
+msgid "<span class=\"badge badge-secondary only_left_radius\">Sum </span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "<span class=\"fa fa-filter\"/>  Filters"
+msgstr "<span class=\"fa fa-filter\"/>  Filtros"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "<span>Correct answer</span>:"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "<span>Correct answers</span>:"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid "<span>Number of attemps left</span>:"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_init
+msgid "<span>Time limit for this survey: </span>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.certification_report_view
+msgid "<strong>Date of Certification:</strong>"
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_question.py:389
+#, python-format
+msgid "A label must be attached to only one question."
+msgstr ""
+
+#. module: survey
+#: sql_constraint:survey.question:0
+msgid "A length must be positive!"
+msgstr "Una duración debe ser positiva"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_3_choice_4
+msgid "A little bit overpriced"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__description
+msgid "A long description of the purpose of the survey"
+msgstr "Una descripción larga del propósito de la encuesta"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_3_choice_5
+msgid "A lot overpriced"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_label__answer_score
+msgid ""
+"A positive score indicates a correct choice; a negative or null score "
+"indicates a wrong answer"
+msgstr ""
+"Una puntuación positiva indica una respuesta correcta, una negativa o nula "
+"indica una respuesta incorrecta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid "A problem has occured"
+msgstr "Ha ocurrido un problema"
+
+#. module: survey
+#: sql_constraint:survey.user_input:0
+msgid "A token must be unique!"
+msgstr "El token debe ser único"
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p2
+#: model:survey.question,title:survey.survey_feedback_p2
+msgid "About our ecommerce"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__survey_access_mode
+#: model:ir.model.fields,field_description:survey.field_survey_survey__access_mode
+msgid "Access Mode"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__access_token
+msgid "Access Token"
+msgstr "Token de acceso"
+
+#. module: survey
+#: sql_constraint:survey.survey:0
+msgid "Access token should be unique"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_needaction
+msgid "Action Needed"
+msgstr "Acción requerida"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_state
+msgid "Activity State"
+msgstr "Estado de la actividad"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid ""
+"Add a list of email of recipients (will not be converted into contacts). "
+"Separated by commas, semicolons or newline..."
+msgstr ""
+"Añada un listado de correos electrónicos de destinatarios (no serán "
+"convertidos en contactos). Separados por comas, puntos y comas o saltos de "
+"línea..."
+
+#. module: survey
+#: model_terms:ir.actions.act_window,help:survey.action_survey_form
+msgid "Add a new survey"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Add a question"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Add a section"
+msgstr "Agregar una sección"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid "Add existing contacts..."
+msgstr "Añadir contactos existentes..."
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__emails
+msgid "Additional emails"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_col3
+msgid "Agree"
+msgstr "De acuerdo"
+
+#. module: survey
+#: selection:survey.survey,questions_selection:0
+msgid "All questions"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Allow Comments"
+msgstr "Permitir comentarios"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+msgid "Analyze Answers"
+msgstr "Analizar respuestas"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_choice
+msgid "Answer Choices"
+msgstr "Opciones de respuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_choice
+msgid "Answer Score"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__input_type
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__answer_type
+msgid "Answer Type"
+msgstr "Tipo respuesta"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__deadline
+msgid "Answer deadline"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "Answered"
+msgstr "Contestadas"
+
+#. module: survey
+#: model:ir.actions.act_window,name:survey.action_survey_user_input
+#: model:ir.actions.act_window,name:survey.action_survey_user_input_notest
+#: model:ir.model.fields,field_description:survey.field_survey_question__user_input_line_ids
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__user_input_line_ids
+#: model:ir.ui.menu,name:survey.menu_survey_type_form1
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Answers"
+msgstr "Respuestas"
+
+#. module: survey
+#: selection:survey.survey,access_mode:0
+msgid "Anyone with the link"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_attachment_count
+msgid "Attachment Count"
+msgstr "Conteo de archivos adjuntos"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__attachment_ids
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__author_id
+msgid "Author"
+msgstr "Autor"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_invite__author_id
+msgid "Author of the message."
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__certification_mail_template_id
+msgid ""
+"Automated email sent to the user when he succeeds the certification, "
+"containing his certification document."
+msgstr ""
+
+#. module: survey
+#: model:ir.model,name:survey.model_ir_autovacuum
+msgid "Automatic Vacuum"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_2_choice_3
+msgid "Cabinet with Doors"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Candidates"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__category
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "Category"
+msgstr "Categoría"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__category
+msgid ""
+"Category is used to know in which context the survey is used. Various apps "
+"may define their own categories when they use survey like jobs recruitment "
+"or employee appraisal surveys."
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__certificate
+msgid "Certificate"
+msgstr "Certificado"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+msgid "Certification"
+msgstr ""
+
+#. module: survey
+#: model:mail.template,report_name:survey.mail_template_certification
+msgid "Certification Document"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__certification_mail_template_id
+msgid "Certification Email Template"
+msgstr ""
+
+#. module: survey
+#: model:mail.template,subject:survey.mail_template_certification
+msgid "Certification: ${object.survey_id.display_name}"
+msgstr ""
+
+#. module: survey
+#: model:ir.actions.report,name:survey.certification_report
+msgid "Certifications"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__certified_count
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Certified"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.certification_report_view
+msgid "Certifies that"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_2_choice_1
+msgid "Chair floor protection"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "Chart"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__is_attempts_limited
+msgid "Check this option if you want to limit the number of attempts per user"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Choices"
+msgstr "Opciones"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.simple_choice
+msgid "Choose..."
+msgstr "Seleccionar..."
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.back
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_stage__closed
+#: model:survey.stage,name:survey.stage_closed
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+#: model:survey.label,value:survey.vendor_certification_page_1_question_3_choice_1
+msgid "Color"
+msgstr "Color"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__color
+msgid "Color Index"
+msgstr "Índice de Colores"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_comments
+msgid "Comment"
+msgstr "Comentario"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__comment_count_as_answer
+msgid "Comment Field is an Answer Choice"
+msgstr "El campo comentario es una opción de respuesta"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__comments_message
+msgid "Comment Message"
+msgstr "Mensaje del comentario"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.layout
+msgid "Company name"
+msgstr "Nombre de la compañía"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__answer_done_count
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+#: selection:survey.user_input,state:0
+msgid "Completed"
+msgstr "Completada"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid "Compose Email"
+msgstr "Componer correo electrónico"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_2_choice_3
+msgid "Conference chair"
+msgstr ""
+
+#. module: survey
+#: model:ir.ui.menu,name:survey.menu_surveys_configuration
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid "Congratulations, you have passed the test!"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Constraints"
+msgstr "Restricciones"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__body
+msgid "Contents"
+msgstr "Contenidos"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.layout
+msgid "Copyright &amp;copy;"
+msgstr "Copyright &amp;copy;"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_2_choice_1
+msgid "Corner Desk Right Sit"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_3_choice_3
+msgid "Correctly priced"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.layout
+msgid "Create a"
+msgstr "Crea una"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__create_uid
+#: model:ir.model.fields,field_description:survey.field_survey_label__create_uid
+#: model:ir.model.fields,field_description:survey.field_survey_question__create_uid
+#: model:ir.model.fields,field_description:survey.field_survey_stage__create_uid
+#: model:ir.model.fields,field_description:survey.field_survey_survey__create_uid
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__create_uid
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__create_date
+#: model:ir.model.fields,field_description:survey.field_survey_label__create_date
+#: model:ir.model.fields,field_description:survey.field_survey_question__create_date
+#: model:ir.model.fields,field_description:survey.field_survey_stage__create_date
+#: model:ir.model.fields,field_description:survey.field_survey_survey__create_date
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__create_date
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:243
+#, python-format
+msgid "Creating test token is not allowed for you."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:257
+#, python-format
+msgid ""
+"Creating token for anybody else than employees is not allowed for internal "
+"surveys."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:246
+#, python-format
+msgid "Creating token for archived surveys is not allowed."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:248
+#, python-format
+msgid "Creating token for closed surveys is not allowed."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:252
+#: code:addons/survey/models/survey_survey.py:255
+#, python-format
+msgid ""
+"Creating token for external people is not allowed for surveys requesting "
+"authentication."
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid ""
+"Customers will receive a new token and be able to completely retake the "
+"survey."
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid "Customers will receive the same token."
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_2_choice_5
+msgid "Customizable Lamp"
+msgstr ""
+
+#. module: survey
+#: selection:survey.question,question_type:0
+#: selection:survey.user_input_line,answer_type:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_date
+msgid "Date answer"
+msgstr "Fecha de respuesta"
+
+#. module: survey
+#: selection:survey.question,question_type:0
+#: selection:survey.user_input_line,answer_type:0
+msgid "Datetime"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_datetime
+msgid "Datetime answer"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_user_input__deadline
+msgid "Datetime until customer can open the survey and submit answers"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__deadline
+msgid "Deadline"
+msgstr "Fecha límite"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+msgid "Delete"
+msgstr "Suprimir"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__description
+#: model:ir.model.fields,field_description:survey.field_survey_survey__description
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: survey
+#: model_terms:ir.actions.act_window,help:survey.action_survey_form
+msgid ""
+"Design easily your survey, send invitations to answer by email and analyze "
+"answers."
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_2_choice_2
+msgid "Desk Combination"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_col2
+msgid "Disagree"
+msgstr "En desacuerdo"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__display_mode
+msgid "Display Mode"
+msgstr "Modo de visualización"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__display_name
+#: model:ir.model.fields,field_description:survey.field_survey_label__display_name
+#: model:ir.model.fields,field_description:survey.field_survey_question__display_name
+#: model:ir.model.fields,field_description:survey.field_survey_stage__display_name
+#: model:ir.model.fields,field_description:survey.field_survey_survey__display_name
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__display_name
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Display mode"
+msgstr "Modo de visualización"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_question__display_mode
+msgid "Display mode of simple choice questions."
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_1_question_1
+#: model:survey.question,title:survey.vendor_certification_page_1_question_1
+msgid "Do we sell Acoustic Bloc Screens?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p2_q3
+#: model:survey.question,title:survey.survey_feedback_p2_q3
+msgid "Do you have any other comments, questions, or concerns ?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_1_question_5
+#: model:survey.question,title:survey.vendor_certification_page_1_question_5
+msgid "Do you think we have missing products in our catalog? (not rated)"
+msgstr ""
+
+#. module: survey
+#: model:survey.stage,name:survey.stage_draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_2_choice_4
+msgid "Drawer"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+msgid "Dropdown menu"
+msgstr "Menú desplegable"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__email
+msgid "E-mail"
+msgstr "Email"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Edit Pages and Questions"
+msgstr "Editar páginas y preguntas"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+msgid "Edit Survey"
+msgstr "Editar encuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.back
+msgid "Edit Survey."
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_void
+msgid "Edit in backend"
+msgstr "Editar en el backend"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_invite__email_from
+msgid "Email address of the sender."
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Enable back button"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__constr_error_msg
+msgid "Error message"
+msgstr "Mensaje de error"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__existing_partner_ids
+msgid "Existing Partner"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__existing_emails
+msgid "Existing emails"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_2_choice_2
+msgid "Fanta"
+msgstr "Fanta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_choice
+msgid "Filter question"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_stage__fold
+msgid "Folded in kanban view"
+msgstr "Replegado en la vista kanban"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Format"
+msgstr "Formatear"
+
+#. module: survey
+#: selection:survey.user_input_line,answer_type:0
+msgid "Free Text"
+msgstr "Texto libre"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_free_text
+msgid "Free Text answer"
+msgstr "Respuesta de texto libre"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__email_from
+msgid "From"
+msgstr "De"
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p1
+#: model:survey.question,title:survey.survey_feedback_p1
+msgid "General information"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,category:0
+msgid "Generic Survey"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug4
+msgid "Good value for money"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_search
+#: model_terms:ir.ui.view,arch_db:survey.survey_response_line_search
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__existing_mode
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid "Handle existing"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_3_choice_2
+msgid "Height"
+msgstr "Altura"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug1
+msgid "High quality"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p1_q3
+#: model:survey.question,title:survey.survey_feedback_p1_q3
+msgid "How frequently do you buy products online ?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p1_q4
+#: model:survey.question,title:survey.survey_feedback_p1_q4
+msgid "How many times did you order products on our website ?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_1_question_4
+#: model:survey.question,title:survey.vendor_certification_page_1_question_4
+msgid "How many versions of the Corner Desk do we have?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_2_question_1
+#: model:survey.question,title:survey.vendor_certification_page_2_question_1
+msgid "How much do we sell our Cable Management Box?"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_row5
+msgid "I have added products to my wishlist"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__id
+#: model:ir.model.fields,field_description:survey.field_survey_label__id
+#: model:ir.model.fields,field_description:survey.field_survey_question__id
+#: model:ir.model.fields,field_description:survey.field_survey_stage__id
+#: model:ir.model.fields,field_description:survey.field_survey_survey__id
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__id
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__token
+msgid "Identification token"
+msgstr "Token de identificación"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado hay nuevos mensajes que requieren su atención."
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__users_can_go_back
+msgid "If checked, users can go back to previous pages."
+msgstr "Si está marcado, los usuarios pueden volver a las páginas anteriores."
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_invite__survey_users_login_required
+#: model:ir.model.fields,help:survey.field_survey_survey__users_login_required
+msgid ""
+"If checked, users have to login before answering even with a valid token."
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_stage__closed
+#: model:ir.model.fields,help:survey.field_survey_survey__is_closed
+msgid "If closed, people won't be able to answer to surveys in this column."
+msgstr ""
+"Si está cerrada, la gente no podrá responder encuestas en esta columna."
+
+#. module: survey
+#: code:addons/survey/models/survey_question.py:106
+#: model:survey.question,comments_message:survey.survey_feedback_p1
+#: model:survey.question,comments_message:survey.survey_feedback_p1_q1
+#: model:survey.question,comments_message:survey.survey_feedback_p1_q2
+#: model:survey.question,comments_message:survey.survey_feedback_p1_q3
+#: model:survey.question,comments_message:survey.survey_feedback_p1_q4
+#: model:survey.question,comments_message:survey.survey_feedback_p2
+#: model:survey.question,comments_message:survey.survey_feedback_p2_q1
+#: model:survey.question,comments_message:survey.survey_feedback_p2_q2
+#: model:survey.question,comments_message:survey.survey_feedback_p2_q3
+#: model:survey.question,comments_message:survey.vendor_certification_page_1
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_1
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_2
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_3
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_4
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_5
+#: model:survey.question,comments_message:survey.vendor_certification_page_2
+#: model:survey.question,comments_message:survey.vendor_certification_page_2_question_1
+#: model:survey.question,comments_message:survey.vendor_certification_page_2_question_2
+#: model:survey.question,comments_message:survey.vendor_certification_page_2_question_3
+#, python-format
+msgid "If other, please specify:"
+msgstr "Si otra, por favor, precisar:"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_question__questions_selection
+#: model:ir.model.fields,help:survey.field_survey_survey__questions_selection
+msgid ""
+"If randomized is selected, add the number of random questions next to the "
+"section."
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid "If you wish, you can"
+msgstr "Si quiere, puede"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug6
+msgid "Impractical"
+msgstr ""
+
+#. module: survey
+#: model:survey.stage,name:survey.stage_in_progress
+msgid "In progress"
+msgstr "En proceso"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug7
+msgid "Ineffective"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_email
+msgid "Input must be an email"
+msgstr "La entrada debe ser un correo electrónico"
+
+#. module: survey
+#: selection:survey.user_input,input_type:0
+msgid "Invitation"
+msgstr "Invitación"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Invitations"
+msgstr "Invitaciones"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__invite_count
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Invite"
+msgstr "Invitar"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__invite_token
+msgid "Invite token"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,access_mode:0
+msgid "Invited people only"
+msgstr "Personas invitadas solamente"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "Is a certification?"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_label__is_correct
+msgid "Is a correct answer"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__is_page
+msgid "Is a page?"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__is_closed
+msgid "Is closed"
+msgstr "Está cerrado"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__is_time_limit_reached
+msgid "Is time limit reached?"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_row2
+msgid "It is easy to find the product that I want"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_label__sequence
+msgid "Label Sequence order"
+msgstr "Secuencia de orden de la etiqueta"
+
+#. module: survey
+#: model:ir.actions.act_window,name:survey.action_survey_label_form
+#: model:ir.ui.menu,name:survey.menu_survey_label_form1
+msgid "Labels"
+msgstr "Etiquetas"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_question__labels_ids_2
+msgid "Labels used for proposed choices: rows of matrix"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_question__labels_ids
+msgid ""
+"Labels used for proposed choices: simple choice, multiple choice and columns"
+" of matrix"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_2_choice_4
+msgid "Large Desk"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite____last_update
+#: model:ir.model.fields,field_description:survey.field_survey_label____last_update
+#: model:ir.model.fields,field_description:survey.field_survey_question____last_update
+#: model:ir.model.fields,field_description:survey.field_survey_stage____last_update
+#: model:ir.model.fields,field_description:survey.field_survey_survey____last_update
+#: model:ir.model.fields,field_description:survey.field_survey_user_input____last_update
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__write_uid
+#: model:ir.model.fields,field_description:survey.field_survey_label__write_uid
+#: model:ir.model.fields,field_description:survey.field_survey_question__write_uid
+#: model:ir.model.fields,field_description:survey.field_survey_stage__write_uid
+#: model:ir.model.fields,field_description:survey.field_survey_survey__write_uid
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__write_uid
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__write_date
+#: model:ir.model.fields,field_description:survey.field_survey_label__write_date
+#: model:ir.model.fields,field_description:survey.field_survey_question__write_date
+#: model:ir.model.fields,field_description:survey.field_survey_stage__write_date
+#: model:ir.model.fields,field_description:survey.field_survey_survey__write_date
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__write_date
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__last_displayed_page_id
+msgid "Last displayed question/page"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "Late Activities"
+msgstr "Actividades tardías"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__questions_layout
+msgid "Layout"
+msgstr "Diseño"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_3_choice_4
+msgid "Legs"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__is_attempts_limited
+msgid "Limited number of attempts"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__survey_users_login_required
+#: model:ir.model.fields,field_description:survey.field_survey_survey__users_login_required
+#: model_terms:ir.ui.view,arch_db:survey.auth_required
+msgid "Login required"
+msgstr "Se requiere iniciar sesión"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.layout
+msgid "Logo"
+msgstr "Logo"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjuntos principales"
+
+#. module: survey
+#: model:res.groups,name:survey.group_survey_manager
+msgid "Manager"
+msgstr "Responsable"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__constr_mandatory
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Mandatory Answer"
+msgstr "Respuesta obligatoria"
+
+#. module: survey
+#: selection:survey.user_input,input_type:0
+msgid "Manual"
+msgstr "Manual"
+
+#. module: survey
+#: selection:survey.question,question_type:0
+msgid "Matrix"
+msgstr "Matriz"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__matrix_subtype
+msgid "Matrix Type"
+msgstr "Tipo de matriz"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "Matrix:"
+msgstr "Matriz:"
+
+#. module: survey
+#: sql_constraint:survey.question:0
+msgid "Max date cannot be smaller than min date!"
+msgstr "¡La fecha máxima no puede ser menor que la mínima!"
+
+#. module: survey
+#: sql_constraint:survey.question:0
+msgid "Max datetime cannot be smaller than min datetime!"
+msgstr ""
+
+#. module: survey
+#: sql_constraint:survey.question:0
+msgid "Max length cannot be smaller than min length!"
+msgstr "¡La longitud máxima no puede ser menor que la mínima!"
+
+#. module: survey
+#: sql_constraint:survey.question:0
+msgid "Max value cannot be smaller than min value!"
+msgstr "¡El valor máximo no puede ser menor que el mínimo!"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_max_date
+msgid "Maximum Date"
+msgstr "Fecha máxima"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_max_datetime
+msgid "Maximum Datetime"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_length_max
+msgid "Maximum Text Length"
+msgstr "Longitud máxima del texto"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_max_float_value
+msgid "Maximum value"
+msgstr "Valor máximo"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.403
+msgid "Maybe you were looking for"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de Envío de Mensaje"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_min_date
+msgid "Minimum Date"
+msgstr "Fecha mínima"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_min_datetime
+msgid "Minimum Datetime"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_length_min
+msgid "Minimum Text Length"
+msgstr "Longitud mínima de texto"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_min_float_value
+msgid "Minimum value"
+msgstr "Valor mínimo"
+
+#. module: survey
+#: code:addons/survey/controllers/main.py:628
+#, python-format
+msgid "Missed"
+msgstr ""
+
+#. module: survey
+#: selection:survey.question,question_type:0
+msgid "Multiple Lines Text Box"
+msgstr "Cuadro de texto varias líneas"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Multiple choice with multiple answers"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Multiple choice with one answer"
+msgstr ""
+
+#. module: survey
+#: selection:survey.question,question_type:0
+msgid "Multiple choice: multiple answers allowed"
+msgstr "Elección múltiple: permitidas respuestas múltiples"
+
+#. module: survey
+#: selection:survey.question,question_type:0
+msgid "Multiple choice: only one answer"
+msgstr "Elección múltiple: sólo una respuesta"
+
+#. module: survey
+#: selection:survey.question,matrix_subtype:0
+msgid "Multiple choices per row"
+msgstr "Elección múltiple por fila"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "My Activities"
+msgstr "Mis actividades"
+
+#. module: survey
+#: model:survey.survey,title:survey.vendor_certification
+msgid "MyCompany Vendor Certification"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_stage__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "New"
+msgstr "Nuevo"
+
+#. module: survey
+#: selection:survey.invite,existing_mode:0
+msgid "New invite"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Siguiente plazo de actividad"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid "Next page"
+msgstr "Página siguiente"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid "Next question"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_1_choice_1
+msgid "No"
+msgstr "No"
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:259
+#, python-format
+msgid "No attempts left."
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.actions.act_window,help:survey.action_survey_question_form
+msgid "No questions found"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,scoring_type:0
+msgid "No scoring"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.actions.act_window,help:survey.action_survey_label_form
+msgid "No survey labels found"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.actions.act_window,help:survey.action_survey_user_input_line
+msgid "No user input lines found"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.actions.act_window,help:survey.action_survey_user_input
+#: model_terms:ir.actions.act_window,help:survey.action_survey_user_input_notest
+msgid "Nobody has replied to your surveys yet"
+msgstr ""
+
+#. module: survey
+#: selection:survey.user_input,state:0
+msgid "Not started yet"
+msgstr "Sin comenzar aún"
+
+#. module: survey
+#: selection:survey.user_input_line,answer_type:0
+msgid "Number"
+msgstr "Número"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__attempts_limit
+msgid "Number of attempts"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__column_nb
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Number of columns"
+msgstr "Número de columnas"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_3_choice_5
+msgid "Number of drawers"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_has_error_counter
+msgid "Number of error"
+msgstr "Número de error"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: survey
+#: selection:survey.question,question_type:0
+msgid "Numerical Value"
+msgstr "Valor numérico"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_number
+msgid "Numerical answer"
+msgstr "Respuesta numérica"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_number
+msgid "Occurence"
+msgstr "Ocurrencia"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.layout
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_2_choice_5
+msgid "Office Chair Black"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p1_q3_sug1
+msgid "Once a day"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p1_q3_sug3
+msgid "Once a month"
+msgstr "Mensualmente"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p1_q3_sug2
+msgid "Once a week"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p1_q3_sug4
+msgid "Once a year"
+msgstr ""
+
+#. module: survey
+#: selection:survey.question,matrix_subtype:0
+msgid "One choice per row"
+msgstr "Una elección por fila"
+
+#. module: survey
+#: selection:survey.survey,questions_layout:0
+msgid "One page per question"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,questions_layout:0
+msgid "One page per section"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,questions_layout:0
+msgid "One page with all the questions"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Options"
+msgstr "Opciones"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug9
+msgid "Other"
+msgstr "Otro"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p1_q3_sug5
+msgid "Other (answer in comment)"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__mail_server_id
+msgid "Outgoing mail server"
+msgstr "Servidor de correos salientes"
+
+#. module: survey
+#: selection:survey.survey,activity_state:0
+msgid "Overdue"
+msgstr "Vencidas"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug5
+msgid "Overpriced"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__page_id
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__page_id
+msgid "Page"
+msgstr "Página"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__page_ids
+msgid "Pages"
+msgstr "Páginas"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Partially Completed"
+msgstr ""
+
+#. module: survey
+#: selection:survey.user_input,state:0
+msgid "Partially completed"
+msgstr "Parcialmente completado"
+
+#. module: survey
+#: model:mail.template,subject:survey.mail_template_user_input_invite
+msgid "Participate to ${object.survey_id.title} survey"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__partner_id
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: survey
+#: code:addons/survey/controllers/main.py:624
+#, python-format
+msgid "Passed"
+msgstr "Aprobado"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__passing_score
+msgid "Passing score (%)"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,activity_state:0
+msgid "Planned"
+msgstr "Planificado"
+
+#. module: survey
+#: code:addons/survey/wizard/survey_invite.py:260
+#, python-format
+msgid "Please enter at least one valid recipient."
+msgstr "Introduzca al menos un destinatario válido"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug8
+msgid "Poor quality"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__question_ids
+msgid "Predefined Questions"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid "Previous page"
+msgstr "Pagina anterior"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid "Previous question"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_2
+#: model:survey.question,title:survey.vendor_certification_page_2
+msgid "Prices"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_form
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_1
+#: model:survey.question,title:survey.vendor_certification_page_1
+msgid "Products"
+msgstr "Productos"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__survey_url
+#: model:ir.model.fields,field_description:survey.field_survey_survey__public_url
+msgid "Public link"
+msgstr "Enlace público"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_label__question_id
+#: model:ir.model.fields,field_description:survey.field_survey_question__question
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__question_id
+#: model_terms:ir.ui.view,arch_db:survey.survey_label_search
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_search
+msgid "Question"
+msgstr "Pregunta"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_label__question_id_2
+msgid "Question 2"
+msgstr "Pregunta 2"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Question name"
+msgstr "Nombre de la pregunta"
+
+#. module: survey
+#: model:ir.actions.act_window,name:survey.action_survey_question_form
+#: model:ir.model.fields,field_description:survey.field_survey_question__question_ids
+#: model:ir.model.fields,field_description:survey.field_survey_survey__question_ids
+#: model:ir.ui.menu,name:survey.menu_survey_question_form1
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Questions"
+msgstr "Preguntas"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__quizz_passed
+msgid "Quizz Passed"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Quizz passed"
+msgstr ""
+
+#. module: survey
+#: selection:survey.question,display_mode:0
+msgid "Radio Buttons"
+msgstr "Botones de opción"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__random_questions_count
+msgid "Random questions count"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,questions_selection:0
+msgid "Randomized per section"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__partner_ids
+msgid "Recipients"
+msgstr "Destinatarios"
+
+#. module: survey
+#: selection:survey.survey,category:0
+msgid "Recruitment"
+msgstr "Proceso de Selección"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__existing_text
+msgid "Resend Comment"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_form
+msgid "Resend Invitation"
+msgstr ""
+
+#. module: survey
+#: selection:survey.invite,existing_mode:0
+msgid "Resend invite"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "Results Overview"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid "Retry"
+msgstr "Reintentar"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_suggested_row
+msgid "Row answer"
+msgstr "Fila de la respuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Row1"
+msgstr "Fila1"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Row2"
+msgstr "Fila2"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Row3"
+msgstr "Fila3"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Rows"
+msgstr "Fila4"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__labels_ids_2
+msgid "Rows of the Matrix"
+msgstr "Filas de la matriz"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__quizz_score
+msgid "Score (%)"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_label__answer_score
+msgid "Score for this choice"
+msgstr "Puntuación para esta opción"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__answer_score
+msgid "Score given for this choice"
+msgstr "Puntuación dada a esta opción"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__scoring_type
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__scoring_type
+msgid "Scoring"
+msgstr "Puntuación"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Scoring Informations"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__scoring_type
+msgid "Scoring Type"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,scoring_type:0
+msgid "Scoring with answers at the end"
+msgstr ""
+
+#. module: survey
+#: selection:survey.survey,scoring_type:0
+msgid "Scoring without answers at the end"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_label_search
+msgid "Search Label"
+msgstr "Buscar etiqueta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_search
+msgid "Search Question"
+msgstr "Buscar pregunta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Search Survey"
+msgstr "Buscar encuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_response_line_search
+msgid "Search User input lines"
+msgstr "Buscar líneas de entrada del usuario"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Section name"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__question_and_page_ids
+msgid "Sections and Questions"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_1_question_3
+#: model:survey.question,title:survey.vendor_certification_page_1_question_3
+msgid "Select all the available customizations for our Customizable Desk"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_1_question_2
+#: model:survey.question,title:survey.vendor_certification_page_1_question_2
+msgid "Select all the existing products"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_2_question_2
+#: model:survey.question,title:survey.vendor_certification_page_2_question_2
+msgid "Select all the the products that sell for 100$ or more"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__questions_selection
+#: model:ir.model.fields,field_description:survey.field_survey_survey__questions_selection
+msgid "Selection"
+msgstr "Selección"
+
+#. module: survey
+#: selection:survey.question,display_mode:0
+msgid "Selection Box"
+msgstr "Caja de selección"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid "Send"
+msgstr "Enviar"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__sequence
+#: model:ir.model.fields,field_description:survey.field_survey_stage__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: survey
+#: sql_constraint:survey.stage:0
+msgid "Sequence number MUST be a natural"
+msgstr "El número de secuencia debe ser un número natural"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+msgid "Share &amp;amp; Invite"
+msgstr "Compartir e invitar"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__comments_allowed
+msgid "Show Comments Field"
+msgstr "Mostrar campo de comentarios"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "Show all records which has next action date is before today"
+msgstr ""
+"Mostrar todos los registros que tienen la próxima fecha de acción antes de "
+"hoy"
+
+#. module: survey
+#: selection:survey.question,question_type:0
+msgid "Single Line Text Box"
+msgstr "Única línea de texto"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__skipped
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "Skipped"
+msgstr "Omitida"
+
+#. module: survey
+#: code:addons/survey/wizard/survey_invite.py:112
+#, python-format
+msgid "Some emails you just entered are incorrect: %s"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid ""
+"Something went wrong while contacting survey server. <strong class=\"text-"
+"danger\">Your answers have probably not been recorded.</strong> Try "
+"refreshing."
+msgstr ""
+"Se ha producido un error al contactar con el servidor de la encuesta. "
+"<strong class = \"text-danger\"> Probablemente no se hayan registrado sus "
+"respuestas. </ strong> Pruebe a actualizar."
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "Sorry, No one answered this question."
+msgstr "Lo sentimos. Nadie ha contestado esta pregunta."
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "Sorry, no one answered this survey yet."
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__stage_id
+#: model_terms:ir.ui.view,arch_db:survey.survey_stage_form
+msgid "Stage"
+msgstr "Etapa"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_init
+msgid "Start Certification"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_init
+msgid "Start Survey"
+msgstr "Iniciar encuesta"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__start_datetime
+msgid "Start date and time"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__answer_count
+msgid "Started"
+msgstr "Iniciada"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades\n"
+"Vencida: la fecha tope ya ha pasado\n"
+"Hoy: La fecha tope es hoy\n"
+"Planificada: futuras actividades."
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__subject
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
+msgid "Subject..."
+msgstr "Asunto..."
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.page
+msgid "Submit survey"
+msgstr "Enviar encuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result
+msgid "Success rate:"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.certification_report_view
+msgid "Successfully achieved"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_suggested
+msgid "Suggested answer"
+msgstr "Respuesta sugerida"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_label__value
+msgid "Suggested value"
+msgstr "Valor sugerido"
+
+#. module: survey
+#: selection:survey.user_input_line,answer_type:0
+msgid "Suggestion"
+msgstr "Sugerencia"
+
+#. module: survey
+#: model:ir.model,name:survey.model_survey_survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__survey_id
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_id
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__survey_id
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__survey_id
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_search
+#: model_terms:ir.ui.view,arch_db:survey.survey_response_line_search
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+#: model_terms:ir.ui.view,arch_db:survey.survey_tree
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Survey"
+msgstr "Planificación"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_response_line_tree
+msgid "Survey Answer Line"
+msgstr "Líne de respuesta encuesta"
+
+#. module: survey
+#: model:ir.model,name:survey.model_survey_invite
+msgid "Survey Invitation Wizard"
+msgstr ""
+
+#. module: survey
+#: model:ir.model,name:survey.model_survey_label
+#: model_terms:ir.ui.view,arch_db:survey.survey_label_tree
+msgid "Survey Label"
+msgstr "Etiqueta de la encuesta"
+
+#. module: survey
+#: model:ir.model,name:survey.model_survey_question
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_tree
+msgid "Survey Question"
+msgstr "Pregunta de la encuesta"
+
+#. module: survey
+#: model:ir.model,name:survey.model_survey_stage
+msgid "Survey Stage"
+msgstr "Etapa de la encuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Survey Title"
+msgstr "Título de la encuesta"
+
+#. module: survey
+#: model:ir.model,name:survey.model_survey_user_input
+msgid "Survey User Input"
+msgstr "Entrada de usuario de la encuesta"
+
+#. module: survey
+#: model:ir.model,name:survey.model_survey_user_input_line
+msgid "Survey User Input Line"
+msgstr "Línea de entrada de usuario de la encuesta"
+
+#. module: survey
+#: model:ir.actions.act_window,name:survey.action_survey_user_input_line
+msgid "Survey User Input lines"
+msgstr "Líneas de entrada de usuario de la encuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_form
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_tree
+msgid "Survey User inputs"
+msgstr "Entradas de usuario de la encuesta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_matrix
+msgid "Survey filter"
+msgstr ""
+
+#. module: survey
+#: model:ir.actions.server,name:survey.survey_action_server_clean_test_answers
+msgid "Survey: Clean test answers"
+msgstr "Encuesta: Limpiar respuestas de prueba"
+
+#. module: survey
+#: model:ir.actions.act_window,name:survey.action_survey_form
+#: model:ir.ui.menu,name:survey.menu_survey_form
+#: model:ir.ui.menu,name:survey.menu_surveys
+msgid "Surveys"
+msgstr "Encuestas"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+msgid "Test"
+msgstr "Test"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
+msgid "Test Entries"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input__test_entry
+msgid "Test Entry"
+msgstr "Entrada de prueba"
+
+#. module: survey
+#: model_terms:survey.question,description:survey.vendor_certification_page_2
+msgid "Test your knowledge of our prices."
+msgstr ""
+
+#. module: survey
+#: model_terms:survey.question,description:survey.vendor_certification_page_1
+msgid "Test your knowledge of your products!"
+msgstr ""
+
+#. module: survey
+#: model_terms:survey.survey,description:survey.vendor_certification
+msgid "Test your vendor skills!."
+msgstr ""
+
+#. module: survey
+#: selection:survey.user_input_line,answer_type:0
+msgid "Text"
+msgstr "Texto"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_text
+msgid "Text answer"
+msgstr "Respuesta de texto"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid "Thank you!"
+msgstr "¡Gracias!"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__thank_you_message
+msgid "Thanks Message"
+msgstr "Mensaje de agradecimiento"
+
+#. module: survey
+#: code:addons/survey/models/survey_user.py:198
+#, python-format
+msgid "The answer must be in the right type"
+msgstr "La respuesta debe estar en el tipo adecuado"
+
+#. module: survey
+#: code:addons/survey/models/survey_question.py:119
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1_q1
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1_q2
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1_q3
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1_q4
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p2
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p2_q1
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p2_q2
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p2_q3
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_1
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_2
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_3
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_4
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_5
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_2
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_2_question_1
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_2_question_2
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_2_question_3
+#, python-format
+msgid "The answer you entered is not valid."
+msgstr ""
+
+#. module: survey
+#: sql_constraint:survey.survey:0
+msgid ""
+"The attempts limit needs to be a positive number if the survey has a limited"
+" number of attempts."
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_row4
+msgid "The checkout process is clear and secure"
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/wizard/survey_invite.py:85
+#, python-format
+msgid "The following customers have already received an invite"
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/wizard/survey_invite.py:91
+#, python-format
+msgid "The following emails have already received an invite"
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/wizard/survey_invite.py:136
+#, python-format
+msgid ""
+"The following recipients have no user account: %s. You should create user "
+"accounts for them or allow external signup in configuration."
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_row1
+msgid "The new layout and design is fresh and up-to-date"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.403
+msgid "The page you were looking for could not be authorized."
+msgstr "No está autorizado a ver la página que está buscando."
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__is_time_limited
+msgid "The survey is limited in time"
+msgstr ""
+
+#. module: survey
+#: sql_constraint:survey.survey:0
+msgid ""
+"The time limit needs to be a positive number if the survey is time limited."
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_row3
+msgid "The tool to compare the products is useful to make a choice"
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/controllers/main.py:531
+#, python-format
+msgid "The user has not succeeded the certification"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_question__column_nb
+msgid ""
+"These options refer to col-xx-[12|6|4|3|2] classes in Bootstrap for "
+"dropdown-based simple and multiple choice questions."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_question.py:181
+#: code:addons/survey/tests/test_survey.py:99
+#, python-format
+msgid "This answer must be an email address"
+msgstr "Esta respuesta debe ser una dirección de correo electrónica"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.back
+msgid "This is a test survey."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_question.py:229
+#: code:addons/survey/tests/test_survey.py:47
+#, python-format
+msgid "This is not a date"
+msgstr "Esto no es una fecha"
+
+#. module: survey
+#: code:addons/survey/models/survey_question.py:202
+#: code:addons/survey/tests/test_survey.py:74
+#, python-format
+msgid "This is not a number"
+msgstr "Esto no es un número"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_invite__emails
+msgid ""
+"This list of emails of recipients will not be converted in contacts.        "
+"Emails must be separated by commas, semicolons or newline."
+msgstr ""
+"Esta lista de correos electrónicos destinatarios no se convertirá en "
+"contactos. Las direcciones deben separarse por comas, puntos y comas o "
+"nuevas líneas."
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__thank_you_message
+msgid "This message will be displayed when survey is completed"
+msgstr "Este mensaje será mostrado cuando se complete la encuesta"
+
+#. module: survey
+#: code:addons/survey/models/survey_user.py:185
+#, python-format
+msgid "This question cannot be unanswered or skipped."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_question.py:122
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p1
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p1_q1
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p1_q2
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p1_q3
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p1_q4
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p2
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p2_q1
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p2_q2
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p2_q3
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_1
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_2
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_3
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_4
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_5
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_2
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_2_question_1
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_2_question_2
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_2_question_3
+#, python-format
+msgid "This question requires an answer."
+msgstr "Esta pregunta requiere una respuesta."
+
+#. module: survey
+#: model_terms:survey.question,description:survey.survey_feedback_p1
+msgid ""
+"This section is about general informations about you. Answering them helps "
+"qualifying your answers."
+msgstr ""
+
+#. module: survey
+#: model_terms:survey.question,description:survey.survey_feedback_p2
+msgid "This section is about our eCommerce experience itself."
+msgstr ""
+
+#. module: survey
+#: model_terms:survey.survey,description:survey.survey_feedback
+msgid ""
+"This survey allows you to give a feedback about your experience with our eCommerce solution.\n"
+"    Filling it helps us improving your experience."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/wizard/survey_invite.py:100
+#, python-format
+msgid ""
+"This survey does not allow external people to participate. You should create"
+" user accounts or update survey access mode accordingly."
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_void
+msgid "This survey has no question defined currently.<br/>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_expired
+msgid "This survey is now closed. Thank you for your interest !"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.auth_required
+msgid "This survey is open only to registered people. Please"
+msgstr "Esta encuesta está abierta sólo para gente registrada. Por favor"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "Time limit"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__time_limit
+msgid "Time limit (minutes)"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__title
+#: model:ir.model.fields,field_description:survey.field_survey_survey__title
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "Title"
+msgstr "Título"
+
+#. module: survey
+#: selection:survey.survey,activity_state:0
+msgid "Today"
+msgstr "Hoy"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "Today Activities"
+msgstr "Actividades de Hoy"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_col4
+msgid "Totally agree"
+msgstr "Totalmente de acuerdo"
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q2_col1
+msgid "Totally disagree"
+msgstr "Totalmente en desacuerdo"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_search
+msgid "Type"
+msgstr "Tipo"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__question_type
+msgid "Type of Question"
+msgstr "Tipo de pregunta"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "Type of answers"
+msgstr "Tipo de respuestas"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__labels_ids
+msgid "Types of answers"
+msgstr "Tipos de respuestas"
+
+#. module: survey
+#: code:addons/survey/wizard/survey_invite.py:25
+#, python-format
+msgid "Unable to post message, please configure the sender's email address."
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_3_choice_2
+msgid "Underpriced"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid "Unfortunately, you have failed the test."
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug3
+msgid "Unique"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes sin leer"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
+msgid "Upcoming Activities"
+msgstr "Próximas actividades"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_invite__template_id
+msgid "Use template"
+msgstr "Usar plantilla"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_question__description
+msgid "Use this field to add additional explanations about your question"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_question__random_questions_count
+msgid ""
+"Used on randomized sections to take X random questions from all the "
+"questions of that section."
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.survey_feedback_p2_q1_sug2
+msgid "Useful"
+msgstr ""
+
+#. module: survey
+#: model:res.groups,name:survey.group_survey_user
+msgid "User"
+msgstr "Usuario"
+
+#. module: survey
+#: model:survey.survey,title:survey.survey_feedback
+msgid "User Feedback Form"
+msgstr "Formulario de retroalimentación del usuario"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_user_input_line__user_input_id
+#: model_terms:ir.ui.view,arch_db:survey.survey_response_line_search
+msgid "User Input"
+msgstr "Entrada del usuario"
+
+#. module: survey
+#: model:ir.ui.menu,name:survey.menu_survey_response_line_form
+msgid "User Input Lines"
+msgstr "Líneas de entrada del usuario"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_choice
+#: model_terms:ir.ui.view,arch_db:survey.result_number
+#: model_terms:ir.ui.view,arch_db:survey.result_text
+msgid "User Responses"
+msgstr "Respuestas del usuario"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_user_input_line_form
+msgid "User input line details"
+msgstr "Detalles de la línea de entrada del usuario"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__user_input_ids
+msgid "User responses"
+msgstr "Respuestas del usuario"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__users_can_go_back
+msgid "Users can go back"
+msgstr "Los usuarios pueden volver atrás"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__users_can_signup
+msgid "Users can signup"
+msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_required
+msgid "Validate entry"
+msgstr "Validar entrada"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_question__validation_error_msg
+msgid "Validation Error message"
+msgstr "Mensaje de error de validación"
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_2_question_3_choice_1
+msgid "Very underpriced"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_form
+msgid "View results"
+msgstr "Ver resultados"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.result_choice
+msgid "Vote"
+msgstr "Votar"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_survey__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: survey
+#: model:ir.model.fields,help:survey.field_survey_survey__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"
+
+#. module: survey
+#: model:survey.question,question:survey.vendor_certification_page_2_question_3
+#: model:survey.question,title:survey.vendor_certification_page_2_question_3
+msgid "What do you think about our prices (not rated)?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p2_q2
+#: model:survey.question,title:survey.survey_feedback_p2_q2
+msgid "What do your think about our new eCommerce ?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p1_q2
+#: model:survey.question,title:survey.survey_feedback_p1_q2
+msgid "When is your date of birth ?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p1_q1
+#: model:survey.question,title:survey.survey_feedback_p1_q1
+msgid "Where do you live ?"
+msgstr ""
+
+#. module: survey
+#: model:survey.question,question:survey.survey_feedback_p2_q1
+#: model:survey.question,title:survey.survey_feedback_p2_q1
+msgid "Which of the following words would you use to describe our products ?"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_3_choice_3
+msgid "Width"
+msgstr "Ancho"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid ""
+"YYYY-MM-DD\n"
+"                                        <i class=\"fa fa-calendar fa-2x\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid ""
+"YYYY-MM-DD hh:mm:ss\n"
+"                                        <i class=\"fa fa-calendar fa-2x\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
+msgstr ""
+
+#. module: survey
+#: model:survey.label,value:survey.vendor_certification_page_1_question_1_choice_2
+msgid "Yes"
+msgstr "Sí"
+
+#. module: survey
+#: model_terms:ir.actions.act_window,help:survey.action_survey_form
+msgid ""
+"You can create surveys for different purposes: customer opinion, services "
+"feedback, recruitment interviews, employee's periodical evaluations, "
+"marketing campaigns, etc."
+msgstr ""
+"Puede crear encuestas para diferentes propósitos: opinión de los clientes, "
+"retroalimentación de los servicios, entrevistas de trabajo, evaluaciones "
+"periódicas de los empleados, campañas de marketing, etc."
+
+#. module: survey
+#: sql_constraint:survey.survey:0
+msgid ""
+"You can only create certifications for surveys that have a scoring "
+"mechanism."
+msgstr ""
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:455
+#, python-format
+msgid "You cannot send an invitation for a survey that has no questions."
+msgstr ""
+"No puede enviar invitaciones para una encuesta que no tiene preguntas."
+
+#. module: survey
+#: code:addons/survey/models/survey_survey.py:458
+#, python-format
+msgid "You cannot send invitations for closed surveys."
+msgstr "No puede enviar invitaciones para una encuesta cerrada."
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid "You scored"
+msgstr "Ha obtenido"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
+msgid "ans"
+msgstr "res"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.layout
+msgid "free website"
+msgstr "web gratuita"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.auth_required
+msgid "log in"
+msgstr "iniciar sesión"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.sfinished
+msgid "review your answers"
+msgstr "revisar sus respuestas"
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_expired
+msgid "survey expired"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.survey_void
+msgid "survey is void"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.403
+msgid "this page"
+msgstr ""
+
+#. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.layout
+msgid "with"
+msgstr "con"
