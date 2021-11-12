@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+    <!-- Event Type -->
+    <record id="event_type_0" model="event.type">
+        <field name="name">Exhibition</field>
+        <field name="use_mail_schedule" eval="False"/>
+        <field name="auto_confirm" eval="False"/>
+    </record>
+    <record id="event_type_1" model="event.type">
+        <field name="name">Training</field>
+        <field name="use_mail_schedule" eval="True"/>
+        <field name="auto_confirm" eval="True"/>
+    </record>
+    <record id="event_type_2" model="event.type">
+        <field name="name">Sport</field>
+        <field name="use_mail_schedule" eval="False"/>
+    </record>
+
+    <!-- Event -->
+    <record id="event_0" model="event.event">
+        <field name="name">Design Fair Los Angeles</field>
+        <field name="user_id" ref="base.user_demo"/>
+        <field name="date_begin" eval="(DateTime.now() + timedelta(days=2)).strftime('%Y-%m-%d 08:00:00')"/>
+        <field name="date_end" eval="(DateTime.now() + timedelta(days=6)).strftime('%Y-%m-%d 18:00:00')"/>
+        <field name="seats_availability">limited</field>
+        <field name="seats_max">50</field>
+        <field name="address_id" ref="base.res_partner_1"/>
+        <field name="date_tz">US/Pacific</field>
+        <field name="event_type_id" ref="event_type_0"/>
+        <field name="auto_confirm" eval="False"/>
+        <field name="twitter_hashtag">DesignFairLA</field>
+        <field name="stage_id" ref="event_stage_booked"/>
+    </record>
+    <record id="event_0_ticket_0" model="event.event.ticket">
+        <field name="name">Free</field>
+        <field name="description">Free entrance, no food !</field>
+        <field name="event_id" ref="event.event_0"/>
+        <field name="start_sale_date" eval="(DateTime.today() - timedelta(days=5)).strftime('%Y-%m-%d')"/>
+        <field name="end_sale_date" eval="(DateTime.today() + timedelta(days=5)).strftime('%Y-%m-%d')"/>
+        <field name="seats_max">0</field>
+    </record>
+    <record id="event_0_ticket_1" model="event.event.ticket">
+        <field name="name">Standard</field>
+        <field name="description">For only 10, you gain access to catering. Yum yum.</field>
+        <field name="event_id" ref="event.event_0"/>
+        <field name="end_sale_date" eval="(DateTime.today() + timedelta(days=2)).strftime('%Y-%m-%d')"/>
+        <field name="seats_max">50</field>
+    </record>
+    <record id="event_0_ticket_2" model="event.event.ticket">
+        <field name="name">VIP</field>
+        <field name="description">You are truly among the best.</field>
+        <field name="event_id" ref="event.event_0"/>
+        <field name="end_sale_date" eval="(DateTime.today() + timedelta(days=3)).strftime('%Y-%m-%d')"/>
+        <field name="seats_max">10</field>
+    </record>
+
+    <record id="event.event_1" model="event.event">
+        <field name="name">Great Reno Ballon Race</field>
+        <field name="user_id" ref="base.user_admin"/>
+        <field eval="(DateTime.today()+ timedelta(days=100)).strftime('%Y-%m-%d 20:15:00')" name="date_begin"/>
+        <field eval="(DateTime.today()+ timedelta(days=101)).strftime('%Y-%m-%d 00:30:00')" name="date_end"/>
+        <field name="event_type_id" ref="event_type_data_physical"/>
+        <field name="address_id" ref="base.res_partner_1"/>
+        <field name="seats_availability">unlimited</field>
+        <field name="stage_id" ref="event_stage_booked"/>
+    </record>
+
+    <record id="event_2" model="event.event">
+        <field name="name">Conference for Architects</field>
+        <field name="user_id" ref="base.user_admin"/>
+        <field eval="(DateTime.today()+ timedelta(days=5)).strftime('%Y-%m-%d 07:00:00')" name="date_begin"/>
+        <field eval="(DateTime.today()+ timedelta(days=5)).strftime('%Y-%m-%d 16:30:00')" name="date_end"/>
+        <field name="event_type_id" ref="event_type_data_online"/>
+        <field name="address_id" ref="base.res_partner_4"/>
+        <field name="seats_availability">limited</field>
+        <field name="seats_max">200</field>
+        <field name="stage_id" ref="event_stage_booked"/>
+    </record>
+    <record id="event_2_ticket_1" model="event.event.ticket">
+        <field name="name">Standard</field>
+        <field name="event_id" ref="event.event_2"/>
+        <field name="end_sale_date" eval="(DateTime.today() + timedelta(90)).strftime('%Y-%m-%d')"/>
+        <field name="seats_max">50</field>
+    </record>
+    <record id="event_2_ticket_2" model="event.event.ticket">
+        <field name="name">VIP</field>
+        <field name="event_id" ref="event.event_2"/>
+        <field name="end_sale_date" eval="(DateTime.today() + timedelta(60)).strftime('%Y-%m-%d')"/>
+        <field name="seats_max">5</field>
+    </record>
+
+    <record id="event.event_3" model="event.event">
+        <field name="name">Live Music Festival</field>
+        <field name="user_id" ref="base.user_admin"/>
+        <field eval="(DateTime.today()+ timedelta(days=130)).strftime('%Y-%m-%d 20:15:00')" name="date_begin"/>
+        <field eval="(DateTime.today()+ timedelta(days=133)).strftime('%Y-%m-%d 00:30:00')" name="date_end"/>
+        <field name="event_type_id" ref="event_type_0"/>
+        <field name="address_id" ref="base.res_partner_3"/>
+        <field name="seats_availability">unlimited</field>
+        <field name="stage_id" ref="event_stage_announced"/>
+    </record>
+
+    <!-- EVENT_4: very limited, intended to test seats reservation -->
+    <record id="event.event_4" model="event.event">
+        <field name="name">Business workshops</field>
+        <field name="user_id" ref="base.user_admin"/>
+        <field name="date_begin" eval="(DateTime.today()+ timedelta(days=50)).strftime('%Y-%m-%d 18:00:00')"/>
+        <field name="date_end" eval="(DateTime.today()+ timedelta(days=50)).strftime('%Y-%m-%d 22:30:00')"/>
+        <field name="seats_availability">limited</field>
+        <field name="seats_max">4</field>
+        <field name="address_id" ref="base.res_partner_4"/>
+        <field name="date_tz">US/Pacific</field>
+        <field name="event_type_id" ref="event_type_1"/>
+        <field name="auto_confirm" eval="True"/>
+        <field name="stage_id" ref="event_stage_announced"/>
+    </record>
+    <record id="event_4_ticket_0" model="event.event.ticket">
+        <field name="name">General Admission</field>
+        <field name="event_id" ref="event.event_4"/>
+        <field name="end_sale_date" eval="(DateTime.today() + timedelta(30)).strftime('%Y-%m-%d')"/>
+        <field name="seats_max">4</field>
+    </record>
+
+    <record id="event.event_5" model="event.event">
+        <field name="name">Hockey Tournament</field>
+        <field name="user_id" ref="base.user_admin"/>
+        <field eval="(DateTime.today()+ timedelta(days=370)).strftime('%Y-%m-%d 09:00:00')" name="date_begin"/>
+        <field eval="(DateTime.today()+ timedelta(days=371)).strftime('%Y-%m-%d 17:00:00')" name="date_end"/>
+        <field name="event_type_id" ref="event_type_2"/>
+        <field name="address_id" ref="base.res_partner_1"/>
+    </record>
+
+    <record id="event.event_6" model="event.event">
+        <field name="name">An unpublished event</field>
+        <field name="user_id" ref="base.user_admin"/>
+        <field eval="(DateTime.today()+ timedelta(days=30)).strftime('%Y-%m-%d 09:30:00')" name="date_begin"/>
+        <field eval="(DateTime.today()+ timedelta(days=30)).strftime('%Y-%m-%d 17:30:00')" name="date_end"/>
+        <field name="event_type_id" ref="event_type_0"/>
+        <field name="address_id" ref="base.res_partner_1"/>
+    </record>
+
+    </data>
+</odoo>
