@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="WidgetWebsiteButton">
+        <div class="oe_WidgetWebsiteButton success">
+            <strong class="oe_unpublish text-danger">Not<br/>Published</strong>
+            <strong class="oe_publish text-success">Published</strong>
+        </div>
+    </t>
+
+    <t t-name="FieldTextHtmlFrame">
+        <div class="oe_form_field oe_form_field_html_frame oe_form_embedded_html" t-att-style="widget.node.attrs.style">
+            <iframe/>
+        </div>
+    </t>
+
+</templates>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_marketing_configuration_mass_mailing" model="ir.ui.view">
+            <field name="name">marketing.config.settings.mass.mailing</field>
+            <field name="model">marketing.config.settings</field>
+            <field name="inherit_id" ref="marketing.view_marketing_configuration"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='config_setting']" position="after">
+                    <separator string="Mass Mailing"/>
+                    <group>
+                        <label for="id" string="Settings"/>
+                        <div>
+                            <field name="group_mass_mailing_campaign" class="oe_inline"/>
+                            <label for="group_mass_mailing_campaign"/>
+                        </div>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</openerp>
