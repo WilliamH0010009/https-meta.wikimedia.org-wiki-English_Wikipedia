@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="HeaderButton" owl="1">
+        <div class="header-button close_button" t-on-click="onClick">
+            Close
+        </div>
+    </t>
+
+</templates>
