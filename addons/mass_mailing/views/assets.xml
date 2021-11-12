@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="iframe_css_assets_edit" groups="base.group_user">
+        <t t-call-assets="mass_mailing.assets_mail_themes" t-js="false"/>
+        <t t-call="mass_mailing.mass_mailing_mail_style"/>
+        <t t-call-assets="mass_mailing.assets_mail_themes_edition" t-js="false"/>
+    </template>
+
+    <template id="iframe_css_assets_readonly" groups="base.group_user">
+        <link rel="stylesheet" type="text/scss" href="/mass_mailing/static/src/css/basic_theme_readonly.css"/>
+    </template>
+
+    <template id="mass_mailing_mail_style">
+        <style>
+            @media screen and (max-width: 768px) {
+                .o_mail_col_mv {
+                    display: block !important;
+                    width: auto !important;
+                }
+                .o_mail_table_styles {
+                    width: 100% !important;
+                }
+                .o_mail_col_container {
+                    margin: 0px 0px 10px 0px !important;
+                }
+            }
+        </style>
+    </template>
+
+    </odoo>
