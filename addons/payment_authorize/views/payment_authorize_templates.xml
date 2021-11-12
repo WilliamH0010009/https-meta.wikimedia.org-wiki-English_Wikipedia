@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="inline_form">
+        <div t-attf-id="o_authorize_form_{{acquirer_id}}" class="o_authorize_form">
+            <div class="form-group">
+                <label t-attf-for="o_authorize_card_{{acquirer_id}}" class="col-form-label">Card Number</label>
+                <input type="text" t-attf-id="o_authorize_card_{{acquirer_id}}" required="" maxlength="19" class="form-control"/>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 form-group">
+                    <label t-attf-for="o_authorize_month_{{acquirer_id}}">Expiration</label>
+                    <div class="input-group">
+                        <input type="number" t-attf-id="o_authorize_month_{{acquirer_id}}" placeholder="MM" min="1" max="12" required="" class="form-control"/>
+                        <input type="number" t-attf-id="o_authorize_year_{{acquirer_id}}" placeholder="YY" min="00" max="99" required="" class="form-control"/>
+                    </div>
+                </div>
+                <div class="col-sm-4 form-group">
+                    <label t-attf-for="o_authorize_code_{{acquirer_id}}">Card Code</label>
+                    <input type="number" t-attf-id="o_authorize_code_{{acquirer_id}}" max="999" class="form-control"/>
+                </div>
+            </div>
+        </div>
+    </template>
+
+</odoo>
