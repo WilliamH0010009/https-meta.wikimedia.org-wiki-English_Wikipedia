@@ -1,0 +1,55 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pad_project
+# 
+# Translators:
+# oihane <oihanecruce@gmail.com>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-18 14:46+0000\n"
+"PO-Revision-Date: 2017-04-18 14:46+0000\n"
+"Last-Translator: Martin Trigaux <mat@odoo.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: pad_project
+#: model:ir.model.fields,help:pad_project.field_project_config_settings_pad_key
+msgid "Etherpad lite api key."
+msgstr "Clave de la API de Etherpad lite."
+
+#. module: pad_project
+#: model:ir.model.fields,help:pad_project.field_project_config_settings_pad_server
+msgid "Etherpad lite server. Example: beta.primarypad.com"
+msgstr "Servidor de Etherpad lite. Ejemplo: beta.primarypad.com"
+
+#. module: pad_project
+#: model:ir.model.fields,field_description:pad_project.field_project_config_settings_pad_key
+msgid "Pad Api Key"
+msgstr "Clave de la API del pad"
+
+#. module: pad_project
+#: model:ir.model.fields,field_description:pad_project.field_project_config_settings_pad_server
+msgid "Pad Server"
+msgstr "Servidor pad"
+
+#. module: pad_project
+#: model:ir.model.fields,field_description:pad_project.field_project_task_description_pad
+msgid "Pad URL"
+msgstr "Dirección del PAD"
+
+#. module: pad_project
+#: model:ir.model,name:pad_project.model_project_task
+msgid "Task"
+msgstr "Tarea"
+
+#. module: pad_project
+#: model:ir.model,name:pad_project.model_project_config_settings
+msgid "project.config.settings"
+msgstr "Parámetros de configuración de proyectos"

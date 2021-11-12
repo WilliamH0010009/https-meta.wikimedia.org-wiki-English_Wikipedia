@@ -1,0 +1,2920 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * web
+#
+# Translators:
+# Arma Gedonsky <armagedonsky@hot.ee>, 2016
+# Rivo Zängov <eraser@eraser.ee>, 2016
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-02 14:46+0000\n"
+"PO-Revision-Date: 2016-03-12 20:27+0000\n"
+"Last-Translator: Arma Gedonsky <armagedonsky@hot.ee>\n"
+"Language-Team: Estonian (http://www.transifex.com/odoo/odoo-9/language/et/)\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"#-#-#-#-#  et.po (Odoo 9.0)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  et.po (Odoo 9.0)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:891
+#, python-format
+msgid " & Close"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:222
+#, python-format
+msgid " and "
+msgstr "ja"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:559
+#: code:addons/web/static/src/js/views/search_view.js:206
+#, python-format
+msgid " or "
+msgstr "või"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/view_manager.js:224
+#, python-format
+msgid " view couldn't be loaded"
+msgstr "vaadet ei õnnestunud laadida"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:107
+#: code:addons/web/static/src/js/views/search_filters.js:340
+#, python-format
+msgid "%(field)s %(operator)s"
+msgstr "%(field)s %(operator)s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:108
+#, python-format
+msgid "%(field)s %(operator)s \"%(value)s\""
+msgstr "%(field)s %(operator)s \"%(value)s\""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/view_manager.js:65
+#, python-format
+msgid "%(view_type)s view"
+msgstr "%(view_type)s vaade"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:103
+#, python-format
+msgid "%d days ago"
+msgstr "%d päeva eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:101
+#, python-format
+msgid "%d hours ago"
+msgstr "%d tunni eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:99
+#, python-format
+msgid "%d minutes ago"
+msgstr "%d minutit tagasi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:105
+#, python-format
+msgid "%d months ago"
+msgstr "%d kuu eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/debug_manager.js:136
+#, python-format
+msgid "%d requests (%d ms) %d queries (%d ms)"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:107
+#, python-format
+msgid "%d years ago"
+msgstr "%d aasta eest"
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.webclient_bootstrap
+msgid ""
+"&lt;!--[if lt IE 10]&gt;\n"
+"                        &lt;body class=\"ie9\"&gt;\n"
+"                    &lt;![endif]--&gt;"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/formats.js:189
+#, python-format
+msgid "'%s' is not a correct date"
+msgstr "'%s' ei ole korrektne kuupäev"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/time.js:193
+#, python-format
+msgid "'%s' is not a correct date, datetime nor time"
+msgstr "\"%s\" ei ole korrektne kuupäev, kuupäev-kellaaeg ega ka kellaaeg"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/formats.js:175
+#, python-format
+msgid "'%s' is not a correct datetime"
+msgstr "'%s' ei ole korrektne kuupäev-kellaaeg"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/formats.js:146
+#, python-format
+msgid "'%s' is not a correct float"
+msgstr "'%s' ei ole korrektne ujukomaarv"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/formats.js:134
+#, python-format
+msgid "'%s' is not a correct integer"
+msgstr "'%s' ei ole korrektne täisarv"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/formats.js:194
+#, python-format
+msgid "'%s' is not a correct time"
+msgstr "'% s' ei ole õige aeg"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/time.js:205
+#, python-format
+msgid "'%s' is not convertible to date, datetime nor time"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/formats.js:77
+#, python-format
+msgid "(%d records)"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:100
+#, python-format
+msgid "(no string)"
+msgstr "(ei ole rida)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:34
+#, python-format
+msgid "(nolabel)"
+msgstr ""
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.menu_secondary
+msgid "<span class=\"oe_logo_edit\">Edit Company data</span>"
+msgstr "<span class=\"oe_logo_edit\">Muuda ettevõtte infot</span>"
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.menu_secondary
+msgid "<span>Odoo</span>"
+msgstr "<span>Odoo</span>"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:707
+#, python-format
+msgid "ALL"
+msgstr "KÕIK"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:708
+#, python-format
+msgid "ANY"
+msgstr "ÜKSKI"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:19
+#, python-format
+msgid "Access Denied"
+msgstr "Juurdepääs keelatud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:15
+#, python-format
+msgid "Access Error"
+msgstr "Ligipääsu viga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1437
+#, python-format
+msgid "Access to all Enterprise Apps"
+msgstr "Ligipääs kõigile Enterprise rakendustele"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/sidebar.js:23
+#, python-format
+msgid "Action"
+msgstr "Tegevus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1133
+#, python-format
+msgid "Action Button"
+msgstr "Tegevus Nupp"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:120
+#, python-format
+msgid "Action ID:"
+msgstr "Toimingu ID:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:698
+#, python-format
+msgid "Activate"
+msgstr "Aktiveeri"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:121
+#, python-format
+msgid "Activate Assets Debugging"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:695
+#: code:addons/web/static/src/js/views/form_widgets.js:701
+#: code:addons/web/static/src/js/views/form_widgets.js:707
+#, python-format
+msgid "Active"
+msgstr "Aktiivne"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1389
+#: code:addons/web/static/src/xml/base.xml:1266
+#, python-format
+msgid "Add"
+msgstr "Lisa"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1090
+#, python-format
+msgid "Add Custom Filter"
+msgstr "Lisa kohandatud filter"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1094
+#, python-format
+msgid "Add a condition"
+msgstr "Lisa tingimus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1029
+#, python-format
+msgid "Add an item"
+msgstr "Lisa kirje"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1200
+#, python-format
+msgid "Add custom group"
+msgstr "Lisa kohandatud grupp"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:715
+#, python-format
+msgid "Add filter"
+msgstr "Lisa filter"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:769
+#, python-format
+msgid "Add new value"
+msgstr "Lisa uus väärtus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:250
+#, python-format
+msgid "Add..."
+msgstr "Lisa..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1316
+#, python-format
+msgid "Add: "
+msgstr "Lisa:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1066
+#, python-format
+msgid "Advanced Search..."
+msgstr "Täpsem otsing ..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/dialog.js:169
+#, python-format
+msgid "Alert"
+msgstr "Hoiatus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:697
+#: code:addons/web/static/src/xml/base.xml:702
+#, python-format
+msgid "All"
+msgstr "Kõik"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:479
+#, python-format
+msgid "All users"
+msgstr "Kõik kasutajad"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:35
+#, python-format
+msgid "An error occurred"
+msgstr "Ilmnes viga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1442
+#, python-format
+msgid "And more"
+msgstr "ja rohkem"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:698
+#: code:addons/web/static/src/xml/base.xml:703
+#, python-format
+msgid "Any"
+msgstr "Ükski"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1093
+#: code:addons/web/static/src/xml/base.xml:1211
+#, python-format
+msgid "Apply"
+msgstr "Kinnita"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:702
+#: code:addons/web/static/src/js/views/list_view.js:289
+#, python-format
+msgid "Archive"
+msgstr "Arhiveeri"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:703
+#, python-format
+msgid "Archived"
+msgstr "Arhiveeritud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_menus.js:258
+#, python-format
+msgid "Are you sure that you want to remove this filter?"
+msgstr "Kas oled kindel, et soovid eemaldada selle filtri?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:223
+#, python-format
+msgid "Attachment :"
+msgstr "Manus:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1262
+#, python-format
+msgid "Available fields"
+msgstr "Saadval väljad"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:546
+#, python-format
+msgid "Bar Chart"
+msgstr "Tulpdiagramm"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:1862
+#, python-format
+msgid "Binary file"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1441
+#, python-format
+msgid "Bugfixes guarantee"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:97
+#, python-format
+msgid "Button"
+msgstr "Nupp"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:112
+#, python-format
+msgid "Button Type:"
+msgstr "Nupu tüüp:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/utils.js:285
+#, python-format
+msgid "Bytes,Kb,Mb,Gb,Tb,Pb,Eb,Zb,Yb"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_common.js:134
+#, python-format
+msgid "Can't convert value %s to context"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:201
+#: code:addons/web/static/src/js/framework/dialog.js:183
+#: code:addons/web/static/src/js/views/form_common.js:1064
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:43
+#: code:addons/web/static/src/js/views/form_upgrade_widgets.js:41
+#: code:addons/web/static/src/xml/base.xml:65
+#, python-format
+msgid "Cancel"
+msgstr "Loobu"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/controllers/main.py:762
+#: code:addons/web/controllers/main.py:764
+#: code:addons/web/controllers/main.py:769
+#: code:addons/web/controllers/main.py:770
+#: code:addons/web/static/src/js/widgets/change_password.js:15
+#: code:addons/web/static/src/xml/base.xml:64
+#, python-format
+msgid "Change Password"
+msgstr "Muuda Salasõna"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:71
+#, python-format
+msgid "Change default:"
+msgstr "Muuda vaikimisi:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:968
+#: code:addons/web/static/src/xml/base.xml:998
+#, python-format
+msgid "Clear"
+msgstr "Tühjenda"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:118
+#, python-format
+msgid "Clear Events"
+msgstr "Puhasta üritused"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:885
+#: code:addons/web/static/src/js/views/form_view.js:1124
+#: code:addons/web/static/src/js/views/form_widgets.js:709
+#: code:addons/web/static/src/js/widgets/data_export.js:203
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:21
+#, python-format
+msgid "Close"
+msgstr "Sulge"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:708
+#, python-format
+msgid "Closed"
+msgstr "Suletud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:453
+#, python-format
+msgid "Condition:"
+msgstr "Seisukord:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:59
+#, python-format
+msgid "Confirm New Password"
+msgstr "Kinnita uus parool"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/dialog.js:194
+#, python-format
+msgid "Confirmation"
+msgstr "Kinnitus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/abstract_web_client.js:220
+#, python-format
+msgid "Connection lost"
+msgstr "Ühendust on kadunud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/abstract_web_client.js:229
+#, python-format
+msgid "Connection restored"
+msgstr "Ühendus on taastatud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:59
+#, python-format
+msgid "Context:"
+msgstr "Sisu:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:127
+#, python-format
+msgid "Copied !"
+msgstr "Kopeeritud !"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:33
+#, python-format
+msgid "Copy the full error to clipboard"
+msgstr "Kopeeri kogu viga oma lõikelauale"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:1330
+#, python-format
+msgid "Could not display the selected image."
+msgstr "Ei saa kuvada valitud pilti."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:1039
+#, python-format
+msgid "Could not find id in dataset"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/utils.js:180
+#, python-format
+msgid "Could not serialize XML"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_view.js:87
+#: code:addons/web/static/src/js/views/graph_widget.js:22
+#: code:addons/web/static/src/js/views/pivot_view.js:196
+#: code:addons/web/static/src/xml/base.xml:542
+#: code:addons/web/static/src/xml/base.xml:571
+#, python-format
+msgid "Count"
+msgstr "Loendus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:1067
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:29
+#: code:addons/web/static/src/js/views/list_view.js:49
+#: code:addons/web/static/src/js/views/list_view.js:1945
+#: code:addons/web/static/src/xml/base.xml:415
+#, python-format
+msgid "Create"
+msgstr "Loo"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:226
+#, python-format
+msgid "Create \"<strong>%s</strong>\""
+msgstr "Loo \"<strong>%s</strong>\""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:26
+#, python-format
+msgid "Create a %s"
+msgstr "Loo %s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:237
+#, python-format
+msgid "Create and Edit..."
+msgstr "Loo ja Muuda..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:39
+#, python-format
+msgid "Create and edit"
+msgstr "Loo ja muuda"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:281
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1091
+#, python-format
+msgid "Create: "
+msgstr "Loo: "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:228
+#, python-format
+msgid "Created by :"
+msgstr "Loodud:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:182
+#, python-format
+msgid "Creation Date:"
+msgstr "Loomiskuupäev:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:178
+#, python-format
+msgid "Creation User:"
+msgstr "Looja kasutaja:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_menus.js:179
+#, python-format
+msgid "Custom Filter"
+msgstr "Kohandatud filter"
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.login
+msgid "Database"
+msgstr "Andmebaas"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:590
+#, python-format
+msgid "Day"
+msgstr "Päev"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:696
+#, python-format
+msgid "Deactivate"
+msgstr "Deaktiveeri"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:436
+#, python-format
+msgid "Default:"
+msgstr "Vaikimisi:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:165
+#: code:addons/web/static/src/js/views/list_view.js:291
+#: code:addons/web/static/src/xml/base.xml:1307
+#, python-format
+msgid "Delete"
+msgstr "Kustuta"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:239
+#, python-format
+msgid "Delete this attachment"
+msgstr "Kustuta see manus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1047
+#, python-format
+msgid "Delete this file"
+msgstr "Kustuta see fail"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:885
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:28
+#: code:addons/web/static/src/xml/base.xml:347
+#: code:addons/web/static/src/xml/base.xml:425
+#, python-format
+msgid "Discard"
+msgstr "Loobu"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/sidebar.js:219
+#, python-format
+msgid "Do you really want to delete this attachment ?"
+msgstr "Kas sa tõesti tahad kustutada seda manust?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:325
+#, python-format
+msgid "Do you really want to delete this export template?"
+msgstr "Kas sa kindlasti soovid kustutada selle ekpordi põhja?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:729
+#, python-format
+msgid "Do you really want to delete this record?"
+msgstr "Kas sa tõesti tahad kustutada seda kirjet?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:544
+#, python-format
+msgid "Do you really want to remove these records?"
+msgstr "Kas sa tõesti tahad eemaldada need kirjed?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1422
+#, python-format
+msgid "Documentation"
+msgstr "Dokumentatsioon"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:33
+#, python-format
+msgid "Domain"
+msgstr "Domeen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:63
+#, python-format
+msgid "Domain:"
+msgstr "Domeen:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/misc.js:16
+#, python-format
+msgid "Don't leave yet,<br />it's still loading..."
+msgstr "Ära veel lahku,<br />ikka veel laen..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:1862
+#, python-format
+msgid "Download"
+msgstr "Lae alla"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:1878
+#, python-format
+msgid "Download \"%s\""
+msgstr "Lae alla \"%s\""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:577
+#, python-format
+msgid "Download xls"
+msgstr "Laadi alla xls"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:166
+#, python-format
+msgid "Duplicate"
+msgstr "Tee koopia"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:158
+#: code:addons/web/static/src/xml/base.xml:411
+#: code:addons/web/static/src/xml/base.xml:967
+#, python-format
+msgid "Edit"
+msgstr "Muuda"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:127
+#, python-format
+msgid "Edit Action"
+msgstr "Muuda tegevust"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:159
+#, python-format
+msgid "Edit SearchView"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:682
+#, python-format
+msgid "Edit domain"
+msgstr ""
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.login
+msgid "Email"
+msgstr "E-post"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:130
+#: code:addons/web/static/src/js/view_manager.js:224
+#: code:addons/web/static/src/js/views/search_menus.js:86
+#: code:addons/web/static/src/js/views/search_menus.js:93
+#, python-format
+msgid "Error"
+msgstr "Tõrge"
+
+#. module: web
+#: code:addons/web/controllers/main.py:770
+#, python-format
+msgid "Error, password not changed !"
+msgstr "Viga, salasõna ei muudetud !"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/pyeval.js:1040
+#, python-format
+msgid "Evaluation Error"
+msgstr "Hindamise viga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:576
+#, python-format
+msgid "Expand all"
+msgstr "Laienda kõike"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:288
+#, python-format
+msgid "Export"
+msgstr "Eksport"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:200
+#, python-format
+msgid "Export Data"
+msgstr "Ekspordi andmed"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1255
+#, python-format
+msgid "Export Formats :"
+msgstr "Ekspordi formaat:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:202
+#, python-format
+msgid "Export To File"
+msgstr "Ekspordi fail"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1248
+#, python-format
+msgid "Export Type :"
+msgstr "Ekspordi tüüp :"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1251
+#, python-format
+msgid "Export all Data"
+msgstr "Ekspordi kõik andmed"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/view_manager.js:438
+#, python-format
+msgid "Failed to evaluate search criterions"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1217
+#, python-format
+msgid "Favorites"
+msgstr "Lemmikud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:1301
+#, python-format
+msgid "Field '%s' specified in view could not be found."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:39
+#, python-format
+msgid "Field:"
+msgstr "Väli:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/debug_manager.js:326
+#: code:addons/web/static/src/xml/base.xml:156
+#, python-format
+msgid "Fields View Get"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/debug_manager.js:234
+#, python-format
+msgid "Fields of %s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1274
+#, python-format
+msgid "Fields to export"
+msgstr "Väljad eksportimiseks"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:1188
+#, python-format
+msgid "File Upload"
+msgstr "Faili üleslaadimine"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:1168
+#, python-format
+msgid "File upload"
+msgstr "Faili üleslaadimine"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:557
+#, python-format
+msgid "Filter"
+msgstr "Filter"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_menus.js:86
+#, python-format
+msgid "Filter name is required."
+msgstr "Filtri nimi on kohustuslik väli."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:501
+#, python-format
+msgid "Filter on: %s"
+msgstr "Filtreeri: %s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_menus.js:93
+#, python-format
+msgid "Filter with same name already exists."
+msgstr "Sellise nimega filter on juba olemas."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1086
+#, python-format
+msgid "Filters"
+msgstr "Filtrid"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:575
+#, python-format
+msgid "Flip axis"
+msgstr "Vaheta telgi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/pivot_view.js:848
+#, python-format
+msgid ""
+"For Excel compatibility, data cannot be exported if there are more than 256 "
+"columns.\n"
+"\n"
+"Tip: try to flip axis, filter further or reduce the number of measures."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:33
+#: code:addons/web/static/src/js/views/form_view.js:302
+#, python-format
+msgid "Form"
+msgstr "Vorm"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1434
+#, python-format
+msgid "Get this feature and much more with Odoo Enterprise!"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:18
+#, python-format
+msgid "Global Business Error"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_view.js:18
+#, python-format
+msgid "Graph"
+msgstr "Graafik"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:704
+#: code:addons/web/static/src/xml/base.xml:1195
+#, python-format
+msgid "Group By"
+msgstr "Rühmitamine"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:679
+#, python-format
+msgid "Group by: %s"
+msgstr ""
+
+#. module: web
+#: model:ir.model,name:web.model_ir_http
+msgid "HTTP routing"
+msgstr "HTTP routing"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/priority.js:50
+#, python-format
+msgid "High"
+msgstr "Kõrge"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:166
+#, python-format
+msgid "ID:"
+msgstr "ID:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:1330
+#, python-format
+msgid "Image"
+msgstr "Pilt"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1250
+#, python-format
+msgid "Import-Compatible Export"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:697
+#, python-format
+msgid "Inactive"
+msgstr "Mitteaktiivne"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_widget.js:210
+#: code:addons/web/static/src/js/views/graph_widget.js:218
+#, python-format
+msgid "Invalid data"
+msgstr "Vigased andmed"
+
+#. module: web
+#: code:addons/web/controllers/main.py:663
+#: code:addons/web/controllers/main.py:677
+#, python-format
+msgid ""
+"Invalid database name. Only alphanumerical characters, underscore, hyphen "
+"and dot are allowed."
+msgstr ""
+"Vale andmebaasi nimi. Ainult tähemärgid, alakriips, sidekriips ja täpp on "
+"lubatud."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:680
+#, python-format
+msgid "Invalid domain"
+msgstr "Vale domeen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:807
+#, python-format
+msgid "Invalid field chain"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/debug_manager.js:185
+#, python-format
+msgid "JS Tests"
+msgstr "JS Testid"
+
+#. module: web
+#: code:addons/web/controllers/main.py:777
+#, python-format
+msgid "Languages"
+msgstr "Keeled"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:190
+#, python-format
+msgid "Latest Modification Date:"
+msgstr "Viimase muudatuse kuupäev:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:186
+#, python-format
+msgid "Latest Modification by:"
+msgstr "Viimase muudatuse tegija:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:122
+#, python-format
+msgid "Leave the Developer Tools"
+msgstr "Lahku arendaja tööriistadest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:547
+#, python-format
+msgid "Line Chart"
+msgstr "Joondiagramm"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:59
+#, python-format
+msgid "List"
+msgstr "Loend"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/loading.js:47
+#, python-format
+msgid "Loading"
+msgstr "Laadimine"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/loading.js:45
+#, python-format
+msgid "Loading (%d)"
+msgstr "Laadimine (%d)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/misc.js:13
+#, python-format
+msgid "Loading..."
+msgstr "Laadimine..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/pyeval.js:1044
+#, python-format
+msgid ""
+"Local evaluation failure\n"
+"%s\n"
+"\n"
+"%s"
+msgstr ""
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.login
+msgid "Log in"
+msgstr "Sisene"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1427
+#, python-format
+msgid "Log out"
+msgstr "Välju"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/priority.js:49
+#, python-format
+msgid "Low"
+msgstr "Madal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:457
+#, python-format
+msgid "M2O search fields do not currently handle multiple default values"
+msgstr "M2O otsing väljad ei saa hetkel hakkama mitme vaikeväärtused"
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.login_layout
+msgid "Manage Databases"
+msgstr "Halda Andmebaase"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/debug_manager.js:244
+#: code:addons/web/static/src/xml/base.xml:130
+#, python-format
+msgid "Manage Filters"
+msgstr "Halda filtreid"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:714
+#, python-format
+msgid "Match"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:721
+#, python-format
+msgid "Match records with"
+msgstr "Sobita kirjeid"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:719
+#, python-format
+msgid "Match records with the following rule:"
+msgstr "Sobita kirjeid järgimise reegli alusel:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/misc.js:19
+#, python-format
+msgid "Maybe you should consider reloading the application by pressing F5..."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:534
+#: code:addons/web/static/src/xml/base.xml:563
+#, python-format
+msgid "Measures"
+msgstr "Näitajad"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/debug_manager.js:313
+#, python-format
+msgid "Metadata (%s)"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:116
+#, python-format
+msgid "Method:"
+msgstr "Meetod:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:16
+#, python-format
+msgid "Missing Record"
+msgstr "Puuduv salvestus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1439
+#, python-format
+msgid "Mobile support"
+msgstr "Mobiili tugi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:233
+#, python-format
+msgid "Modified by :"
+msgstr "Muutis:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:67
+#, python-format
+msgid "Modifiers:"
+msgstr "Täpsustajad:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:592
+#, python-format
+msgid "Month"
+msgstr "Kuu"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:947
+#, python-format
+msgid "More"
+msgstr "Lisaks"
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.menu
+msgid "More <b class=\"caret\"/>"
+msgstr "Rohkem <b class=\"caret\"/>"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1270
+#, python-format
+msgid "Move Down"
+msgstr "Liigu alla"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1269
+#, python-format
+msgid "Move Up"
+msgstr "Liigu üles"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1426
+#, python-format
+msgid "My Odoo.com account"
+msgstr "Minu Odoo.com kasutaja"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:709
+#, python-format
+msgid "NONE"
+msgstr "POLE ÜHTEGI"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1324
+#, python-format
+msgid "Name:"
+msgstr "Nimi:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:316
+#, python-format
+msgid "New"
+msgstr "Uus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:55
+#, python-format
+msgid "New Password"
+msgstr "Uus parool"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1438
+#, python-format
+msgid "New design"
+msgstr "Uus kujundus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:332
+#, python-format
+msgid "No"
+msgstr "Ei"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:174
+#, python-format
+msgid "No Update:"
+msgstr "Uuendused puuduvad:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_widget.js:97
+#, python-format
+msgid ""
+"No data available for this chart. Try to add some records, or make sure that "
+"there is no active filter in the search bar."
+msgstr ""
+"Selle tabeli jaoks puuduvad andmed. Proovi lisada mõned kirjed või vaata "
+"üle, et sul poleks otsinguribal mõni filter peal."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:609
+#, python-format
+msgid ""
+"No data available for this pivot table.  Try to add some records, or make "
+"sure\n"
+"        that there is at least one measure and no active filter in the "
+"search bar."
+msgstr ""
+"Selle pivot tabeli jaoks puuduvad andmed. Proovi lisada mõned kirjed või\n"
+"        või vaata üle, et sul oleks vähemalt üks mõõtühik ja ei oleks "
+"aktiivseid filtreid otsinguribal."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_widget.js:96
+#, python-format
+msgid "No data to display"
+msgstr "Pole andmeid, mida näidata"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:608
+#, python-format
+msgid "No data to display."
+msgstr "Pole andmeid, mida näidata."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/debug_manager.js:308
+#, python-format
+msgid "No metadata available"
+msgstr "Metaandmed pole saadaval"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:246
+#, python-format
+msgid "No results to show..."
+msgstr "Pole tulmusi, mida näidata..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:328
+#, python-format
+msgid "No value found for the field %s for value %s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:699
+#, python-format
+msgid "None"
+msgstr "Pole"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/priority.js:48
+#, python-format
+msgid "Normal"
+msgstr "Tavaline"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_widget.js:254
+#, python-format
+msgid "Not enough data points"
+msgstr "Pole piisavalt andmepunkte"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:899
+#, python-format
+msgid "Not shown in kanban"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:43
+#, python-format
+msgid "Object:"
+msgstr "Objekt:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/dialog.js:37
+#, python-format
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/apps.js:150
+#, python-format
+msgid "Odoo Apps will be available soon"
+msgstr "Odoo rakendused on varsti saadavl"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/abstract_web_client.js:125
+#: code:addons/web/static/src/js/framework/crash_manager.js:154
+#, python-format
+msgid "Odoo Client Error"
+msgstr "Odoo kliendi viga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_upgrade_widgets.js:52
+#, python-format
+msgid "Odoo Enterprise"
+msgstr "Odoo Enterprise"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:118
+#, python-format
+msgid "Odoo Error"
+msgstr "Odoo viga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:58
+#, python-format
+msgid "Odoo Session Expired"
+msgstr "Odoo sessioon on aegunud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:108
+#: code:addons/web/static/src/js/framework/crash_manager.js:195
+#, python-format
+msgid "Odoo Warning"
+msgstr "Odoo hoiatus"
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.qunit_suite
+msgid "Odoo Web Tests"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:719
+#, python-format
+msgid "Off"
+msgstr "Väljas"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/dialog.js:41
+#: code:addons/web/static/src/js/framework/dialog.js:159
+#: code:addons/web/static/src/js/framework/dialog.js:177
+#: code:addons/web/static/src/xml/base.xml:1297
+#, python-format
+msgid "Ok"
+msgstr "Ok"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:51
+#, python-format
+msgid "Old Password"
+msgstr "Vana parool"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:717
+#, python-format
+msgid "On"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:75
+#, python-format
+msgid "On change:"
+msgstr "Muudatusel:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/progress_bar.js:79
+#, python-format
+msgid "Only Integer Value should be valid."
+msgstr "Ainult täisarvuline väärtus peaks olema kehtiv."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:472
+#, python-format
+msgid "Only you"
+msgstr "Ainult sina"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:710
+#, python-format
+msgid "Open"
+msgstr "Avatud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:104
+#, python-format
+msgid "Open Developer Tools"
+msgstr "Ava arendaja tööriistad"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:114
+#, python-format
+msgid "Open View"
+msgstr "Ava vaade"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:154
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:932
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1115
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1332
+#, python-format
+msgid "Open: "
+msgstr "Avatud: "
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.login
+msgid "Password"
+msgstr "Salasõna"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:548
+#, python-format
+msgid "Pie Chart"
+msgstr "Ringdiagramm"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_widget.js:219
+#, python-format
+msgid ""
+"Pie chart cannot display all zero numbers.. Try to change your domain to "
+"display positive results"
+msgstr ""
+"Sektordiagramm ei saa kuvada väärtusega 0 numbreid... Proovi muuta oma "
+"domeeni, et kuvada positiivseid tulemusi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_widget.js:211
+#, python-format
+msgid ""
+"Pie chart cannot mix positive and negative numbers. Try to change your "
+"domain to only display positive results"
+msgstr ""
+"Sektordiagramm ei saa segada omavahel positiivseid ja negatiivseid numbreid."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/pivot_view.js:30
+#, python-format
+msgid "Pivot"
+msgstr "Pivot"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:168
+#, python-format
+msgid "Please enter save field list name"
+msgstr "Palun sisesta salvestatud välja listi nimi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1285
+#, python-format
+msgid "Please note that only the selected ids will be exported."
+msgstr "Pane tähele, et ainult valitud ID-d eksporditakse."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1284
+#, python-format
+msgid ""
+"Please pay attention that all records matching your search filter will be "
+"exported. Not only the selected ids."
+msgstr ""
+"Pane tähele, et kõik kirjed, mis vastavad sinu filtrile, ekporditakse - "
+"mitte ainult valitud ID-d."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:441
+#, python-format
+msgid "Please select fields to export..."
+msgstr "Palun vali väljad, mida ekportida ..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:427
+#, python-format
+msgid "Please select fields to save export list..."
+msgstr "Palun vali väljad, et salvestada ekspordi list ..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:36
+#, python-format
+msgid "Please use the copy button to report the error to your support service."
+msgstr "Palun kasuta kopeerimise nuppu, et anda veast teada sinu klienditoele."
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.menu_secondary
+msgid "Powered by"
+msgstr "Tootja"
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.login_layout
+msgid "Powered by <span>Odoo</span>"
+msgstr "Toodetud <span>Odoo</span> poolt"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1425
+#, python-format
+msgid "Preferences"
+msgstr "Eelistused"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/sidebar.js:22
+#, python-format
+msgid "Print"
+msgstr "Prindi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:153
+#, python-format
+msgid "Print Workflow"
+msgstr "Trüki Töövoog"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:593
+#, python-format
+msgid "Quarter"
+msgstr "Kvartal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/model_field_selector.js:40
+#, python-format
+msgid "Relation not allowed"
+msgstr "Seos pole lubatud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:79
+#, python-format
+msgid "Relation:"
+msgstr "Seos:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1267
+#, python-format
+msgid "Remove"
+msgstr "Eemalda"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1268
+#, python-format
+msgid "Remove All"
+msgstr "Eemalda kõik"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:327
+#, python-format
+msgid "Render"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:704
+#: code:addons/web/static/src/js/views/list_view.js:290
+#, python-format
+msgid "Restore"
+msgstr "Taasta"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:113
+#, python-format
+msgid "Run JS Tests"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:891
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:25
+#: code:addons/web/static/src/xml/base.xml:344
+#: code:addons/web/static/src/xml/base.xml:421
+#: code:addons/web/static/src/xml/base.xml:1235
+#, python-format
+msgid "Save"
+msgstr "Salvesta"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:906
+#, python-format
+msgid "Save & New"
+msgstr "Salvesta ja Uus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:1205
+#, python-format
+msgid "Save As..."
+msgstr "Salvesta kui..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1297
+#, python-format
+msgid "Save as:"
+msgstr "Salvesta kui:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1223
+#, python-format
+msgid "Save current search"
+msgstr "Salvesta praegune otsing"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:1125
+#, python-format
+msgid "Save default"
+msgstr "Salvesta vaikimisi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1274
+#, python-format
+msgid "Save fields list"
+msgstr "Salvesta väljade list"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1300
+#, python-format
+msgid "Saved exports:"
+msgstr "Salvestatud väljastused:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:366
+#, python-format
+msgid "Search %(field)s at: %(value)s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:193
+#: code:addons/web/static/src/js/views/search_inputs.js:212
+#: code:addons/web/static/src/js/views/search_inputs.js:408
+#, python-format
+msgid "Search %(field)s for: %(value)s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:212
+#, python-format
+msgid "Search More..."
+msgstr "Otsi veel..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1068
+#, python-format
+msgid "Search..."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:281
+#, python-format
+msgid "Search: "
+msgstr "Otsi: "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:40
+#, python-format
+msgid "See details"
+msgstr "Vaata detaile"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_common.js:1072
+#: code:addons/web/static/src/xml/base.xml:996
+#: code:addons/web/static/src/xml/base.xml:997
+#, python-format
+msgid "Select"
+msgstr "Vali"
+
+#. module: web
+#: model:ir.ui.view,arch_db:web.login
+msgid "Select <i class=\"fa fa-database\"/>"
+msgstr "Vali <i class=\"fa fa-database\"/>"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:684
+#, python-format
+msgid "Select a model to add a filter."
+msgstr "Valige filtri lisamiseks mudel."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/debug_manager.js:164
+#, python-format
+msgid "Select a view"
+msgstr "Vali vaade"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:516
+#, python-format
+msgid "Selected records"
+msgstr "Valitud kirjed"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:83
+#, python-format
+msgid "Selection:"
+msgstr "Valik:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:1122
+#, python-format
+msgid "Set Default"
+msgstr "Määra vaikimisi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:150
+#, python-format
+msgid "Set Defaults"
+msgstr "Määra vaikimisi seadistused"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:946
+#, python-format
+msgid "Setting 'id' attribute on existing record %s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1232
+#, python-format
+msgid "Share with all users"
+msgstr "Jaga kõigi kasutajatega"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/apps.js:150
+#, python-format
+msgid "Showing locally available modules"
+msgstr "Näitab lokaalselt saadaolevaid mooduleid"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:55
+#, python-format
+msgid "Size:"
+msgstr "Suurus:"
+
+#. module: web
+#: code:addons/web/controllers/main.py:1080
+#, python-format
+msgid "Something horrible happened"
+msgstr "Midagi kohutavat juhtus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:107
+#, python-format
+msgid "Special:"
+msgstr "Eriline:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/misc.js:14
+#, python-format
+msgid "Still loading..."
+msgstr "Ikka laen..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/misc.js:15
+#, python-format
+msgid "Still loading...<br />Please be patient."
+msgstr "Ikka laen...<br />Palun ole kannatlik."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1423
+#, python-format
+msgid "Support"
+msgstr "Tugi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:718
+#, python-format
+msgid "Switch Off"
+msgstr "Lülita välja"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:720
+#, python-format
+msgid "Switch On"
+msgstr "Lülita sisse"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:273
+#, python-format
+msgid "Syntax error"
+msgstr "Süntaksi viga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/misc.js:18
+#, python-format
+msgid "Take a minute to get a coffee,<br />because it's loading..."
+msgstr "Võta minut et teha kohvi,<br />kuna endiselt laen..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:131
+#, python-format
+msgid "Technical Translation"
+msgstr "Tehniline tõlge"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:273
+#, python-format
+msgid "The domain you entered is not properly formed"
+msgstr "Sisestatud domeen ei ole korrektse vorminguga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:1205
+#, python-format
+msgid "The field is empty, there's nothing to save !"
+msgstr "Väli on tühi. Midagi pole salvestada!"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:883
+#, python-format
+msgid "The following fields are invalid:"
+msgstr "Järgnevad väljad on vigased:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view_editable.js:123
+#, python-format
+msgid ""
+"The line has been modified, your changes will be discarded. Are you sure you "
+"want to discard the changes ?"
+msgstr ""
+
+#. module: web
+#: code:addons/web/controllers/main.py:764
+#, python-format
+msgid "The new password and its confirmation must be identical."
+msgstr "Uus salasõna ja kinnitus peavad olema identsed."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1134
+#, python-format
+msgid "The o2m record must be saved before an action can be used"
+msgstr ""
+
+#. module: web
+#: code:addons/web/controllers/main.py:769
+#, python-format
+msgid ""
+"The old password you provided is incorrect, your password was not changed."
+msgstr "Sisestatud vana parool oli vale. Sinu parooli ei muudetud."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:302
+#, python-format
+msgid "The record could not be found in the database."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:752
+#, python-format
+msgid ""
+"The record has been modified, your changes will be discarded. Are you sure "
+"you want to leave this page ?"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:1167
+#, python-format
+msgid "The selected file exceed the maximum file size of %s."
+msgstr "Valitud fail ületab maksimaalse faili suurust, mis on %s."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1591
+#, python-format
+msgid ""
+"The type of the field '%s' must be a many2many field with a relation to 'ir."
+"attachment' model."
+msgstr ""
+
+#. module: web
+#: code:addons/web/controllers/main.py:1427
+#, python-format
+msgid ""
+"There are too many rows (%s rows, limit: 65535) to export as Excel 97-2003 (."
+"xls) format. Consider splitting the export."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:1188
+#, python-format
+msgid "There was a problem while uploading your file"
+msgstr "Faili üleslaadimisel esines tõrge"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:296
+#, python-format
+msgid "This domain is not supported."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_menus.js:257
+#, python-format
+msgid ""
+"This filter is global and will be removed for everybody if you continue."
+msgstr "See filter on globaalne ning eemaldatakse kõigilt, kui jätkad."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1241
+#, python-format
+msgid ""
+"This wizard will export all data that matches the current search criteria to "
+"a CSV file.\n"
+"        You can export all data or only the fields that can be reimported "
+"after modification."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:932
+#, python-format
+msgid ""
+"Timezone Mismatch : The timezone of your browser doesn't match the selected "
+"one. The time in Odoo is displayed according to your field timezone."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:117
+#, python-format
+msgid "Toggle Timelines"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/pivot_view.js:543
+#: code:addons/web/static/src/js/views/pivot_view.js:572
+#, python-format
+msgid "Total"
+msgstr "Kokku"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/abstract_web_client.js:127
+#, python-format
+msgid "Traceback:"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/tree_view.js:18
+#, python-format
+msgid "Tree"
+msgstr "Puu"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/abstract_web_client.js:221
+#, python-format
+msgid "Trying to reconnect..."
+msgstr "Proovime uuesti ühendada ..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:47
+#, python-format
+msgid "Type:"
+msgstr "Tüüp:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph_widget.js:81
+#: code:addons/web/static/src/js/views/list_view.js:1394
+#: code:addons/web/static/src/js/views/list_view.js:1400
+#: code:addons/web/static/src/js/views/list_view.js:1418
+#: code:addons/web/static/src/js/views/pivot_view.js:525
+#, python-format
+msgid "Undefined"
+msgstr "Määramata"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:616
+#, python-format
+msgid "Unhandled widget"
+msgstr "Töötlemata vidin"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:871
+#, python-format
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/data.js:1077
+#, python-format
+msgid "Unknown field %s in domain %s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:1101
+#, python-format
+msgid "Unknown m2m command %s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/pyeval.js:1008
+#, python-format
+msgid "Unknown nonliteral type "
+msgstr "Tundmatu mittesõnaline tüüp "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/data.js:1069
+#, python-format
+msgid "Unknown operator %s in domain %s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/data.js:1132
+#, python-format
+msgid "Unnamed"
+msgstr "Nimetu"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/data.js:1115
+#, python-format
+msgid "Unsupported operator %s in domain %s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1410
+#, python-format
+msgid "Update translations"
+msgstr "Uuenda tõlkeid"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_upgrade_widgets.js:35
+#, python-format
+msgid "Upgrade now"
+msgstr "Uuenda nüüd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1440
+#, python-format
+msgid "Upgrade to future versions"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:996
+#, python-format
+msgid "Upload your file"
+msgstr "Laadi üles oma fail"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1651
+#: code:addons/web/static/src/js/widgets/sidebar.js:175
+#, python-format
+msgid "Uploading Error"
+msgstr "Üleslaadimise viga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/sidebar.js:201
+#: code:addons/web/static/src/xml/base.xml:970
+#: code:addons/web/static/src/xml/base.xml:1000
+#: code:addons/web/static/src/xml/base.xml:1057
+#, python-format
+msgid "Uploading..."
+msgstr "Üleslaadimine..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1229
+#, python-format
+msgid "Use by default"
+msgstr "Kasutage vaikimisi"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:17
+#, python-format
+msgid "Validation Error"
+msgstr "Kinnitamise viga"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/priority.js:51
+#, python-format
+msgid "Very High"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:1945
+#: code:addons/web/static/src/xml/base.xml:158
+#, python-format
+msgid "View"
+msgstr "Vaade"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:129
+#, python-format
+msgid "View Fields"
+msgstr "Vaata välju"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:152
+#, python-format
+msgid "View Metadata"
+msgstr "Vaata metaandmeid"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:747
+#, python-format
+msgid "View type '%s' is not supported in X2Many."
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:13
+#: code:addons/web/static/src/js/framework/crash_manager.js:14
+#: code:addons/web/static/src/js/views/form_view.js:757
+#: code:addons/web/static/src/js/views/list_view.js:677
+#: code:addons/web/static/src/js/widgets/sidebar.js:132
+#, python-format
+msgid "Warning"
+msgstr "Hoiatus"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:591
+#, python-format
+msgid "Week"
+msgstr "Nädal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_view.js:1305
+#, python-format
+msgid "Widget type '%s' is not implemented"
+msgstr "Vidina tüüp '% s' ei ole rakendatud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base_common.xml:51
+#, python-format
+msgid "Widget:"
+msgstr "Vidin:"
+
+#. module: web
+#: code:addons/web/controllers/main.py:481
+#, python-format
+msgid "Wrong login/password"
+msgstr "Vale kasutajanimi/parool"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/progress_bar.js:79
+#, python-format
+msgid "Wrong value entered!"
+msgstr "Vale väärtus sisestatud!"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:170
+#, python-format
+msgid "XML ID:"
+msgstr "XML ID:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:594
+#, python-format
+msgid "Year"
+msgstr "Aasta"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:331
+#: code:addons/web/static/src/xml/base_common.xml:71
+#, python-format
+msgid "Yes"
+msgstr "Jah"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/abstract_web_client.js:230
+#, python-format
+msgid "You are back online"
+msgstr "Olete tagasi online'is"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:48
+#, python-format
+msgid "You are creating a new %s, are you sure it does not exist yet?"
+msgstr "Olete loomas uut %s, kas olete kindel, et see juba ei eksisteeri?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/model_field_selector.js:40
+#, python-format
+msgid "You cannot follow relations for this field chain construction"
+msgstr ""
+
+#. module: web
+#: code:addons/web/controllers/main.py:762
+#, python-format
+msgid "You cannot leave any password empty."
+msgstr "Sa ei saa jätta ühtegi salasõna tühjaks."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1408
+#, python-format
+msgid "You have updated"
+msgstr "Olete uuendanud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/misc.js:17
+#, python-format
+msgid "You may not believe it,<br />but the application is actually loading..."
+msgstr "Tundub uskumatu,<br /> kuid rakendust endiselt laadidakse ... "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/sidebar.js:132
+#, python-format
+msgid "You must choose at least one record."
+msgstr "Sa pead valima vähemalt ühe kirje."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list_view.js:677
+#, python-format
+msgid "You must select at least one record."
+msgstr "Sa pead valima vähemalt ühe kirje."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/crash_manager.js:58
+#, python-format
+msgid "Your Odoo session expired. Please refresh the current web page."
+msgstr ""
+"Sinu Odoo sessioon on aegunud. Palun värskendage oma praegust veebilehte."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:102
+#, python-format
+msgid "a day ago"
+msgstr "päeva eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:98
+#, python-format
+msgid "about a minute ago"
+msgstr "umbes minuti eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:104
+#, python-format
+msgid "about a month ago"
+msgstr "umbes kuu eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:106
+#, python-format
+msgid "about a year ago"
+msgstr "umbes aasta eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:100
+#, python-format
+msgid "about an hour ago"
+msgstr "umbes tunni eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:714
+#, python-format
+msgid "all records"
+msgstr "kõik kirjed"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:28
+#, python-format
+msgid "child of"
+msgstr "alam"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:162
+#: code:addons/web/static/src/js/widgets/domain_selector.js:23
+#, python-format
+msgid "contains"
+msgstr "sisaldab"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:163
+#, python-format
+msgid "doesn't contain"
+msgstr "ei sisalda"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:261
+#: code:addons/web/static/src/js/views/search_filters.js:290
+#: code:addons/web/static/src/js/widgets/domain_selector.js:19
+#, python-format
+msgid "greater than"
+msgstr "suurem kui"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:263
+#: code:addons/web/static/src/js/views/search_filters.js:292
+#: code:addons/web/static/src/js/widgets/domain_selector.js:21
+#, python-format
+msgid "greater than or equal to"
+msgstr "suurem kui või võrdne"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:25
+#, python-format
+msgid "in"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:282
+#: code:addons/web/static/src/js/views/search_filters.js:317
+#: code:addons/web/static/src/js/widgets/domain_selector.js:524
+#: code:addons/web/static/src/xml/base.xml:796
+#, python-format
+msgid "is"
+msgstr "o"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:182
+#, python-format
+msgid "is after"
+msgstr "on pärat"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:183
+#, python-format
+msgid "is before"
+msgstr "on enne"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:184
+#, python-format
+msgid "is between"
+msgstr "on vahel"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:164
+#: code:addons/web/static/src/js/views/search_filters.js:180
+#: code:addons/web/static/src/js/views/search_filters.js:259
+#: code:addons/web/static/src/js/views/search_filters.js:288
+#: code:addons/web/static/src/js/widgets/domain_selector.js:17
+#, python-format
+msgid "is equal to"
+msgstr "on võrdne"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:336
+#, python-format
+msgid "is false"
+msgstr "on väär"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:318
+#: code:addons/web/static/src/js/widgets/domain_selector.js:525
+#, python-format
+msgid "is not"
+msgstr "ei ole"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:165
+#: code:addons/web/static/src/js/views/search_filters.js:181
+#: code:addons/web/static/src/js/views/search_filters.js:260
+#: code:addons/web/static/src/js/views/search_filters.js:289
+#: code:addons/web/static/src/js/widgets/domain_selector.js:18
+#, python-format
+msgid "is not equal to"
+msgstr "ei ole võrdne"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:167
+#: code:addons/web/static/src/js/views/search_filters.js:186
+#: code:addons/web/static/src/js/views/search_filters.js:266
+#: code:addons/web/static/src/js/views/search_filters.js:295
+#: code:addons/web/static/src/js/views/search_filters.js:320
+#: code:addons/web/static/src/js/widgets/domain_selector.js:37
+#, python-format
+msgid "is not set"
+msgstr "ei ole määratud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:166
+#: code:addons/web/static/src/js/views/search_filters.js:185
+#: code:addons/web/static/src/js/views/search_filters.js:265
+#: code:addons/web/static/src/js/views/search_filters.js:294
+#: code:addons/web/static/src/js/views/search_filters.js:319
+#: code:addons/web/static/src/js/widgets/domain_selector.js:36
+#, python-format
+msgid "is set"
+msgstr "on määratud"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:335
+#, python-format
+msgid "is true"
+msgstr "on tõene"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/utils.js:336
+#, python-format
+msgid "kMGTPE"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:262
+#: code:addons/web/static/src/js/views/search_filters.js:291
+#: code:addons/web/static/src/js/widgets/domain_selector.js:20
+#, python-format
+msgid "less than"
+msgstr "vähem kui"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/framework/translation.js:97
+#, python-format
+msgid "less than a minute ago"
+msgstr "vähe kui minuti eest"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_filters.js:264
+#: code:addons/web/static/src/js/views/search_filters.js:293
+#: code:addons/web/static/src/js/widgets/domain_selector.js:22
+#, python-format
+msgid "less than or equal to"
+msgstr "väiksem kui või võrdne"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:798
+#, python-format
+msgid "not"
+msgstr "ei ole"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:231
+#, python-format
+msgid "not a valid integer"
+msgstr "ei ole kehtiv täisarv"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search_inputs.js:246
+#, python-format
+msgid "not a valid number"
+msgstr "ei ole korrektne number"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:24
+#, python-format
+msgid "not contains"
+msgstr "ei sisalda"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:26
+#, python-format
+msgid "not in"
+msgstr "ei ole"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:723
+#, python-format
+msgid "of the following rules:"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:735
+#, python-format
+msgid "of:"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:789
+#: code:addons/web/static/src/xml/base.xml:1163
+#, python-format
+msgid "or"
+msgstr "või"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:29
+#, python-format
+msgid "parent of"
+msgstr "ülem"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:678
+#, python-format
+msgid "record(s)"
+msgstr "kirje(d)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:798
+#, python-format
+msgid "set"
+msgstr "komplekt"
