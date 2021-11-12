@@ -1,0 +1,82 @@
+# Finnish translation for openobject-addons
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-01-11 11:14+0000\n"
+"PO-Revision-Date: 2011-06-08 10:23+0000\n"
+"Last-Translator: Juha Kotamäki <Unknown>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 06:51+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: base_vat
+#: code:addons/base_vat/base_vat.py:87
+#, python-format
+msgid ""
+"The Vat does not seems to be correct. You should have entered something like "
+"this %s"
+msgstr "Alv ei näytä olevan oikein. Sinun olisi tullut syöttää esim. %s"
+
+#. module: base_vat
+#: model:ir.module.module,description:base_vat.module_meta_information
+msgid ""
+"\n"
+"    Enable the VAT Number for the partner. Check the validity of that VAT "
+"Number.\n"
+"\n"
+"    This module follows the methods stated at http://sima-pc.com/nif.php "
+"for\n"
+"    checking the validity of VAT Number assigned to partners in European "
+"countries.\n"
+"    "
+msgstr ""
+"\n"
+"    Aseta partnerin ALV numero. Tarkista ALV numeron oikeellisuus.\n"
+"\n"
+"    Tämä moduuli seuraa toimintatapaa joka onmääritelty http://sima-"
+"pc.com/nif.php\n"
+"    EU:n alueen alv numeroiden tarkistamiseksi\n"
+"    "
+
+#. module: base_vat
+#: model:ir.module.module,shortdesc:base_vat.module_meta_information
+msgid "Base VAT - To check VAT number validity"
+msgstr "Perus ALV - ALV numeron tarkistamiseksi"
+
+#. module: base_vat
+#: constraint:res.partner:0
+msgid "Error ! You can not create recursive associated members."
+msgstr "Virhe! Rekursiivisesti rinnastettuja jäseniä ei voi luoda."
+
+#. module: base_vat
+#: code:addons/base_vat/base_vat.py:88
+#, python-format
+msgid "The VAT is invalid, It should begin with the country code"
+msgstr "ALV (VAT) numero on virheellinen, sen tulisi alkaa maakoodilla"
+
+#. module: base_vat
+#: help:res.partner,vat_subjected:0
+msgid ""
+"Check this box if the partner is subjected to the VAT. It will be used for "
+"the VAT legal statement."
+msgstr ""
+"Valitse tämä jos kumppani on alv-velvollinen. Tätä alv-numeroa käytetään "
+"laskuissa ja muissa liiketoimintaa littyvissä asiakirjoissa.."
+
+#. module: base_vat
+#: model:ir.model,name:base_vat.model_res_partner
+msgid "Partner"
+msgstr "Kumppani"
+
+#. module: base_vat
+#: field:res.partner,vat_subjected:0
+msgid "VAT Legal Statement"
+msgstr "Alv-velvollisuus"

@@ -1,0 +1,360 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* hr_payroll_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.0.3\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2011-05-09 10:18+0000\n"
+"PO-Revision-Date: 2012-04-04 15:06+0000\n"
+"Last-Translator: ThinkOpen Solutions <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:14+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: hr_payroll_account
+#: view:hr.employee:0
+msgid "Employee Bank Account"
+msgstr "Conta bancária do Funcionário"
+
+#. module: hr_payroll_account
+#: field:hr.payroll.register,bank_journal_id:0
+#: field:hr.payslip,bank_journal_id:0
+msgid "Bank Journal"
+msgstr "Registo Diário Bancário"
+
+#. module: hr_payroll_account
+#: field:hr.payslip,move_line_ids:0
+msgid "Accounting Lines"
+msgstr "Linhas de contabilidade"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_contibution_register_line
+msgid "Contribution Register Line"
+msgstr "Registar Linha de Contribuição"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_contibution_register
+msgid "Contribution Register"
+msgstr "Registo de Contribuição"
+
+#. module: hr_payroll_account
+#: help:hr.employee,analytic_account:0
+msgid "Analytic Account for Salary Analysis"
+msgstr "Conta analítica para análise de Salário"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:430
+#: code:addons/hr_payroll_account/hr_payroll_account.py:433
+#: code:addons/hr_payroll_account/hr_payroll_account.py:540
+#: code:addons/hr_payroll_account/hr_payroll_account.py:557
+#, python-format
+msgid "Configuration Error !"
+msgstr "Erro Configuração !"
+
+#. module: hr_payroll_account
+#: field:hr.payslip,journal_id:0
+#: field:hr.payslip.run,journal_id:0
+msgid "Expense Journal"
+msgstr "Despesas diárias"
+
+#. module: hr_payroll_account
+#: field:hr.contibution.register.line,period_id:0
+msgid "Period"
+msgstr "Período"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_employee
+msgid "Employee"
+msgstr "Funcionário"
+
+#. module: hr_payroll_account
+#: view:hr.payslip:0
+msgid "Other Informations"
+msgstr "Outras Informações"
+
+#. module: hr_payroll_account
+#: field:hr.employee,salary_account:0
+msgid "Salary Account"
+msgstr "Conta Salário"
+
+#. module: hr_payroll_account
+#: help:hr.employee,property_bank_account:0
+msgid ""
+"Select Bank Account from where Salary Expense will be Paid, to be used for "
+"payslip verification."
+msgstr ""
+"Seleccione a conta bancária de onde a Despesa será paga, para ser utilizado "
+"para a verificação recibo."
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_payroll_register
+msgid "Payroll Register"
+msgstr "Registo Vencimento"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_payslip_account_move
+msgid "Account Move Link to Pay Slip"
+msgstr "Movimentos da conta em Recibo"
+
+#. module: hr_payroll_account
+#: view:hr.payslip:0
+msgid "Description"
+msgstr "Descrição"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:331
+#, python-format
+msgid "Please Confirm all Expense Invoice appear for Reimbursement"
+msgstr ""
+"Confirme todas as facturas de despesas que devem aparecer em Reembolso"
+
+#. module: hr_payroll_account
+#: view:hr.payslip:0
+msgid "Accounting Informations"
+msgstr "Informações contáveis"
+
+#. module: hr_payroll_account
+#: help:hr.employee,salary_account:0
+msgid "Expense account when Salary Expense will be recorded"
+msgstr "Despesas de Conta quando Despesa Salarial for gravada"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:433
+#, python-format
+msgid "Please define partner in bank account for %s !"
+msgstr "Por favor, defina parceiro na conta bancária para %s !"
+
+#. module: hr_payroll_account
+#: model:ir.module.module,shortdesc:hr_payroll_account.module_meta_information
+msgid "Human Resource Payroll Accounting"
+msgstr "Contabilidade do Salário dos Recursos Humanos"
+
+#. module: hr_payroll_account
+#: view:hr.payslip:0
+#: field:hr.payslip,move_payment_ids:0
+msgid "Payment Lines"
+msgstr "Linhas Pagamento"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:270
+#: code:addons/hr_payroll_account/hr_payroll_account.py:445
+#, python-format
+msgid "Please define fiscal year for perticular contract"
+msgstr "Por favor, defina o ano fiscal para um contrato particular"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:297
+#, python-format
+msgid "Employee Bank Account is not defined for %s"
+msgstr "Conta Bancário do funcionário não está definida para %s"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_payslip
+msgid "Pay Slip"
+msgstr "Recibo Vencimento"
+
+#. module: hr_payroll_account
+#: constraint:hr.employee:0
+msgid "Error ! You cannot create recursive Hierarchy of Employees."
+msgstr "Erro ! Não pode criar uma Hierarquia recursiva de Funcionários."
+
+#. module: hr_payroll_account
+#: view:hr.payslip:0
+msgid "Account Lines"
+msgstr "Linhas de conta"
+
+#. module: hr_payroll_account
+#: field:hr.contibution.register,account_id:0
+#: field:hr.holidays.status,account_id:0
+#: field:hr.payroll.advice,account_id:0
+msgid "Account"
+msgstr "Conta"
+
+#. module: hr_payroll_account
+#: field:hr.employee,property_bank_account:0
+msgid "Bank Account"
+msgstr "Conta bancária"
+
+#. module: hr_payroll_account
+#: field:hr.payslip.account.move,name:0
+msgid "Name"
+msgstr "Nome"
+
+#. module: hr_payroll_account
+#: model:ir.module.module,description:hr_payroll_account.module_meta_information
+msgid ""
+"Generic Payroll system Integrated with Accountings\n"
+"    * Expense Encoding\n"
+"    * Payment Encoding\n"
+"    * Company Contribution Management\n"
+"    "
+msgstr ""
+"O sistema de vencimento genérico integrado com as contabilidades\n"
+"    * Despesas de codificação\n"
+"    * Pagamento da Codificação\n"
+"    * Gestão de Contribuição da empresa\n"
+"    "
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_payslip_line
+msgid "Payslip Line"
+msgstr "Linha do recibo de vencimento"
+
+#. module: hr_payroll_account
+#: view:hr.payslip:0
+msgid "Accounting Vouchers"
+msgstr "Contabilidade de Vouchers"
+
+#. module: hr_payroll_account
+#: constraint:hr.employee:0
+msgid ""
+"Error ! You cannot select a department for which the employee is the manager."
+msgstr ""
+"Erro ! Não pode seleccionar um departamento cujo funcionário é o gestor."
+
+#. module: hr_payroll_account
+#: help:hr.payslip,period_id:0
+msgid "Keep empty to use the period of the validation(Payslip) date."
+msgstr ""
+"Mantenha vazio para usar no período da data de validação(Recibo de "
+"Vencimento)."
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:469
+#, python-format
+msgid "Please define Salary Account for %s."
+msgstr "Por favor, defina Conta Salário para %s."
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_payroll_advice
+msgid "Bank Advice Note"
+msgstr "Nota de Notificação Bancária"
+
+#. module: hr_payroll_account
+#: field:hr.payslip.account.move,move_id:0
+msgid "Expense Entries"
+msgstr "Lançamento de Despesas"
+
+#. module: hr_payroll_account
+#: field:hr.payslip,move_ids:0
+msgid "Accounting vouchers"
+msgstr "Contabilidade de vouchers"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:270
+#: code:addons/hr_payroll_account/hr_payroll_account.py:277
+#: code:addons/hr_payroll_account/hr_payroll_account.py:280
+#: code:addons/hr_payroll_account/hr_payroll_account.py:297
+#: code:addons/hr_payroll_account/hr_payroll_account.py:331
+#: code:addons/hr_payroll_account/hr_payroll_account.py:445
+#: code:addons/hr_payroll_account/hr_payroll_account.py:452
+#: code:addons/hr_payroll_account/hr_payroll_account.py:455
+#: code:addons/hr_payroll_account/hr_payroll_account.py:469
+#: code:addons/hr_payroll_account/hr_payroll_account.py:492
+#, python-format
+msgid "Warning !"
+msgstr "Atenção!"
+
+#. module: hr_payroll_account
+#: field:hr.employee,employee_account:0
+msgid "Employee Account"
+msgstr "Conta funcionário"
+
+#. module: hr_payroll_account
+#: field:hr.payslip.line,account_id:0
+msgid "General Account"
+msgstr "Conta Geral"
+
+#. module: hr_payroll_account
+#: field:hr.contibution.register,yearly_total_by_emp:0
+msgid "Total By Employee"
+msgstr "Total por funcionário"
+
+#. module: hr_payroll_account
+#: field:hr.payslip.account.move,sequence:0
+msgid "Sequence"
+msgstr "Sequência"
+
+#. module: hr_payroll_account
+#: field:hr.payslip,period_id:0
+msgid "Force Period"
+msgstr "Forçar período"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_holidays_status
+msgid "Leave Type"
+msgstr "Deixar Tipo"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:277
+#: code:addons/hr_payroll_account/hr_payroll_account.py:452
+#, python-format
+msgid "Fiscal Year is not defined for slip date %s"
+msgstr "Ano Fiscal não está definido para a data do recibo %s"
+
+#. module: hr_payroll_account
+#: field:hr.contract,analytic_account_id:0
+#: field:hr.salary.rule,analytic_account_id:0
+msgid "Analytic Account"
+msgstr "Conta Analítica"
+
+#. module: hr_payroll_account
+#: help:hr.employee,employee_account:0
+msgid "Employee Payable Account"
+msgstr "Conta de Pagamento do Funcionário"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:492
+#, python-format
+msgid "Please define Employee Payable Account for %s."
+msgstr "Por favor, defina Conta de Pagamento do funcionário para %s."
+
+#. module: hr_payroll_account
+#: field:hr.contibution.register,yearly_total_by_comp:0
+msgid "Total By Company"
+msgstr "Total por empresa"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_payroll_structure
+msgid "Salary Structure"
+msgstr "Estrutura do salário"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:557
+#, python-format
+msgid "Please Configure Partners Receivable Account!!"
+msgstr "Por favor Configure Parceiros da Conta a Receber!"
+
+#. module: hr_payroll_account
+#: view:hr.contibution.register:0
+msgid "Year"
+msgstr "Ano"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:280
+#: code:addons/hr_payroll_account/hr_payroll_account.py:455
+#, python-format
+msgid "Period is not defined for slip date %s"
+msgstr "Período não está definido para a data do recibo %s"
+
+#. module: hr_payroll_account
+#: view:hr.payslip:0
+msgid "Accounting Details"
+msgstr "Detalhes de Contabilidade"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:540
+#, python-format
+msgid "Please Configure Partners Payable Account!!"
+msgstr "Por favor configure parceiros da Conta a Receber!!"
+
+#. module: hr_payroll_account
+#: code:addons/hr_payroll_account/hr_payroll_account.py:430
+#, python-format
+msgid "Please define bank account for %s !"
+msgstr "Por favor defina conta bancária para %s !"

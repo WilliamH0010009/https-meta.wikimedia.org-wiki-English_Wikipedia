@@ -1,0 +1,1922 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* purchase
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.0.2\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2011-05-09 10:19+0000\n"
+"PO-Revision-Date: 2012-04-04 15:09+0000\n"
+"Last-Translator: ThinkOpen Solutions <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:29+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_confirmingpurchaseorder0
+msgid ""
+"The buyer has to approve the RFQ before being sent to the supplier. The RFQ "
+"becomes a confirmed Purchase Order."
+msgstr ""
+"O comprador tem que aprovar o RFQ antes de ser enviado ao fornecedor. O RFQ "
+"torna-se uma ordem de compra confirmada."
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:292
+#, python-format
+msgid "You can not confirm purchase order without Purchase Order Lines."
+msgstr "Não pode confirmar uma ordem de compra sem linhas."
+
+#. module: purchase
+#: field:purchase.order,invoiced:0
+msgid "Invoiced & Paid"
+msgstr "Faturado & Pago"
+
+#. module: purchase
+#: field:purchase.order,location_id:0
+#: view:purchase.report:0
+#: field:purchase.report,location_id:0
+msgid "Destination"
+msgstr "Destino"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:772
+#, python-format
+msgid ""
+"You have to select a product UOM in the same category than the purchase UOM "
+"of the product"
+msgstr ""
+"Tem de seleccionar uma UdM da mesma categoria que a UdM de compra do artigo."
+
+#. module: purchase
+#: help:purchase.report,date:0
+msgid "Date on which this document has been created"
+msgstr "Data de criação deste documento"
+
+#. module: purchase
+#: model:ir.actions.act_window,help:purchase.purchase_rfq
+msgid ""
+"You can create a request for quotation when you want to buy products to a "
+"supplier but the purchase is not confirmed yet. Use also this menu to review "
+"requests for quotation created automatically based on your logistic rules "
+"(minimum stock, MTO, etc). You can convert the request for quotation into a "
+"purchase order once the order is confirmed. If you use the extended "
+"interface (from user's preferences), you can select the way to control your "
+"supplier invoices: based on the order, based on the receptions or manual "
+"encoding."
+msgstr ""
+"Pode criar um pedido para a cotação, quando quiser comprar artigos a um "
+"fornecedor, mas a compra não está confirmado ainda. Use também este menu "
+"para rever as solicitações de cotação criadas automaticamente com base nas "
+"regras de logística (stock mínimo, MTO, etc). Pode converter o pedido para a "
+"cotação de uma ordem de compra uma vez que o pedido seja confirmado. Se usar "
+"a interface estendida (das preferências do utilizador), pode selecionar a "
+"forma de controlar as faturas do fornecedor: com base na ordem, com base nas "
+"recepções ou codificação manual."
+
+#. module: purchase
+#: selection:purchase.order,invoice_method:0
+msgid "From Picking"
+msgstr "A partir da recepção"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Not Invoiced"
+msgstr "Não facturado"
+
+#. module: purchase
+#: field:purchase.order,dest_address_id:0
+msgid "Destination Address"
+msgstr "Endereço de Destino"
+
+#. module: purchase
+#: report:purchase.order:0
+#: field:purchase.report,validator:0
+msgid "Validated By"
+msgstr "Validado Por"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_stock_invoice_onshipping
+msgid "Stock Invoice Onshipping"
+msgstr "Factura de acções Onshipping"
+
+#. module: purchase
+#: view:purchase.order:0
+#: field:purchase.order,partner_id:0
+#: view:purchase.order.line:0
+#: view:purchase.report:0
+#: field:purchase.report,partner_id:0
+msgid "Supplier"
+msgstr "Fornecedor"
+
+#. module: purchase
+#: view:purchase.order.line_invoice:0
+msgid "Do you want to generate the supplier invoices ?"
+msgstr "Pretende gerar as faturas do fornecedor?"
+
+#. module: purchase
+#: model:ir.actions.act_window,help:purchase.purchase_form_action
+msgid ""
+"Use this menu to search within your purchase orders by references, supplier, "
+"products, etc. For each purchase order, you can track the products received, "
+"and control the supplier invoices."
+msgstr ""
+"Utilize este menu para procurar dentro das ordens de compra por referência, "
+"fornecedor, artigo, etc. Para cada ordem de compra, pode acompanhar os "
+"artigo recebido, e controlar as faturas dos fornecedores."
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:352
+#: code:addons/purchase/wizard/purchase_line_invoice.py:137
+#: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
+#: view:res.partner:0
+#, python-format
+msgid "Supplier Invoices"
+msgstr "Faturas dos fornecedores"
+
+#. module: purchase
+#: sql_constraint:purchase.order:0
+msgid "Order Reference must be unique !"
+msgstr "A Ordem da Referência deve ser única !"
+
+#. module: purchase
+#: model:process.transition,name:purchase.process_transition_packinginvoice0
+#: model:process.transition,name:purchase.process_transition_productrecept0
+msgid "From a Pick list"
+msgstr "A partir das recepções"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:735
+#, python-format
+msgid "No Pricelist !"
+msgstr "Sem Lista de Preços !"
+
+#. module: purchase
+#: field:purchase.order.line,product_qty:0
+#: view:purchase.report:0
+#: field:purchase.report,quantity:0
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. module: purchase
+#: view:purchase.order.line_invoice:0
+msgid "Select an Open Sale Order"
+msgstr "Selecione uma Ordem de Venda em Aberto"
+
+#. module: purchase
+#: field:purchase.order,company_id:0
+#: field:purchase.order.line,company_id:0
+#: view:purchase.report:0
+#: field:purchase.report,company_id:0
+msgid "Company"
+msgstr "Empresa"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_purchase_order_monthly_categ_graph
+#: view:purchase.report:0
+msgid "Monthly Purchase by Category"
+msgstr "Compras mensais por categoria."
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Set to Draft"
+msgstr "Definir como Rascunho"
+
+#. module: purchase
+#: selection:purchase.order,state:0
+#: selection:purchase.report,state:0
+msgid "Invoice Exception"
+msgstr "Exceção da Fatura"
+
+#. module: purchase
+#: model:product.pricelist,name:purchase.list0
+msgid "Default Purchase Pricelist"
+msgstr "Lista de preços de compra padrão."
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_current_purchases
+msgid "Current purchases"
+msgstr "Compras em curso."
+
+#. module: purchase
+#: help:purchase.order,dest_address_id:0
+msgid ""
+"Put an address if you want to deliver directly from the supplier to the "
+"customer.In this case, it will remove the warehouse link and set the "
+"customer location."
+msgstr ""
+"Indique uma morada se quer entregar diretamente do fornecedor ao cliente. "
+"Nesse caso, irá remover a ligação ao armazém e definir a localização do "
+"cliente."
+
+#. module: purchase
+#: help:res.partner,property_product_pricelist_purchase:0
+msgid ""
+"This pricelist will be used, instead of the default one, for purchases from "
+"the current partner"
+msgstr ""
+"Esta lista de preços será usada,em vez da predefinida, para compras ao "
+"parceiro atual"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Fax :"
+msgstr "Fax :"
+
+#. module: purchase
+#: help:purchase.order,pricelist_id:0
+msgid ""
+"The pricelist sets the currency used for this purchase order. It also "
+"computes the supplier price for the selected products/quantities."
+msgstr ""
+"A lista de preços determina a moeda usada para esta ordem de compra. Também "
+"processa o preço do fornecedor para os artigos e quantidades selecionados."
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_stock_partial_picking
+msgid "Partial Picking"
+msgstr "Picking parcial"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:289
+#, python-format
+msgid "Purchase order '%s' is confirmed."
+msgstr "A ordem de compra '%s' está confirmada."
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Approve Purchase"
+msgstr "Aprovar compra"
+
+#. module: purchase
+#: model:process.node,name:purchase.process_node_approvepurchaseorder0
+#: view:purchase.order:0
+#: selection:purchase.report,state:0
+msgid "Approved"
+msgstr "Aprovado"
+
+#. module: purchase
+#: view:purchase.report:0
+msgid "Reference UOM"
+msgstr "Referência UDM"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Origin"
+msgstr "Origem"
+
+#. module: purchase
+#: field:purchase.report,product_uom:0
+msgid "Reference UoM"
+msgstr "Referência UdM"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_purchase_line_product_tree
+#: model:ir.actions.act_window,name:purchase.open_board_purchase
+#: model:ir.ui.menu,name:purchase.menu_board_purchase
+#: model:ir.ui.menu,name:purchase.menu_purchase_config
+#: view:res.partner:0
+msgid "Purchases"
+msgstr "Compras"
+
+#. module: purchase
+#: view:purchase.order.line:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:735
+#, python-format
+msgid ""
+"You have to select a pricelist or a supplier in the purchase form !\n"
+"Please set one before choosing a product."
+msgstr ""
+"Tem que selecionar uma lista de preços ou de um fornecedor no formulário de "
+"compra! \n"
+"Por favor, defina um antes de escolher um artigo."
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "September"
+msgstr "Setembro"
+
+#. module: purchase
+#: report:purchase.order:0
+#: field:purchase.order,amount_tax:0
+#: field:purchase.order.line,taxes_id:0
+msgid "Taxes"
+msgstr "Impostos"
+
+#. module: purchase
+#: model:ir.actions.report.xml,name:purchase.report_purchase_order
+#: model:ir.model,name:purchase.model_purchase_order
+#: model:process.node,name:purchase.process_node_purchaseorder0
+#: field:procurement.order,purchase_id:0
+#: view:purchase.config.settings:0
+#: view:purchase.order:0
+#: selection:purchase.order,state:0
+#: field:res.partner,purchase_order_ids:0
+#: model:res.request.link,name:purchase.req_link_purchase_order
+#: field:stock.picking,purchase_id:0
+#: field:stock.picking.in,purchase_id:0
+msgid "Purchase Order"
+msgstr "Ordem de Compra"
+
+#. module: purchase
+#: field:purchase.order,name:0
+#: view:purchase.order.line:0
+#: field:purchase.order.line,order_id:0
+msgid "Order Reference"
+msgstr "Ordem de Referência"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Net Total :"
+msgstr "Total Líquido"
+
+#. module: purchase
+#: view:purchase.installer:0
+msgid "Configure Your Purchases Management Application"
+msgstr "Configure a aplicação da Gestão de Compras"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_procurement_management_product
+#: model:ir.ui.menu,name:purchase.menu_procurement_partner_contact_form
+#: model:ir.ui.menu,name:purchase.menu_product_in_config_purchase
+msgid "Products"
+msgstr "Artigos"
+
+#. module: purchase
+#: field:purchase.installer,progress:0
+msgid "Configuration Progress"
+msgstr "Progresso da configuração"
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_packinginvoice0
+msgid ""
+"A Pick list generates an invoice. Depending on the Invoicing control of the "
+"sale order, the invoice is based on delivered or on ordered quantities."
+msgstr ""
+"Uma recepção, gera uma fatura. Conforme o controlo de faturação da ordem de "
+"venda, a fatura é baseada nas quantidades entregues ou nas encomendadas."
+
+#. module: purchase
+#: selection:purchase.order,state:0
+#: selection:purchase.order.line,state:0
+#: selection:purchase.report,state:0
+msgid "Cancelled"
+msgstr "Cancelada"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:315
+#, python-format
+msgid "Purchase amount over the limit"
+msgstr "Montante acima do limite"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Convert to Purchase Order"
+msgstr "Converter em ordem de compra"
+
+#. module: purchase
+#: field:purchase.order,pricelist_id:0
+#: field:purchase.report,pricelist_id:0
+msgid "Pricelist"
+msgstr "Lista de preços"
+
+#. module: purchase
+#: selection:purchase.order,state:0
+#: selection:purchase.report,state:0
+msgid "Shipping Exception"
+msgstr "Excepção de Expedição"
+
+#. module: purchase
+#: field:purchase.order.line,invoice_lines:0
+msgid "Invoice Lines"
+msgstr "Linhas da Fatura"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_procurement_management_inventory
+#: model:process.node,name:purchase.process_node_packinglist0
+#: model:process.node,name:purchase.process_node_productrecept0
+msgid "Incoming Products"
+msgstr "Artigos em recepção"
+
+#. module: purchase
+#: model:process.node,name:purchase.process_node_packinginvoice0
+msgid "Outgoing Products"
+msgstr "Artigos Outgoing"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Manually Corrected"
+msgstr "Corrigido à mão"
+
+#. module: purchase
+#: view:purchase.report:0
+msgid "   Month   "
+msgstr "   Mês   "
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Reference"
+msgstr "Referência"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:244
+#, python-format
+msgid "Cannot delete Purchase Order(s) which are in %s State!"
+msgstr "Não pode eliminar ordens de compra no estado %s!"
+
+#. module: purchase
+#: field:purchase.report,dest_address_id:0
+msgid "Dest. Address Contact Name"
+msgstr "Nome do contato no destino"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_stock_move
+msgid "Stock Move"
+msgstr "Movimento do Stock"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,day:0
+msgid "Day"
+msgstr "Dia"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:326
+#, python-format
+msgid "Purchase order '%s' has been set in draft state."
+msgstr "A ordem de compra '%s' passou ao estado rascunho."
+
+#. module: purchase
+#: field:purchase.order.line,account_analytic_id:0
+msgid "Analytic Account"
+msgstr "Conta Analítica"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,nbr:0
+msgid "# of Lines"
+msgstr "# de Linhas"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:754 code:addons/purchase/purchase.py:769
+#: code:addons/purchase/purchase.py:772
+#: code:addons/purchase/wizard/purchase_order_group.py:47
+#, python-format
+msgid "Warning"
+msgstr "Aviso"
+
+#. module: purchase
+#: field:purchase.installer,purchase_analytic_plans:0
+msgid "Purchase Analytic Plans"
+msgstr "Planos de compras analíticas"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_purchase_installer
+msgid "purchase.installer"
+msgstr "purchase.installer"
+
+#. module: purchase
+#: selection:purchase.order.line,state:0
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Net Price"
+msgstr "Preço Líquido"
+
+#. module: purchase
+#: view:purchase.order.line:0
+msgid "Order Line"
+msgstr "Linha da ordem"
+
+#. module: purchase
+#: help:purchase.order,shipped:0
+msgid "It indicates that a picking has been done"
+msgstr "Indica que a recepção foi concluída"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:772
+#, python-format
+msgid "Wrong Product UOM !"
+msgstr "UdM Errada!"
+
+#. module: purchase
+#: model:process.node,name:purchase.process_node_confirmpurchaseorder0
+#: selection:purchase.order.line,state:0
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,price_average:0
+msgid "Average Price"
+msgstr "Preço médio"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Total :"
+msgstr "Total :"
+
+#. module: purchase
+#: model:process.transition.action,name:purchase.process_transition_action_confirmpurchaseorder0
+#: view:purchase.order.line_invoice:0
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_procurement_management_invoice
+msgid "Invoice Control"
+msgstr "Controlo de faturas"
+
+#. module: purchase
+#: constraint:res.company:0
+msgid "Error! You can not create recursive companies."
+msgstr "Erro! Não pode criar empresas recursivas"
+
+#. module: purchase
+#: field:purchase.order,partner_ref:0
+msgid "Supplier Reference"
+msgstr "Código do fornecedor"
+
+#. module: purchase
+#: help:purchase.order,amount_tax:0
+msgid "The tax amount"
+msgstr "O montante de impostos"
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_productrecept0
+msgid ""
+"A Pick list generates a supplier invoice. Depending on the Invoicing control "
+"of the purchase order, the invoice is based on received or on ordered "
+"quantities."
+msgstr ""
+"A lista Pick gera uma fatura do fornecedor. Dependendo do controle da "
+"faturação da ordem de compra, a fatura é recebida com base no que é recebido "
+"ou em quantidades encomendadas."
+
+#. module: purchase
+#: view:purchase.order:0 field:purchase.order,state:0
+#: view:purchase.order.line:0 field:purchase.order.line,state:0
+#: view:purchase.report:0 view:stock.picking:0
+msgid "State"
+msgstr "Estado"
+
+#. module: purchase
+#: model:ir.actions.act_window,help:purchase.action_stock_move_report_po
+msgid ""
+"Reception Analysis allows you to easily check and analyse your company order "
+"receptions and the performance of your supplier's deliveries."
+msgstr ""
+"Análise das recepções, permite verificar as recepções e o desempenho nas "
+"entregas dos fornecedores."
+
+#. module: purchase
+#: report:purchase.quotation:0
+msgid "Tel.:"
+msgstr "Tel.:"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_stock_picking
+#: field:purchase.order,picking_ids:0
+msgid "Picking List"
+msgstr "Lista Picking"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_view_purchase_order_group
+msgid "Merge Purchase orders"
+msgstr "Agregar ordens de compra."
+
+#. module: purchase
+#: field:purchase.order,order_line:0
+msgid "Order Lines"
+msgstr "Linhas da Ordem"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:737
+#, python-format
+msgid "No Partner!"
+msgstr "Sem parceiro!"
+
+#. module: purchase
+#: report:purchase.quotation:0
+msgid "Fax:"
+msgstr "Fax:"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,price_total:0
+msgid "Total Price"
+msgstr "Preço Total"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Untaxed amount"
+msgstr "Montante sem impostos"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_product_pricelist_action2_purchase
+#: model:ir.ui.menu,name:purchase.menu_purchase_config_pricelist
+msgid "Pricelists"
+msgstr "Listas de Preços"
+
+#. module: purchase
+#: field:purchase.report,partner_address_id:0
+msgid "Address Contact Name"
+msgstr "Nome do contato no endereço"
+
+#. module: purchase
+#: help:purchase.order,invoice_method:0
+msgid ""
+"From Order: a draft invoice will be pre-generated based on the purchase "
+"order. The accountant will just have to validate this invoice for control.\n"
+"From Picking: a draft invoice will be pre-generated based on validated "
+"receptions.\n"
+"Manual: allows you to generate suppliers invoices by chosing in the "
+"uninvoiced lines of all manual purchase orders."
+msgstr ""
+"Da Ordem: uma factura projecto vai ser pré-gerado com base na ordem de "
+"compra. O contador só vai ter que validar esta factura para controle. \n"
+"De Picking: uma factura projecto vai ser pré-gerado com base nas recepções "
+"validado \n"
+".Manual: permite gerar facturas de fornecedores para escolher as linhas não "
+"facturadas de todas as ordens de compra manual."
+
+#. module: purchase
+#: help:purchase.order,invoice_ids:0
+msgid "Invoices generated for a purchase order"
+msgstr "Faturas geradas por um pedido de compra"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:285 code:addons/purchase/purchase.py:348
+#: code:addons/purchase/purchase.py:359
+#: code:addons/purchase/wizard/purchase_line_invoice.py:111
+#, python-format
+msgid "Error !"
+msgstr "Erro !"
+
+#. module: purchase
+#: view:purchase.order.line:0
+msgid "General Information"
+msgstr "Informação Geral"
+
+#. module: purchase
+#: view:board.board:0
+msgid "My Board"
+msgstr "O meu Painel"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Purchase Order N°"
+msgstr "Confirmação de ordem de compra nº"
+
+#. module: purchase
+#: model:ir.actions.act_window,help:purchase.action_purchase_order_report_all
+msgid ""
+"Purchase Analysis allows you to easily check and analyse your company "
+"purchase history and performance. From this menu you can track your "
+"negotiation performance, the delivery performance of your suppliers, etc."
+msgstr ""
+"Análise de compra permite que facilmente verifique e analisar o histórico de "
+"compras da empresa e desempenho. Nesse menu, pode acompanhar o seu "
+"desempenho na negociação, o desempenho de entrega dos fornecedores, etc"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:982
+#, python-format
+msgid "The selected supplier only sells this product by %s"
+msgstr "O fornecedor selecionado só vende este artigo %s"
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_invoicefrompackinglist0
+msgid ""
+"The invoice is created automatically if the Invoice control of the purchase "
+"order is 'On picking'. The invoice can also be generated manually by the "
+"accountant (Invoice control = Manual)."
+msgstr ""
+"A fatura é criada automaticamente se o controle da fatura da ordem de compra "
+"é 'On picking \". A fatura também pode ser gerado manualmente pelo contador "
+"(controle Manual = Fatura)."
+
+#. module: purchase
+#: selection:purchase.order,invoice_method:0
+msgid "From Order"
+msgstr "Da ordem"
+
+#. module: purchase
+#: model:process.transition.action,name:purchase.process_transition_action_invoicefrompurchaseorder0
+msgid "Create invoice"
+msgstr "Criar fatura"
+
+#. module: purchase
+#: field:purchase.order.line,move_dest_id:0
+msgid "Reservation Destination"
+msgstr "Destino da reserva"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:236
+#, python-format
+msgid "Invalid action !"
+msgstr "Ação Inválida!"
+
+#. module: purchase
+#: selection:purchase.order,state:0
+#: selection:purchase.order.line,state:0
+#: selection:purchase.report,state:0
+msgid "Done"
+msgstr "Concluído"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "July"
+msgstr "Julho"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_purchase_config_purchase
+msgid "Configuration"
+msgstr "Configuração"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_purchase_by_supplier
+#: view:purchase.report:0
+msgid "Purchase by supplier"
+msgstr "Compra por fornecedor"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Total amount"
+msgstr "Montante Total"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.act_purchase_order_2_stock_picking
+msgid "Receptions"
+msgstr "Recepções"
+
+#. module: purchase
+#: field:purchase.order,validator:0
+#: view:purchase.report:0
+msgid "Validated by"
+msgstr "Validado por"
+
+#. module: purchase
+#: model:ir.actions.act_window,help:purchase.action_invoice_pending
+msgid ""
+"Use this menu to control the invoices to be received from your supplier. "
+"OpenERP pregenerates draft invoices from your purchase orders or receptions, "
+"according to your settings. Once you receive a supplier invoice, you can "
+"match it with the draft invoice and validate it."
+msgstr ""
+"Utilize este menu para controlar a faturas a receber a partir do fornecedor. "
+"O OpenERP gera faturas de rascunho das ordens de compra ou de recepções, de "
+"acordo com as configurações. Depois de receber uma fatura do fornecedor, "
+"pode combiná-la com a fatura rascunho e validá-la."
+
+#. module: purchase
+#: model:process.node,name:purchase.process_node_draftpurchaseorder0
+#: model:process.node,name:purchase.process_node_draftpurchaseorder1
+msgid "RFQ"
+msgstr "RFQ"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_procurement_management_pending_invoice
+msgid "Supplier Invoices to Receive"
+msgstr "Facturas de fornecedores por receber"
+
+#. module: purchase
+#: help:purchase.installer,purchase_requisition:0
+msgid ""
+"Manages your Purchase Requisition and allows you to easily keep track and "
+"manage all your purchase orders."
+msgstr ""
+"Gere a requisição de compra e permite que rastrear e gerir todas as ordens "
+"de compra."
+
+#. module: purchase
+#: view:purchase.report:0
+msgid "    Month-1    "
+msgstr "    Mês-1    "
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:349
+#, python-format
+msgid "There is no purchase journal defined for this company: \"%s\" (id:%d)"
+msgstr ""
+"Não há um diário de compras definido para esta companhia: \"%s\" (id:%d)"
+
+#. module: purchase
+#: selection:purchase.order,state:0
+msgid "Waiting Approval"
+msgstr "Aprovação em espera"
+
+#. module: purchase
+#: selection:purchase.order,invoice_method:0
+msgid "Manual"
+msgstr "Manual"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:410
+#, python-format
+msgid "You must first cancel all picking attached to this purchase order."
+msgstr ""
+"Primeiro deve cancelar todas as receções associados a esta ordem de compra."
+
+#. module: purchase
+#: report:purchase.order:0
+#: view:purchase.order:0
+#: field:purchase.order,date_order:0
+#: field:purchase.order.line,date_order:0
+#: field:purchase.report,date:0
+msgid "Order Date"
+msgstr "Data da Ordem"
+
+#. module: purchase
+#: model:process.node,note:purchase.process_node_productrecept0
+msgid "Incoming products to control"
+msgstr "Artigos em recepção por verificar"
+
+#. module: purchase
+#: model:process.transition,name:purchase.process_transition_approvingpurchaseorder0
+msgid "Approbation"
+msgstr "Aprovação"
+
+#. module: purchase
+#: view:purchase.report:0
+msgid "Purchase Orders Statistics"
+msgstr "Estatísticas de ordens de compra."
+
+#. module: purchase
+#: model:ir.actions.act_window,help:purchase.purchase_line_form_action2
+msgid ""
+"If you set the invoicing control on a purchase order as \"Manual\", you can "
+"track here all the purchase order lines for which you have not received the "
+"supplier invoice yet. Once you are ready to receive a supplier invoice, you "
+"can generate a draft supplier invoice based on the lines from this menu."
+msgstr ""
+"Se definir o controle da facturação numa ordem de compra \"Manual\", pode "
+"acompanhar aqui todas as linhas das ordens de compra para a qual não tenha "
+"recebido ainda a factura do fornecedor. Quando estiver pronto para receber "
+"uma factura do fornecedor, pode gerar uma factura do fornecedor em rascunho "
+"com base nas linhas a partir deste menu."
+
+#. module: purchase
+#: model:process.node,name:purchase.process_node_invoiceafterpacking0
+#: model:process.node,name:purchase.process_node_invoicecontrol0
+msgid "Draft Invoice"
+msgstr "Fatura Rascunho"
+
+#. module: purchase
+#: help:purchase.installer,purchase_analytic_plans:0
+msgid "Manages analytic distribution and purchase orders."
+msgstr "Gere a distribuição pela analítica das ordens de compra"
+
+#. module: purchase
+#: help:purchase.order,minimum_planned_date:0
+msgid ""
+"This is computed as the minimum scheduled date of all purchase order lines' "
+"products."
+msgstr ""
+"Esta é calculada como a data mínima agendada dos artigos de todas as linhas "
+"de ordens de compra"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "August"
+msgstr "Agosto"
+
+#. module: purchase
+#: field:purchase.installer,purchase_requisition:0
+msgid "Purchase Requisition"
+msgstr "Requisição a fornecedores"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_purchase_uom_categ_form_action
+msgid "Units of Measure Categories"
+msgstr "Categorias das Unidades de Medida"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,delay_pass:0
+msgid "Days to Deliver"
+msgstr "Dias para a entrega"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Receive Products"
+msgstr "Artigos recebidos"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_procurement_order
+msgid "Procurement"
+msgstr "Aquisição"
+
+#. module: purchase
+#: view:purchase.order:0
+#: field:purchase.order,invoice_ids:0
+msgid "Invoices"
+msgstr "Faturas"
+
+#. module: purchase
+#: model:process.node,note:purchase.process_node_purchaseorder0
+msgid "Confirmed purchase order to invoice"
+msgstr "Ordens de compra confirmadas, por faturar"
+
+#. module: purchase
+#: field:purchase.config.wizard,config_logo:0
+msgid "Image"
+msgstr "Imagem"
+
+#. module: purchase
+#: view:purchase.report:0
+msgid "Total Orders Lines by User per month"
+msgstr "Total de linhas de ordens por mês e utilizador"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,month:0
+msgid "Month"
+msgstr "Mês"
+
+#. module: purchase
+#: selection:purchase.report,state:0
+msgid "Waiting Supplier Ack"
+msgstr "Aguarda ação do fornecedor"
+
+#. module: purchase
+#: report:purchase.quotation:0
+msgid "Request for Quotation :"
+msgstr "Pedido de cotação"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.purchase_waiting
+msgid "Purchase Order Waiting Approval"
+msgstr "Ordem de compra à espera de confirmação"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Total Untaxed amount"
+msgstr "Total sem impostos"
+
+#. module: purchase
+#: field:purchase.order,shipped:0
+msgid "Received"
+msgstr "Recebido"
+
+#. module: purchase
+#: model:process.node,note:purchase.process_node_packinglist0
+msgid "List of ordered products."
+msgstr "Lista de artigos encomendados"
+
+#. module: purchase
+#: help:purchase.order,picking_ids:0
+msgid ""
+"This is the list of picking list that have been generated for this purchase"
+msgstr "Esta é a lista de recepções geradas para esta ordem de compra"
+
+#. module: purchase
+#: model:ir.actions.todo.category,name:purchase.category_purchase_config
+#: model:ir.ui.menu,name:purchase.menu_procurement_management
+msgid "Purchase Management"
+msgstr "Gestão de compras"
+
+#. module: purchase
+#: model:process.node,note:purchase.process_node_invoiceafterpacking0
+#: model:process.node,note:purchase.process_node_invoicecontrol0
+msgid "To be reviewed by the accountant."
+msgstr "A ser revisto pelo contabilista"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.purchase_line_form_action2
+#: model:ir.ui.menu,name:purchase.menu_purchase_line_order_draft
+msgid "Purchase Lines Not Invoiced"
+msgstr "Linhas de ordens de compra não facturadas"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Taxes :"
+msgstr "Impostos :"
+
+#. module: purchase
+#: field:purchase.order,invoiced_rate:0
+#: field:purchase.order.line,invoiced:0
+msgid "Invoiced"
+msgstr "Faturado"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,category_id:0
+msgid "Category"
+msgstr "Categori­a"
+
+#. module: purchase
+#: model:process.node,note:purchase.process_node_approvepurchaseorder0
+#: model:process.node,note:purchase.process_node_confirmpurchaseorder0
+msgid "State of the Purchase Order."
+msgstr "Estado da ordem de compra"
+
+#. module: purchase
+#: view:purchase.report:0
+msgid "  Year  "
+msgstr "  Ano  "
+
+#. module: purchase
+#: field:purchase.report,state:0
+msgid "Order State"
+msgstr "Estado da Ordem"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_view_purchase_line_invoice
+msgid "Create invoices"
+msgstr "Criar Faturas"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_purchase_order_line
+#: view:purchase.order.line:0
+#: field:stock.move,purchase_line_id:0
+msgid "Purchase Order Line"
+msgstr "Linha de Ordem de Compra"
+
+#. module: purchase
+#: constraint:res.partner:0
+msgid "Error ! You can not create recursive associated members."
+msgstr "Erro! Não pode criar membros associados recursivamente."
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Calendar View"
+msgstr "Vista do Calendário"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_purchase_order_group
+msgid "Purchase Order Merge"
+msgstr "Agregar ordens de compra"
+
+#. module: purchase
+#: report:purchase.quotation:0
+msgid "Regards,"
+msgstr "Cumprimentos,"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_negotiation_by_supplier
+#: view:purchase.report:0
+msgid "Negotiation by Supplier"
+msgstr "Negociação com o fornecedor"
+
+#. module: purchase
+#: view:res.partner:0
+msgid "Purchase Properties"
+msgstr "Propriedades das compras."
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_purchaseinvoice0
+msgid ""
+"A purchase order generates a supplier invoice, as soon as it is confirmed by "
+"the buyer. Depending on the Invoicing control of the purchase order, the "
+"invoice is based on received or on ordered quantities."
+msgstr ""
+"Uma ordem de compra gera uma fatura de fornecedores, assim que confirmada "
+"pelo responsável das compras. Conforme o controlo da faturação, a fatura é "
+"baseada nas quantidades pedidas ou nas recebidas."
+
+#. module: purchase
+#: field:purchase.order,amount_untaxed:0
+msgid "Untaxed Amount"
+msgstr "Montante sem imposto"
+
+#. module: purchase
+#: help:purchase.order,invoiced:0
+msgid "It indicates that an invoice has been paid"
+msgstr "Indica que a fatura foi paga."
+
+#. module: purchase
+#: model:process.node,note:purchase.process_node_packinginvoice0
+msgid "Outgoing products to invoice"
+msgstr "Artigos em expedição, por faturar"
+
+#. module: purchase
+#: view:purchase.installer:0
+msgid "Configure"
+msgstr "Configuração"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_qty_per_product
+#: view:purchase.report:0
+msgid "Qty. per product"
+msgstr "Qtd. por artigo"
+
+#. module: purchase
+#: constraint:stock.move:0
+msgid "You try to assign a lot which is not from the same product"
+msgstr "Tentou atribuir um lote que não é do mesmo artigo"
+
+#. module: purchase
+#: help:purchase.order,date_order:0
+msgid "Date on which this document has been created."
+msgstr "Data de criação deste documento."
+
+#. module: purchase
+#: view:res.partner:0
+msgid "Sales & Purchases"
+msgstr "Vendas & Compras"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "June"
+msgstr "Junho"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_purchase_report
+msgid "Purchases Orders"
+msgstr "Ordens de compra"
+
+#. module: purchase
+#: view:purchase.order.line:0
+msgid "Manual Invoices"
+msgstr "Faturação Manual"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:318
+#, python-format
+msgid ""
+"Somebody has just confirmed a purchase with an amount over the defined limit"
+msgstr "Alguém acabou de confirmar uma compra, de valor acima do limite"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "November"
+msgstr "Novembro"
+
+#. module: purchase
+#: view:purchase.report:0
+msgid "Extended Filters..."
+msgstr "Filtros Avançados..."
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:359
+#: code:addons/purchase/wizard/purchase_line_invoice.py:112
+#, python-format
+msgid "There is no expense account defined for this product: \"%s\" (id:%d)"
+msgstr ""
+"Não existe nenhuma conta de despesa definida para este artigo: \"%s\" (id:%d)"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:418
+#, python-format
+msgid "You must first cancel all invoices attached to this purchase order."
+msgstr ""
+"Precisa primeiro cancelar todas as facturas anexadas para esta ordem de "
+"compra."
+
+#. module: purchase
+#: code:addons/purchase/wizard/purchase_order_group.py:48
+#, python-format
+msgid "Please select multiple order to merge in the list view."
+msgstr "Selecione múltiplas ordens para agregá-las na lista"
+
+#. module: purchase
+#: model:process.transition,name:purchase.process_transition_createpackinglist0
+msgid "Pick list generated"
+msgstr "Escolha lista gerada"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Exception"
+msgstr "Exceção"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "October"
+msgstr "Outubro"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Compute"
+msgstr "Cálculo"
+
+#. module: purchase
+#: model:ir.module.module,description:purchase.module_meta_information
+msgid ""
+"\n"
+"    Purchase module is for generating a purchase order for purchase of goods "
+"from a supplier.\n"
+"    A supplier invoice is created for the particular order placed\n"
+"    Dashboard for purchase management that includes:\n"
+"    * Current Purchase Orders\n"
+"    * Draft Purchase Orders\n"
+"    * Graph for quantity and amount per month    \n"
+"\n"
+"    "
+msgstr ""
+"\n"
+"    Módulo de compra é para gerar uma ordem de compra para aquisição de bens "
+"de um fornecedor.\n"
+"    A factura do fornecedor é criado para o fim especial colocado\n"
+"    Painel para gestão de compras, que inclui:\n"
+"    * Ordens de compra actuais\n"
+"    * Compra Ordens de rascunho\n"
+"    * Gráfico para quantidade e valor por mês    \n"
+"\n"
+"    "
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:696
+#, python-format
+msgid ""
+"The selected supplier has a minimal quantity set to %s, you cannot purchase "
+"less."
+msgstr ""
+"O fornecedor seleccionado tem uma quantidade mínima definida para %s, não "
+"pode comprar menos."
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "January"
+msgstr "Janeiro"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Cancel Purchase Order"
+msgstr "Cancelar ordem de compra"
+
+#. module: purchase
+#: constraint:stock.move:0
+msgid "You must assign a production lot for this product"
+msgstr "Tem de associar um lote de produção a este artigo"
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_createpackinglist0
+msgid "A pick list is generated to track the incoming products."
+msgstr "A lista de pick é gerada para acompanhar os artigos de entrada."
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_purchase_deshboard
+msgid "Dashboard"
+msgstr "Painel de Controlo"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,price_standard:0
+msgid "Products Value"
+msgstr "Valor dos artigos"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_purchase_product_pricelist_type
+msgid "Pricelists Types"
+msgstr "Tipos de Listas de Preços"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.purchase_rfq
+#: model:ir.ui.menu,name:purchase.menu_purchase_rfq
+#: view:purchase.order:0
+#: view:purchase.report:0
+msgid "Quotations"
+msgstr "Cotações"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_po_per_month_tree
+#: view:purchase.report:0
+msgid "Purchase order per month"
+msgstr "Ordem de compra por mês"
+
+#. module: purchase
+#: view:purchase.order.line:0
+msgid "History"
+msgstr "Histórico"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_product_by_category_purchase_form
+msgid "Products by Category"
+msgstr "Artigos por Categoria"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,delay:0
+msgid "Days to Validate"
+msgstr "Dias para a validação"
+
+#. module: purchase
+#: help:purchase.order,origin:0
+msgid "Reference of the document that generated this purchase order request."
+msgstr "Referência do documento que gerou a cotação de ordem de compra."
+
+#. module: purchase
+#: help:purchase.order,state:0
+msgid ""
+"The state of the purchase order or the quotation request. A quotation is a "
+"purchase order in a 'Draft' state. Then the order has to be confirmed by the "
+"user, the state switch to 'Confirmed'. Then the supplier must confirm the "
+"order to change the state to 'Approved'. When the purchase order is paid and "
+"received, the state becomes 'Done'. If a cancel action occurs in the invoice "
+"or in the reception of goods, the state becomes in exception."
+msgstr ""
+"O estado da ordem de compra ou do pedido de cotação. Uma cotação é uma ordem "
+"de compra em estado 'rascunho'. Depois de a ordem confirmada pelo "
+"utilizador, o estado muda para ' Confirmado'. Então o fornecedor deve "
+"confirmar a ordem para mudar o estado para ' Aprovado'. Quando ordem é paga "
+"e recebida, o estado passa 'Concluído'. Se uma ação de cancelamento ocorre "
+"na factura ou na recepção dos bens, o estado passa a \"Exceção\"."
+
+#. module: purchase
+#: field:purchase.order.line,price_subtotal:0
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.purchase_rfq
+#: model:ir.ui.menu,name:purchase.menu_purchase_rfq
+msgid "Requests for Quotation"
+msgstr "Pedido de cotaçao"
+
+#. module: purchase
+#: help:purchase.order,date_approve:0
+msgid "Date on which purchase order has been approved"
+msgstr "Data da aprovação da ordem de compra"
+
+#. module: purchase
+#: selection:purchase.order,state:0 selection:purchase.report,state:0
+msgid "Waiting"
+msgstr "Em Espera"
+
+#. module: purchase
+#: model:product.pricelist.version,name:purchase.ver0
+msgid "Default Purchase Pricelist Version"
+msgstr "Versão da lista de preços de compra pré-definida"
+
+#. module: purchase
+#: view:purchase.installer:0
+msgid ""
+"Extend your Purchases Management Application with additional functionalities."
+msgstr ""
+"Estenda a sua Aplicação de Gestão de Compras com funcionalidades adicionais."
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_purchase_install_module
+#: view:purchase.installer:0
+msgid "Purchases Application Configuration"
+msgstr "Configuração da aplicação Compras"
+
+#. module: purchase
+#: field:purchase.order,fiscal_position:0
+msgid "Fiscal Position"
+msgstr "Posição Fiscal"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Request for Quotation N°"
+msgstr "Pedido de cotação Nº"
+
+#. module: purchase
+#: model:process.transition,name:purchase.process_transition_invoicefrompackinglist0
+#: model:process.transition,name:purchase.process_transition_invoicefrompurchase0
+msgid "Invoice"
+msgstr "Fatura"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "December"
+msgstr "Dezembro"
+
+#. module: purchase
+#: model:process.transition.action,name:purchase.process_transition_action_approvingcancelpurchaseorder0
+#: model:process.transition.action,name:purchase.process_transition_action_cancelpurchaseorder0
+#: view:purchase.config.settings:0
+#: view:purchase.order.group:0
+#: view:purchase.order.line_invoice:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: purchase
+#: view:purchase.order:0
+#: view:purchase.order.line:0
+msgid "Purchase Order Lines"
+msgstr "Linhas de Ordem de Compra"
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_approvingpurchaseorder0
+msgid "The supplier approves the Purchase Order."
+msgstr "O fornecedor aprova a ordem de compra."
+
+#. module: purchase
+#: code:addons/purchase/wizard/purchase_order_group.py:80
+#: model:ir.actions.act_window,name:purchase.purchase_form_action
+#: model:ir.ui.menu,name:purchase.menu_purchase_form_action
+#: view:purchase.order:0
+#: view:purchase.report:0
+#: view:res.partner:0
+#, python-format
+msgid "Purchase Orders"
+msgstr "Ordens de compra"
+
+#. module: purchase
+#: field:purchase.order,origin:0
+msgid "Source Document"
+msgstr "Documento de origem"
+
+#. module: purchase
+#: view:purchase.order.group:0
+msgid "Merge orders"
+msgstr "Fundir ordens"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_purchase_order_line_invoice
+msgid "Purchase Order Line Make Invoice"
+msgstr "Linha Ordem de Compra Faça Fatura"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_stock_picking_in
+#: model:ir.ui.menu,name:purchase.menu_action_picking_tree4
+#: view:purchase.order:0
+msgid "Incoming Shipments"
+msgstr "Recepções Agendadas"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_purchase_order_by_user_all
+msgid "Total Orders by User per month"
+msgstr "Total de ordens por utilizador e por mês"
+
+#. module: purchase
+#: model:ir.actions.report.xml,name:purchase.report_purchase_quotation
+#: selection:purchase.report,state:0
+msgid "Request for Quotation"
+msgstr "Pedido de cotação"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Tél. :"
+msgstr "Tel.   :"
+
+#. module: purchase
+#: field:purchase.order,create_uid:0
+#: view:purchase.report:0
+#: field:purchase.report,user_id:0
+msgid "Responsible"
+msgstr "Responsável"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Our Order Reference"
+msgstr "Nossa Ordem de Referência"
+
+#. module: purchase
+#: view:purchase.order:0
+#: view:purchase.order.line:0
+msgid "Search Purchase Order"
+msgstr "Buscar Ordem de Compra"
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,warehouse_id:0
+msgid "Warehouse"
+msgstr "Armazém"
+
+#. module: purchase
+#: model:process.node,note:purchase.process_node_draftpurchaseorder0
+#: model:process.node,note:purchase.process_node_draftpurchaseorder1
+msgid "Request for Quotations."
+msgstr "Pedido de cotações"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Date Req."
+msgstr "Data da Req."
+
+#. module: purchase
+#: field:purchase.order,date_approve:0
+#: field:purchase.report,date_approve:0
+msgid "Date Approved"
+msgstr "Data de Aprovação"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:417
+#, python-format
+msgid "Could not cancel this purchase order !"
+msgstr "Não é possivel cancelar esta ordem de compra !"
+
+#. module: purchase
+#: report:purchase.order:0
+#: field:purchase.order.line,price_unit:0
+msgid "Unit Price"
+msgstr "Preço Unitário"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Delivery & Invoicing"
+msgstr "Entregas & Compras"
+
+#. module: purchase
+#: field:purchase.order.line,date_planned:0
+msgid "Scheduled Date"
+msgstr "Data programada"
+
+#. module: purchase
+#: field:purchase.order,product_id:0
+#: view:purchase.order.line:0
+#: field:purchase.order.line,product_id:0
+#: view:purchase.report:0
+#: field:purchase.report,product_id:0
+msgid "Product"
+msgstr "Artigo"
+
+#. module: purchase
+#: model:process.transition,name:purchase.process_transition_confirmingpurchaseorder0
+#: model:process.transition,name:purchase.process_transition_confirmingpurchaseorder1
+msgid "Confirmation"
+msgstr "Confirmação"
+
+#. module: purchase
+#: report:purchase.order:0
+#: field:purchase.order.line,name:0
+#: report:purchase.quotation:0
+msgid "Description"
+msgstr "Descrição"
+
+#. module: purchase
+#: help:res.company,po_lead:0
+msgid "This is the leads/security time for each purchase order."
+msgstr "Este é hiato/tempo de segurança para cada ordem de compra."
+
+#. module: purchase
+#: report:purchase.quotation:0
+msgid "Expected Delivery address:"
+msgstr "Endereço de entrega esperado"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_stock_move_report_po
+#: model:ir.ui.menu,name:purchase.menu_action_stock_move_report_po
+msgid "Receptions Analysis"
+msgstr "Análise das recepções"
+
+#. module: purchase
+#: help:purchase.order,amount_untaxed:0
+msgid "The amount without tax"
+msgstr "O total sem impostos"
+
+#. module: purchase
+#: model:ir.actions.act_window,help:purchase.action_supplier_address_form
+msgid ""
+"Access your supplier records and maintain a good relationship with your "
+"suppliers. You can track all your interactions with them through the History "
+"tab: emails, orders, meetings, etc."
+msgstr ""
+"Aceder aos registos do fornecedor e manter um bom relacionamento com os seus "
+"fornecedores. Pode acompanhar todas as suas interacções com elas através da "
+"aba Histórico: emails, ordens, reuniões, etc"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Delivery"
+msgstr "Entrega"
+
+#. module: purchase
+#: view:board.board:0
+#: model:ir.actions.act_window,name:purchase.purchase_draft
+msgid "Request for Quotations"
+msgstr "Pedidos de cotação"
+
+#. module: purchase
+#: field:purchase.order.line,product_uom:0
+msgid "Product UOM"
+msgstr "UdM do Artigo"
+
+#. module: purchase
+#: report:purchase.order:0
+#: report:purchase.quotation:0
+msgid "Qty"
+msgstr "Qtd"
+
+#. module: purchase
+#: field:purchase.order,partner_address_id:0
+msgid "Address"
+msgstr "Endereço"
+
+#. module: purchase
+#: field:purchase.order.line,move_ids:0
+msgid "Reservation"
+msgstr "Reserva"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_purchase_order_report_graph
+#: view:purchase.report:0
+msgid "Total Qty and Amount by month"
+msgstr "Quantidades e valores por mês"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:409
+#, python-format
+msgid "Could not cancel purchase order !"
+msgstr "Não é possivel cancelar a ordem de compra !"
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_confirmingpurchaseorder1
+msgid ""
+"In case there is no supplier for this product, the buyer can fill the form "
+"manually and confirm it. The RFQ becomes a confirmed Purchase Order."
+msgstr ""
+"No caso, não há fornecedor para este artigo, o comprador pode preencher o "
+"formulário manualmente e confirmá-lo. O RFQ torna-se uma ordem de compra "
+"confirmada."
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "February"
+msgstr "Fevereiro"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_product_category_config_purchase
+msgid "Products Categories"
+msgstr "Categorias de Artigos"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_purchase_order_report_all
+#: model:ir.ui.menu,name:purchase.menu_action_purchase_order_report_all
+msgid "Purchase Analysis"
+msgstr "Análise de compras"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Your Order Reference"
+msgstr "Referência da sua ordem"
+
+#. module: purchase
+#: view:purchase.order:0
+#: field:purchase.order,minimum_planned_date:0
+#: report:purchase.quotation:0
+#: field:purchase.report,expected_date:0
+msgid "Expected Date"
+msgstr "Data prevista"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_total_price_by_product_by_state
+#: view:purchase.report:0
+msgid "Total price by product by state"
+msgstr "Preço total por artigo e estado"
+
+#. module: purchase
+#: report:purchase.quotation:0
+msgid "TVA:"
+msgstr "Nº Contribuinte :"
+
+#. module: purchase
+#: report:purchase.order:0
+#: field:purchase.order,date_order:0
+msgid "Date Ordered"
+msgstr "Data do pedido"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "Shipping address :"
+msgstr "Endereço para envio :"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "Purchase Control"
+msgstr "Controlo de compra"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "March"
+msgstr "Março"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "April"
+msgstr "Abril"
+
+#. module: purchase
+#: view:purchase.order.group:0
+msgid ""
+" Please note that: \n"
+" \n"
+" Orders will only be merged if: \n"
+" * Purchase Orders are in draft \n"
+" * Purchase Orders belong to the same supplier \n"
+" * Purchase Orders are have same stock location, same pricelist \n"
+" \n"
+" Lines will only be merged if: \n"
+" * Order lines are exactly the same except for the product,quantity and unit "
+"\n"
+" "
+msgstr ""
+" Por favor note que: \n"
+" \n"
+" Encomendas só serão fundidas se: \n"
+" * Ordens de compra estão em rascunho \n"
+" * Ordens de compra pertencem ao mesmo fornecedor \n"
+" * Ordens de compra têm localização no mesmo stock, a mesma lista de preços\n"
+" \n"
+" Linhas só serão fundidas se: \n"
+" * Linhas de ordem são exatamente as mesmas, exceto para o artigo, "
+"quantidade e unidade \n"
+" "
+
+#. module: purchase
+#: view:purchase.report:0
+#: field:purchase.report,name:0
+msgid "Year"
+msgstr "Ano"
+
+#. module: purchase
+#: field:purchase.report,negociation:0
+msgid "Purchase-Standard Price"
+msgstr "Preço padrão de compra"
+
+#. module: purchase
+#: model:product.pricelist.type,name:purchase.pricelist_type_purchase
+#: field:res.partner,property_product_pricelist_purchase:0
+msgid "Purchase Pricelist"
+msgstr "Lista de preços de compra"
+
+#. module: purchase
+#: field:purchase.order,invoice_method:0
+msgid "Invoicing Control"
+msgstr "Controlo de faturação"
+
+#. module: purchase
+#: model:process.transition.action,name:purchase.process_transition_action_approvingpurchaseorder0
+msgid "Approve"
+msgstr "Aprovar"
+
+#. module: purchase
+#: view:purchase.order:0
+msgid "To Approve"
+msgstr "Para aprovar"
+
+#. module: purchase
+#: view:purchase.order.line:0
+msgid "Invoicing"
+msgstr "Faturação"
+
+#. module: purchase
+#: help:purchase.order.line,state:0
+msgid ""
+" * The 'Draft' state is set automatically when purchase order in draft "
+"state.                                        \n"
+"* The 'Confirmed' state is set automatically as confirm when purchase order "
+"in confirm state.                                        \n"
+"* The 'Done' state is set automatically when purchase order is set as done.  "
+"                                      \n"
+"* The 'Cancelled' state is set automatically when user cancel purchase order."
+msgstr ""
+" * O estado 'Rascunho' é definido automaticamente quando a ordem de compra "
+"está no estado de rascunho.                                        \n"
+"* O estado 'Confirmado' é definido automaticamente quando a ordem de compra "
+"está no estado confirmado.                                        \n"
+"* O estado 'Concluído' é definido automaticamente quando a ordem de compra "
+"está no estado concluído.                                        \n"
+"* O estado 'Cancelado' é definido automaticamente quando o utilizador "
+"cancela a ordem de compra."
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:426
+#, python-format
+msgid "Purchase order '%s' is cancelled."
+msgstr "A ordem de compra '%s' foi cancelada."
+
+#. module: purchase
+#: field:purchase.order,amount_total:0
+msgid "Total"
+msgstr "Total"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.purchase_pricelist_version_action
+#: model:ir.ui.menu,name:purchase.menu_purchase_pricelist_version_action
+msgid "Pricelist Versions"
+msgstr "Versões da Lista de Preços"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.action_supplier_address_form
+msgid "Addresses"
+msgstr "Endereços"
+
+#. module: purchase
+#: view:purchase.order.group:0
+msgid "Are you sure you want to merge these orders ?"
+msgstr "Tem certeza que quer fundir estas ordens?"
+
+#. module: purchase
+#: view:purchase.order:0
+#: view:purchase.order.line:0
+#: view:purchase.report:0
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: purchase
+#: model:process.transition,name:purchase.process_transition_purchaseinvoice0
+msgid "From a purchase order"
+msgstr "A partir de uma ordem de compra"
+
+#. module: purchase
+#: report:purchase.order:0
+msgid "TVA :"
+msgstr "Nº Contribuinte :"
+
+#. module: purchase
+#: help:purchase.order,amount_total:0
+msgid "The total amount"
+msgstr "Montante Total"
+
+#. module: purchase
+#: selection:purchase.report,month:0
+msgid "May"
+msgstr "Maio"
+
+#. module: purchase
+#: field:res.company,po_lead:0
+msgid "Purchase Lead Time"
+msgstr "Prazo de entrega das compras"
+
+#. module: purchase
+#: model:process.transition,note:purchase.process_transition_invoicefrompurchase0
+msgid ""
+"The invoice is created automatically if the Invoice control of the purchase "
+"order is 'On order'. The invoice can also be generated manually by the "
+"accountant (Invoice control = Manual)."
+msgstr ""
+"A fatura é criada automaticamente se o controle da fatura da ordem de compra "
+"é 'Em ordem \". A fatura também pode ser gerada manualmente pelo contador "
+"(controlo Manual = Fatura)."
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_procurement_management
+#: model:process.process,name:purchase.process_process_purchaseprocess0
+msgid "Purchase"
+msgstr "Compras"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_res_partner
+#: field:purchase.order.line,partner_id:0
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:737
+#, python-format
+msgid ""
+"You have to select a partner in the purchase form !\n"
+"Please set one partner before choosing a product."
+msgstr ""
+"Tem de selecionar um parceiro no formulário de compras!\n"
+"Por favor indique um parceiro antes de escolher um artigo."
+
+#. module: purchase
+#: view:purchase.installer:0
+msgid "title"
+msgstr "título"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_stock_partial_move
+msgid "Partial Move"
+msgstr "Movimento parcial"
+
+#. module: purchase
+#: view:purchase.order.line:0
+msgid "Stock Moves"
+msgstr "Movimentos de stock"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_purchase_unit_measure_purchase
+#: model:ir.ui.menu,name:purchase.menu_purchase_uom_form_action
+msgid "Units of Measure"
+msgstr "Unidades de Medida"
+
+#. module: purchase
+#: view:purchase.report:0
+msgid "Orders"
+msgstr "Ordens"
+
+#. module: purchase
+#: help:purchase.order,name:0
+msgid ""
+"unique number of the purchase order,computed automatically when the purchase "
+"order is created"
+msgstr ""
+"número único da ordem de compra, calculado automaticamente quando a ordem de "
+"compra é criada"
+
+#. module: purchase
+#: view:board.board:0
+msgid "Purchase Dashboard"
+msgstr "Painel de controlo da compra"
+
+#~ msgid "Approved by Supplier"
+#~ msgstr "Aprovado pelo fornecedor"
+
+#~ msgid "Purchase Order Confirmation N°"
+#~ msgstr "Confirmação de ordem de compra nº"

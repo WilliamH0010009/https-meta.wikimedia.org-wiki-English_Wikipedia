@@ -1,0 +1,1602 @@
+# Arabic translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-05-09 10:18+0000\n"
+"PO-Revision-Date: 2012-02-29 19:36+0000\n"
+"Last-Translator: Pioneer Solutions <wzaki_dotcom@yahoo.com>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:13+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "E-mail Address"
+msgstr "البريد الإلكتروني"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+msgid "Based"
+msgstr "مرتكز على"
+
+#. module: hr_payroll
+#: field:hr.contract,net:0
+#: field:hr.employee,net:0
+#: field:hr.payroll.register,net:0
+#: field:hr.payslip,net:0
+#: report:salary.structure:0
+msgid "Net Salary"
+msgstr "صافي المرتب"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Recompute Sheet"
+msgstr "إعادة حساب الورقة"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Employees Salary Details"
+msgstr "تفاصيل راتب الموظفين"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Allowances with Basic:"
+msgstr "البدالات مع الاساس:"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: report:salary.structure:0
+msgid "Department"
+msgstr "الإدارة"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Deductions:"
+msgstr "الخصومات:"
+
+#. module: hr_payroll
+#: field:company.contribution,gratuity:0
+msgid "Use for Gratuity ?"
+msgstr "استخدام بدالات ؟"
+
+#. module: hr_payroll
+#: field:hr.contract,working_days_per_week:0
+#: field:hr.payslip,working_days:0
+#: report:payslip.pdf:0
+msgid "Working Days"
+msgstr "ايام العمل"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Loan"
+msgstr "قرض"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Salary Payment Register"
+msgstr "تسجيل الدفع للمرتب"
+
+#. module: hr_payroll
+#: view:hr.employee:0
+#: field:hr.employee,slip_ids:0
+#: view:hr.payslip:0
+#: view:hr.payslip.run:0
+#: field:hr.payslip.run,slip_ids:0
+#: model:ir.actions.act_window,name:hr_payroll.act_hr_employee_payslip_list
+msgid "Payslips"
+msgstr "أظرف الرواتب"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.year_salary_report
+msgid "Year Salary Report"
+msgstr "تقرير المرتب في السنة"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Paid Salary"
+msgstr "الراتب المدفوع"
+
+#. module: hr_payroll
+#: report:paylip.details:0 report:payslip:0
+msgid "("
+msgstr "("
+
+#. module: hr_payroll
+#: field:hr.contribution.register,company_id:0
+#: field:hr.payroll.structure,company_id:0
+#: field:hr.payslip,company_id:0
+#: field:hr.payslip.line,company_id:0
+#: field:hr.salary.rule,company_id:0
+#: field:hr.salary.rule.category,company_id:0
+msgid "Company"
+msgstr "شركة"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "The Manager"
+msgstr "المدير"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Letter Details"
+msgstr "تفاصيل الخطاب"
+
+#. module: hr_payroll
+#: report:paylip.details:0 report:payslip:0
+msgid ","
+msgstr "،"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: view:hr.payslip.run:0
+msgid "Set to Draft"
+msgstr "حفظ كمسودة"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:180
+#: code:addons/hr_payroll/hr_payroll.py:195
+#: code:addons/hr_payroll/hr_payroll.py:285
+#: code:addons/hr_payroll/hr_payroll.py:835
+#: code:addons/hr_payroll/hr_payroll.py:1111
+#: code:addons/hr_payroll/hr_payroll.py:1126
+#: code:addons/hr_payroll/hr_payroll.py:1410
+#, python-format
+msgid "Variable Error: %s "
+msgstr "خطأ متغير: %s "
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Expire"
+msgstr "قضاء الصلاحية"
+
+#. module: hr_payroll
+#: selection:hr.holidays.status,type:0
+msgid "Half-Pay Holiday"
+msgstr "اجازة بنصف الراتب"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+#: field:hr.payslip,other_pay:0
+msgid "Others"
+msgstr "أخرى"
+
+#. module: hr_payroll
+#: field:hr.payslip.input,payslip_id:0
+#: field:hr.payslip.line,slip_id:0
+#: field:hr.payslip.worked_days,payslip_id:0
+#: model:ir.model,name:hr_payroll.model_hr_payslip
+#: report:payslip:0
+msgid "Pay Slip"
+msgstr "ظرف المرتب"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Contract Detail:"
+msgstr "تفاصيل العقد:"
+
+#. module: hr_payroll
+#: field:hr.payslip,igross:0
+#: field:hr.payslip,inet:0
+msgid "Calculaton Field"
+msgstr "حقل الحساب"
+
+#. module: hr_payroll
+#: help:hr.payroll.advice,bank_id:0
+#: help:hr.payroll.register,bank_id:0
+msgid "Select the Bank Address from whcih the salary is going to be paid"
+msgstr "اختار عنوان المصرف الذي سيتم دفع الراتب منه"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+#: field:hr.payroll.advice.line,advice_id:0
+msgid "Bank Advice"
+msgstr "نصيحة المصرف"
+
+#. module: hr_payroll
+#: selection:hr.payroll.advice,state:0
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Reject"
+msgstr "رفض"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Leaves"
+msgstr "مغادرات"
+
+#. module: hr_payroll
+#: field:hr.contibution.register.line,register_id:0
+#: view:hr.payslip:0
+#: field:hr.payslip,register_id:0
+#: report:payslip.pdf:0
+msgid "Register"
+msgstr "تسجيل"
+
+#. module: hr_payroll
+#: constraint:hr.employee:0
+msgid ""
+"Error ! You cannot select a department for which the employee is the manager."
+msgstr "خطأ! لا يمكنك تحديد الادارة التي يديرها الموظف."
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Total Deductions"
+msgstr "المجوع الكلي للخصومات"
+
+#. module: hr_payroll
+#: field:company.contribution.line,value:0
+#: field:hr.payslip.line.line,value:0
+msgid "Value"
+msgstr "قيمة"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "Name of the Employee"
+msgstr "اسم الموظف"
+
+#. module: hr_payroll
+#: view:hr.contibution.register:0
+msgid "Register Lines"
+msgstr "خطوط التسجيل"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Salary Computation"
+msgstr "حساب الراتب"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+#: field:hr.payslip.input,amount:0
+#: field:hr.payslip.line,amount:0
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Amount"
+msgstr "المقدار"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:1225
+#, python-format
+msgid "Please check configuration of %s, payroll head is missing"
+msgstr "الرجاء مراجعة التكوين لـ %s, الراتب الرأسي قد فقد"
+
+#. module: hr_payroll
+#: selection:company.contribution,amount_type:0
+msgid "Percentage"
+msgstr "نسبة مئوية"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Other Information"
+msgstr "معلومات أخرى"
+
+#. module: hr_payroll
+#: field:hr.passport,country_id:0
+msgid "Country of Issue"
+msgstr "بلد الاصدار"
+
+#. module: hr_payroll
+#: field:hr.contibution.register.line,emp_deduction:0
+msgid "Employee Deduction"
+msgstr "خصومات الموظف"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,code:0
+msgid "Category Code"
+msgstr "كود التصنيف"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Other Deduction"
+msgstr "خصومات اخرى"
+
+#. module: hr_payroll
+#: selection:hr.holidays.status,type:0
+msgid "Paid Holiday"
+msgstr "الاجازات المدفوعة"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+#: view:hr.salary.rule:0
+msgid "Group By..."
+msgstr "تجميع حسب..."
+
+#. module: hr_payroll
+#: field:hr.passport,date_expire:0
+msgid "Passport Expire Date"
+msgstr "تاريخ انتهاء جواز السفر"
+
+#. module: hr_payroll
+#: selection:hr.holidays.status,type:0
+msgid "Un-Paid Holiday"
+msgstr "اجازات غير مدفوعة الاجر"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Valid From"
+msgstr "صالحة من"
+
+#. module: hr_payroll
+#: help:hr.payslip,igross:0
+#: help:hr.payslip,inet:0
+msgid ""
+"Calculation field used for internal calculation, do not place this on form"
+msgstr "يستخدم حقل الحساب للحساب الداخلي, لا تضعه على هذا الشكل"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Amount (in words) :"
+msgstr "المبلغ (حرفياً) :"
+
+#. module: hr_payroll
+#: field:hr.holidays.status,type:0
+msgid "Payment"
+msgstr "الدفع"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+#: model:ir.model,name:hr_payroll.model_hr_payslip_line
+msgid "Payslip Line"
+msgstr "خط قسيمة الدفع"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Identification No"
+msgstr "رقم الهوية"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+#: field:hr.allounce.deduction.categoty,base:0
+msgid "Based on"
+msgstr "بالاستناد الى"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Wating for Verification"
+msgstr "انتظار التحقق"
+
+#. module: hr_payroll
+#: model:ir.module.module,shortdesc:hr_payroll.module_meta_information
+msgid "Human Resource Payroll"
+msgstr "رواتب الموارد البشرية"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: selection:hr.payslip,state:0
+#: view:hr.payslip.run:0
+#: selection:hr.payslip.run,state:0
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+msgid "Total:"
+msgstr "الإجمالي:"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Posted"
+msgstr "مرحَلة"
+
+#. module: hr_payroll
+#: model:ir.module.module,description:hr_payroll.module_meta_information
+msgid ""
+"Generic Payroll system\n"
+"    * Employee Details\n"
+"    * Employee Contracts\n"
+"    * Passport based Contract\n"
+"    * Allowances / Deductions\n"
+"    * Allow to configure Basic / Grows / Net Salary\n"
+"    * Employee Payslip\n"
+"    * Monthly Payroll Register\n"
+"    * Integrated with Holiday Management\n"
+"    "
+msgstr ""
+"نظام الراتب العام\n"
+"* تفاصيل عن الموظفين\n"
+"*عقود الموظفين\n"
+"*الجوازات بناءًا على العقود\n"
+"*البدلات / الخصم\n"
+"السماح لتكوين الراتب الأساسي /النامي/ صافي\n"
+"* قسيمة الدفع للموظف\n"
+"* تسجيل الرواتب الشهرية\n"
+"* مدمج مع إدارة عطلة\n"
+"    "
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_holidays_status
+msgid "Leave Type"
+msgstr "نوع الاجازة"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Date :"
+msgstr "تاريخ :"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,total:0
+msgid "Sub Total"
+msgstr "الجزئي"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Payments -"
+msgstr "المدفوعات -"
+
+#. module: hr_payroll
+#: field:hr.contract,visa_no:0
+msgid "Visa No"
+msgstr "رقم التأشيرة"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "From"
+msgstr "من"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice.line,bysal:0
+#: report:payroll.advice:0
+msgid "By Salary"
+msgstr "حسب المرتب"
+
+#. module: hr_payroll
+#: field:hr.payroll.employees.detail,date_to:0
+#: field:hr.payroll.year.salary,date_to:0
+#: report:salary.structure:0
+msgid "End Date"
+msgstr "تاريخ الإنتهاء"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.payslip_report
+msgid "Employee PaySlip"
+msgstr "قسيمةالدفع للموظف"
+
+#. module: hr_payroll
+#: field:hr.payslip,leaves:0
+msgid "Leave Deductions"
+msgstr "خصومات الاجازات"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+#: report:payroll.advice:0
+msgid "Authorised Signature"
+msgstr "التوقيع المصرح"
+
+#. module: hr_payroll
+#: selection:hr.payslip.line,amount_type:0
+msgid "Function Value"
+msgstr "القيمة الوظيفية"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_contibution_register_line
+msgid "Contribution Register Line"
+msgstr "خط تسجيل المساهمة"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Notes:"
+msgstr "ملاحظات:"
+
+#. module: hr_payroll
+#: field:hr.payslip,state:0 field:hr.payslip.run,state:0
+msgid "State"
+msgstr "الحالة"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Paymeny Lines"
+msgstr "تفاصيل الدفعة"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Other Lines"
+msgstr "خطوط اخرى"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: view:hr.allounce.deduction.categoty:0
+#: view:hr.payroll.structure:0
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+msgid "Function Arguments"
+msgstr "عوامل الوظيفة"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_company_contribution_tree
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_company_contribution_tree
+msgid "Company Contributions"
+msgstr "مساهمات الشركة"
+
+#. module: hr_payroll
+#: field:hr.payslip,employee_id:0
+#: field:hr.payslip.line,employee_id:0
+#: model:ir.model,name:hr_payroll.model_hr_employee
+msgid "Employee"
+msgstr "موظف"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,base:0
+msgid "Formula"
+msgstr "الصيغة"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_advice_line
+msgid "Bank Advice Lines"
+msgstr "خط نصيحة البنك"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: view:hr.allounce.deduction.categoty:0
+#: field:hr.allounce.deduction.categoty,type:0
+#: field:hr.payslip.line,type:0
+#: report:salary.structure:0
+msgid "Type"
+msgstr "النوع"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "#"
+msgstr "#"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:861
+#: code:addons/hr_payroll/hr_payroll.py:866
+#: code:addons/hr_payroll/hr_payroll.py:872
+#: code:addons/hr_payroll/hr_payroll.py:889
+#: code:addons/hr_payroll/hr_payroll.py:895
+#, python-format
+msgid "Error !"
+msgstr "خطأ !"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+#: view:hr.payslip:0
+msgid "Verify Sheet"
+msgstr "ورقة التحقق"
+
+#. module: hr_payroll
+#: help:hr.contract,working_days_per_week:0
+msgid "No of Working days / week for an employee"
+msgstr "عدد ايام العمل / ضعيف للموظف"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "New Slip"
+msgstr "قسيمة جديدة"
+
+#. module: hr_payroll
+#: field:hr.payslip,basic:0
+msgid "Net Basic"
+msgstr "صافي الاساس"
+
+#. module: hr_payroll
+#: field:hr.contract,gross:0
+#: field:hr.employee,gross:0
+#: field:hr.payroll.register,grows:0
+#: field:hr.payslip,grows:0
+#: report:salary.structure:0
+msgid "Gross Salary"
+msgstr "الراتب الإجمالي"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Total Earnings"
+msgstr "الراتب المستحق"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Other Payment"
+msgstr "دفعة اخرى"
+
+#. module: hr_payroll
+#: field:hr.employee,advantages_net:0
+#: report:payslip.pdf:0
+#: report:salary.structure:0
+msgid "Deductions"
+msgstr "الخصومات"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "C/D"
+msgstr "C/D"
+
+#. module: hr_payroll
+#: field:hr.contract,permit_no:0
+msgid "Work Permit No"
+msgstr "خطة التقدم"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice,line_ids:0
+msgid "Employee Salary"
+msgstr "راتب الموظف"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice,chaque_nos:0
+msgid "Chaque Nos"
+msgstr "ارقام الشيك"
+
+#. module: hr_payroll
+#: field:hr.contibution.register,monthly_total_by_emp:0
+msgid "Total By Employee"
+msgstr "المجموع الكلي للموظفين"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,amount_fix:0
+#: selection:hr.payslip.line,amount_select:0
+#: field:hr.salary.rule,amount_fix:0
+#: selection:hr.salary.rule,amount_select:0
+msgid "Fixed Amount"
+msgstr "مبلغ ثابت"
+
+#. module: hr_payroll
+#: help:company.contribution,contribute_per:0
+msgid "Define Company contribution ratio 1.00=100% contribution."
+msgstr "حدد نسبة مساهمة الشركة  1.00=%100"
+
+#. module: hr_payroll
+#: field:company.contribution.line,to_val:0
+#: report:employees.salary:0
+#: field:hr.payslip.line.line,to_val:0
+#: report:year.salary:0
+msgid "To"
+msgstr "إلى"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:180
+#: code:addons/hr_payroll/hr_payroll.py:195
+#: code:addons/hr_payroll/hr_payroll.py:285
+#: code:addons/hr_payroll/hr_payroll.py:835
+#: code:addons/hr_payroll/hr_payroll.py:1111
+#: code:addons/hr_payroll/hr_payroll.py:1126
+#: code:addons/hr_payroll/hr_payroll.py:1410
+#, python-format
+msgid "Variable Error !"
+msgstr "خطأ متنوع !"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_employees_detail
+msgid "hr.payroll.employees.detail"
+msgstr "hr.payroll.employees.detail"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+#: view:hr.payslip:0
+msgid "Pay Salary"
+msgstr "ادفع الراتب"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice.line,name:0
+msgid "Bank Account A/C"
+msgstr "حساب المصرف"
+
+#. module: hr_payroll
+#: view:hr.contibution.register:0
+msgid "Contribution Lines"
+msgstr "خطوط مساهمة"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "For the month of"
+msgstr "لشهر"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+#: selection:hr.allounce.deduction.categoty,type:0
+#: field:hr.payroll.register,deduction:0
+#: report:hr.payroll.register.sheet:0
+#: field:hr.payslip,deduction:0
+#: selection:hr.payslip.line,type:0
+msgid "Deduction"
+msgstr "الخصم"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_advice
+msgid "Bank Advice Note"
+msgstr "مذكرة النصيحة للبنك"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Payslip"
+msgstr "قسيمة الدفع"
+
+#. module: hr_payroll
+#: constraint:hr.contract:0
+msgid "Error! contract start-date must be lower then contract end-date."
+msgstr "خطأ! يجب ان يكون تاريخ بدء العقد اقل من تاريخ انتهاء العقد."
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Loan Installment"
+msgstr "الدفعة المستحقة للقرض"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "HR Manager"
+msgstr "مدير الموارد البشرية"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "Yours Sincerely"
+msgstr "مع خالص التقدير"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "SI. No."
+msgstr "رقمSI"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Net Amount"
+msgstr "صافي الكمية"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Leave Deductions Line:"
+msgstr "خط خصم الاجازة:"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Salary Structure:"
+msgstr "هيكل الراتب"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.year_employees_detail
+msgid "Employees Salary Detail"
+msgstr "تفاصيل رواتب الموظفين"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payslip_line_line
+msgid "Function Line"
+msgstr "الخط الوظيفي"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+#: selection:hr.payroll.advice,state:0
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Confirm Sheet"
+msgstr "ورقة قبض"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Others:"
+msgstr "أخرى:"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: selection:company.contribution,amount_type:0
+msgid "Function Calculation"
+msgstr "الحساب الوظيفي"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Worked Day"
+msgstr "أيام العمل"
+
+#. module: hr_payroll
+#: field:hr.contibution.register,monthly_total_by_comp:0
+msgid "Total By Company"
+msgstr "المجموع الكلي للشركة"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice.line,flag:0
+msgid "D/C"
+msgstr "D/C"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Country & Address"
+msgstr "البلد و العنوان"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Employee Code"
+msgstr "الرقم الوظيفي"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Basic Salary – Leaves"
+msgstr "المرتب الاساسي-الاجازات"
+
+#. module: hr_payroll
+#: view:hr.payslip.line:0
+#: field:hr.payslip.line,amount_select:0
+#: field:hr.salary.rule,amount_select:0
+msgid "Amount Type"
+msgstr "نوع الكمية"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,category_id:0
+#: view:hr.salary.rule:0
+#: field:hr.salary.rule,category_id:0
+msgid "Category"
+msgstr "الفئة"
+
+#. module: hr_payroll
+#: view:hr.salary.rule:0
+msgid "Company Contribution"
+msgstr "مساهمة الشركة"
+
+#. module: hr_payroll
+#: field:company.contribution,category_id:0
+msgid "Heads"
+msgstr "رؤوس"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.year_payroll_register
+msgid "Print Statement"
+msgstr "اطبع كشف الحساب"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,name:0
+msgid "Category Name"
+msgstr "اسم الفئة"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Earnings"
+msgstr "الواردات"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+#: report:salary.structure:0
+msgid "Basic"
+msgstr "أساسي"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_passport_tree
+msgid "All Passports"
+msgstr "كل جوازات السفر"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_year_salary
+#: model:ir.ui.menu,name:hr_payroll.menu_wizard_print_year_salary
+msgid "Salary Register"
+msgstr "تسجيل الراتب"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: report:hr.payroll.register.sheet:0
+msgid "Employee Name"
+msgstr "اسم الموظف"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_passport
+msgid "Passport Detail"
+msgstr "تفاصيل جواز السفر"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,amount_percentage:0
+#: selection:hr.payslip.line,amount_select:0
+#: field:hr.salary.rule,amount_percentage:0
+#: selection:hr.salary.rule,amount_select:0
+msgid "Percentage (%)"
+msgstr "النسبة المئوية (%)"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice,register_id:0
+#: view:hr.payroll.register:0
+#: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_register_form
+#: model:ir.model,name:hr_payroll.model_hr_payroll_register
+#: model:ir.ui.menu,name:hr_payroll.hr_menu_payroll_register
+msgid "Payroll Register"
+msgstr "تسجيل الرواتب"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+#: report:payroll.advice:0
+msgid "For"
+msgstr "لـ"
+
+#. module: hr_payroll
+#: field:hr.passport,contracts_ids:0
+msgid "Contracts"
+msgstr "عقود"
+
+#. module: hr_payroll
+#: view:hr.payroll.structure:0
+msgid "Employee Function"
+msgstr "مهمات الموظف"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Paid"
+msgstr "مدفوع"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Approve Sheet"
+msgstr "وافق على الورقة"
+
+#. module: hr_payroll
+#: field:hr.payslip,paid:0
+msgid "Paid ? "
+msgstr "مدفوع ؟ "
+
+#. module: hr_payroll
+#: view:hr.holidays.status:0
+msgid "Validation"
+msgstr "التحقّق"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Title"
+msgstr "الاسم"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+msgid "Search Company Contribution"
+msgstr "ابحث الشركة المساهمة"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,user_id:0
+msgid "User"
+msgstr "المستخدم"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Payment Lines"
+msgstr "خطوط الدفع"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Compute Sheet"
+msgstr "احسب الورقة"
+
+#. module: hr_payroll
+#: field:hr.contibution.register.line,date:0
+#: field:hr.payroll.advice,date:0
+#: field:hr.payroll.register,date:0
+#: field:hr.payslip,date:0
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: hr_payroll
+#: help:hr.allounce.deduction.categoty,condition:0
+msgid "Applied this head for calculation if condition is true"
+msgstr "طبق هذا الرأس للحساب اذا الحالة صحيحة"
+
+#. module: hr_payroll
+#: report:year.salary:0
+msgid "Yearly Salary Details"
+msgstr "تفاصيل الراتب السنوي"
+
+#. module: hr_payroll
+#: constraint:hr.employee:0
+msgid "Error ! You cannot create recursive Hierarchy of Employees."
+msgstr "خطأ ! لايمكنك انشاء تسلسل هرمي عودي  للعاملين"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,condition:0
+msgid "Condition"
+msgstr "شرط"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Wating for HR Verification"
+msgstr "في انتظار التحقق من الموارد البشرية"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "Payment Advice:"
+msgstr "نصيحة الدفع:"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+msgid "Compute"
+msgstr "احسب"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Designation"
+msgstr "تعيين"
+
+#. module: hr_payroll
+#: field:hr.contract,basic:0
+#: field:hr.employee,basic:0
+#: field:hr.payslip,basic_before_leaves:0
+#: report:payslip.pdf:0
+msgid "Basic Salary"
+msgstr "الراتب الاساسي"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_employees_detail
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_employees_detail
+msgid "Employee Salary Statement"
+msgstr "بيان براتب الموظف"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+msgid "Salary Information"
+msgstr "تفاصيل الراتب"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+msgid "Complete HR Checking"
+msgstr "انتهاء مراجعة الموارد البشرية"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Companies"
+msgstr "الشركات"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Authorized Signature"
+msgstr "المخول بالتوقيع"
+
+#. module: hr_payroll
+#: field:hr.payslip,contract_id:0
+#: field:hr.payslip.input,contract_id:0
+#: field:hr.payslip.line,contract_id:0
+#: field:hr.payslip.worked_days,contract_id:0
+#: model:ir.model,name:hr_payroll.model_hr_contract
+msgid "Contract"
+msgstr "اتفاقية"
+
+#. module: hr_payroll
+#: selection:hr.payroll.advice,state:0
+msgid "Draft Sheet"
+msgstr "ورقة السحب"
+
+#. module: hr_payroll
+#: selection:hr.payroll.year.salary,salary_on:0
+msgid "Next Month Date"
+msgstr "تاريخ الشهر التالي"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,active:0
+#: field:hr.salary.rule,active:0
+msgid "Active"
+msgstr "نشط"
+
+#. module: hr_payroll
+#: field:hr.contract,visa_expire:0
+msgid "Visa Expire Date"
+msgstr "تاريخ انتهاء التأشيرة"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Search Passport"
+msgstr "ابحث عن جواز السفر"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: report:salary.structure:0
+msgid "Phone No."
+msgstr "رقم الهاتف"
+
+#. module: hr_payroll
+#: view:hr.contribution.register:0
+msgid "Contribution"
+msgstr "المشاركة"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,state:0
+msgid "Label"
+msgstr "التسمية"
+
+#. module: hr_payroll
+#: view:hr.salary.rule:0
+msgid "Company contribution"
+msgstr "الشركة المساهمة"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: report:salary.structure:0
+msgid "Other No."
+msgstr "رقم اخر"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+#: field:hr.payslip.input,code:0
+#: field:hr.payslip.line,code:0
+#: field:hr.payslip.worked_days,code:0
+#: field:hr.rule.input,code:0
+#: field:hr.salary.rule,code:0
+#: field:hr.salary.rule.category,code:0
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Code"
+msgstr "الرمز"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_view_hr_bank_advice_tree
+#: model:ir.ui.menu,name:hr_payroll.hr_menu_payment_advice
+msgid "Payment Advice"
+msgstr "نصيحة الدفع"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Number :"
+msgstr "رقم :"
+
+#. module: hr_payroll
+#: help:hr.allounce.deduction.categoty,base:0
+msgid ""
+"This will use to computer the % fields values, in general its on basic, but "
+"You can use all heads code field in small letter as a variable name i.e. "
+"hra, ma, lta, etc...., also you can use, static varible basic"
+msgstr ""
+"سيستخدم هذا لحساب قيم الحقول % , في العام هي على الاساس, لكن يمكنك استخدام "
+"كل حقول اكواد الراسية في رسالة صغيرة كإسم متغير مثال hra, ma, lta, الخ, "
+"يمكنك ايضًا استخدام اساس متغير او ثابت"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Computation Overview"
+msgstr "نظرة عامة على الحساب"
+
+#. module: hr_payroll
+#: field:hr.payroll.year.salary,salary_on:0
+msgid "Salary On"
+msgstr "الراتب المدخل"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice,number:0
+#: field:hr.payroll.register,number:0
+#: field:hr.payslip,number:0
+msgid "Number"
+msgstr "رقم"
+
+#. module: hr_payroll
+#: field:hr.contract,struct_id:0
+#: view:hr.payroll.structure:0
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+#: model:ir.model,name:hr_payroll.model_hr_payroll_structure
+msgid "Salary Structure"
+msgstr "هيكل المرتب"
+
+#. module: hr_payroll
+#: field:hr.contribution.register,register_line_ids:0
+msgid "Register Line"
+msgstr "خط التسجيل"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: hr_payroll
+#: view:hr.payslip.run:0
+#: selection:hr.payslip.run,state:0
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,amount:0
+msgid "Amount / Percentage"
+msgstr "الكمية / النسبة المئوية"
+
+#. module: hr_payroll
+#: field:hr.employee,advantages_gross:0
+#: report:hr.payroll.register.sheet:0
+#: report:salary.structure:0
+msgid "Allowances"
+msgstr "البدلات"
+
+#. module: hr_payroll
+#: selection:hr.payroll.year.salary,salary_on:0
+msgid "Current Month Date"
+msgstr "تاريخ الشهر الجاري"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Salary"
+msgstr "الراتب"
+
+#. module: hr_payroll
+#: field:hr.contract,passport_id:0
+#: field:hr.passport,name:0
+msgid "Passport No"
+msgstr "رقم جواز السفر"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Passport"
+msgstr "جواز السفر"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Total Salary"
+msgstr "المجموع الكلي للمرتب"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "for period"
+msgstr "خلال الفترة"
+
+#. module: hr_payroll
+#: field:hr.holidays.status,head_id:0
+msgid "Payroll Head"
+msgstr "مسؤول الرواتب"
+
+#. module: hr_payroll
+#: view:hr.payslip.line:0
+#: field:hr.payslip.line,register_id:0
+#: field:hr.salary.rule,register_id:0
+#: model:ir.model,name:hr_payroll.model_hr_contribution_register
+msgid "Contribution Register"
+msgstr "تسجيل المساهمة"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+#: model:ir.actions.act_window,name:hr_payroll.hr_allounce_deduction_tree
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_allounce_deduction_tree
+msgid "Salary Heads"
+msgstr "رأسيات الراتب"
+
+#. module: hr_payroll
+#: view:hr.payroll.employees.detail:0
+#: view:hr.payroll.year.salary:0
+msgid "Print Report"
+msgstr "طباعة التقرير"
+
+#. module: hr_payroll
+#: view:hr.payslip.line:0
+msgid "Calculations"
+msgstr "حسابات"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Other Informations"
+msgstr "معلومات اخرى"
+
+#. module: hr_payroll
+#: view:hr.contibution.register:0
+msgid "Month"
+msgstr "شهر"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Issue"
+msgstr "حالة"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+msgid "Dynamic Computation"
+msgstr "دينامية الحاسوب"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Basic Salary without Leave:"
+msgstr "الراتب الاساسي بدون الاجازات:"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: view:hr.allounce.deduction.categoty:0
+#: view:hr.payroll.structure:0
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+#: field:hr.payslip.line,function_id:0
+msgid "Function"
+msgstr "المهمة"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "States"
+msgstr "حالات"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "Dear Sir/Madam,"
+msgstr "عزيزي سيدي / سيدتي،"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_allounce_deduction_categoty
+msgid "Allowance Deduction Heads"
+msgstr "رأسيات خصم البدلات"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Gross Sal."
+msgstr "الراتب الاجمالي"
+
+#. module: hr_payroll
+#: view:hr.contribution.register:0
+#: field:hr.contribution.register,note:0
+#: field:hr.payroll.structure,note:0
+#: field:hr.payslip,name:0
+#: field:hr.payslip,note:0
+#: field:hr.payslip.input,name:0
+#: field:hr.payslip.line,note:0
+#: field:hr.payslip.worked_days,name:0
+#: field:hr.rule.input,name:0
+#: view:hr.salary.rule:0
+#: field:hr.salary.rule,note:0
+#: field:hr.salary.rule.category,note:0
+msgid "Description"
+msgstr "الوصف"
+
+#. module: hr_payroll
+#: field:hr.payroll.employees.detail,date_from:0
+#: field:hr.payroll.year.salary,date_from:0
+#: report:salary.structure:0
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Deduction -"
+msgstr "الخصم -"
+
+#. module: hr_payroll
+#: report:paylip.details:0 report:payslip:0
+msgid ")"
+msgstr ")"
+
+#. module: hr_payroll
+#: view:hr.contribution.register:0
+#: model:ir.actions.act_window,name:hr_payroll.action_contribution_register_form
+#: model:ir.ui.menu,name:hr_payroll.menu_action_hr_contribution_register_form
+msgid "Contribution Registers"
+msgstr "تسجيلات مساهمة"
+
+#. module: hr_payroll
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_reporting
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_root_payroll
+#: model:ir.ui.menu,name:hr_payroll.payroll_configure
+msgid "Payroll"
+msgstr "الراتب"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_contract_wage_type
+msgid "Wage Type"
+msgstr "نوع الاجور"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Net Sal."
+msgstr "صافي المرتب"
+
+#. module: hr_payroll
+#: sql_constraint:hr.passport:0
+msgid "The Passport No must be unique !"
+msgstr "يجب ان يكون رقم جواز السفر منفرد !"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_year_salary
+msgid "hr.payroll.year.salary"
+msgstr "الموارد البشرية.الرواتب.السنه.الراتب"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Address"
+msgstr "العنوان"
+
+#. module: hr_payroll
+#: field:hr.payslip.line.line,slipline_id:0
+msgid "Slip Line"
+msgstr "خط القسيمة"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Number of Leaves"
+msgstr "عدد الاجازات"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: field:hr.payroll.advice,bank_id:0
+#: field:hr.payroll.register,bank_id:0
+#: report:salary.structure:0
+msgid "Bank"
+msgstr "مصرف"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Cancel Sheet"
+msgstr "الغي الورقة"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Advance"
+msgstr "مقدم"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Special Allowances and Deductions For Employee:"
+msgstr "بدلات خاصة وخصومات للموظف:"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+#: field:hr.contribution.register,name:0
+#: field:hr.payroll.structure,name:0
+#: field:hr.payslip.line,name:0
+#: field:hr.payslip.run,name:0
+#: field:hr.salary.rule,name:0
+#: field:hr.salary.rule.category,name:0
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Name"
+msgstr "الاسم"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Leaved Deduction"
+msgstr "خصومات  بدل الاجازة"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Country"
+msgstr "الدولة"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: view:hr.payslip.employees:0
+#: field:hr.payslip.employees,employee_ids:0
+#: view:hr.payslip.line:0
+msgid "Employees"
+msgstr "الموظفون"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Bank Account"
+msgstr "حساب البنك"
+
+#. module: hr_payroll
+#: help:company.contribution,register_id:0
+msgid "Contribution register based on company"
+msgstr "يعتمد تسجيل المساهمة على الشركة"
+
+#. module: hr_payroll
+#: help:hr.payslip.line,sequence:0
+#: help:hr.salary.rule,sequence:0
+msgid "Use to arrange calculation sequence"
+msgstr "تستخدم لترتيب متتابعة الحساب"
+
+#. module: hr_payroll
+#: field:hr.payslip,total_pay:0
+msgid "Total Payment"
+msgstr "المجموع الكلي للدفع"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_company_contribution_line
+msgid "Allowance Deduction Category"
+msgstr "تصنيف خصوم البدلات"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Wating for Account Verification"
+msgstr "في انتظار التحقق من الحساب"
+
+#. module: hr_payroll
+#: field:hr.contibution.register.line,comp_deduction:0
+msgid "Company Deduction"
+msgstr "خصوم الشركة"
+
+#. module: hr_payroll
+#: view:hr.holidays.status:0
+msgid "Payroll Configurtion"
+msgstr "اعداد الرواتب"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:469
+#, python-format
+msgid "Please define bank account for the %s employee"
+msgstr "من فضلك حدد حساب المصرف للموظف %s"
+
+#. module: hr_payroll
+#: field:hr.passport,date_issue:0
+msgid "Passport Issue Date"
+msgstr "تاريخ اصدار جواز السفر"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+#: selection:hr.allounce.deduction.categoty,type:0
+#: field:hr.payroll.register,allounce:0
+#: field:hr.payslip,allounce:0
+#: selection:hr.payslip.line,type:0
+msgid "Allowance"
+msgstr "البدلات"
+
+#. module: hr_payroll
+#: field:hr.payslip,holiday_days:0
+msgid "No of Leaves"
+msgstr "عدد الاجازات"
+
+#. module: hr_payroll
+#: field:hr.employee,otherid:0
+msgid "Other Id"
+msgstr "تعريفات اخرى"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Bank Details"
+msgstr "تفاصيل البنك"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Slip ID"
+msgstr "تعريف القسيمة"
+
+#. module: hr_payroll
+#: field:hr.payslip.input,sequence:0
+#: field:hr.payslip.line,sequence:0
+#: field:hr.payslip.worked_days,sequence:0
+#: field:hr.salary.rule,sequence:0
+msgid "Sequence"
+msgstr "مسلسل"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payslip_form
+#: model:ir.ui.menu,name:hr_payroll.menu_department_tree
+msgid "Employee Payslip"
+msgstr "قسيمة الدفع للموظف"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Letter Content"
+msgstr "محتوى الخطاب"
+
+#. module: hr_payroll
+#: view:hr.payroll.employees.detail:0
+#: view:hr.payroll.year.salary:0
+msgid "Year Salary"
+msgstr "المرتب السنوي"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+msgid "Allowance / Deduction"
+msgstr "البدلات / الخصومات"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.payroll_advice
+msgid "Bank Payment Advice"
+msgstr "نصيحة المصرف للدفع"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Search Payslips"
+msgstr "ابحث قسيمة الدفع"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+#: field:hr.payslip.line,total:0
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Total"
+msgstr "الإجمالي"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: view:hr.allounce.deduction.categoty:0
+#: field:hr.allounce.deduction.categoty,contribute_ids:0
+msgid "Contributions"
+msgstr "المساهمات"

@@ -1,0 +1,847 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* hr
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 5.0.4\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2011-05-09 10:18+0000\n"
+"PO-Revision-Date: 2012-02-29 13:09+0000\n"
+"Last-Translator: Pioneer Solutions <wzaki_dotcom@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:10+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: hr
+#: model:process.node,name:hr.process_node_openerpuser0
+msgid "Openerp user"
+msgstr "مستخدم OpenERP"
+
+#. module: hr
+#: field:hr.job,requirements:0
+msgid "Requirements"
+msgstr "المتطلبات"
+
+#. module: hr
+#: constraint:hr.department:0
+msgid "Error! You can not create recursive departments."
+msgstr "خطأ! لايمكنك انشاء إدارات متداخلة."
+
+#. module: hr
+#: model:process.transition,name:hr.process_transition_contactofemployee0
+msgid "Link the employee to information"
+msgstr "وصل الموظف بالمعلومات"
+
+#. module: hr
+#: field:hr.employee,sinid:0
+msgid "SIN No"
+msgstr "رقم التوقيع"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_board_hr
+#: model:ir.ui.menu,name:hr.menu_hr_dashboard
+#: model:ir.ui.menu,name:hr.menu_hr_main
+#: model:ir.ui.menu,name:hr.menu_hr_reporting
+#: model:ir.ui.menu,name:hr.menu_hr_root
+#: model:ir.ui.menu,name:hr.menu_human_resources_configuration
+msgid "Human Resources"
+msgstr "الموارد البشرية"
+
+#. module: hr
+#: view:hr.employee:0
+#: view:hr.job:0
+msgid "Group By..."
+msgstr "تجميع بـ ..."
+
+#. module: hr
+#: model:ir.actions.act_window,help:hr.action_hr_job
+msgid ""
+"Job Positions are used to define jobs and their requirements. You can keep "
+"track of the number of employees you have per job position and how many you "
+"expect in the future. You can also attach a survey to a job position that "
+"will be used in the recruitment process to evaluate the applicants for this "
+"job position."
+msgstr ""
+"وتستخدم الاوضاع الوظيفية لتحديد الوظائف ومتطلباتها. يمكنك تتبع عدد من "
+"الموظفين لديك في كل وضع وظيفي, وكم كنت تتوقع في المستقبل. يمكنك أيضا إرفاق "
+"دراسة استقصائية للموقف الوظيفي التي سيتم استخدامها في عملية التوظيف لتقييم "
+"المتقدمين للحصول على هذه الوظيفة."
+
+#. module: hr
+#: view:hr.department:0
+#: view:hr.employee:0
+#: field:hr.employee,department_id:0
+#: view:hr.job:0
+#: field:hr.job,department_id:0
+#: model:ir.model,name:hr.model_hr_department
+msgid "Department"
+msgstr "القسم"
+
+#. module: hr
+#: help:hr.installer,hr_attendance:0
+msgid "Simplifies the management of employee's attendances."
+msgstr "ويبسط ادارة حضور الموظف"
+
+#. module: hr
+#: view:hr.job:0
+msgid "Mark as Old"
+msgstr "تحديد كقديم"
+
+#. module: hr
+#: view:hr.job:0
+msgid "Jobs"
+msgstr "الأعمال"
+
+#. module: hr
+#: view:hr.job:0
+msgid "In Recruitment"
+msgstr "في التوظيف"
+
+#. module: hr
+#: view:hr.installer:0
+msgid "title"
+msgstr "العنوان"
+
+#. module: hr
+#: field:hr.department,company_id:0
+#: view:hr.employee:0
+#: view:hr.job:0
+#: field:hr.job,company_id:0
+msgid "Company"
+msgstr "الشركة"
+
+#. module: hr
+#: field:hr.job,no_of_recruitment:0
+msgid "Expected in Recruitment"
+msgstr "متوقع في التوظيف"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_config
+msgid "Holidays"
+msgstr "عطل"
+
+#. module: hr
+#: help:hr.installer,hr_holidays:0
+msgid "Tracks employee leaves, allocation requests and planning."
+msgstr "موظف المسارات يترك, طلبات التخصيص والتخطيط."
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_employee_marital_status
+msgid "Employee Marital Status"
+msgstr "الحالة الاجتماعية للموظف"
+
+#. module: hr
+#: help:hr.employee,partner_id:0
+msgid ""
+"Partner that is related to the current employee. Accounting transaction will "
+"be written on this partner belongs to employee."
+msgstr ""
+"الشريك هو المتعلق بالموظف الحالي. وستكتب هذه المعاملات الحسابية على هذا "
+"الشيك المنتمي للموظف."
+
+#. module: hr
+#: model:process.transition,name:hr.process_transition_employeeuser0
+msgid "Link a user to an employee"
+msgstr "صل المستخدم للموظف"
+
+#. module: hr
+#: field:hr.installer,hr_contract:0
+msgid "Employee's Contracts"
+msgstr "عقود الموظف"
+
+#. module: hr
+#: help:hr.installer,hr_payroll:0
+msgid "Generic Payroll system."
+msgstr "نظام الرواتب العامة."
+
+#. module: hr
+#: view:hr.employee:0
+msgid "My Departments Employee"
+msgstr "موظف ادارتي"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Married"
+msgstr "متزوّج"
+
+#. module: hr
+#: constraint:hr.employee:0
+msgid ""
+"Error ! You cannot select a department for which the employee is the manager."
+msgstr "خطأ! لا يمكنك تحديد الادارة التي يديرها الموظف."
+
+#. module: hr
+#: help:hr.employee,passport_id:0
+msgid "Employee Passport Information"
+msgstr "معلومات عن موظف الجوازات"
+
+#. module: hr
+#: model:ir.actions.act_window,help:hr.open_module_tree_department
+msgid ""
+"Your Company's Department Structure is used to manage all documents related "
+"to employees by departments: expenses and timesheet validation, leaves "
+"management, recruitments, etc."
+msgstr ""
+"اعتادت هيكل ادارة شركتك لادارة كل الوثائق المرتبطة للموظف بالادارات: النفقات "
+"والتحقق من صحة الجدول الزمني, يترك الادارة, التوظيف, الخ."
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Position"
+msgstr "منصب"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.action2
+msgid "Employee Hierarchy"
+msgstr "هرمية الموظف"
+
+#. module: hr
+#: model:process.transition,note:hr.process_transition_employeeuser0
+msgid ""
+"The Related user field on the Employee form allows to link the OpenERP user "
+"(and her rights) to the employee."
+msgstr ""
+"يسمح حقل المستخدم المتعلق بشكل الموظف بوصل مستخدم OpenERP (و حقوقها) للموظف."
+
+#. module: hr
+#: view:hr.job:0 selection:hr.job,state:0
+msgid "In Recruitement"
+msgstr "في التوظيف"
+
+#. module: hr
+#: field:hr.employee,identification_id:0
+msgid "Identification No"
+msgstr "رقم الهوية"
+
+#. module: hr
+#: field:hr.job,no_of_employee:0
+msgid "No of Employee"
+msgstr "رقم الموظف"
+
+#. module: hr
+#: selection:hr.employee,gender:0
+msgid "Female"
+msgstr "أنثى"
+
+#. module: hr
+#: help:hr.installer,hr_timesheet_sheet:0
+msgid ""
+"Tracks and helps employees encode and validate timesheets and attendances."
+msgstr ""
+"التعقب ومساعدة الموظفين للترميز والتحقق من صحة الجداول الزمنية والحضور."
+
+#. module: hr
+#: field:hr.installer,hr_evaluation:0
+msgid "Periodic Evaluations"
+msgstr "التقييمات الدورية"
+
+#. module: hr
+#: field:hr.installer,hr_timesheet_sheet:0
+msgid "Timesheets"
+msgstr "الجداول الزمنية"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_view_employee_tree
+msgid "Employees Structure"
+msgstr "هيكل الموظفين"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Social IDs"
+msgstr "معرفات اجتماعية"
+
+#. module: hr
+#: help:hr.job,no_of_employee:0
+msgid "Number of employee with that job."
+msgstr "عدد الموظفين لذلك العمل"
+
+#. module: hr
+#: field:hr.employee,work_phone:0
+msgid "Work Phone"
+msgstr "هاتف العمل"
+
+#. module: hr
+#: field:hr.employee.category,child_ids:0
+msgid "Child Categories"
+msgstr "تصنيفات فرعية"
+
+#. module: hr
+#: field:hr.job,description:0
+#: model:ir.model,name:hr.model_hr_job
+msgid "Job Description"
+msgstr "وصف العمل"
+
+#. module: hr
+#: field:hr.employee,work_location:0
+msgid "Office Location"
+msgstr "مكان المكتب"
+
+#. module: hr
+#: view:hr.employee:0
+#: model:ir.model,name:hr.model_hr_employee
+#: model:process.node,name:hr.process_node_employee0
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: hr
+#: model:process.node,note:hr.process_node_employeecontact0
+msgid "Other information"
+msgstr "معلومات أخرى"
+
+#. module: hr
+#: field:hr.employee,work_email:0
+msgid "Work E-mail"
+msgstr "بريد العمل الإلكتروني"
+
+#. module: hr
+#: field:hr.department,complete_name:0
+#: field:hr.employee,name_related:0
+#: field:hr.employee.category,complete_name:0
+msgid "Name"
+msgstr "الاسم"
+
+#. module: hr
+#: field:hr.employee,birthday:0
+msgid "Date of Birth"
+msgstr "تاريخ الميلاد"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_hr_reporting
+msgid "Reporting"
+msgstr "التقارير"
+
+#. module: hr
+#: model:ir.model,name:hr.model_ir_actions_act_window
+msgid "ir.actions.act_window"
+msgstr "ir.actions.act_window"
+
+#. module: hr
+#: view:board.board:0
+msgid "Human Resources Dashboard"
+msgstr "لوحة معلومات الموارد البشرية"
+
+#. module: hr
+#: view:hr.employee:0
+#: field:hr.employee,job_id:0
+#: view:hr.job:0
+msgid "Job"
+msgstr "العمل"
+
+#. module: hr
+#: field:hr.department,member_ids:0
+msgid "Members"
+msgstr "الأعضاء"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_hr_configuration
+msgid "Configuration"
+msgstr "إعدادات"
+
+#. module: hr
+#: view:hr.installer:0
+msgid ""
+"You can enhance the base HR Application by installing few HR-related "
+"functionalities."
+msgstr ""
+"يمكنك تعزيز تطبيق قاعدة الموارد البشرية بتثبيت قليل من الموارد البشرية "
+"المتعلقة بالوظائف."
+
+#. module: hr
+#: view:hr.employee:0 field:hr.employee,category_ids:0
+msgid "Categories"
+msgstr "التصنيفات"
+
+#. module: hr
+#: field:hr.job,expected_employees:0
+msgid "Expected Employees"
+msgstr "الموظفون المتوقعون"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Divorced"
+msgstr "مطلّق"
+
+#. module: hr
+#: field:hr.employee.category,parent_id:0
+msgid "Parent Category"
+msgstr "التصنيف الرئيسي"
+
+#. module: hr
+#: constraint:hr.employee.category:0
+msgid "Error ! You cannot create recursive Categories."
+msgstr "خطأ ! لايمكنك انشاء فئات عودية."
+
+#. module: hr
+#: view:hr.department:0
+#: model:ir.actions.act_window,name:hr.open_module_tree_department
+#: model:ir.ui.menu,name:hr.menu_hr_department_tree
+msgid "Departments"
+msgstr "الأقسام"
+
+#. module: hr
+#: model:process.node,name:hr.process_node_employeecontact0
+msgid "Employee Contact"
+msgstr "جهات اتصال الموظف"
+
+#. module: hr
+#: view:board.board:0
+msgid "My Board"
+msgstr "لجنتي"
+
+#. module: hr
+#: selection:hr.employee,gender:0
+msgid "Male"
+msgstr "ذكر"
+
+#. module: hr
+#: field:hr.installer,progress:0
+msgid "Configuration Progress"
+msgstr "تقدم الإعدادات"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_view_categ_form
+#: model:ir.ui.menu,name:hr.menu_view_employee_category_form
+msgid "Categories of Employee"
+msgstr "تصنيفات الموظف"
+
+#. module: hr
+#: view:hr.employee.category:0
+#: model:ir.model,name:hr.model_hr_employee_category
+msgid "Employee Category"
+msgstr "تصنيف الموظف"
+
+#. module: hr
+#: field:hr.installer,config_logo:0
+msgid "Image"
+msgstr "صورة"
+
+#. module: hr
+#: model:process.process,name:hr.process_process_employeecontractprocess0
+msgid "Employee Contract"
+msgstr "عقود الموظف"
+
+#. module: hr
+#: help:hr.installer,hr_evaluation:0
+msgid ""
+"Lets you create and manage the periodic evaluation and performance review of "
+"employees."
+msgstr "ويتيح لك انشاء وادارة التقييم الدوري واستعراض اداء الموظفين."
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_department
+msgid "hr.department"
+msgstr "قسم الموارد البشرية"
+
+#. module: hr
+#: help:hr.employee,parent_id:0
+msgid "It is linked with manager of Department"
+msgstr "مرتبطة بمدير القسم"
+
+#. module: hr
+#: field:hr.installer,hr_recruitment:0
+msgid "Recruitment Process"
+msgstr "عمليات التوظيف"
+
+#. module: hr
+#: field:hr.employee.category,name:0
+msgid "Category"
+msgstr "التصنيف"
+
+#. module: hr
+#: model:ir.actions.act_window,help:hr.open_view_employee_list_my
+msgid ""
+"Here you can manage your work force by creating employees and assigning them "
+"specific properties in the system. Maintain all employee related information "
+"and keep track of anything that needs to be recorded for them. The personal "
+"information tab will help you maintain their identity data. The Categories "
+"tab gives you the opportunity to assign them related employee categories "
+"depending on their position and activities within the company. A category "
+"can be a seniority level within the company or a department. The Timesheets "
+"tab allows to assign them a specific timesheet and analytic journal where "
+"they will be able to enter time through the system. In the note tab, you can "
+"enter text data that should be recorded for a specific employee."
+msgstr ""
+"هنا يمكنك إدارة قوة العمل الخاصة بك عن طريق انشاء الموظفين وتكليفهم بخصائص "
+"معينة في النظام. الحفاظ على جميع المعلومات المتعلقة بالموظفين وتتبع كل ما "
+"يحتاج  أن يسجل لهم. وفوق علامة التبويب معلومات شخصية تساعدك على الحفاظ على "
+"بيانات هويتهم. في تبويب التصنيف يتيح لك الفرصة لتعيين موظف من فئات ذات الصلة "
+"اعتمادا على موقفهم والأنشطة داخل الشركة. ويمكن لفئة أن يكون مستوى الأقدمية "
+"داخل الشركة أو الإدارة أ. علامة التبويب الجداول الزمنية يسمح لتعيين لهم جدول "
+"زمني محدد ومجلة التحليلية حيث أنها سوف تكون قادرة على الدخول مرة من خلال هذا "
+"النظام. في علامة التبويب ملاحظة، يمكنك إدخال بيانات النص الذي يجب أن يتم "
+"تسجيلها من أجل موظف معين."
+
+#. module: hr
+#: help:hr.employee,bank_account_id:0
+msgid "Employee bank salary account"
+msgstr "الحساب البنكي لراتب الموظف"
+
+#. module: hr
+#: field:hr.department,note:0
+msgid "Note"
+msgstr "ملاحظة"
+
+#. module: hr
+#: constraint:res.users:0
+msgid "The chosen company is not in the allowed companies for this user"
+msgstr "الشركة المختارة غير مدرجة ضمن قائمة الشركات المسموحة لهذا المستخدم"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Contact Information"
+msgstr "معلومات التواصل"
+
+#. module: hr
+#: field:hr.employee,address_id:0
+msgid "Working Address"
+msgstr "عنوان العمل"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_board_hr_manager
+#: model:ir.ui.menu,name:hr.menu_hr_dashboard_manager
+msgid "HR Manager Dashboard"
+msgstr "لوحة معلومات مدير الموارد البشرية"
+
+#. module: hr
+#: view:hr.employee:0
+#: view:hr.job:0
+#: field:hr.job,state:0
+msgid "Status"
+msgstr "الحالة"
+
+#. module: hr
+#: view:hr.installer:0
+msgid "Configure"
+msgstr "تهيئة"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_view_categ_tree
+#: model:ir.ui.menu,name:hr.menu_view_employee_category_tree
+msgid "Categories structure"
+msgstr "هيكل الفئات"
+
+#. module: hr
+#: field:hr.employee,partner_id:0
+msgid "unknown"
+msgstr "غير معرّف"
+
+#. module: hr
+#: field:hr.installer,hr_holidays:0
+msgid "Holidays / Leaves Management"
+msgstr "الاجازات/ مغادرات الادارة"
+
+#. module: hr
+#: field:hr.employee,ssnid:0
+msgid "SSN No"
+msgstr "رقم SSN"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Active"
+msgstr "نشِط"
+
+#. module: hr
+#: constraint:hr.employee:0
+msgid "Error ! You cannot create recursive Hierarchy of Employees."
+msgstr "خطأ ! لايمكنك انشاء تسلسل هرمي عودي  للعاملين"
+
+#. module: hr
+#: field:hr.employee,bank_account_id:0
+msgid "Bank Account Number"
+msgstr "رقم الحساب المصرفي"
+
+#. module: hr
+#: view:hr.department:0
+msgid "Companies"
+msgstr "الشركات"
+
+#. module: hr
+#: model:ir.module.module,description:hr.module_meta_information
+msgid ""
+"\n"
+"    Module for human resource management. You can manage:\n"
+"    * Employees and hierarchies : You can define your employee with User and "
+"display hierarchies\n"
+"    * HR Departments\n"
+"    * HR Jobs\n"
+"    "
+msgstr ""
+"\n"
+"    وحدة لإدارة الموارد البشرية. يمكنك إدارة:\n"
+"* الموظفين والتسلسل الهرمي: يمكنك تحديد الموظف الخاص بك مع المستخدم و تعرض "
+"الهرميات\n"
+"*اأقسام الموارد البشرية \n"
+"* وظائف الموارد البشرية\n"
+"    "
+
+#. module: hr
+#: model:process.transition,note:hr.process_transition_contactofemployee0
+msgid ""
+"In the Employee form, there are different kind of information like Contact "
+"information."
+msgstr "في مضمون الموظفين، هناك اختلاف في المعلومات مثل معلومات المتصل."
+
+#. module: hr
+#: help:hr.job,expected_employees:0
+msgid "Required number of Employees in total for that job."
+msgstr "مطلوب عدد من الموظفين في الكلي لتلك الوظيفة."
+
+#. module: hr
+#: selection:hr.job,state:0
+msgid "Old"
+msgstr "قديم"
+
+#. module: hr
+#: field:hr.employee.marital.status,description:0
+msgid "Status Description"
+msgstr "وصف الحالات"
+
+#. module: hr
+#: sql_constraint:res.users:0
+msgid "You can not have two users with the same login !"
+msgstr "لا يمكن ان يكون هناك مستخدمان بنفس اسم الدخول!"
+
+#. module: hr
+#: view:hr.job:0 field:hr.job,state:0
+msgid "State"
+msgstr "الحالة"
+
+#. module: hr
+#: field:hr.employee,marital:0
+msgid "Marital Status"
+msgstr "الحالة الاجتماعية"
+
+#. module: hr
+#: help:hr.installer,hr_recruitment:0
+msgid "Helps you manage and streamline your recruitment process."
+msgstr "تساعدك في ادارة و تبسيط عملية التوظيف الخاصة بك."
+
+#. module: hr
+#: model:process.node,note:hr.process_node_employee0
+msgid "Employee form and structure"
+msgstr "شكل الموظفين و الهيئة"
+
+#. module: hr
+#: field:hr.employee,image:0
+msgid "Photo"
+msgstr "الصورة"
+
+#. module: hr
+#: model:ir.model,name:hr.model_res_users
+msgid "res.users"
+msgstr "مستخدمي المراجع"
+
+#. module: hr
+#: field:hr.installer,hr_payroll_account:0
+msgid "Payroll Accounting"
+msgstr "محاسبة المرتبات"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Personal Information"
+msgstr "المعلومات الشخصية"
+
+#. module: hr
+#: field:hr.employee,passport_id:0
+msgid "Passport No"
+msgstr "رقم جواز السفر"
+
+#. module: hr
+#: view:res.users:0
+msgid "Current Activity"
+msgstr "النشاط الحالي"
+
+#. module: hr
+#: help:hr.installer,hr_expense:0
+msgid ""
+"Tracks and manages employee expenses, and can automatically re-invoice "
+"clients if the expenses are project-related."
+msgstr ""
+"ويتابع ويدير نفقات الموظفين, ويستطيع اعادة فاتورة العملاء تلقائيًا ادا طانت "
+"النفقات مرتبطه بالمشروع."
+
+#. module: hr
+#: view:hr.job:0
+msgid "Current"
+msgstr "الحالي"
+
+#. module: hr
+#: field:hr.department,parent_id:0
+msgid "Parent Department"
+msgstr "قسم رئيسي"
+
+#. module: hr
+#: view:hr.employee.category:0
+msgid "Employees Categories"
+msgstr "فئات الموظفين"
+
+#. module: hr
+#: field:hr.employee,address_home_id:0
+msgid "Home Address"
+msgstr "عنوان المنزل"
+
+#. module: hr
+#: field:hr.installer,hr_attendance:0
+#: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_new_config
+msgid "Attendances"
+msgstr "الحضور"
+
+#. module: hr
+#: view:hr.job:0
+msgid "Description"
+msgstr "الوصف"
+
+#. module: hr
+#: help:hr.installer,hr_contract:0
+msgid "Extends employee profiles to help manage their contracts."
+msgstr "وتمتد واجهة الموظف للمساعدة في إدارة عقودهم."
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_payroll_modules
+msgid "Payroll"
+msgstr "الراتب"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Single"
+msgstr "أعزب"
+
+#. module: hr
+#: field:hr.job,name:0
+msgid "Job Name"
+msgstr "إسم الوظيفة"
+
+#. module: hr
+#: view:hr.job:0
+msgid "In Position"
+msgstr "في المنصب"
+
+#. module: hr
+#: field:hr.employee,mobile_phone:0
+msgid "Mobile"
+msgstr "الجوال"
+
+#. module: hr
+#: view:hr.department:0
+msgid "department"
+msgstr "قسم"
+
+#. module: hr
+#: field:hr.employee,country_id:0
+msgid "Nationality"
+msgstr "الجنسية"
+
+#. module: hr
+#: field:hr.employee,notes:0
+msgid "Notes"
+msgstr "الملاحظات"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_installer
+msgid "hr.installer"
+msgstr "مثبت الموارد البشرية"
+
+#. module: hr
+#: view:board.board:0
+msgid "HR Manager Board"
+msgstr "لوحةادارة الموارد البشرية"
+
+#. module: hr
+#: field:hr.employee,resource_id:0
+msgid "Resource"
+msgstr "المورِد"
+
+#. module: hr
+#: view:hr.installer:0
+#: model:ir.actions.act_window,name:hr.action_hr_installer
+msgid "Human Resources Application Configuration"
+msgstr "تكوين تطبيق الموارد البشرية"
+
+#. module: hr
+#: field:hr.employee,gender:0
+msgid "Gender"
+msgstr "الجنس"
+
+#. module: hr
+#: view:hr.employee:0
+#: field:hr.employee.category,employee_ids:0
+#: field:hr.job,employee_ids:0
+#: model:ir.actions.act_window,name:hr.hr_employee_normal_action_tree
+#: model:ir.actions.act_window,name:hr.open_view_employee_list
+#: model:ir.actions.act_window,name:hr.open_view_employee_list_my
+#: model:ir.ui.menu,name:hr.menu_open_view_employee_list_my
+msgid "Employees"
+msgstr "الموظفون"
+
+#. module: hr
+#: help:hr.employee,sinid:0
+msgid "Social Insurance Number"
+msgstr "رقم التأمين الاجتماعي"
+
+#. module: hr
+#: field:hr.department,name:0
+msgid "Department Name"
+msgstr "اسم القسم"
+
+#. module: hr
+#: help:hr.employee,ssnid:0
+msgid "Social Security Number"
+msgstr "رقم الضمان الإجتماعي"
+
+#. module: hr
+#: model:process.node,note:hr.process_node_openerpuser0
+msgid "Creation of a OpenERP user"
+msgstr "إنشاء مستخدم للنظام"
+
+#. module: hr
+#: field:hr.department,child_ids:0
+msgid "Child Departments"
+msgstr "الأقسام الفرعية"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.action_hr_job
+#: model:ir.ui.menu,name:hr.menu_hr_job
+msgid "Job Positions"
+msgstr "منصب الوظيفة"
+
+#. module: hr
+#: view:hr.employee:0
+#: field:hr.employee,coach_id:0
+msgid "Coach"
+msgstr "مدرب"
+
+#. module: hr
+#: view:hr.installer:0
+msgid "Configure Your Human Resources Application"
+msgstr "كوّن تطبيق الموارد البشرية الخاص بك"
+
+#. module: hr
+#: field:hr.installer,hr_expense:0
+msgid "Expenses"
+msgstr "المصروفات"
+
+#. module: hr
+#: field:hr.department,manager_id:0
+#: view:hr.employee:0
+#: field:hr.employee,parent_id:0
+msgid "Manager"
+msgstr "المدير"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Widower"
+msgstr "أرمل"
+
+#. module: hr
+#: help:hr.installer,hr_payroll_account:0
+msgid "Generic Payroll system Integrated with Accountings."
+msgstr "اندماج نظام الراتب العام مع المحاسبيات."
+
+#. module: hr
+#: field:hr.employee,child_ids:0
+msgid "Subordinates"
+msgstr "المرؤوسين"

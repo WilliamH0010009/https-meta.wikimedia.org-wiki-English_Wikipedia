@@ -1,0 +1,162 @@
+# Arabic translation for openobject-addons
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-05-09 10:18+0000\n"
+"PO-Revision-Date: 2012-03-08 19:24+0000\n"
+"Last-Translator: Pioneer Solutions <wzaki_dotcom@yahoo.com>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:16+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: knowledge
+#: model:ir.ui.menu,name:knowledge.menu_document
+#: model:ir.ui.menu,name:knowledge.menu_knowledge_configuration
+msgid "Knowledge"
+msgstr "معرفة"
+
+#. module: knowledge
+#: help:knowledge.installer,wiki_quality_manual:0
+msgid "Creates an example skeleton for a standard quality manual."
+msgstr "وتنشأ مخطط تمثيلي لدليل الجودة القياسية."
+
+#. module: knowledge
+#: view:knowledge.installer:0
+msgid "Share information within the company with these specific Addons."
+msgstr "شارك المعلومات من خلال الشركة مع هذه الأضافات المحددة."
+
+#. module: knowledge
+#: field:knowledge.installer,document_ftp:0
+msgid "Shared Repositories (FTP)"
+msgstr "مستودعات مشتركة (FTP)"
+
+#. module: knowledge
+#: model:ir.module.module,shortdesc:knowledge.module_meta_information
+msgid "Knowledge Management System"
+msgstr "نظام ادارة التكنولوجيا"
+
+#. module: knowledge
+#: field:knowledge.installer,wiki:0
+msgid "Collaborative Content (Wiki)"
+msgstr "محتوى تعاوني (ويكي)"
+
+#. module: knowledge
+#: help:knowledge.installer,document_ftp:0
+msgid ""
+"Provides an FTP access to your OpenERP's Document Management System. It lets "
+"you access attachments and virtual documents through a standard FTP client."
+msgstr ""
+"يوفر الوصول بروتوكول نقل الملفات الى نظام إدارة الوثائق  OpenERP الخاص بك ن. "
+"فإنه يتيح لك الوصول إلى المرفقات والمستندات الافتراضية من خلال عميل FTP "
+"القياسية."
+
+#. module: knowledge
+#: help:knowledge.installer,document_webdav:0
+msgid ""
+"Provides a WebDAV access to your OpenERP's Document Management System. Lets "
+"you access attachments and virtual documents through your standard file "
+"browser."
+msgstr ""
+"يوفر WebDAV الوصول إلى نظام إدارة الوثائق OpenERP الخاص بك . يتيح لك الوصول "
+"إلى المرفقات، والوثائق الفعلية من خلال المتصفح الملفات القياسية."
+
+#. module: knowledge
+#: view:knowledge.installer:0
+msgid "Configure"
+msgstr "تهيئة"
+
+#. module: knowledge
+#: view:knowledge.installer:0
+msgid "title"
+msgstr "الاسم"
+
+#. module: knowledge
+#: model:ir.module.module,description:knowledge.module_meta_information
+msgid ""
+"Installer for knowledge-based tools\n"
+"    "
+msgstr ""
+"مثبت للقائم على ادوات المعرفة\n"
+"    "
+
+#. module: knowledge
+#: model:ir.ui.menu,name:knowledge.menu_document_configuration
+msgid "Configuration"
+msgstr "إعدادات"
+
+#. module: knowledge
+#: field:knowledge.installer,wiki_quality_manual:0
+msgid "Quality Manual"
+msgstr "دليل الجودة"
+
+#. module: knowledge
+#: field:knowledge.installer,document_webdav:0
+msgid "Shared Repositories (WebDAV)"
+msgstr "مستودعات مشتركة (مشاركة ملفات على الأنترنت )"
+
+#. module: knowledge
+#: field:knowledge.installer,progress:0
+msgid "Configuration Progress"
+msgstr "سير الإعدادات"
+
+#. module: knowledge
+#: help:knowledge.installer,wiki_faq:0
+msgid ""
+"Creates a skeleton internal FAQ pre-filled with documentation about "
+"OpenERP's Document Management System."
+msgstr ""
+"ينشئ تعليمات داخلية ذات طابع هيكلي مجهز سلفاً بالمستندات الخاصة بنظام اي ار "
+"بي لإدارة الوثائق"
+
+#. module: knowledge
+#: field:knowledge.installer,wiki_faq:0
+msgid "Internal FAQ"
+msgstr "التعليمات الداخلية"
+
+#. module: knowledge
+#: model:ir.ui.menu,name:knowledge.menu_document2
+msgid "Collaborative Content"
+msgstr "محتوى تعاوني"
+
+#. module: knowledge
+#: field:knowledge.installer,config_logo:0
+msgid "Image"
+msgstr "صورة"
+
+#. module: knowledge
+#: model:ir.actions.act_window,name:knowledge.action_knowledge_installer
+#: view:knowledge.installer:0
+msgid "Knowledge Application Configuration"
+msgstr "الاعدادات لنظام أدارة الوثائق"
+
+#. module: knowledge
+#: model:ir.model,name:knowledge.model_knowledge_installer
+msgid "knowledge.installer"
+msgstr "تكنولوجيا.مثبتة"
+
+#. module: knowledge
+#: view:knowledge.installer:0
+msgid "Configure Your Knowledge Application"
+msgstr "ضبط أعدادات تطبيق التكنولوجيا"
+
+#. module: knowledge
+#: help:knowledge.installer,wiki:0
+msgid ""
+"Lets you create wiki pages and page groups in order to keep track of "
+"business knowledge and share it with and  between your employees."
+msgstr ""
+"تمكنك من إنشاء صفحات ويكي وصفحة المجموعات من أجل الحفاظ على مسار الأعمال "
+"وتقاسمها مع وبين موظفيك."
+
+#. module: knowledge
+#: view:knowledge.installer:0
+msgid "Content templates"
+msgstr "قوالب المحتوى"

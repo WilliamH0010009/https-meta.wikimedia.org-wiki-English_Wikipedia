@@ -1,0 +1,159 @@
+# Slovenian translation for openobject-addons
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-01-11 11:15+0000\n"
+"PO-Revision-Date: 2012-02-03 14:13+0000\n"
+"Last-Translator: ERP Basing <erp@basing.si>\n"
+"Language-Team: Slovenian <sl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:22+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: outlook
+#: field:outlook.installer,doc_file:0
+msgid "Installation Manual"
+msgstr "Navodila za namestitev"
+
+#. module: plugin_outlook
+#: field:outlook.installer,name:0
+msgid "Outlook Plug-in"
+msgstr "Vtičnik za Outlook"
+
+#. module: plugin_outlook
+#: field:outlook.installer,description:0
+msgid "Description"
+msgstr "Opis"
+
+#. module: outlook
+#: model:ir.ui.menu,name:outlook.menu_base_config_plugins_outlook
+#: view:outlook.installer:0
+msgid "Outlook Plug-In"
+msgstr "Vtičnik za Outlook"
+
+#. module: outlook
+#: view:outlook.installer:0
+msgid "Skip"
+msgstr "Preskoči"
+
+#. module: outlook
+#: model:ir.module.module,shortdesc:outlook.module_meta_information
+msgid "Outlook Interface"
+msgstr "Vmesnik za Outlook"
+
+#. module: outlook
+#: field:outlook.installer,doc_name:0
+#: field:outlook.installer,name:0
+msgid "File name"
+msgstr "Ime datoteke"
+
+#. module: outlook
+#: field:outlook.installer,outlook:0
+msgid "Outlook Plug-in "
+msgstr "Vtičnik za Outlook "
+
+#. module: outlook
+#: model:ir.module.module,description:outlook.module_meta_information
+msgid ""
+"\n"
+"      This module provide the Outlook plug-in. \n"
+"\n"
+"      Outlook plug-in allows you to select an object that you’d like to add\n"
+"      to your email and its attachments from MS Outlook. You can select a "
+"partner, a task,\n"
+"      a project, an analytical account, or any other object and Archived "
+"selected\n"
+"      mail in mailgate.messages with attachments.\n"
+"\n"
+"      "
+msgstr ""
+"\n"
+"      Ta modul zagotavlja Outlook vtičnik. \n"
+"\n"
+"      Outlook vtičnik vam omogoča, da izberete predmet, ki jih želite "
+"dodati\n"
+"      na vašo e-pošto in njegove priloge iz MS Outlook.  Izberete lahko "
+"partnerja, nalogo,\n"
+"      projekt, analitični račun, ali kateri koli drug predmet in Arhivirano "
+"izbrano\n"
+"      e-pošta v poštnavrata. sporočila s priponkami.\n"
+"\n"
+"      "
+
+#. module: outlook
+#: help:outlook.installer,doc_file:0
+msgid "The documentation file :- how to install Outlook Plug-in."
+msgstr "Dokumentaciska datoteka:- kako namestiti Putluk vtičnik."
+
+#. module: plugin_outlook
+#: model:ir.model,name:plugin_outlook.model_outlook_installer
+msgid "outlook.installer"
+msgstr "outlook.installer"
+
+#. module: outlook
+#: model:ir.actions.act_window,name:outlook.action_outlook_installer
+#: model:ir.actions.act_window,name:outlook.action_outlook_wizard
+#: view:outlook.installer:0
+msgid "Outlook Plug-In Configuration"
+msgstr "Outlook Vtičnik Konfiguracija"
+
+#. module: outlook
+#: field:outlook.installer,progress:0
+msgid "Configuration Progress"
+msgstr "Potek konfiguracije"
+
+#. module: outlook
+#: view:outlook.installer:0
+msgid ""
+"This plug-in allows you to link your e-mail to OpenERP's documents. You can "
+"attach it to any existing one in OpenERP or create a new one."
+msgstr ""
+"Ta vtičnik dovoli povezati vaš poštni naslov z OpenERP dokumeti. Lahko "
+"pripnete v kateri kolio obstoječi v OpenErp ali pa kerirate novega."
+
+#. module: outlook
+#: help:outlook.installer,outlook:0
+msgid ""
+"Allows you to select an object that you would like to add to your email and "
+"its attachments."
+msgstr ""
+"Omogoča vam, da izberete predmet, ki bi želeli dodati na svoj email kot "
+"prilogo."
+
+#. module: plugin_outlook
+#: view:outlook.installer:0
+msgid "title"
+msgstr "naslov"
+
+#. module: plugin_outlook
+#: view:outlook.installer:0
+msgid "_Close"
+msgstr "_Zapri"
+
+#. module: plugin_outlook
+#: view:outlook.installer:0
+msgid "Installation and Configuration Steps"
+msgstr "Instlaciski in Konfiguraciski Postopki"
+
+#. module: plugin_outlook
+#: field:outlook.installer,config_logo:0
+msgid "Image"
+msgstr "Slika"
+
+#. module: plugin_outlook
+#: help:outlook.installer,name:0
+msgid ""
+"outlook plug-in file. Save as this file and install this plug-in in outlook."
+msgstr "outlook vtičnik Datoteka. Shrani datoteko in jo namesti v outlook."
+
+#. module: outlook
+#: view:outlook.installer:0
+msgid "Configure"
+msgstr "Nastavi"

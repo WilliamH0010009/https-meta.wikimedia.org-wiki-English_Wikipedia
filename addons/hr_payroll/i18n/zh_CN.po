@@ -1,0 +1,1602 @@
+# Chinese (Simplified) translation for openobject-addons
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-05-09 10:18+0000\n"
+"PO-Revision-Date: 2011-08-01 14:32+0000\n"
+"Last-Translator: openerp-china.black-jack <onetimespeed@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:14+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "E-mail Address"
+msgstr "电子邮件地址"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+msgid "Based"
+msgstr "基于"
+
+#. module: hr_payroll
+#: field:hr.contract,net:0
+#: field:hr.employee,net:0
+#: field:hr.payroll.register,net:0
+#: field:hr.payslip,net:0
+#: report:salary.structure:0
+msgid "Net Salary"
+msgstr "净薪酬"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Recompute Sheet"
+msgstr "重新计算"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Employees Salary Details"
+msgstr "员工薪酬详情"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Allowances with Basic:"
+msgstr "基本补贴:"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: report:salary.structure:0
+msgid "Department"
+msgstr "部门"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Deductions:"
+msgstr "扣除："
+
+#. module: hr_payroll
+#: field:company.contribution,gratuity:0
+msgid "Use for Gratuity ?"
+msgstr "这钱用于?"
+
+#. module: hr_payroll
+#: field:hr.contract,working_days_per_week:0
+#: field:hr.payslip,working_days:0
+#: report:payslip.pdf:0
+msgid "Working Days"
+msgstr "工作天数"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Loan"
+msgstr "借款"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Salary Payment Register"
+msgstr "薪酬支付记录"
+
+#. module: hr_payroll
+#: view:hr.employee:0
+#: field:hr.employee,slip_ids:0
+#: view:hr.payslip:0
+#: view:hr.payslip.run:0
+#: field:hr.payslip.run,slip_ids:0
+#: model:ir.actions.act_window,name:hr_payroll.act_hr_employee_payslip_list
+msgid "Payslips"
+msgstr "工资单"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.year_salary_report
+msgid "Year Salary Report"
+msgstr "年薪报表"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Paid Salary"
+msgstr "支付薪酬"
+
+#. module: hr_payroll
+#: report:paylip.details:0 report:payslip:0
+msgid "("
+msgstr "("
+
+#. module: hr_payroll
+#: field:hr.contribution.register,company_id:0
+#: field:hr.payroll.structure,company_id:0
+#: field:hr.payslip,company_id:0
+#: field:hr.payslip.line,company_id:0
+#: field:hr.salary.rule,company_id:0
+#: field:hr.salary.rule.category,company_id:0
+msgid "Company"
+msgstr "公司"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "The Manager"
+msgstr "经理"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Letter Details"
+msgstr "详细内容"
+
+#. module: hr_payroll
+#: report:paylip.details:0 report:payslip:0
+msgid ","
+msgstr ","
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: view:hr.payslip.run:0
+msgid "Set to Draft"
+msgstr "设为草稿"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:180
+#: code:addons/hr_payroll/hr_payroll.py:195
+#: code:addons/hr_payroll/hr_payroll.py:285
+#: code:addons/hr_payroll/hr_payroll.py:835
+#: code:addons/hr_payroll/hr_payroll.py:1111
+#: code:addons/hr_payroll/hr_payroll.py:1126
+#: code:addons/hr_payroll/hr_payroll.py:1410
+#, python-format
+msgid "Variable Error: %s "
+msgstr "变量错误: %s "
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Expire"
+msgstr "到期"
+
+#. module: hr_payroll
+#: selection:hr.holidays.status,type:0
+msgid "Half-Pay Holiday"
+msgstr "半薪假期"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+#: field:hr.payslip,other_pay:0
+msgid "Others"
+msgstr "其它"
+
+#. module: hr_payroll
+#: field:hr.payslip.input,payslip_id:0
+#: field:hr.payslip.line,slip_id:0
+#: field:hr.payslip.worked_days,payslip_id:0
+#: model:ir.model,name:hr_payroll.model_hr_payslip
+#: report:payslip:0
+msgid "Pay Slip"
+msgstr "工资单"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Contract Detail:"
+msgstr "合约内容:"
+
+#. module: hr_payroll
+#: field:hr.payslip,igross:0
+#: field:hr.payslip,inet:0
+msgid "Calculaton Field"
+msgstr "计算字段"
+
+#. module: hr_payroll
+#: help:hr.payroll.advice,bank_id:0
+#: help:hr.payroll.register,bank_id:0
+msgid "Select the Bank Address from whcih the salary is going to be paid"
+msgstr "为要支付的薪酬选择银行"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+#: field:hr.payroll.advice.line,advice_id:0
+msgid "Bank Advice"
+msgstr "银行通知单"
+
+#. module: hr_payroll
+#: selection:hr.payroll.advice,state:0
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Reject"
+msgstr "拒绝"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Leaves"
+msgstr "准假"
+
+#. module: hr_payroll
+#: field:hr.contibution.register.line,register_id:0
+#: view:hr.payslip:0
+#: field:hr.payslip,register_id:0
+#: report:payslip.pdf:0
+msgid "Register"
+msgstr "记录"
+
+#. module: hr_payroll
+#: constraint:hr.employee:0
+msgid ""
+"Error ! You cannot select a department for which the employee is the manager."
+msgstr "错误！您不用为他选择一部门因为他是总经理(CEO)。"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Total Deductions"
+msgstr "扣除合计"
+
+#. module: hr_payroll
+#: field:company.contribution.line,value:0
+#: field:hr.payslip.line.line,value:0
+msgid "Value"
+msgstr "值"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "Name of the Employee"
+msgstr "这员工姓名"
+
+#. module: hr_payroll
+#: view:hr.contibution.register:0
+msgid "Register Lines"
+msgstr "记录明细"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Salary Computation"
+msgstr "计算薪酬"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+#: field:hr.payslip.input,amount:0
+#: field:hr.payslip.line,amount:0
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Amount"
+msgstr "金额"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:1225
+#, python-format
+msgid "Please check configuration of %s, payroll head is missing"
+msgstr "请检查设置 %s，丢失薪酬类型。"
+
+#. module: hr_payroll
+#: selection:company.contribution,amount_type:0
+msgid "Percentage"
+msgstr "百分率"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Other Information"
+msgstr "其它信息"
+
+#. module: hr_payroll
+#: field:hr.passport,country_id:0
+msgid "Country of Issue"
+msgstr "发放国家"
+
+#. module: hr_payroll
+#: field:hr.contibution.register.line,emp_deduction:0
+msgid "Employee Deduction"
+msgstr "员工扣除"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,code:0
+msgid "Category Code"
+msgstr "分类的编码"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Other Deduction"
+msgstr "其它扣除"
+
+#. module: hr_payroll
+#: selection:hr.holidays.status,type:0
+msgid "Paid Holiday"
+msgstr "带薪假期"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+#: view:hr.salary.rule:0
+msgid "Group By..."
+msgstr "分组..."
+
+#. module: hr_payroll
+#: field:hr.passport,date_expire:0
+msgid "Passport Expire Date"
+msgstr "护照到期日期"
+
+#. module: hr_payroll
+#: selection:hr.holidays.status,type:0
+msgid "Un-Paid Holiday"
+msgstr "不带薪假期"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Valid From"
+msgstr "有效期从"
+
+#. module: hr_payroll
+#: help:hr.payslip,igross:0
+#: help:hr.payslip,inet:0
+msgid ""
+"Calculation field used for internal calculation, do not place this on form"
+msgstr "计算字段用于内部计算，不要放入表单中。"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Amount (in words) :"
+msgstr "金额(口头上):"
+
+#. module: hr_payroll
+#: field:hr.holidays.status,type:0
+msgid "Payment"
+msgstr "付款"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+#: model:ir.model,name:hr_payroll.model_hr_payslip_line
+msgid "Payslip Line"
+msgstr "工资单明细"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Identification No"
+msgstr "身份证号"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+#: field:hr.allounce.deduction.categoty,base:0
+msgid "Based on"
+msgstr "基于"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Wating for Verification"
+msgstr "等待确认"
+
+#. module: hr_payroll
+#: model:ir.module.module,shortdesc:hr_payroll.module_meta_information
+msgid "Human Resource Payroll"
+msgstr "人力资源工资表"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: selection:hr.payslip,state:0
+#: view:hr.payslip.run:0
+#: selection:hr.payslip.run,state:0
+msgid "Draft"
+msgstr "草稿"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+msgid "Total:"
+msgstr "合计:"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Posted"
+msgstr "已发"
+
+#. module: hr_payroll
+#: model:ir.module.module,description:hr_payroll.module_meta_information
+msgid ""
+"Generic Payroll system\n"
+"    * Employee Details\n"
+"    * Employee Contracts\n"
+"    * Passport based Contract\n"
+"    * Allowances / Deductions\n"
+"    * Allow to configure Basic / Grows / Net Salary\n"
+"    * Employee Payslip\n"
+"    * Monthly Payroll Register\n"
+"    * Integrated with Holiday Management\n"
+"    "
+msgstr ""
+"通用工资表系统 \n"
+"    * 员工详细资料 \n"
+"    * 员工合同 \n"
+"    * 签合同的护照 \n"
+"    * 津贴 / 扣除\n"
+"    * 允许设置基本 / 增长 /净薪酬 \n"
+"    * 员工工资单 \n"
+"    * 每月的工资表 \n"
+"    * 整合假期管理\n"
+"    "
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_holidays_status
+msgid "Leave Type"
+msgstr "准假类型"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Date :"
+msgstr "日期:"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,total:0
+msgid "Sub Total"
+msgstr "小计"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Payments -"
+msgstr "付款 -"
+
+#. module: hr_payroll
+#: field:hr.contract,visa_no:0
+msgid "Visa No"
+msgstr "信用卡或借记卡号"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "From"
+msgstr "来自"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice.line,bysal:0
+#: report:payroll.advice:0
+msgid "By Salary"
+msgstr "按薪酬"
+
+#. module: hr_payroll
+#: field:hr.payroll.employees.detail,date_to:0
+#: field:hr.payroll.year.salary,date_to:0
+#: report:salary.structure:0
+msgid "End Date"
+msgstr "结束日期"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.payslip_report
+msgid "Employee PaySlip"
+msgstr "员工工资单"
+
+#. module: hr_payroll
+#: field:hr.payslip,leaves:0
+msgid "Leave Deductions"
+msgstr "准假扣除"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+#: report:payroll.advice:0
+msgid "Authorised Signature"
+msgstr "授权签署"
+
+#. module: hr_payroll
+#: selection:hr.payslip.line,amount_type:0
+msgid "Function Value"
+msgstr "函数值"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_contibution_register_line
+msgid "Contribution Register Line"
+msgstr "捐款记录明细"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Notes:"
+msgstr "备注："
+
+#. module: hr_payroll
+#: field:hr.payslip,state:0 field:hr.payslip.run,state:0
+msgid "State"
+msgstr "状态"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Paymeny Lines"
+msgstr "付款明细"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Other Lines"
+msgstr "其它明细"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: view:hr.allounce.deduction.categoty:0
+#: view:hr.payroll.structure:0
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+msgid "Function Arguments"
+msgstr "函数参数"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_company_contribution_tree
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_company_contribution_tree
+msgid "Company Contributions"
+msgstr "公司捐款"
+
+#. module: hr_payroll
+#: field:hr.payslip,employee_id:0
+#: field:hr.payslip.line,employee_id:0
+#: model:ir.model,name:hr_payroll.model_hr_employee
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,base:0
+msgid "Formula"
+msgstr "公式"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_advice_line
+msgid "Bank Advice Lines"
+msgstr "银行通知单明细"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: view:hr.allounce.deduction.categoty:0
+#: field:hr.allounce.deduction.categoty,type:0
+#: field:hr.payslip.line,type:0
+#: report:salary.structure:0
+msgid "Type"
+msgstr "类型"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Email"
+msgstr "电子邮件"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "#"
+msgstr "#"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:861
+#: code:addons/hr_payroll/hr_payroll.py:866
+#: code:addons/hr_payroll/hr_payroll.py:872
+#: code:addons/hr_payroll/hr_payroll.py:889
+#: code:addons/hr_payroll/hr_payroll.py:895
+#, python-format
+msgid "Error !"
+msgstr "错误！"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+#: view:hr.payslip:0
+msgid "Verify Sheet"
+msgstr "核实"
+
+#. module: hr_payroll
+#: help:hr.contract,working_days_per_week:0
+msgid "No of Working days / week for an employee"
+msgstr "员工每周的工作天数"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "New Slip"
+msgstr "新工资单"
+
+#. module: hr_payroll
+#: field:hr.payslip,basic:0
+msgid "Net Basic"
+msgstr "净基本"
+
+#. module: hr_payroll
+#: field:hr.contract,gross:0
+#: field:hr.employee,gross:0
+#: field:hr.payroll.register,grows:0
+#: field:hr.payslip,grows:0
+#: report:salary.structure:0
+msgid "Gross Salary"
+msgstr "薪酬总额"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Total Earnings"
+msgstr "总收入"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Other Payment"
+msgstr "其它的付款"
+
+#. module: hr_payroll
+#: field:hr.employee,advantages_net:0
+#: report:payslip.pdf:0
+#: report:salary.structure:0
+msgid "Deductions"
+msgstr "扣除"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "C/D"
+msgstr "C/D"
+
+#. module: hr_payroll
+#: field:hr.contract,permit_no:0
+msgid "Work Permit No"
+msgstr "工作许可证编号"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice,line_ids:0
+msgid "Employee Salary"
+msgstr "员工薪酬"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice,chaque_nos:0
+msgid "Chaque Nos"
+msgstr "支票号"
+
+#. module: hr_payroll
+#: field:hr.contibution.register,monthly_total_by_emp:0
+msgid "Total By Employee"
+msgstr "员工合计"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,amount_fix:0
+#: selection:hr.payslip.line,amount_select:0
+#: field:hr.salary.rule,amount_fix:0
+#: selection:hr.salary.rule,amount_select:0
+msgid "Fixed Amount"
+msgstr "固定金额"
+
+#. module: hr_payroll
+#: help:company.contribution,contribute_per:0
+msgid "Define Company contribution ratio 1.00=100% contribution."
+msgstr "设定 公司的捐款率 1.00 = 100%捐款"
+
+#. module: hr_payroll
+#: field:company.contribution.line,to_val:0
+#: report:employees.salary:0
+#: field:hr.payslip.line.line,to_val:0
+#: report:year.salary:0
+msgid "To"
+msgstr "到"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:180
+#: code:addons/hr_payroll/hr_payroll.py:195
+#: code:addons/hr_payroll/hr_payroll.py:285
+#: code:addons/hr_payroll/hr_payroll.py:835
+#: code:addons/hr_payroll/hr_payroll.py:1111
+#: code:addons/hr_payroll/hr_payroll.py:1126
+#: code:addons/hr_payroll/hr_payroll.py:1410
+#, python-format
+msgid "Variable Error !"
+msgstr "变量错误"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_employees_detail
+msgid "hr.payroll.employees.detail"
+msgstr "hr.payroll.employees.detail"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+#: view:hr.payslip:0
+msgid "Pay Salary"
+msgstr "支付薪酬"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice.line,name:0
+msgid "Bank Account A/C"
+msgstr "银行帐号 A/C"
+
+#. module: hr_payroll
+#: view:hr.contibution.register:0
+msgid "Contribution Lines"
+msgstr "捐款明细"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "For the month of"
+msgstr "这月"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+#: selection:hr.allounce.deduction.categoty,type:0
+#: field:hr.payroll.register,deduction:0
+#: report:hr.payroll.register.sheet:0
+#: field:hr.payslip,deduction:0
+#: selection:hr.payslip.line,type:0
+msgid "Deduction"
+msgstr "扣除"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_advice
+msgid "Bank Advice Note"
+msgstr "银行通知单备注"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Payslip"
+msgstr "工资单"
+
+#. module: hr_payroll
+#: constraint:hr.contract:0
+msgid "Error! contract start-date must be lower then contract end-date."
+msgstr "错误！合同开始日期必须小于结束日期。"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Loan Installment"
+msgstr "贷款的分期付款"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "HR Manager"
+msgstr "人力资源经理"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "Yours Sincerely"
+msgstr "此致"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "SI. No."
+msgstr "身份证号"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Net Amount"
+msgstr "净金额"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Leave Deductions Line:"
+msgstr "准假扣除明细："
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Salary Structure:"
+msgstr "薪酬结构:"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.year_employees_detail
+msgid "Employees Salary Detail"
+msgstr "员工薪酬细节"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payslip_line_line
+msgid "Function Line"
+msgstr "明细"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+#: selection:hr.payroll.advice,state:0
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Confirm Sheet"
+msgstr "确认"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Others:"
+msgstr "其它："
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: selection:company.contribution,amount_type:0
+msgid "Function Calculation"
+msgstr "计算函数"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Worked Day"
+msgstr "已工作天数"
+
+#. module: hr_payroll
+#: field:hr.contibution.register,monthly_total_by_comp:0
+msgid "Total By Company"
+msgstr "公司合计"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice.line,flag:0
+msgid "D/C"
+msgstr "D/C"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Country & Address"
+msgstr "国籍&地址"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Employee Code"
+msgstr "员工编码"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Basic Salary – Leaves"
+msgstr "基本薪酬 - 准假"
+
+#. module: hr_payroll
+#: view:hr.payslip.line:0
+#: field:hr.payslip.line,amount_select:0
+#: field:hr.salary.rule,amount_select:0
+msgid "Amount Type"
+msgstr "金额类型"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,category_id:0
+#: view:hr.salary.rule:0
+#: field:hr.salary.rule,category_id:0
+msgid "Category"
+msgstr "分类"
+
+#. module: hr_payroll
+#: view:hr.salary.rule:0
+msgid "Company Contribution"
+msgstr "公司捐款"
+
+#. module: hr_payroll
+#: field:company.contribution,category_id:0
+msgid "Heads"
+msgstr "分类"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.year_payroll_register
+msgid "Print Statement"
+msgstr "打印"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,name:0
+msgid "Category Name"
+msgstr "分类名称"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Earnings"
+msgstr "收入"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+#: report:salary.structure:0
+msgid "Basic"
+msgstr "基本"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_passport_tree
+msgid "All Passports"
+msgstr "所有护照"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_year_salary
+#: model:ir.ui.menu,name:hr_payroll.menu_wizard_print_year_salary
+msgid "Salary Register"
+msgstr "薪酬记录"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: report:hr.payroll.register.sheet:0
+msgid "Employee Name"
+msgstr "员工姓名"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_passport
+msgid "Passport Detail"
+msgstr "护照详细资料"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,amount_percentage:0
+#: selection:hr.payslip.line,amount_select:0
+#: field:hr.salary.rule,amount_percentage:0
+#: selection:hr.salary.rule,amount_select:0
+msgid "Percentage (%)"
+msgstr "百分比(%)"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice,register_id:0
+#: view:hr.payroll.register:0
+#: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_register_form
+#: model:ir.model,name:hr_payroll.model_hr_payroll_register
+#: model:ir.ui.menu,name:hr_payroll.hr_menu_payroll_register
+msgid "Payroll Register"
+msgstr "工资表记录"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+#: report:payroll.advice:0
+msgid "For"
+msgstr "目的"
+
+#. module: hr_payroll
+#: field:hr.passport,contracts_ids:0
+msgid "Contracts"
+msgstr "合同"
+
+#. module: hr_payroll
+#: view:hr.payroll.structure:0
+msgid "Employee Function"
+msgstr "员工职能"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Paid"
+msgstr "已付"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Approve Sheet"
+msgstr "审批表"
+
+#. module: hr_payroll
+#: field:hr.payslip,paid:0
+msgid "Paid ? "
+msgstr "已付? "
+
+#. module: hr_payroll
+#: view:hr.holidays.status:0
+msgid "Validation"
+msgstr "审核"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+msgid "Title"
+msgstr "标题"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+msgid "Search Company Contribution"
+msgstr "查找公司捐款"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,user_id:0
+msgid "User"
+msgstr "用户"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Payment Lines"
+msgstr "付款明细"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Compute Sheet"
+msgstr "计算"
+
+#. module: hr_payroll
+#: field:hr.contibution.register.line,date:0
+#: field:hr.payroll.advice,date:0
+#: field:hr.payroll.register,date:0
+#: field:hr.payslip,date:0
+msgid "Date"
+msgstr "日期"
+
+#. module: hr_payroll
+#: help:hr.allounce.deduction.categoty,condition:0
+msgid "Applied this head for calculation if condition is true"
+msgstr "如果条件为真，用这个计算"
+
+#. module: hr_payroll
+#: report:year.salary:0
+msgid "Yearly Salary Details"
+msgstr "年薪细节"
+
+#. module: hr_payroll
+#: constraint:hr.employee:0
+msgid "Error ! You cannot create recursive Hierarchy of Employees."
+msgstr "错误！您不能创建循环的员工等级。"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,condition:0
+msgid "Condition"
+msgstr "条件"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Wating for HR Verification"
+msgstr "等待人力资源审核"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "Payment Advice:"
+msgstr "付款通知："
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+msgid "Compute"
+msgstr "计算"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Designation"
+msgstr "指定"
+
+#. module: hr_payroll
+#: field:hr.contract,basic:0
+#: field:hr.employee,basic:0
+#: field:hr.payslip,basic_before_leaves:0
+#: report:payslip.pdf:0
+msgid "Basic Salary"
+msgstr "基本薪酬"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_employees_detail
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_employees_detail
+msgid "Employee Salary Statement"
+msgstr "员工薪酬报表"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+msgid "Salary Information"
+msgstr "薪酬信息"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+msgid "Complete HR Checking"
+msgstr "完成人力资源检查"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Companies"
+msgstr "公司"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Authorized Signature"
+msgstr "授权签字"
+
+#. module: hr_payroll
+#: field:hr.payslip,contract_id:0
+#: field:hr.payslip.input,contract_id:0
+#: field:hr.payslip.line,contract_id:0
+#: field:hr.payslip.worked_days,contract_id:0
+#: model:ir.model,name:hr_payroll.model_hr_contract
+msgid "Contract"
+msgstr "合同"
+
+#. module: hr_payroll
+#: selection:hr.payroll.advice,state:0
+msgid "Draft Sheet"
+msgstr "草稿"
+
+#. module: hr_payroll
+#: selection:hr.payroll.year.salary,salary_on:0
+msgid "Next Month Date"
+msgstr "下个月日期"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,active:0
+#: field:hr.salary.rule,active:0
+msgid "Active"
+msgstr "有效"
+
+#. module: hr_payroll
+#: field:hr.contract,visa_expire:0
+msgid "Visa Expire Date"
+msgstr "信用卡或借记卡到期日期"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Search Passport"
+msgstr "查找护照"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: report:salary.structure:0
+msgid "Phone No."
+msgstr "电话号码"
+
+#. module: hr_payroll
+#: view:hr.contribution.register:0
+msgid "Contribution"
+msgstr "捐款"
+
+#. module: hr_payroll
+#: field:hr.allounce.deduction.categoty,state:0
+msgid "Label"
+msgstr "标签"
+
+#. module: hr_payroll
+#: view:hr.salary.rule:0
+msgid "Company contribution"
+msgstr "公司捐款"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: report:salary.structure:0
+msgid "Other No."
+msgstr "其它号码"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+#: field:hr.payslip.input,code:0
+#: field:hr.payslip.line,code:0
+#: field:hr.payslip.worked_days,code:0
+#: field:hr.rule.input,code:0
+#: field:hr.salary.rule,code:0
+#: field:hr.salary.rule.category,code:0
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Code"
+msgstr "编码"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_view_hr_bank_advice_tree
+#: model:ir.ui.menu,name:hr_payroll.hr_menu_payment_advice
+msgid "Payment Advice"
+msgstr "付款通知"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Number :"
+msgstr "编号："
+
+#. module: hr_payroll
+#: help:hr.allounce.deduction.categoty,base:0
+msgid ""
+"This will use to computer the % fields values, in general its on basic, but "
+"You can use all heads code field in small letter as a variable name i.e. "
+"hra, ma, lta, etc...., also you can use, static varible basic"
+msgstr "一般基本上它将使用这%字段值来计算，但你能使用所有头带编码的字段作为变量名如： hra, ma, lta等，你也可以使用静态的变量。"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Computation Overview"
+msgstr "计算过程"
+
+#. module: hr_payroll
+#: field:hr.payroll.year.salary,salary_on:0
+msgid "Salary On"
+msgstr "薪酬在"
+
+#. module: hr_payroll
+#: field:hr.payroll.advice,number:0
+#: field:hr.payroll.register,number:0
+#: field:hr.payslip,number:0
+msgid "Number"
+msgstr "编号"
+
+#. module: hr_payroll
+#: field:hr.contract,struct_id:0
+#: view:hr.payroll.structure:0
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+#: model:ir.model,name:hr_payroll.model_hr_payroll_structure
+msgid "Salary Structure"
+msgstr "薪酬结构"
+
+#. module: hr_payroll
+#: field:hr.contribution.register,register_line_ids:0
+msgid "Register Line"
+msgstr "记录明细"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Cancel"
+msgstr "取消"
+
+#. module: hr_payroll
+#: view:hr.payslip.run:0
+#: selection:hr.payslip.run,state:0
+msgid "Close"
+msgstr "结束"
+
+#. module: hr_payroll
+#: field:hr.payslip.line,amount:0
+msgid "Amount / Percentage"
+msgstr "金额/ 百分比"
+
+#. module: hr_payroll
+#: field:hr.employee,advantages_gross:0
+#: report:hr.payroll.register.sheet:0
+#: report:salary.structure:0
+msgid "Allowances"
+msgstr "补贴"
+
+#. module: hr_payroll
+#: selection:hr.payroll.year.salary,salary_on:0
+msgid "Current Month Date"
+msgstr "本月日期"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Salary"
+msgstr "薪酬"
+
+#. module: hr_payroll
+#: field:hr.contract,passport_id:0
+#: field:hr.passport,name:0
+msgid "Passport No"
+msgstr "护照号"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Passport"
+msgstr "护照"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Total Salary"
+msgstr "总薪酬"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "for period"
+msgstr "期间"
+
+#. module: hr_payroll
+#: field:hr.holidays.status,head_id:0
+msgid "Payroll Head"
+msgstr "薪酬分类"
+
+#. module: hr_payroll
+#: view:hr.payslip.line:0
+#: field:hr.payslip.line,register_id:0
+#: field:hr.salary.rule,register_id:0
+#: model:ir.model,name:hr_payroll.model_hr_contribution_register
+msgid "Contribution Register"
+msgstr "捐款记录"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "E-mail"
+msgstr "电子邮件"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+#: model:ir.actions.act_window,name:hr_payroll.hr_allounce_deduction_tree
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_allounce_deduction_tree
+msgid "Salary Heads"
+msgstr "薪酬分类"
+
+#. module: hr_payroll
+#: view:hr.payroll.employees.detail:0
+#: view:hr.payroll.year.salary:0
+msgid "Print Report"
+msgstr "打印报表"
+
+#. module: hr_payroll
+#: view:hr.payslip.line:0
+msgid "Calculations"
+msgstr "计算"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Other Informations"
+msgstr "其它信息"
+
+#. module: hr_payroll
+#: view:hr.contibution.register:0
+msgid "Month"
+msgstr "月份"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Issue"
+msgstr "发出"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+msgid "Dynamic Computation"
+msgstr "动态计算"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Basic Salary without Leave:"
+msgstr "基本的无薪准假："
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: view:hr.allounce.deduction.categoty:0
+#: view:hr.payroll.structure:0
+#: view:hr.payslip:0
+#: view:hr.payslip.line:0
+#: field:hr.payslip.line,function_id:0
+msgid "Function"
+msgstr "函数"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "States"
+msgstr "状态"
+
+#. module: hr_payroll
+#: report:payroll.advice:0
+msgid "Dear Sir/Madam,"
+msgstr "尊敬的先生/女士"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_allounce_deduction_categoty
+msgid "Allowance Deduction Heads"
+msgstr "扣除补贴分类"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Gross Sal."
+msgstr "获得的薪酬"
+
+#. module: hr_payroll
+#: view:hr.contribution.register:0
+#: field:hr.contribution.register,note:0
+#: field:hr.payroll.structure,note:0
+#: field:hr.payslip,name:0
+#: field:hr.payslip,note:0
+#: field:hr.payslip.input,name:0
+#: field:hr.payslip.line,note:0
+#: field:hr.payslip.worked_days,name:0
+#: field:hr.rule.input,name:0
+#: view:hr.salary.rule:0
+#: field:hr.salary.rule,note:0
+#: field:hr.salary.rule.category,note:0
+msgid "Description"
+msgstr "说明"
+
+#. module: hr_payroll
+#: field:hr.payroll.employees.detail,date_from:0
+#: field:hr.payroll.year.salary,date_from:0
+#: report:salary.structure:0
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Deduction -"
+msgstr "扣除 -"
+
+#. module: hr_payroll
+#: report:paylip.details:0 report:payslip:0
+msgid ")"
+msgstr ")"
+
+#. module: hr_payroll
+#: view:hr.contribution.register:0
+#: model:ir.actions.act_window,name:hr_payroll.action_contribution_register_form
+#: model:ir.ui.menu,name:hr_payroll.menu_action_hr_contribution_register_form
+msgid "Contribution Registers"
+msgstr "捐款记录"
+
+#. module: hr_payroll
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_reporting
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_root_payroll
+#: model:ir.ui.menu,name:hr_payroll.payroll_configure
+msgid "Payroll"
+msgstr "工资表"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_contract_wage_type
+msgid "Wage Type"
+msgstr "薪酬类型"
+
+#. module: hr_payroll
+#: report:hr.payroll.register.sheet:0
+msgid "Net Sal."
+msgstr "净薪酬"
+
+#. module: hr_payroll
+#: sql_constraint:hr.passport:0
+msgid "The Passport No must be unique !"
+msgstr "护照号必须唯一"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_year_salary
+msgid "hr.payroll.year.salary"
+msgstr "hr.payroll.year.salary"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Address"
+msgstr "地址"
+
+#. module: hr_payroll
+#: field:hr.payslip.line.line,slipline_id:0
+msgid "Slip Line"
+msgstr "工资单明细"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Number of Leaves"
+msgstr "准假天数"
+
+#. module: hr_payroll
+#: report:employees.salary:0
+#: field:hr.payroll.advice,bank_id:0
+#: field:hr.payroll.register,bank_id:0
+#: report:salary.structure:0
+msgid "Bank"
+msgstr "银行"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Cancel Sheet"
+msgstr "取消"
+
+#. module: hr_payroll
+#: selection:hr.allounce.deduction.categoty,type:0
+#: selection:hr.payslip.line,type:0
+msgid "Advance"
+msgstr "预支"
+
+#. module: hr_payroll
+#: report:salary.structure:0
+msgid "Special Allowances and Deductions For Employee:"
+msgstr "特别的员工津贴和扣除"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+#: field:hr.contribution.register,name:0
+#: field:hr.payroll.structure,name:0
+#: field:hr.payslip.line,name:0
+#: field:hr.payslip.run,name:0
+#: field:hr.salary.rule,name:0
+#: field:hr.salary.rule.category,name:0
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Name"
+msgstr "名称"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Leaved Deduction"
+msgstr "准假扣除"
+
+#. module: hr_payroll
+#: view:hr.passport:0
+msgid "Country"
+msgstr "国家"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+#: view:hr.payslip.employees:0
+#: field:hr.payslip.employees,employee_ids:0
+#: view:hr.payslip.line:0
+msgid "Employees"
+msgstr "员工"
+
+#. module: hr_payroll
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Bank Account"
+msgstr "银行帐号"
+
+#. module: hr_payroll
+#: help:company.contribution,register_id:0
+msgid "Contribution register based on company"
+msgstr "基于公司的捐款记录"
+
+#. module: hr_payroll
+#: help:hr.payslip.line,sequence:0
+#: help:hr.salary.rule,sequence:0
+msgid "Use to arrange calculation sequence"
+msgstr "使用预定的序列排列"
+
+#. module: hr_payroll
+#: field:hr.payslip,total_pay:0
+msgid "Total Payment"
+msgstr "付款总额"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_company_contribution_line
+msgid "Allowance Deduction Category"
+msgstr "扣除补贴的分类"
+
+#. module: hr_payroll
+#: selection:hr.payroll.register,state:0
+#: selection:hr.payslip,state:0
+msgid "Wating for Account Verification"
+msgstr "等待帐户审核"
+
+#. module: hr_payroll
+#: field:hr.contibution.register.line,comp_deduction:0
+msgid "Company Deduction"
+msgstr "公司扣除"
+
+#. module: hr_payroll
+#: view:hr.holidays.status:0
+msgid "Payroll Configurtion"
+msgstr "工资表设置"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:469
+#, python-format
+msgid "Please define bank account for the %s employee"
+msgstr "请定义员工 %s 的银行帐户"
+
+#. module: hr_payroll
+#: field:hr.passport,date_issue:0
+msgid "Passport Issue Date"
+msgstr "护照签发日期"
+
+#. module: hr_payroll
+#: view:hr.allounce.deduction.categoty:0
+#: selection:hr.allounce.deduction.categoty,type:0
+#: field:hr.payroll.register,allounce:0
+#: field:hr.payslip,allounce:0
+#: selection:hr.payslip.line,type:0
+msgid "Allowance"
+msgstr "补贴"
+
+#. module: hr_payroll
+#: field:hr.payslip,holiday_days:0
+msgid "No of Leaves"
+msgstr "准假天数"
+
+#. module: hr_payroll
+#: field:hr.employee,otherid:0
+msgid "Other Id"
+msgstr "其它"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Bank Details"
+msgstr "银行信息"
+
+#. module: hr_payroll
+#: report:payslip.pdf:0
+msgid "Slip ID"
+msgstr "工资单ID"
+
+#. module: hr_payroll
+#: field:hr.payslip.input,sequence:0
+#: field:hr.payslip.line,sequence:0
+#: field:hr.payslip.worked_days,sequence:0
+#: field:hr.salary.rule,sequence:0
+msgid "Sequence"
+msgstr "序列"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payslip_form
+#: model:ir.ui.menu,name:hr_payroll.menu_department_tree
+msgid "Employee Payslip"
+msgstr "员工工资单"
+
+#. module: hr_payroll
+#: view:hr.payroll.advice:0
+msgid "Letter Content"
+msgstr "信的内容"
+
+#. module: hr_payroll
+#: view:hr.payroll.employees.detail:0
+#: view:hr.payroll.year.salary:0
+msgid "Year Salary"
+msgstr "年薪"
+
+#. module: hr_payroll
+#: view:hr.payroll.register:0
+msgid "Allowance / Deduction"
+msgstr "补贴 / 扣除"
+
+#. module: hr_payroll
+#: model:ir.actions.report.xml,name:hr_payroll.payroll_advice
+msgid "Bank Payment Advice"
+msgstr "银行付款通知"
+
+#. module: hr_payroll
+#: view:hr.payslip:0
+msgid "Search Payslips"
+msgstr "查找工资单"
+
+#. module: hr_payroll
+#: report:contribution.register.lines:0
+#: field:hr.payslip.line,total:0
+#: report:paylip.details:0
+#: report:payslip:0
+msgid "Total"
+msgstr "合计"
+
+#. module: hr_payroll
+#: view:company.contribution:0
+#: view:hr.allounce.deduction.categoty:0
+#: field:hr.allounce.deduction.categoty,contribute_ids:0
+msgid "Contributions"
+msgstr "捐款"
+
+#~ msgid "Allowance Deduction Categoty"
+#~ msgstr "津贴扣减分类"

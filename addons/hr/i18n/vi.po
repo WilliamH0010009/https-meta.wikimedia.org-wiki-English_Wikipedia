@@ -1,0 +1,863 @@
+# Vietnamese translation for openobject-addons
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the openobject-addons package.
+# Phong Nguyen <phong.nguyen_thanh@yahoo.com>, 2009.
+#
+# This file contains the translation of the following modules:
+#	* hr
+#	* hr_attendance
+#	* hr_timesheet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2011-05-09 10:18+0000\n"
+"PO-Revision-Date: 2011-06-04 23:09+0000\n"
+"Last-Translator: OpenBMS JSC <Unknown>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:11+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#. module: hr
+#: model:process.node,name:hr.process_node_openerpuser0
+msgid "Openerp user"
+msgstr "Người dùng OpenERP"
+
+#. module: hr
+#: field:hr.job,requirements:0
+msgid "Requirements"
+msgstr "Yêu cầu"
+
+#. module: hr
+#: constraint:hr.department:0
+msgid "Error! You can not create recursive departments."
+msgstr "Lỗi! Bạn không thể tạo phòng ban đệ quy"
+
+#. module: hr
+#: model:process.transition,name:hr.process_transition_contactofemployee0
+msgid "Link the employee to information"
+msgstr "Kết nối nhân viên tới thông tin"
+
+#. module: hr
+#: field:hr.employee,sinid:0
+msgid "SIN No"
+msgstr "Số bảo hiểm xã hội"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_board_hr
+#: model:ir.ui.menu,name:hr.menu_hr_dashboard
+#: model:ir.ui.menu,name:hr.menu_hr_main
+#: model:ir.ui.menu,name:hr.menu_hr_reporting
+#: model:ir.ui.menu,name:hr.menu_hr_root
+#: model:ir.ui.menu,name:hr.menu_human_resources_configuration
+msgid "Human Resources"
+msgstr "Quản trị nhân lực"
+
+#. module: hr
+#: view:hr.employee:0
+#: view:hr.job:0
+msgid "Group By..."
+msgstr "Nhóm theo"
+
+#. module: hr
+#: model:ir.actions.act_window,help:hr.action_hr_job
+msgid ""
+"Job Positions are used to define jobs and their requirements. You can keep "
+"track of the number of employees you have per job position and how many you "
+"expect in the future. You can also attach a survey to a job position that "
+"will be used in the recruitment process to evaluate the applicants for this "
+"job position."
+msgstr ""
+"Vị trí công việc được sử dụng để xác định công việc và yêu cầu của họ. Bạn "
+"có thể theo dõi số lượng nhân viên bạn có cho mỗi vị trí công việc và bao "
+"nhiêu bạn mong đợi trong tương lai. Bạn cũng có thể đính kèm một cuộc khảo "
+"sát với một vị trí công việc sẽ được sử dụng trong quá trình tuyển dụng để "
+"đánh giá các ứng viên cho vị trí công việc."
+
+#. module: hr
+#: view:hr.department:0
+#: view:hr.employee:0
+#: field:hr.employee,department_id:0
+#: view:hr.job:0
+#: field:hr.job,department_id:0
+#: model:ir.model,name:hr.model_hr_department
+msgid "Department"
+msgstr "Phòng/Ban"
+
+#. module: hr
+#: help:hr.installer,hr_attendance:0
+msgid "Simplifies the management of employee's attendances."
+msgstr "Đơn giản hoá việc quản lý của khán giả của nhân viên."
+
+#. module: hr
+#: view:hr.job:0
+msgid "Mark as Old"
+msgstr "Đánh dấu \"Cũ\""
+
+#. module: hr
+#: view:hr.job:0
+msgid "Jobs"
+msgstr "Công việc"
+
+#. module: hr
+#: view:hr.job:0
+msgid "In Recruitment"
+msgstr "Đang tuyển dụng"
+
+#. module: hr
+#: view:hr.installer:0
+msgid "title"
+msgstr "cách xưng hô"
+
+#. module: hr
+#: field:hr.department,company_id:0
+#: view:hr.employee:0
+#: view:hr.job:0
+#: field:hr.job,company_id:0
+msgid "Company"
+msgstr "Công ty"
+
+#. module: hr
+#: field:hr.job,no_of_recruitment:0
+msgid "Expected in Recruitment"
+msgstr "Dự kiến ​​trong tuyển dụng"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_config
+msgid "Holidays"
+msgstr "Nghỉ lễ"
+
+#. module: hr
+#: help:hr.installer,hr_holidays:0
+msgid "Tracks employee leaves, allocation requests and planning."
+msgstr "Theo dõi nhân viên lá, yêu cầu phân bổ và lập kế hoạch."
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_employee_marital_status
+msgid "Employee Marital Status"
+msgstr "Tình trạng hôn nhân của nhân viên"
+
+#. module: hr
+#: help:hr.employee,partner_id:0
+msgid ""
+"Partner that is related to the current employee. Accounting transaction will "
+"be written on this partner belongs to employee."
+msgstr ""
+"Nhân viên làm việc với khách hàng . Tài khoản của khách sẽ chuyển cho nhân "
+"viên đó."
+
+#. module: hr
+#: model:process.transition,name:hr.process_transition_employeeuser0
+msgid "Link a user to an employee"
+msgstr "Kết nối người sử dụng đến nhân viên"
+
+#. module: hr
+#: field:hr.installer,hr_contract:0
+msgid "Employee's Contracts"
+msgstr "Hợp đồng của nhân viên"
+
+#. module: hr
+#: help:hr.installer,hr_payroll:0
+msgid "Generic Payroll system."
+msgstr "Hệ thống thanh toán lương chung"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "My Departments Employee"
+msgstr "chung"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Married"
+msgstr "Đã kết hôn"
+
+#. module: hr
+#: constraint:hr.employee:0
+msgid ""
+"Error ! You cannot select a department for which the employee is the manager."
+msgstr ""
+"Lỗi ! bạn không thể chọ phòng ban nếu nhân viên này là người quản lý."
+
+#. module: hr
+#: help:hr.employee,passport_id:0
+msgid "Employee Passport Information"
+msgstr "Thông tin hộ chiếu của nhân viên"
+
+#. module: hr
+#: model:ir.actions.act_window,help:hr.open_module_tree_department
+msgid ""
+"Your Company's Department Structure is used to manage all documents related "
+"to employees by departments: expenses and timesheet validation, leaves "
+"management, recruitments, etc."
+msgstr ""
+"sơ đồ công ty của bạn quản lý các phòng ban cho tới các nhân viên , thời "
+"gian làm việc , nghỉ việc , yêu cầu công việc ..."
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Position"
+msgstr "Chức vụ"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.action2
+msgid "Employee Hierarchy"
+msgstr "Hệ thống cấp bậc nhân viên"
+
+#. module: hr
+#: model:process.transition,note:hr.process_transition_employeeuser0
+msgid ""
+"The Related user field on the Employee form allows to link the OpenERP user "
+"(and her rights) to the employee."
+msgstr ""
+"Các lĩnh vực sử dụng liên quan về hình thức lao động cho phép liên kết người "
+"sử dụng OpenERP (và các quyền của mình) để người lao động"
+
+#. module: hr
+#: view:hr.job:0 selection:hr.job,state:0
+msgid "In Recruitement"
+msgstr "đang tuyển Dụng"
+
+#. module: hr
+#: field:hr.employee,identification_id:0
+msgid "Identification No"
+msgstr "Số CMND"
+
+#. module: hr
+#: field:hr.job,no_of_employee:0
+msgid "No of Employee"
+msgstr "Số lượng nhân viên"
+
+#. module: hr
+#: selection:hr.employee,gender:0
+msgid "Female"
+msgstr "Nữ"
+
+#. module: hr
+#: help:hr.installer,hr_timesheet_sheet:0
+msgid ""
+"Tracks and helps employees encode and validate timesheets and attendances."
+msgstr ""
+"theo dõi và giúp đỡ nhân viên trong việc mã hòa và xác thực thời gian làm "
+"việc theo bảng chấm công."
+
+#. module: hr
+#: field:hr.installer,hr_evaluation:0
+msgid "Periodic Evaluations"
+msgstr "Đánh giá Định kỳ"
+
+#. module: hr
+#: field:hr.installer,hr_timesheet_sheet:0
+msgid "Timesheets"
+msgstr "Bảng chấm công"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_view_employee_tree
+msgid "Employees Structure"
+msgstr "Cơ cấu nhân viên"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Social IDs"
+msgstr "Số CMND/Hộ chiếu"
+
+#. module: hr
+#: help:hr.job,no_of_employee:0
+msgid "Number of employee with that job."
+msgstr "số lượng nhân viên đang làm việc trong công viêc"
+
+#. module: hr
+#: field:hr.employee,work_phone:0
+msgid "Work Phone"
+msgstr "Điện thoại công ty"
+
+#. module: hr
+#: field:hr.employee.category,child_ids:0
+msgid "Child Categories"
+msgstr "Hạng mục con"
+
+#. module: hr
+#: field:hr.job,description:0
+#: model:ir.model,name:hr.model_hr_job
+msgid "Job Description"
+msgstr "Mô tả công việc"
+
+#. module: hr
+#: field:hr.employee,work_location:0
+msgid "Office Location"
+msgstr "Địa điểm văn phòng"
+
+#. module: hr
+#: view:hr.employee:0
+#: model:ir.model,name:hr.model_hr_employee
+#: model:process.node,name:hr.process_node_employee0
+msgid "Employee"
+msgstr "Người lao động"
+
+#. module: hr
+#: model:process.node,note:hr.process_node_employeecontact0
+msgid "Other information"
+msgstr "Thông tin khác"
+
+#. module: hr
+#: field:hr.employee,work_email:0
+msgid "Work E-mail"
+msgstr "Địa chỉ thư điện tử công việc"
+
+#. module: hr
+#: field:hr.department,complete_name:0
+#: field:hr.employee,name_related:0
+#: field:hr.employee.category,complete_name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: hr
+#: field:hr.employee,birthday:0
+msgid "Date of Birth"
+msgstr "Ngày sinh"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_hr_reporting
+msgid "Reporting"
+msgstr "Báo cáo"
+
+#. module: hr
+#: model:ir.model,name:hr.model_ir_actions_act_window
+msgid "ir.actions.act_window"
+msgstr "ir.actions.act_window"
+
+#. module: hr
+#: view:board.board:0
+msgid "Human Resources Dashboard"
+msgstr "Bảng điều khiển Nguồn nhân lực"
+
+#. module: hr
+#: view:hr.employee:0
+#: field:hr.employee,job_id:0
+#: view:hr.job:0
+msgid "Job"
+msgstr "Công việc"
+
+#. module: hr
+#: field:hr.department,member_ids:0
+msgid "Members"
+msgstr "Thành viên"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_hr_configuration
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#. module: hr
+#: view:hr.installer:0
+msgid ""
+"You can enhance the base HR Application by installing few HR-related "
+"functionalities."
+msgstr ""
+"Bạn có thể nâng cao cơ sở nhân sự ứng dụng bằng cách cài đặt vài chức năng "
+"liên quan đến nhân sự."
+
+#. module: hr
+#: view:hr.employee:0 field:hr.employee,category_ids:0
+msgid "Categories"
+msgstr "Loại"
+
+#. module: hr
+#: field:hr.job,expected_employees:0
+msgid "Expected Employees"
+msgstr "nhân viên dự kiến"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Divorced"
+msgstr "Ly hôn"
+
+#. module: hr
+#: field:hr.employee.category,parent_id:0
+msgid "Parent Category"
+msgstr "Hạng mục mẹ"
+
+#. module: hr
+#: constraint:hr.employee.category:0
+msgid "Error ! You cannot create recursive Categories."
+msgstr "bạn không thể tạo ra loại hạn mục"
+
+#. module: hr
+#: view:hr.department:0
+#: model:ir.actions.act_window,name:hr.open_module_tree_department
+#: model:ir.ui.menu,name:hr.menu_hr_department_tree
+msgid "Departments"
+msgstr "Phòng/Ban"
+
+#. module: hr
+#: model:process.node,name:hr.process_node_employeecontact0
+msgid "Employee Contact"
+msgstr "Thông tin liên hệ của nhân viên"
+
+#. module: hr
+#: view:board.board:0
+msgid "My Board"
+msgstr "hội đồng quản trị"
+
+#. module: hr
+#: selection:hr.employee,gender:0
+msgid "Male"
+msgstr "Nam"
+
+#. module: hr
+#: field:hr.installer,progress:0
+msgid "Configuration Progress"
+msgstr "cài đặt quy trình"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_view_categ_form
+#: model:ir.ui.menu,name:hr.menu_view_employee_category_form
+msgid "Categories of Employee"
+msgstr "Loại nhân viên"
+
+#. module: hr
+#: view:hr.employee.category:0
+#: model:ir.model,name:hr.model_hr_employee_category
+msgid "Employee Category"
+msgstr "Loại nhân viên"
+
+#. module: hr
+#: field:hr.installer,config_logo:0
+msgid "Image"
+msgstr "Hình ảnh"
+
+#. module: hr
+#: model:process.process,name:hr.process_process_employeecontractprocess0
+msgid "Employee Contract"
+msgstr "Hợp đồng Lao động"
+
+#. module: hr
+#: help:hr.installer,hr_evaluation:0
+msgid ""
+"Lets you create and manage the periodic evaluation and performance review of "
+"employees."
+msgstr ""
+"Cho phép bạn tạo và quản lý việc đánh giá định kỳ và đánh giá hiệu suất của "
+"nhân viên."
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_department
+msgid "hr.department"
+msgstr "hr.department"
+
+#. module: hr
+#: help:hr.employee,parent_id:0
+msgid "It is linked with manager of Department"
+msgstr "Liên kết giũa người quản lý và phòng ban"
+
+#. module: hr
+#: field:hr.installer,hr_recruitment:0
+msgid "Recruitment Process"
+msgstr "Quy trình tuyển dụng"
+
+#. module: hr
+#: field:hr.employee.category,name:0
+msgid "Category"
+msgstr "Loại"
+
+#. module: hr
+#: model:ir.actions.act_window,help:hr.open_view_employee_list_my
+msgid ""
+"Here you can manage your work force by creating employees and assigning them "
+"specific properties in the system. Maintain all employee related information "
+"and keep track of anything that needs to be recorded for them. The personal "
+"information tab will help you maintain their identity data. The Categories "
+"tab gives you the opportunity to assign them related employee categories "
+"depending on their position and activities within the company. A category "
+"can be a seniority level within the company or a department. The Timesheets "
+"tab allows to assign them a specific timesheet and analytic journal where "
+"they will be able to enter time through the system. In the note tab, you can "
+"enter text data that should be recorded for a specific employee."
+msgstr ""
+"Tại đây bạn có thể quản lý lực lượng lao động của bạn bằng cách tạo nhân "
+"viên và gán cho chúng các thuộc tính cụ thể trong hệ thống. Duy trì tất cả "
+"các thông tin nhân viên liên quan và theo dõi bất cứ điều gì mà cần phải "
+"được ghi lại cho chúng. Thẻ thông tin cá nhân sẽ giúp bạn duy trì dữ liệu "
+"danh tính của họ. Các tab hạng mục cung cấp cho bạn cơ hội để giao cho nhân "
+"viên liên quan đến loại tùy thuộc vào vị trí và hoạt động của họ trong công "
+"ty. Một loại có thể được một mức độ thâm niên trong công ty hoặc bộ phận "
+"một. Các tab timesheets cho phép giao cho một timesheet cụ thể và tạp chí "
+"phân tích, nơi họ sẽ có thể nhập vào thời gian qua hệ thống. Trong tab lưu "
+"ý, bạn có thể nhập dữ liệu văn bản đó phải được ghi lại cho một nhân viên cụ "
+"thể."
+
+#. module: hr
+#: help:hr.employee,bank_account_id:0
+msgid "Employee bank salary account"
+msgstr "Tài khoản của lương của nhân viên ở ngân hàng"
+
+#. module: hr
+#: field:hr.department,note:0
+msgid "Note"
+msgstr "Ghi chú"
+
+#. module: hr
+#: constraint:res.users:0
+msgid "The chosen company is not in the allowed companies for this user"
+msgstr "Công ty lựa chọn không có trong các công ty được phép sử dụng"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Contact Information"
+msgstr "Thông tin liên hệ"
+
+#. module: hr
+#: field:hr.employee,address_id:0
+msgid "Working Address"
+msgstr "Địa chỉ làm việc"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_board_hr_manager
+#: model:ir.ui.menu,name:hr.menu_hr_dashboard_manager
+msgid "HR Manager Dashboard"
+msgstr "bàng tổng quan nguồn nhân lực"
+
+#. module: hr
+#: view:hr.employee:0
+#: view:hr.job:0
+#: field:hr.job,state:0
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: hr
+#: view:hr.installer:0
+msgid "Configure"
+msgstr "Cấu hình"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_view_categ_tree
+#: model:ir.ui.menu,name:hr.menu_view_employee_category_tree
+msgid "Categories structure"
+msgstr "Cấu trúc hạng mục"
+
+#. module: hr
+#: field:hr.employee,partner_id:0
+msgid "unknown"
+msgstr "không rõ"
+
+#. module: hr
+#: field:hr.installer,hr_holidays:0
+msgid "Holidays / Leaves Management"
+msgstr "ngày nghỉ / quản lý nhân viên nghỉ"
+
+#. module: hr
+#: field:hr.employee,ssnid:0
+msgid "SSN No"
+msgstr "Số an ninh xã hội"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: hr
+#: constraint:hr.employee:0
+msgid "Error ! You cannot create recursive Hierarchy of Employees."
+msgstr "Lỗi ! Bạn không thể tao cấu trúc đệ quy của nhân viên"
+
+#. module: hr
+#: field:hr.employee,bank_account_id:0
+msgid "Bank Account Number"
+msgstr "Số Tài khoản Ngân hàng"
+
+#. module: hr
+#: view:hr.department:0
+msgid "Companies"
+msgstr "Các công ty"
+
+#. module: hr
+#: model:ir.module.module,description:hr.module_meta_information
+msgid ""
+"\n"
+"    Module for human resource management. You can manage:\n"
+"    * Employees and hierarchies : You can define your employee with User and "
+"display hierarchies\n"
+"    * HR Departments\n"
+"    * HR Jobs\n"
+"    "
+msgstr ""
+"\n"
+"    phân hệ quản lý nhân sự bạn có thể quản lý:\n"
+"    * cấu trúc của nhân viên :bạn có thể định nghĩa cấu trúc bà nhân viên "
+"của bạn\n"
+"    * phòng nhân sự quản lý các phòng ban\n"
+"    * công việc của quản lý nhân sự\n"
+"    "
+
+#. module: hr
+#: model:process.transition,note:hr.process_transition_contactofemployee0
+msgid ""
+"In the Employee form, there are different kind of information like Contact "
+"information."
+msgstr ""
+"Trong các hình thức lao động, có những loại thông tin khác nhau như Liên hệ "
+"thông tin"
+
+#. module: hr
+#: help:hr.job,expected_employees:0
+msgid "Required number of Employees in total for that job."
+msgstr "số lượng nhân viên yêu cầu cho công việc này."
+
+#. module: hr
+#: selection:hr.job,state:0
+msgid "Old"
+msgstr "Cũ"
+
+#. module: hr
+#: field:hr.employee.marital.status,description:0
+msgid "Status Description"
+msgstr "miêu tả trạng thái."
+
+#. module: hr
+#: sql_constraint:res.users:0
+msgid "You can not have two users with the same login !"
+msgstr "Bạn không thể có hai người sử dụng với cùng tên đăng nhập !"
+
+#. module: hr
+#: view:hr.job:0 field:hr.job,state:0
+msgid "State"
+msgstr "vùng"
+
+#. module: hr
+#: field:hr.employee,marital:0
+msgid "Marital Status"
+msgstr "Tình trạng hôn nhân"
+
+#. module: hr
+#: help:hr.installer,hr_recruitment:0
+msgid "Helps you manage and streamline your recruitment process."
+msgstr "hỗ trợ quản lý và quy trình quản lý yêu cầu"
+
+#. module: hr
+#: model:process.node,note:hr.process_node_employee0
+msgid "Employee form and structure"
+msgstr "hình thức và cấu trúc của nhân viên"
+
+#. module: hr
+#: field:hr.employee,image:0
+msgid "Photo"
+msgstr "Ảnh"
+
+#. module: hr
+#: model:ir.model,name:hr.model_res_users
+msgid "res.users"
+msgstr "res.users"
+
+#. module: hr
+#: field:hr.installer,hr_payroll_account:0
+msgid "Payroll Accounting"
+msgstr "tài khoản lương"
+
+#. module: hr
+#: view:hr.employee:0
+msgid "Personal Information"
+msgstr "Thông tin cá nhân"
+
+#. module: hr
+#: field:hr.employee,passport_id:0
+msgid "Passport No"
+msgstr "Số Hộ chiếu"
+
+#. module: hr
+#: view:res.users:0
+msgid "Current Activity"
+msgstr "Hoạt động hiện tại"
+
+#. module: hr
+#: help:hr.installer,hr_expense:0
+msgid ""
+"Tracks and manages employee expenses, and can automatically re-invoice "
+"clients if the expenses are project-related."
+msgstr ""
+"Theo dõi và quản lý chi phí nhân viên, và có thể các khách hàng lại tự động "
+"hoá đơn nếu các chi phí liên quan đến dự án."
+
+#. module: hr
+#: view:hr.job:0
+msgid "Current"
+msgstr "Hiện tại"
+
+#. module: hr
+#: field:hr.department,parent_id:0
+msgid "Parent Department"
+msgstr "Phòng/Ban cấp trên"
+
+#. module: hr
+#: view:hr.employee.category:0
+msgid "Employees Categories"
+msgstr "Loại nhân viên"
+
+#. module: hr
+#: field:hr.employee,address_home_id:0
+msgid "Home Address"
+msgstr "Địa chỉ nhà"
+
+#. module: hr
+#: field:hr.installer,hr_attendance:0
+#: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_new_config
+msgid "Attendances"
+msgstr "Tham dự"
+
+#. module: hr
+#: view:hr.job:0
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: hr
+#: help:hr.installer,hr_contract:0
+msgid "Extends employee profiles to help manage their contracts."
+msgstr "quản lý thông tin liên lạc của nhân viên"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_payroll_modules
+msgid "Payroll"
+msgstr "trả lương"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Single"
+msgstr "Chưa kết hôn"
+
+#. module: hr
+#: field:hr.job,name:0
+msgid "Job Name"
+msgstr "Tên công việc"
+
+#. module: hr
+#: view:hr.job:0
+msgid "In Position"
+msgstr "đang ở vị trí"
+
+#. module: hr
+#: field:hr.employee,mobile_phone:0
+msgid "Mobile"
+msgstr "Di động"
+
+#. module: hr
+#: view:hr.department:0
+msgid "department"
+msgstr "phòng/ban"
+
+#. module: hr
+#: field:hr.employee,country_id:0
+msgid "Nationality"
+msgstr "Quốc tịch"
+
+#. module: hr
+#: field:hr.employee,notes:0
+msgid "Notes"
+msgstr "Ghi chú"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_installer
+msgid "hr.installer"
+msgstr "hr.installer"
+
+#. module: hr
+#: view:board.board:0
+msgid "HR Manager Board"
+msgstr "quản lý tổng thể"
+
+#. module: hr
+#: field:hr.employee,resource_id:0
+msgid "Resource"
+msgstr "Nguồn lực"
+
+#. module: hr
+#: view:hr.installer:0
+#: model:ir.actions.act_window,name:hr.action_hr_installer
+msgid "Human Resources Application Configuration"
+msgstr "Cấu hình Ứng dụng Nguồn Nhân lực"
+
+#. module: hr
+#: field:hr.employee,gender:0
+msgid "Gender"
+msgstr "Giới tính"
+
+#. module: hr
+#: view:hr.employee:0
+#: field:hr.employee.category,employee_ids:0
+#: field:hr.job,employee_ids:0
+#: model:ir.actions.act_window,name:hr.hr_employee_normal_action_tree
+#: model:ir.actions.act_window,name:hr.open_view_employee_list
+#: model:ir.actions.act_window,name:hr.open_view_employee_list_my
+#: model:ir.ui.menu,name:hr.menu_open_view_employee_list_my
+msgid "Employees"
+msgstr "Nhân viên"
+
+#. module: hr
+#: help:hr.employee,sinid:0
+msgid "Social Insurance Number"
+msgstr "Số BHXH"
+
+#. module: hr
+#: field:hr.department,name:0
+msgid "Department Name"
+msgstr "Tên phòng/ban"
+
+#. module: hr
+#: help:hr.employee,ssnid:0
+msgid "Social Security Number"
+msgstr "Số An sinh Xã hội"
+
+#. module: hr
+#: model:process.node,note:hr.process_node_openerpuser0
+msgid "Creation of a OpenERP user"
+msgstr "Tạo một Tài khoản vào trong OpenERP"
+
+#. module: hr
+#: field:hr.department,child_ids:0
+msgid "Child Departments"
+msgstr "phòng/ ban cấp dưới"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.action_hr_job
+#: model:ir.ui.menu,name:hr.menu_hr_job
+msgid "Job Positions"
+msgstr "đương chức"
+
+#. module: hr
+#: view:hr.employee:0
+#: field:hr.employee,coach_id:0
+msgid "Coach"
+msgstr "huấn luyện viên"
+
+#. module: hr
+#: view:hr.installer:0
+msgid "Configure Your Human Resources Application"
+msgstr "cấu hình ứng dụng quản lý nhân sự của bạn"
+
+#. module: hr
+#: field:hr.installer,hr_expense:0
+msgid "Expenses"
+msgstr "Chi Phí"
+
+#. module: hr
+#: field:hr.department,manager_id:0
+#: view:hr.employee:0
+#: field:hr.employee,parent_id:0
+msgid "Manager"
+msgstr "Quản lý"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Widower"
+msgstr "Đã Qua"
+
+#. module: hr
+#: help:hr.installer,hr_payroll_account:0
+msgid "Generic Payroll system Integrated with Accountings."
+msgstr "Loại tài khoản Trả tiền lương nội bộ"
+
+#. module: hr
+#: field:hr.employee,child_ids:0
+msgid "Subordinates"
+msgstr "Người cấp dưới"
