@@ -1,0 +1,71 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_reprint
+# 
+# Translators:
+# Bole <bole@dajmi5.com>, 2017
+# Vladimir Olujić <olujic.vladimir@storm.hr>, 2020
+# Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-21 13:09+0000\n"
+"PO-Revision-Date: 2016-08-05 13:08+0000\n"
+"Last-Translator: Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2020\n"
+"Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/OrderReceipt.xml:0
+#, python-format
+msgid "DUPLICATA"
+msgstr ""
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/ReprintScreen.xml:0
+#, python-format
+msgid "Last Receipt"
+msgstr ""
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/js/ReprintButton.js:0
+#, python-format
+msgid "Nothing to Print"
+msgstr "Ništa za ispis"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/ReprintScreen.xml:0
+#, python-format
+msgid "Ok"
+msgstr "U redu"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/ReprintScreen.xml:0
+#, python-format
+msgid "Print"
+msgstr "Ispis"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/ReprintButton.xml:0
+#, python-format
+msgid "Reprint Receipt"
+msgstr "Ipis kopije potvrde"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/js/ReprintButton.js:0
+#, python-format
+msgid "There is no previous receipt to print."
+msgstr "Nema prethodnih potvrda za ispis."

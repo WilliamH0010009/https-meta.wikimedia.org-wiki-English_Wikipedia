@@ -1,0 +1,70 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_reprint
+# 
+# Translators:
+# Martin Trigaux, 2020
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-21 13:09+0000\n"
+"PO-Revision-Date: 2016-08-05 13:08+0000\n"
+"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2020\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/OrderReceipt.xml:0
+#, python-format
+msgid "DUPLICATA"
+msgstr "DUPLICATA"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/ReprintScreen.xml:0
+#, python-format
+msgid "Last Receipt"
+msgstr ""
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/js/ReprintButton.js:0
+#, python-format
+msgid "Nothing to Print"
+msgstr "沒有可列印的"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/ReprintScreen.xml:0
+#, python-format
+msgid "Ok"
+msgstr "確定"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/ReprintScreen.xml:0
+#, python-format
+msgid "Print"
+msgstr "列印"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/xml/ReprintButton.xml:0
+#, python-format
+msgid "Reprint Receipt"
+msgstr "重新列印收條"
+
+#. module: pos_reprint
+#. openerp-web
+#: code:addons/pos_reprint/static/src/js/ReprintButton.js:0
+#, python-format
+msgid "There is no previous receipt to print."
+msgstr "沒有可列印的收據"
