@@ -1,0 +1,4623 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web
+# 
+# Translators:
+# Volluta <volluta@tutanota.com>, 2016
+# wilcobergacker <wilcobergacker@gmail.com>, 2017
+# Melroy van den Berg <webmaster1989@gmail.com>, 2017
+# Eric Geens <ericgeens@yahoo.com>, 2018
+# Martin Trigaux, 2019
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2019
+# Gunther Clauwaert <gclauwae@hotmail.com>, 2019
+# Cas Vissers <casvissers@brahoo.nl>, 2019
+# Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-12 11:32+0000\n"
+"PO-Revision-Date: 2016-08-05 13:11+0000\n"
+"Last-Translator: Yenthe Van Ginneken <yenthespam@gmail.com>, 2019\n"
+"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_model.js:533
+#, python-format
+msgid " [Me]"
+msgstr " [Ik]"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:234
+#, python-format
+msgid " and "
+msgstr "en"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_facet.js:44
+#, python-format
+msgid " or "
+msgstr "of"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:285
+#, python-format
+msgid " records"
+msgstr " records"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:546
+#, python-format
+msgid "# Code editor"
+msgstr "# Code editor"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:113
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:357
+#, python-format
+msgid "%(field)s %(operator)s"
+msgstr "%(field)s %(operator)s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:114
+#, python-format
+msgid "%(field)s %(operator)s \"%(value)s\""
+msgstr "%(field)s %(operator)s \"%(value)s\""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:117
+#, python-format
+msgid "%d days ago"
+msgstr "%d dagen geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:115
+#, python-format
+msgid "%d hours ago"
+msgstr "%d uren geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:113
+#, python-format
+msgid "%d minutes ago"
+msgstr "%d minuten geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:119
+#, python-format
+msgid "%d months ago"
+msgstr "%d maanden geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:121
+#, python-format
+msgid "%d years ago"
+msgstr "%d jaren geleden"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.webclient_bootstrap
+msgid ""
+"&lt;!--[if lt IE 10]&gt;\n"
+"                        &lt;body class=\"ie9\"&gt;\n"
+"                    &lt;![endif]--&gt;"
+msgstr ""
+"&lt;!--[if lt IE 10]&gt;\n"
+"&lt;body class=\"ie9\"&gt;\n"
+"&lt;![endif]--&gt;"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/notification.xml:16
+#, python-format
+msgid "&times;"
+msgstr "&times;"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:431
+#, python-format
+msgid "'%s' is not a correct date"
+msgstr "'%s' is geen correcte datum"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/time.js:193
+#, python-format
+msgid "'%s' is not a correct date, datetime nor time"
+msgstr "'%s' is is geen correcte datum, datum/tijd of tijd."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:478
+#, python-format
+msgid "'%s' is not a correct datetime"
+msgstr "'%s' is geen geldige datum/tijd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:512
+#, python-format
+msgid "'%s' is not a correct float"
+msgstr "'%s' is geen correcte float"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:618
+#, python-format
+msgid "'%s' is not a correct integer"
+msgstr "'%s' is geen correct geheel getal (integer)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:548
+#, python-format
+msgid "'%s' is not a correct monetary field"
+msgstr "'%s' is geen correct  valuta veld"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/time.js:205
+#, python-format
+msgid "'%s' is not convertible to date, datetime nor time"
+msgstr ""
+"'%s' is niet converteerbaar naar een datum, een datum/tijd of een tijd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_controller.js:386
+#, python-format
+msgid "(%d invalid)"
+msgstr "(%d foutief)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:78
+#, python-format
+msgid "(change)"
+msgstr "(wijzig)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:396
+#: code:addons/web/static/src/xml/base.xml:428
+#, python-format
+msgid "(count)"
+msgstr "(count)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:83
+#, python-format
+msgid "(no string)"
+msgstr "(geen string)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:10
+#, python-format
+msgid "(nolabel)"
+msgstr "(geen label)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:283
+#, python-format
+msgid "1 record"
+msgstr "1 record"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_background
+msgid "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
+msgstr "<i class=\"fa fa-at\" role=\"img\" aria-label=\"E-mail\" title=\"E-mail\"/>"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_background
+msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Fiscal number\"/>"
+msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"BTW nummer\"/>"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_background
+msgid "<i class=\"fa fa-globe\" role=\"img\" aria-label=\"Website\" title=\"Website\"/>"
+msgstr "<i class=\"fa fa-globe\" role=\"img\" aria-label=\"Website\" title=\"Website\"/>"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_background
+msgid "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/>"
+msgstr "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Telefoon\" title=\"Telefoon\"/>"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.frontend_layout
+msgid "<span>Copyright &amp;copy;</span>"
+msgstr "<span>Copyright &amp;copy;</span>"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/add_new_favorite_menu.js:76
+#, python-format
+msgid "A name for your favorite is required."
+msgstr "Een naam voor uw favoriet is verplicht"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/action_manager.js:537
+#, python-format
+msgid ""
+"A popup window has been blocked. You may need to change your browser "
+"settings to allow popup windows for this page."
+msgstr ""
+"Een pop-up bericht met uw rapport is geblokkeerd. U moet wellicht uw browser"
+" instellingen veranderen zodat pop-ups van deze pagina worden toegestaan."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/action_manager_report.js:67
+#, python-format
+msgid ""
+"A popup window with your report was blocked. You may need to change your "
+"browser settings to allow popup windows for this page."
+msgstr ""
+"Een pop-up bericht met uw rapport is geblokkeerd. U moet wellicht uw browser"
+" instellingen veranderen zodat pop-ups van deze pagina worden toegestaan."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:523
+#, python-format
+msgid "ALL"
+msgstr "ALLE"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:524
+#, python-format
+msgid "ANY"
+msgstr "ELKE"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:19
+#, python-format
+msgid "Access Denied"
+msgstr "Toegang geweigerd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:15
+#, python-format
+msgid "Access Error"
+msgstr "Toegangsfout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1503
+#, python-format
+msgid "Access to all Enterprise Apps"
+msgstr "Toegang tot alle enterprise apps"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/sidebar.js:34
+#, python-format
+msgid "Action"
+msgstr "Actie"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:117
+#, python-format
+msgid "Action ID:"
+msgstr "Actie ID:"
+
+#. module: web
+#: model:ir.model,name:web.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "Actie venster weergave"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2150
+#, python-format
+msgid "Activate"
+msgstr "Activeer"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:15
+#, python-format
+msgid "Activate Assets Debugging"
+msgstr "Activeer assets debugging"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:16
+#, python-format
+msgid "Activate Tests Assets Debugging"
+msgstr "Activeer Tests assets debugging"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2149
+#: code:addons/web/static/src/js/fields/basic_fields.js:2153
+#: code:addons/web/static/src/js/fields/basic_fields.js:2157
+#, python-format
+msgid "Active"
+msgstr "Actief"
+
+#. module: web
+#: selection:ir.actions.act_window.view,view_mode:0
+msgid "Activity"
+msgstr "Activiteit"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:879
+#: code:addons/web/static/src/xml/base.xml:1314
+#: code:addons/web/static/src/xml/kanban.xml:56
+#: code:addons/web/static/src/xml/kanban.xml:73
+#, python-format
+msgid "Add"
+msgstr "Toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_renderer.js:81
+#, python-format
+msgid "Add %s"
+msgstr "%s toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1075
+#, python-format
+msgid "Add Custom Filter"
+msgstr "Voeg aangepaste filter toe"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1060
+#, python-format
+msgid "Add Custom Group"
+msgstr "Aangepaste groep toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:49
+#, python-format
+msgid "Add a Column"
+msgstr "Kolom toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1079
+#, python-format
+msgid "Add a condition"
+msgstr "Conditie toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_editable_renderer.js:83
+#: code:addons/web/static/src/js/views/list/list_editable_renderer.js:776
+#, python-format
+msgid "Add a line"
+msgstr "Regel toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:507
+#, python-format
+msgid "Add branch"
+msgstr "Branch toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:48
+#, python-format
+msgid "Add column"
+msgstr "Kolom toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:531
+#, python-format
+msgid "Add filter"
+msgstr "Voeg filter toe"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:591
+#, python-format
+msgid "Add new value"
+msgstr "Nieuwe waarde toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:506
+#, python-format
+msgid "Add node"
+msgstr "Node toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:592
+#, python-format
+msgid "Add tag"
+msgstr "Label toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2072
+#, python-format
+msgid "Add to Favorites"
+msgstr "Toevoegen aan favorieten"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:263
+#, python-format
+msgid "Add..."
+msgstr "Toevoegen..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:1764
+#, python-format
+msgid "Add: "
+msgstr "Toevoegen: "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/signature.js:42
+#, python-format
+msgid "Adopt Your Signature"
+msgstr "Uw eigen handtekening"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/signature.js:48
+#, python-format
+msgid "Adopt and Sign"
+msgstr "Adopteer en teken"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1158
+#, python-format
+msgid "Advanced Search..."
+msgstr "Geavanceerd zoeken..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/dialog.js:321
+#, python-format
+msgid "Alert"
+msgstr "Waarschuwing"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:513
+#: code:addons/web/static/src/xml/base.xml:518
+#: code:addons/web/static/src/xml/kanban.xml:231
+#, python-format
+msgid "All"
+msgstr "Alle"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_model.js:415
+#: code:addons/web/static/src/js/views/calendar/calendar_renderer.js:404
+#, python-format
+msgid "All day"
+msgstr "Hele dag"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:382
+#, python-format
+msgid "All users"
+msgstr "Alle gebruikers"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:120
+#: code:addons/web/static/src/xml/menu.xml:123
+#: code:addons/web/static/src/xml/menu.xml:129
+#: code:addons/web/static/src/xml/menu.xml:132
+#: code:addons/web/static/src/xml/menu.xml:138
+#: code:addons/web/static/src/xml/menu.xml:141
+#: code:addons/web/static/src/xml/menu.xml:147
+#: code:addons/web/static/src/xml/menu.xml:150
+#: code:addons/web/static/src/xml/menu.xml:156
+#: code:addons/web/static/src/xml/menu.xml:159
+#: code:addons/web/static/src/xml/menu.xml:165
+#: code:addons/web/static/src/xml/menu.xml:168
+#: code:addons/web/static/src/xml/menu.xml:174
+#: code:addons/web/static/src/xml/menu.xml:177
+#: code:addons/web/static/src/xml/menu.xml:183
+#: code:addons/web/static/src/xml/menu.xml:186
+#, python-format
+msgid "Alt"
+msgstr "Alt"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:135
+#, python-format
+msgid "An error occurred"
+msgstr "Er is een fout opgetreden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:229
+#, python-format
+msgid ""
+"An unknown CORS error occured. The error probably originates from a "
+"JavaScript file served from a different origin. (Opening your browser "
+"console might give you a hint on the error.)"
+msgstr ""
+"Een reeds bekende CORS fout is opgetreden. De fout komt waarschijnlijk door "
+"een JavaScript bestand geladen uit een andere bron. (Als u uw browserconsole"
+" opent, krijgt u mogelijk een hint over de fout.)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1508
+#, python-format
+msgid "And more"
+msgstr "En meer"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:514
+#: code:addons/web/static/src/xml/base.xml:519
+#, python-format
+msgid "Any"
+msgstr "Elke"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1069
+#: code:addons/web/static/src/xml/base.xml:1077
+#: code:addons/web/static/src/xml/base.xml:1152
+#, python-format
+msgid "Apply"
+msgstr "Toepassen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2154
+#: code:addons/web/static/src/js/views/list/list_controller.js:157
+#, python-format
+msgid "Archive"
+msgstr "Archief"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:27
+#, python-format
+msgid "Archive All"
+msgstr "Archiveer alles"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2153
+#, python-format
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_column.js:378
+#, python-format
+msgid ""
+"Are you sure that you want to archive all the records from this column?"
+msgstr "Bent u zeker dat u alle records wilt archiveren uit deze kolom?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_controller.js:159
+#, python-format
+msgid "Are you sure that you want to archive all the selected records?"
+msgstr "Bent u zeker dat u alle geselecteerde records wilt archiveren?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_column.js:316
+#, python-format
+msgid "Are you sure that you want to remove this column ?"
+msgstr "Weet u zeker dat u deze kolom wil verwijderen ?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/favorite_menu.js:88
+#, python-format
+msgid "Are you sure that you want to remove this filter?"
+msgstr "Bent u zeker dat u deze filter wilt verwijderen?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/basic/basic_controller.js:347
+#: code:addons/web/static/src/js/views/calendar/calendar_controller.js:357
+#, python-format
+msgid "Are you sure you want to delete this record ?"
+msgstr "Weet u zeker dat u dit record wilt verwijderen?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:965
+#, python-format
+msgid "Attach"
+msgstr "Bijvoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:128
+#, python-format
+msgid "Attachment"
+msgstr "Bijlage"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:237
+#, python-format
+msgid "Attachment :"
+msgstr "Bijlage:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:908
+#: code:addons/web/static/src/xml/name_and_signature.xml:61
+#, python-format
+msgid "Auto"
+msgstr "Auto"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1310
+#, python-format
+msgid "Available fields"
+msgstr "Beschikbare velden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1439
+#: code:addons/web/static/src/xml/kanban.xml:185
+#: code:addons/web/static/src/xml/kanban.xml:210
+#: code:addons/web/static/src/xml/web_calendar.xml:53
+#: code:addons/web/static/src/xml/web_calendar.xml:56
+#, python-format
+msgid "Avatar"
+msgstr "Avatar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:2735
+#, python-format
+msgid "Badges"
+msgstr "Badges"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:403
+#, python-format
+msgid "Bar Chart"
+msgstr "Staafdiagram"
+
+#. module: web
+#: model:ir.model,name:web.model_base
+msgid "Base"
+msgstr "Basis"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1092
+#, python-format
+msgid "Based On"
+msgstr "Gebaseerd op"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:18
+#, python-format
+msgid "Become Superuser"
+msgstr "Wordt superuser"
+
+#. module: web
+#: code:addons/web/controllers/main.py:1547
+#, python-format
+msgid ""
+"Binary fields can not be exported to Excel unless their content is "
+"base64-encoded. That does not seem to be the case for %s."
+msgstr ""
+"Binaire velden kunnen niet naar Excel worden geëxporteerd, tenzij de inhoud "
+"base64-gecodeerd is. Dat lijkt niet het geval te zijn voor %s."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:846
+#: code:addons/web/static/src/xml/base.xml:899
+#, python-format
+msgid "Binary file"
+msgstr "Binair bestand"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1507
+#, python-format
+msgid "Bugfixes guarantee"
+msgstr "Gegarandeerde bugfixees"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2473
+#: code:addons/web/static/src/xml/base.xml:80
+#, python-format
+msgid "Button"
+msgstr "Knop"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:109
+#, python-format
+msgid "Button Type:"
+msgstr "Soort knop:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:914
+#: code:addons/web/static/src/xml/name_and_signature.xml:104
+#, python-format
+msgid ""
+"By clicking Adopt and Sign, I agree that the chosen signature/initials will "
+"be a valid electronic representation of my hand-written signature/initials "
+"for all purposes when it is used on documents, including legally binding "
+"contracts."
+msgstr ""
+"Door te klikken op adopteren en tekenen stem ik in dat de gekozen "
+"handtekening/initialen een valide elektronische voorstelling van mijn "
+"handgeschreven handtekening/initialen is voor alle doelen wanneer het "
+"gebruikt wordt op dit document, inclusief alle legaal bindende contracten. "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/utils.js:354
+#, python-format
+msgid "Bytes,Kb,Mb,Gb,Tb,Pb,Eb,Zb,Yb"
+msgstr "Bytes,Kb,Mb,Gb,Tb,Pb,Eb,Zb,Yb"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1254
+#, python-format
+msgid "CLEAR"
+msgstr "WISSEN"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_view.js:22
+#: selection:ir.actions.act_window.view,view_mode:0
+#, python-format
+msgid "Calendar"
+msgstr "Agenda"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_view.js:44
+#, python-format
+msgid "Calendar view has not defined 'date_start' attribute."
+msgstr "Agenda weergave heeft een niet gedefinieerde 'date_start' eigenschap."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/dialog.js:335
+#: code:addons/web/static/src/js/core/dialog.js:388
+#: code:addons/web/static/src/js/fields/relational_fields.js:67
+#: code:addons/web/static/src/js/fields/signature.js:51
+#: code:addons/web/static/src/js/fields/upgrade_fields.js:75
+#: code:addons/web/static/src/js/services/crash_manager.js:241
+#: code:addons/web/static/src/js/views/calendar/calendar_quick_create.js:56
+#: code:addons/web/static/src/js/views/kanban/kanban_column.js:310
+#: code:addons/web/static/src/js/views/view_dialogs.js:381
+#: code:addons/web/static/src/xml/base.xml:165
+#, python-format
+msgid "Cancel"
+msgstr "Annuleer"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:637
+#, python-format
+msgid "Cannot render chart with mode : "
+msgstr "Kan grafiek niet renderen met modus:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:520
+#, python-format
+msgid "Card color: %s"
+msgstr "Kaartkleur: %s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/controllers/main.py:822
+#: code:addons/web/controllers/main.py:824
+#: code:addons/web/controllers/main.py:836
+#: code:addons/web/static/src/js/widgets/change_password.js:27
+#: code:addons/web/static/src/xml/base.xml:164
+#, python-format
+msgid "Change Password"
+msgstr "Wijzig wachtwoord"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:55
+#, python-format
+msgid "Change default:"
+msgstr "Wijzig standaard:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:780
+#, python-format
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:2346
+#, python-format
+msgid "Checkboxes"
+msgstr "Checkboxes"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:830
+#: code:addons/web/static/src/xml/base.xml:870
+#: code:addons/web/static/src/xml/base.xml:944
+#: code:addons/web/static/src/xml/name_and_signature.xml:71
+#, python-format
+msgid "Clear"
+msgstr "Zichtbaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:29
+#, python-format
+msgid "Clear Events"
+msgstr "Wis evenementen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:906
+#, python-format
+msgid "Clear Signature"
+msgstr "Handtekening wissen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2158
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:358
+#: code:addons/web/static/src/js/views/calendar/calendar_controller.js:368
+#: code:addons/web/static/src/js/views/view_dialogs.js:114
+#: code:addons/web/static/src/js/widgets/data_export.js:44
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:24
+#: code:addons/web/static/src/xml/base.xml:634
+#, python-format
+msgid "Close"
+msgstr "Sluiten"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2157
+#, python-format
+msgid "Closed"
+msgstr "Afgesloten"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:196
+#, python-format
+msgid "Column"
+msgstr "Kolom"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:54
+#, python-format
+msgid "Column title"
+msgstr "Kolom titel"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.frontend_layout
+msgid "Company name"
+msgstr "Bedrijfsnaam"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1134
+#, python-format
+msgid "Compare To"
+msgstr "Vergelijk met"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:356
+#, python-format
+msgid "Condition:"
+msgstr "Voorwaarde:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:159
+#, python-format
+msgid "Confirm New Password"
+msgstr "Bevestig nieuw wachtwoord"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/dialog.js:347
+#: code:addons/web/static/src/js/core/dialog.js:397
+#, python-format
+msgid "Confirmation"
+msgstr "Bevestiging"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:377
+#, python-format
+msgid "Connection lost"
+msgstr "Verbinding verloren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:391
+#, python-format
+msgid "Connection restored"
+msgstr "Verbinding hersteld"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:43
+#: code:addons/web/static/src/xml/base.xml:96
+#, python-format
+msgid "Context:"
+msgstr "Context:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:123
+#: code:addons/web/static/src/xml/menu.xml:132
+#: code:addons/web/static/src/xml/menu.xml:141
+#: code:addons/web/static/src/xml/menu.xml:150
+#: code:addons/web/static/src/xml/menu.xml:159
+#: code:addons/web/static/src/xml/menu.xml:168
+#: code:addons/web/static/src/xml/menu.xml:177
+#: code:addons/web/static/src/xml/menu.xml:186
+#, python-format
+msgid "Control"
+msgstr "Controle"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1382
+#: code:addons/web/static/src/js/services/crash_manager.js:162
+#, python-format
+msgid "Copied !"
+msgstr "Gekopieerd!"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:850
+#: code:addons/web/static/src/xml/base.xml:855
+#, python-format
+msgid "Copy Text"
+msgstr "Kopieer tekst"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:133
+#, python-format
+msgid "Copy the full error to clipboard"
+msgstr "Kopieer de volledige foutmelding naar het klembord"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1421
+#: code:addons/web/static/src/js/fields/basic_fields.js:1426
+#, python-format
+msgid "Copy to Clipboard"
+msgstr "Kopieer naar het klembord."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/ajax.js:316
+#, python-format
+msgid "Could not connect to the server"
+msgstr "Kon niet verbinden met de server"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1609
+#: code:addons/web/static/src/js/fields/signature.js:223
+#, python-format
+msgid "Could not display the selected image."
+msgstr "Kan de geselecteerde afbeelding niet tonen."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/utils.js:686
+#, python-format
+msgid "Could not serialize XML"
+msgstr "Kon XML niet serialiseren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:680
+#, python-format
+msgid ""
+"Could not set the cover image: incorrect field (\"%s\") is provided in the "
+"view."
+msgstr ""
+"Kon de omslagafbeelding niet instellen: onjuist veld (\"%s\") wordt "
+"weergegeven in de weergave."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_view.js:45
+#: code:addons/web/static/src/js/views/graph/graph_view.js:47
+#: code:addons/web/static/src/js/views/pivot/pivot_view.js:49
+#: code:addons/web/static/src/js/views/pivot/pivot_view.js:61
+#: code:addons/web/static/src/xml/base.xml:399
+#: code:addons/web/static/src/xml/base.xml:431
+#, python-format
+msgid "Count"
+msgstr "Aantal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:46
+#: code:addons/web/static/src/js/views/calendar/calendar_controller.js:270
+#: code:addons/web/static/src/js/views/calendar/calendar_quick_create.js:45
+#: code:addons/web/static/src/js/views/kanban/kanban_controller.js:496
+#: code:addons/web/static/src/js/views/view_dialogs.js:387
+#: code:addons/web/static/src/xml/base.xml:280
+#: code:addons/web/static/src/xml/base.xml:294
+#, python-format
+msgid "Create"
+msgstr "Aanmaken"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form/form_controller.js:667
+#: code:addons/web/static/src/js/views/view_dialogs.js:151
+#, python-format
+msgid "Create "
+msgstr "Maken"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:594
+#, python-format
+msgid "Create \"<strong>%s</strong>\""
+msgstr "Aanmaken \"<strong>%s</strong>\""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:43
+#, python-format
+msgid "Create a %s"
+msgstr "Maak een %s aan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:145
+#, python-format
+msgid "Create a new record"
+msgstr "Maak een nieuw record aan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:608
+#, python-format
+msgid "Create and Edit..."
+msgstr "Aanmaken en beweren..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:57
+#, python-format
+msgid "Create and edit"
+msgstr "Aanmaken en bewerken"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:391
+#, python-format
+msgid "Create: "
+msgstr "Aanmaken:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_controller.js:253
+#, python-format
+msgid "Create: %s"
+msgstr "Aanmaken: %s"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:242
+#, python-format
+msgid "Created by :"
+msgstr "Aangemaakt door:"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:87
+#, python-format
+msgid "Creation Date:"
+msgstr "Aanmaakdatum:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:83
+#, python-format
+msgid "Creation User:"
+msgstr "Gebruiker aanmaken:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:813
+#, python-format
+msgid "Current state"
+msgstr "Huidige status"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:29
+#: code:addons/web/static/src/xml/base.xml:761
+#: code:addons/web/static/src/xml/kanban.xml:88
+#, python-format
+msgid "Dark blue"
+msgstr "Donkerblauw"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:26
+#: code:addons/web/static/src/xml/base.xml:758
+#: code:addons/web/static/src/xml/kanban.xml:85
+#, python-format
+msgid "Dark purple"
+msgstr "Donkerpaars"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login
+msgid "Database"
+msgstr "Database"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:491
+#, python-format
+msgid "Date"
+msgstr "Datum"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:607
+#, python-format
+msgid "Date & Time"
+msgstr "Datum & Tijd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:31
+#: code:addons/web/static/src/xml/base.xml:449
+#: code:addons/web/static/src/xml/web_calendar.xml:80
+#, python-format
+msgid "Day"
+msgstr "Dag"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2150
+#, python-format
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.debug_icon
+msgid ""
+"Debug mode is activated#{debug_mode_help}. Click here to exit debug mode."
+msgstr ""
+"Debug mode is geactiveerd#{debug_mode_help}. Klik hier om de debug mode te "
+"verlaten."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:939
+#, python-format
+msgid "Decimal"
+msgstr "Decimaal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:339
+#, python-format
+msgid "Default:"
+msgstr "Standaard:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_controller.js:355
+#: code:addons/web/static/src/js/views/form/form_controller.js:194
+#: code:addons/web/static/src/js/views/list/list_controller.js:171
+#: code:addons/web/static/src/xml/base.xml:747
+#: code:addons/web/static/src/xml/base.xml:1001
+#: code:addons/web/static/src/xml/base.xml:1206
+#: code:addons/web/static/src/xml/base.xml:1356
+#: code:addons/web/static/src/xml/kanban.xml:24
+#, python-format
+msgid "Delete"
+msgstr "Verwijder"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:505
+#, python-format
+msgid "Delete node"
+msgstr "Verwijder node"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_editable_renderer.js:866
+#, python-format
+msgid "Delete row "
+msgstr "Verwijder rij"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:253
+#, python-format
+msgid "Delete this attachment"
+msgstr "Verwijder deze bijlage"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:111
+#, python-format
+msgid "Description"
+msgstr "Omschrijving"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:427
+#: code:addons/web/static/src/js/views/view_dialogs.js:114
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:31
+#: code:addons/web/static/src/xml/base.xml:276
+#: code:addons/web/static/src/xml/base.xml:304
+#: code:addons/web/static/src/xml/kanban.xml:75
+#, python-format
+msgid "Discard"
+msgstr "Negeren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:136
+#, python-format
+msgid "Discard a record modification"
+msgstr "Negeer een record wijziging"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__display_name
+msgid "Display Name"
+msgstr "Weergave naam"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:416
+#, python-format
+msgid "Do you really want to delete this export template?"
+msgstr "Wilt u echt dit exporteer sjabloon verwijderen?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_renderer.js:150
+#, python-format
+msgid "Do you really want to delete this filter from favorites ?"
+msgstr "Weet u zeker dat u deze filter wilt verwijderen als favoriet?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_controller.js:382
+#, python-format
+msgid "Do you want to set the value on the %d valid selected records?"
+msgstr "Wilt u de waarde instellen op de %d geldig geselecteerde records?"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__view_id
+msgid "Document Template"
+msgstr "Documentsjabloon"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1449
+#, python-format
+msgid "Documentation"
+msgstr "Documentatie"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:36
+#: code:addons/web/static/src/xml/base.xml:492
+#, python-format
+msgid "Domain"
+msgstr "Domein"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:539
+#, python-format
+msgid "Domain error"
+msgstr "Domein fout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:47
+#, python-format
+msgid "Domain:"
+msgstr "Domein:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/misc.js:16
+#, python-format
+msgid "Don't leave yet,<br />it's still loading..."
+msgstr "Nog niet weggaan,<br />het systeem is nog steeds aan het laden..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:437
+#, python-format
+msgid "Download xls"
+msgstr "Download xls"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:907
+#: code:addons/web/static/src/xml/name_and_signature.xml:56
+#, python-format
+msgid "Draw"
+msgstr "Teken"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:478
+#: code:addons/web/static/src/xml/base.xml:1459
+#, python-format
+msgid "Dropdown menu"
+msgstr "Dropdown menu"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form/form_controller.js:200
+#, python-format
+msgid "Duplicate"
+msgstr "Dupliceer"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_controller.js:349
+#: code:addons/web/static/src/js/views/calendar/calendar_quick_create.js:50
+#: code:addons/web/static/src/xml/base.xml:290
+#: code:addons/web/static/src/xml/base.xml:829
+#: code:addons/web/static/src/xml/kanban.xml:74
+#, python-format
+msgid "Edit"
+msgstr "Bewerken"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:36
+#, python-format
+msgid "Edit Action"
+msgstr "Bewerkingsactie"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_column.js:329
+#, python-format
+msgid "Edit Column"
+msgstr "Kolom wijzigen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:59
+#, python-format
+msgid "Edit ControlPanelView"
+msgstr "Wijzig ControlPanelView"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:499
+#, python-format
+msgid "Edit Domain"
+msgstr "Bewerk domein"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:23
+#, python-format
+msgid "Edit Stage"
+msgstr "Bewerk fase"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:56
+#, python-format
+msgid "Edit View:"
+msgstr "Wijzig weergave:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:127
+#, python-format
+msgid "Edit a record"
+msgstr "Wijzig een record"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1211
+#: model_terms:ir.ui.view,arch_db:web.login
+#, python-format
+msgid "Email"
+msgstr "E-mail"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+msgid "Email:"
+msgstr "E-mail:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:165
+#: code:addons/web/static/src/js/views/control_panel/search/add_new_favorite_menu.js:76
+#: code:addons/web/static/src/js/views/control_panel/search/add_new_favorite_menu.js:84
+#, python-format
+msgid "Error"
+msgstr "Fout"
+
+#. module: web
+#: code:addons/web/controllers/main.py:826
+#, python-format
+msgid "Error, password not changed !"
+msgstr "Fout, uw wachtwoord is niet gewijzigd!"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:59
+#, python-format
+msgid "Esc to discard"
+msgstr "Esc om te verwerpen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_model.js:542
+#, python-format
+msgid "Everybody's calendars"
+msgstr "Agenda van iedereen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_model.js:542
+#, python-format
+msgid "Everything"
+msgstr "Alles"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:436
+#, python-format
+msgid "Expand all"
+msgstr "Alles uitvouwen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1336
+#, python-format
+msgid "Expand parents"
+msgstr "Uitvouwen bovenliggende"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_controller.js:152
+#, python-format
+msgid "Export"
+msgstr "Exporteren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:41
+#, python-format
+msgid "Export Data"
+msgstr "Gegevens exporteren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1303
+#, python-format
+msgid "Export Format:"
+msgstr "Export formaat:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:43
+#, python-format
+msgid "Export To File"
+msgstr "Exporteer naar bestand"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/controllers/main.py:1311
+#: code:addons/web/controllers/main.py:1314
+#: code:addons/web/static/src/js/widgets/data_export.js:152
+#: code:addons/web/static/src/js/widgets/data_export.js:373
+#, python-format
+msgid "External ID"
+msgstr "Externe ID"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:720
+#, python-format
+msgid "External link"
+msgstr "Externe link"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1252
+#, python-format
+msgid "FILTER"
+msgstr "FILTER"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/control_panel_model.js:289
+#, python-format
+msgid "Failed to evaluate search criterions"
+msgstr "Fout opgetreden bij zoekcriteria"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:62
+#, python-format
+msgid "False"
+msgstr "Onwaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/favorite_menu.js:22
+#, python-format
+msgid "Favorites"
+msgstr "Favorieten"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:17
+#, python-format
+msgid "Field:"
+msgstr "Veld:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:395
+#: code:addons/web/static/src/xml/debug.xml:54
+#, python-format
+msgid "Fields View Get"
+msgstr "Veldweergave 'Get'"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1322
+#, python-format
+msgid "Fields to export"
+msgstr "Te exporteren velden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1615
+#, python-format
+msgid "File"
+msgstr "Bestand"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1482
+#, python-format
+msgid "File Upload"
+msgstr "Bestand uploaden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1466
+#, python-format
+msgid "File upload"
+msgstr "Bestand uploaden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:54
+#, python-format
+msgid "Filter on: %s"
+msgstr "Filter op: %s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/add_new_favorite_menu.js:84
+#, python-format
+msgid "Filter with same name already exists."
+msgstr "Filter met dezelfde naam bestaat al."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/filter_menu.js:41
+#, python-format
+msgid "Filters"
+msgstr "Filters"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:435
+#, python-format
+msgid "Flip axis"
+msgstr "Wissen assen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:21
+#, python-format
+msgid "Fold"
+msgstr "Vouwen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:650
+#, python-format
+msgid "Followed by"
+msgstr "Gevolgd door"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/pivot/pivot_controller.js:129
+#, python-format
+msgid ""
+"For Excel compatibility, data cannot be exported if there are more than 256 columns.\n"
+"\n"
+"Tip: try to flip axis, filter further or reduce the number of measures."
+msgstr ""
+"Voor de comptabiliteit van Excel, kan data niet geexporteerd worden indien er meer dan 256 kolommen zijn.\n"
+"\n"
+"Tip: probeer de assen om te draaien, filter meer of verminder de maateenheden."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form/form_view.js:18
+#: selection:ir.actions.act_window.view,view_mode:0
+#, python-format
+msgid "Form"
+msgstr "Formulier"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/qweb/qweb_view.js:176
+#, python-format
+msgid "Freedom View"
+msgstr "Vrijheid weergave"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/filter_menu.js:139
+#, python-format
+msgid "From %s To %s"
+msgstr "Van %s T/m %s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/name_and_signature.xml:43
+#, python-format
+msgid "Full Name"
+msgstr "Volledige naam"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:30
+#: code:addons/web/static/src/xml/base.xml:762
+#: code:addons/web/static/src/xml/kanban.xml:89
+#, python-format
+msgid "Fushia"
+msgstr "Fuchsia"
+
+#. module: web
+#: selection:ir.actions.act_window.view,view_mode:0
+msgid "Gantt"
+msgstr "Gantt"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1500
+#, python-format
+msgid "Get this feature and much more with Odoo Enterprise!"
+msgstr "Krijg deze optie en veel meer met Odoo Enterprise!"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:18
+#, python-format
+msgid "Global Business Error"
+msgstr "Algemenen business fout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_column_quick_create.js:189
+#, python-format
+msgid "Got it"
+msgstr "Ik begrijp het"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_view.js:23
+#: selection:ir.actions.act_window.view,view_mode:0
+#, python-format
+msgid "Graph"
+msgstr "Diagram"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:31
+#: code:addons/web/static/src/xml/base.xml:763
+#: code:addons/web/static/src/xml/kanban.xml:90
+#, python-format
+msgid "Green"
+msgstr "Groen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/groupby_menu.js:67
+#, python-format
+msgid "Group By"
+msgstr "Groepeer op"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:58
+#, python-format
+msgid "Group by: %s"
+msgstr "Groepeer op: %s"
+
+#. module: web
+#: model:ir.model,name:web.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP routing"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1195
+#, python-format
+msgid "Handle"
+msgstr "Handvat"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:771
+#, python-format
+msgid "Hide in Kanban"
+msgstr "Verbergen in Kanban"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:320
+#, python-format
+msgid "Hit DOWN to navigate to the list below"
+msgstr "Druk op OMLAAG om naar de onderstaande lijst te navigeren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:327
+#, python-format
+msgid "Hit ENTER to"
+msgstr "Druk op ENTER om"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:319
+#, python-format
+msgid "Hit ENTER to CREATE"
+msgstr "Druk op ENTER om AAN TE MAKEN"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:311
+#, python-format
+msgid "Hit ENTER to SAVE"
+msgstr "Druk op ENTER om OP TE SLAAN"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:312
+#, python-format
+msgid "Hit ESCAPE to DISCARD"
+msgstr "Druk op ESCAPE om te VERWERPEN"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/dialog.js:363
+#, python-format
+msgid "I am sure about this."
+msgstr "Ik weet dit zeker"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__id
+msgid "ID"
+msgstr "ID"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:66
+#, python-format
+msgid "ID:"
+msgstr "ID:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1553
+#: code:addons/web/static/src/js/fields/basic_fields.js:1609
+#: code:addons/web/static/src/js/fields/basic_fields.js:1938
+#: code:addons/web/static/src/js/fields/signature.js:223
+#, python-format
+msgid "Image"
+msgstr "Afbeelding"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2149
+#, python-format
+msgid "Inactive"
+msgstr "Inactief"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:905
+#, python-format
+msgid "Integer"
+msgstr "Geheel getal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:773
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:782
+#, python-format
+msgid "Invalid data"
+msgstr "Invalide data"
+
+#. module: web
+#: code:addons/web/controllers/main.py:720
+#: code:addons/web/controllers/main.py:734
+#, python-format
+msgid ""
+"Invalid database name. Only alphanumerical characters, underscore, hyphen "
+"and dot are allowed."
+msgstr ""
+"Ongeldige database naam. Allee alfanumerieke karakters, onderstreep, "
+"koppelteken en punten zijn niet toegestaan."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:497
+#, python-format
+msgid "Invalid domain"
+msgstr "Foutief domein"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/model_field_selector.js:427
+#: code:addons/web/static/src/xml/base.xml:628
+#, python-format
+msgid "Invalid field chain"
+msgstr "Incorrecte veld volgorde"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:636
+#, python-format
+msgid "Invalid mode for chart"
+msgstr "Incorrecte modus voor grafiek"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:94
+#, python-format
+msgid "JS Mobile Tests"
+msgstr "JS mobiel testen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:83
+#, python-format
+msgid "JS Tests"
+msgstr "JS Testen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_view.js:19
+#: selection:ir.actions.act_window.view,view_mode:0
+#, python-format
+msgid "Kanban"
+msgstr "Kanban"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/user_menu.js:124
+#, python-format
+msgid "Keyboard Shortcuts"
+msgstr "Toetsenbord sneltoetsen"
+
+#. module: web
+#: code:addons/web/controllers/main.py:843
+#, python-format
+msgid "Languages"
+msgstr "Talen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:12
+#, python-format
+msgid "Last 30 Days"
+msgstr "Laatste 30 dagen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:13
+#, python-format
+msgid "Last 365 Days"
+msgstr "Laatste 365 dagen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:14
+#, python-format
+msgid "Last 5 Years"
+msgstr "Laatste 5 jaren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:11
+#, python-format
+msgid "Last 7 Days"
+msgstr "Laatste 7 dagen"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout____last_update
+msgid "Last Modified on"
+msgstr "Laatst gewijzigd op"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:22
+#, python-format
+msgid "Last Month"
+msgstr " Vorige maand"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:23
+#, python-format
+msgid "Last Quarter"
+msgstr "Vorig kwartaal"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:21
+#, python-format
+msgid "Last Week"
+msgstr "Vorige week"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:24
+#, python-format
+msgid "Last Year"
+msgstr "Vorige jaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:95
+#, python-format
+msgid "Latest Modification Date:"
+msgstr "Laatst datum aangepast:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:91
+#, python-format
+msgid "Latest Modification by:"
+msgstr "Laatst aangepast door:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:19
+#, python-format
+msgid "Leave the Developer Tools"
+msgstr "Verlaat de ontwikkelaars tools"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:25
+#: code:addons/web/static/src/xml/base.xml:757
+#: code:addons/web/static/src/xml/kanban.xml:84
+#, python-format
+msgid "Light blue"
+msgstr "Lichtblauw"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:404
+#, python-format
+msgid "Line Chart"
+msgstr "Lijndiagram"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_view.js:23
+#, python-format
+msgid "List"
+msgstr "Lijst"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:909
+#: code:addons/web/static/src/xml/name_and_signature.xml:66
+#, python-format
+msgid "Load"
+msgstr "Laden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:42
+#, python-format
+msgid "Load more... ("
+msgstr "Laad meer... ("
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/loading.js:60
+#, python-format
+msgid "Loading"
+msgstr "Laden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/loading.js:58
+#, python-format
+msgid "Loading (%d)"
+msgstr "Laden (%d)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1369
+#, python-format
+msgid "Loading, please wait..."
+msgstr "Laden, even geduld a.u.b."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/misc.js:13
+#: code:addons/web/static/src/js/fields/relational_fields.js:148
+#: code:addons/web/static/src/js/fields/relational_fields.js:243
+#: code:addons/web/static/src/xml/base.xml:1362
+#, python-format
+msgid "Loading..."
+msgstr "Laden..."
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login
+msgid "Log in"
+msgstr "Login"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login
+msgid "Log in as superuser"
+msgstr "Log in als superuser"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1454
+#, python-format
+msgid "Log out"
+msgstr "Afmelden"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_background
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_clean
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+#: model_terms:ir.ui.view,arch_db:web.frontend_layout
+#: model_terms:ir.ui.view,arch_db:web.login_layout
+msgid "Logo"
+msgstr "Logo"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:113
+#, python-format
+msgid "Mac"
+msgstr "Mac"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+msgid "Mail:"
+msgstr "Mail:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:226
+#: code:addons/web/static/src/xml/debug.xml:51
+#, python-format
+msgid "Manage Attachments"
+msgstr "Beheer bijlages"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login_layout
+msgid "Manage Databases"
+msgstr "Beheer databases"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:161
+#: code:addons/web/static/src/xml/debug.xml:39
+#, python-format
+msgid "Manage Filters"
+msgstr "Filters beheren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:1738
+#, python-format
+msgid "Many2many"
+msgstr "Many2many"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:96
+#, python-format
+msgid "Many2one"
+msgstr "Many2one"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:530
+#, python-format
+msgid "Match"
+msgstr "Overeenkomst"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:537
+#, python-format
+msgid "Match records with"
+msgstr "Match records met"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:535
+#, python-format
+msgid "Match records with the following rule:"
+msgstr "Match records met de volgende regel:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/misc.js:19
+#, python-format
+msgid "Maybe you should consider reloading the application by pressing F5..."
+msgstr ""
+"Misschien kan je overwegen de applicatie te herladen door F5 te drukken..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:391
+#: code:addons/web/static/src/xml/base.xml:423
+#, python-format
+msgid "Measures"
+msgstr "Eenheden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:28
+#: code:addons/web/static/src/xml/base.xml:760
+#: code:addons/web/static/src/xml/kanban.xml:87
+#, python-format
+msgid "Medium blue"
+msgstr "Middelblauw"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:256
+#, python-format
+msgid "Metadata (%s)"
+msgstr "Metadata (%s)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:113
+#, python-format
+msgid "Method:"
+msgstr "Methode:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:16
+#, python-format
+msgid "Missing Record"
+msgstr "Ontbrekend record"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1505
+#, python-format
+msgid "Mobile support"
+msgstr "Mobiele ondersteuning"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:247
+#, python-format
+msgid "Modified by :"
+msgstr "Aangepast door:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:51
+#: code:addons/web/static/src/xml/base.xml:100
+#, python-format
+msgid "Modifiers:"
+msgstr "Modificatoren:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:667
+#, python-format
+msgid "Monetary"
+msgstr "Monetair"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:33
+#: code:addons/web/static/src/xml/base.xml:451
+#: code:addons/web/static/src/xml/web_calendar.xml:82
+#, python-format
+msgid "Month"
+msgstr "Maand"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form/form_renderer.js:439
+#: code:addons/web/static/src/xml/base.xml:797
+#, python-format
+msgid "More"
+msgstr "Meer"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1318
+#, python-format
+msgid "Move Down"
+msgstr "Omlaag"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1317
+#, python-format
+msgid "Move Up"
+msgstr "Omhoog"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1121
+#, python-format
+msgid "Multiline Text"
+msgstr "Meerdere regels tekst"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1453
+#, python-format
+msgid "My Odoo.com account"
+msgstr "Mijn Odoo.com account"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:525
+#, python-format
+msgid "NONE"
+msgstr "GEEN"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1373
+#, python-format
+msgid "Name:"
+msgstr "Naam:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/basic/basic_model.js:687
+#, python-format
+msgid "New"
+msgstr "Nieuw"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:155
+#, python-format
+msgid "New Password"
+msgstr "Nieuw wachtwoord"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1504
+#, python-format
+msgid "New design"
+msgstr "Nieuw ontwerp"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1409
+#: code:addons/web/static/src/xml/web_calendar.xml:77
+#, python-format
+msgid "Next"
+msgstr "Volgende"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:296
+#, python-format
+msgid "No"
+msgstr "Nee"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:74
+#, python-format
+msgid "No Update:"
+msgstr "Geen update:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:221
+#, python-format
+msgid "No attachment available"
+msgstr "Geen bijlage beschikbaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:21
+#: code:addons/web/static/src/xml/kanban.xml:80
+#, python-format
+msgid "No color"
+msgstr "Geen kleur"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:49
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:455
+#, python-format
+msgid "No data"
+msgstr "Geen data"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:643
+#: code:addons/web/static/src/xml/base.xml:466
+#, python-format
+msgid "No data to display"
+msgstr "Geen data om te tonen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:240
+#, python-format
+msgid "No metadata available"
+msgstr "Geen metadata beschikbaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:281
+#, python-format
+msgid "No records"
+msgstr "Geen regels"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:614
+#, python-format
+msgid "No results to show..."
+msgstr "Geen resultaten om te tonen..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:515
+#, python-format
+msgid "None"
+msgstr "Geen"
+
+#. module: web
+#: code:addons/web/models/models.py:284 code:addons/web/models/models.py:289
+#: code:addons/web/models/models.py:296
+#, python-format
+msgid "Not Set"
+msgstr "Niet ingesteld"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:817
+#, python-format
+msgid "Not active state"
+msgstr "Niet actieve status"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:821
+#, python-format
+msgid "Not active state, click to change it"
+msgstr "Niet actieve status, klik om te wijzigen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:21
+#: code:addons/web/static/src/xml/base.xml:92
+#, python-format
+msgid "Object:"
+msgstr "Object:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/dialog.js:61
+#: model_terms:ir.ui.view,arch_db:web.brand_promotion
+#, python-format
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/apps.js:150
+#, python-format
+msgid "Odoo Apps will be available soon"
+msgstr "Odoo apps zijn binnenkort beschikbaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:227
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:239
+#: code:addons/web/static/src/js/services/crash_manager.js:34
+#: code:addons/web/static/src/js/services/crash_manager.js:190
+#, python-format
+msgid "Odoo Client Error"
+msgstr "Odoo cliënt fout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/upgrade_fields.js:86
+#, python-format
+msgid "Odoo Enterprise"
+msgstr "Odoo Enterprise"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:148
+#, python-format
+msgid "Odoo Error"
+msgstr "Odoo fout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:253
+#, python-format
+msgid "Odoo Session Expired"
+msgstr "Odoo sessie verlopen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:138
+#: code:addons/web/static/src/js/services/crash_manager.js:231
+#, python-format
+msgid "Odoo Warning"
+msgstr "Odoo foutmelding"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2166
+#, python-format
+msgid "Off"
+msgstr "Uit"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/dialog.js:66
+#: code:addons/web/static/src/js/core/dialog.js:310
+#: code:addons/web/static/src/js/core/dialog.js:329
+#: code:addons/web/static/src/js/core/dialog.js:381
+#: code:addons/web/static/src/js/views/kanban/kanban_column.js:305
+#: code:addons/web/static/src/xml/base.xml:1346
+#, python-format
+msgid "Ok"
+msgstr "Ok"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:151
+#, python-format
+msgid "Old Password"
+msgstr "Oud wachtwoord"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2165
+#, python-format
+msgid "On"
+msgstr "Op"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:59
+#, python-format
+msgid "On change:"
+msgstr "Bij wijziging:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:1533
+#, python-format
+msgid "One2many"
+msgstr "One2many"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2392
+#, python-format
+msgid "Only Integer Value should be valid."
+msgstr "Alleen gehele getallen zijn geldig."
+
+#. module: web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1982
+#, python-format
+msgid "Only Integer or Float Value should be valid."
+msgstr "Alleen gehele waardes of getallen zijn geldig."
+
+#. module: web
+#: code:addons/web/controllers/main.py:537
+#, python-format
+msgid ""
+"Only employee can access this database. Please contact the administrator."
+msgstr ""
+"Enkel werknemers kunnen aan deze database. Gelieve de administrator te "
+"contacteren."
+
+#. module: web
+#: code:addons/web/models/models.py:226
+#, python-format
+msgid ""
+"Only types %(supported_types)s are supported for category (found type "
+"%(field_type)s)"
+msgstr ""
+"Alleen de types %(supported_types)s zijn ondersteund voor deze categorie "
+"(type %(field_type)s gevonden)"
+
+#. module: web
+#: code:addons/web/models/models.py:263
+#, python-format
+msgid ""
+"Only types %(supported_types)s are supported for filter (found type "
+"%(field_type)s)"
+msgstr ""
+"Alleen de types%(supported_types)s zijn ondersteund voor filters (gevonden "
+"type %(field_type)s)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:375
+#, python-format
+msgid "Only you"
+msgstr "Alleen u"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2158
+#, python-format
+msgid "Open"
+msgstr "Open"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:25
+#, python-format
+msgid "Open View"
+msgstr "Open weergave"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:181
+#, python-format
+msgid "Open the next record"
+msgstr "Open het volgende record"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:172
+#, python-format
+msgid "Open the previous record"
+msgstr "Open het vorige record"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:163
+#, python-format
+msgid "Open to kanban view"
+msgstr "Open de kanban weergave"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:154
+#, python-format
+msgid "Open to list view"
+msgstr "Open de lijstweergave"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:708
+#: code:addons/web/static/src/js/views/calendar/calendar_controller.js:335
+#: code:addons/web/static/src/js/views/form/form_controller.js:667
+#: code:addons/web/static/src/js/views/form/form_controller.js:689
+#: code:addons/web/static/src/js/views/view_dialogs.js:151
+#, python-format
+msgid "Open: "
+msgstr "Open: "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:23
+#: code:addons/web/static/src/xml/base.xml:755
+#: code:addons/web/static/src/xml/kanban.xml:82
+#, python-format
+msgid "Orange"
+msgstr "Oranje"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1698
+#, python-format
+msgid "PDF Viewer"
+msgstr "PDF bekijker"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_background
+msgid ""
+"Page:\n"
+"                    <span class=\"page\"/>\n"
+"                    of\n"
+"                    <span class=\"topage\"/>"
+msgstr "Pagina : <span class=\"page\"/>van <span class=\"topage\"/>"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Pagina: <span class=\"page\"/> / <span class=\"topage\"/>"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login
+msgid "Password"
+msgstr "Wachtwoord"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1116
+#, python-format
+msgid "Percentage"
+msgstr "Percentage"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2247
+#, python-format
+msgid "Percentage Pie"
+msgstr "Percentage taart"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1274
+#, python-format
+msgid "Phone"
+msgstr "Telefoon"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+msgid "Phone:"
+msgstr "Telefoon:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:405
+#, python-format
+msgid "Pie Chart"
+msgstr "Taartdiagram"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:783
+#, python-format
+msgid ""
+"Pie chart cannot display all zero numbers.. Try to change your domain to "
+"display positive results"
+msgstr ""
+"De taart grafiek kan geen nul waardes weergeven. Probeer je domein te "
+"wijzigen om positieve resultaten te krijgen."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:774
+#, python-format
+msgid ""
+"Pie chart cannot mix positive and negative numbers. Try to change your "
+"domain to only display positive results"
+msgstr ""
+"De taart grafiek kan geen positieve en negatieve waarden combineren. Probeer"
+" je domein te wijzigen om positieve resultaten te krijgen."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/pivot/pivot_view.js:23
+#: selection:ir.actions.act_window.view,view_mode:0
+#, python-format
+msgid "Pivot"
+msgstr "Pivot"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:1506
+#: code:addons/web/static/src/js/views/list/list_renderer.js:455
+#, python-format
+msgid "Please click on the \"save\" button first."
+msgstr "Gelieve eerst op de \"Opslaan\" knop te klikken."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:492
+#, python-format
+msgid "Please enter save field list name"
+msgstr "Geef aub 'opslaan veldenlijst' naam in"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:148
+#, python-format
+msgid "Please select fields to export..."
+msgstr "Selecteer velden om te exporteren..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/data_export.js:183
+#, python-format
+msgid "Please select fields to save export list..."
+msgstr "Selecteer velden voor opslaan export lijst..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1428
+#, python-format
+msgid "Please update translations of :"
+msgstr "Gelieve de vertalingen te updaten van:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:136
+#, python-format
+msgid ""
+"Please use the copy button to report the error to your support service."
+msgstr ""
+"Gelieve de kopieer knop te gebruiken om de fout te melden aan support."
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.brand_promotion
+msgid "Powered by"
+msgstr "Aangeboden door"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login_layout
+msgid "Powered by <span>Odoo</span>"
+msgstr "Aangeboden door <span>Odoo</span>"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1452
+#, python-format
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#. module: web
+#: model:ir.actions.report,name:web.action_report_externalpreview
+msgid "Preview External Report"
+msgstr "Voorbeeldweergave externe rapportage"
+
+#. module: web
+#: model:ir.actions.report,name:web.action_report_internalpreview
+msgid "Preview Internal Report"
+msgstr "Voorbeeldweergave interne rapportage"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__image
+msgid "Preview image src"
+msgstr "Voorbeeld afbeelding bron"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__pdf
+msgid "Preview pdf src"
+msgstr "Voorbeeld pdf bron"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:632
+#: code:addons/web/static/src/xml/base.xml:1408
+#: code:addons/web/static/src/xml/web_calendar.xml:75
+#, python-format
+msgid "Previous"
+msgstr "Vorige"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:42
+#, python-format
+msgid "Previous Period"
+msgstr "Vorige periode"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:43
+#, python-format
+msgid "Previous Year"
+msgstr "Vorig jaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/sidebar.js:33
+#: code:addons/web/static/src/xml/report.xml:11
+#, python-format
+msgid "Print"
+msgstr "Afdrukken"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1808
+#, python-format
+msgid "Priority"
+msgstr "Prioriteit"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2313
+#, python-format
+msgid "Progress Bar"
+msgstr "Voortgangsbalk"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:32
+#: code:addons/web/static/src/xml/base.xml:764
+#: code:addons/web/static/src/xml/kanban.xml:91
+#, python-format
+msgid "Purple"
+msgstr "Paars"
+
+#. module: web
+#: selection:ir.actions.act_window.view,view_mode:0
+msgid "QWeb"
+msgstr "QWeb"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:34
+#: code:addons/web/static/src/xml/base.xml:452
+#, python-format
+msgid "Quarter"
+msgstr "Kwartaal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:32
+#, python-format
+msgid "Quick add"
+msgstr "Snel toevoegen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:578
+#, python-format
+msgid "Quick search: %s"
+msgstr "Snelzoeken: %s"
+
+#. module: web
+#: model:ir.model,name:web.model_ir_qweb_field_image
+msgid "Qweb Field Image"
+msgstr "Qweb veld afbeelding"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:2630
+#, python-format
+msgid "Radio"
+msgstr "Keuzerondje"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1109
+#, python-format
+msgid "Range"
+msgstr "Bereik"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:22
+#: code:addons/web/static/src/xml/base.xml:754
+#: code:addons/web/static/src/xml/kanban.xml:81
+#, python-format
+msgid "Red"
+msgstr "Rood"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:17
+#, python-format
+msgid "Regenerate Assets Bundles"
+msgstr "Assets bundels opnieuw genereren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/model_field_selector.js:489
+#, python-format
+msgid "Relation not allowed"
+msgstr "Relatie niet toegestaan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:665
+#, python-format
+msgid "Relation to follow"
+msgstr "Relatie om te volgen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:63
+#, python-format
+msgid "Relation:"
+msgstr "Relatie:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/view_dialogs.js:160
+#: code:addons/web/static/src/xml/base.xml:1175
+#: code:addons/web/static/src/xml/base.xml:1315
+#, python-format
+msgid "Remove"
+msgstr "Verwijderen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1316
+#, python-format
+msgid "Remove All"
+msgstr "Alles verwijderen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:418
+#, python-format
+msgid "Remove Cover Image"
+msgstr "Verwijder afbeelding"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2072
+#, python-format
+msgid "Remove from Favorites"
+msgstr "Verwijderen uit favorieten"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:587
+#, python-format
+msgid "Remove tag"
+msgstr "Label verwijderen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/web_calendar.xml:65
+#, python-format
+msgid "Remove this favorite from the list"
+msgstr "Verwijder deze favoriet van de lijst"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/action_manager_report.js:113
+#, python-format
+msgid "Report"
+msgstr "Rapportage"
+
+#. module: web
+#: model:ir.model,name:web.model_report_layout
+msgid "Report Layout"
+msgstr "Rapport lay-out"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:264
+#, python-format
+msgid "Request timeout"
+msgstr "Verzoek time-out"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2154
+#, python-format
+msgid "Restore"
+msgstr "Terugzetten"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:24
+#, python-format
+msgid "Run Click Everywhere Test"
+msgstr "Klik overal test uitvoeren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:23
+#, python-format
+msgid "Run JS Mobile Tests"
+msgstr "Start JS mobiel testen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:22
+#, python-format
+msgid "Run JS Tests"
+msgstr "JS testen uitvoeren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1257
+#, python-format
+msgid "SEE RESULT"
+msgstr "BEKIJK RESULTAAT"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/signature.js:197
+#, python-format
+msgid "SIGNATURE"
+msgstr "HANDTEKENING"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:27
+#: code:addons/web/static/src/xml/base.xml:759
+#: code:addons/web/static/src/xml/kanban.xml:86
+#, python-format
+msgid "Salmon pink"
+msgstr "Zalmroze"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/view_dialogs.js:128
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:28
+#: code:addons/web/static/src/xml/base.xml:273
+#: code:addons/web/static/src/xml/base.xml:300
+#: code:addons/web/static/src/xml/base.xml:1278
+#, python-format
+msgid "Save"
+msgstr "Opslaan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/view_dialogs.js:128
+#, python-format
+msgid "Save & Close"
+msgstr "Opslaan & Sluiten"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/view_dialogs.js:137
+#, python-format
+msgid "Save & New"
+msgstr "Opslaan & Nieuw"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1672
+#, python-format
+msgid "Save As..."
+msgstr "Opslaan als..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1263
+#, python-format
+msgid "Save Current Search"
+msgstr "Huidige zoekopdracht opslaan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:118
+#, python-format
+msgid "Save a record"
+msgstr "Bewaar een record"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1346
+#, python-format
+msgid "Save as:"
+msgstr "Opslaan als:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:359
+#, python-format
+msgid "Save default"
+msgstr "Opslaan als standaard"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1322
+#, python-format
+msgid "Save fields list"
+msgstr "Veldenlijst opslaan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1349
+#, python-format
+msgid "Saved exports:"
+msgstr "Opgeslagen exports:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1527
+#, python-format
+msgid "Search"
+msgstr "Zoek"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:336
+#, python-format
+msgid "Search %(field)s at: %(value)s"
+msgstr "Zoek %(field)s bij: %(value)s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:145
+#, python-format
+msgid "Search %(field)s for: %(value)s"
+msgstr "Zoek %(field)s naar: %(value)s"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:555
+#, python-format
+msgid "Search More..."
+msgstr "Zoek meer..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:636
+#: code:addons/web/static/src/xml/base.xml:1162
+#, python-format
+msgid "Search..."
+msgstr "Zoeken..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:391
+#, python-format
+msgid "Search: "
+msgstr "Zoeken: "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:140
+#, python-format
+msgid "See details"
+msgstr "Bekijk details"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:61
+#, python-format
+msgid "See examples"
+msgstr "Zie voorbeelden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:397
+#: code:addons/web/static/src/js/views/view_dialogs.js:394
+#: code:addons/web/static/src/xml/base.xml:868
+#: code:addons/web/static/src/xml/base.xml:869
+#: code:addons/web/static/src/xml/base.xml:942
+#: code:addons/web/static/src/xml/base.xml:943
+#, python-format
+msgid "Select"
+msgstr "Selecteer"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login
+msgid ""
+"Select <i class=\"fa fa-database\" role=\"img\" aria-label=\"Database\" "
+"title=\"Database\"/>"
+msgstr ""
+"Selecteer <i class=\"fa fa-database\" role=\"img\" aria-label=\"Database\" "
+"title=\"Database\"/>"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:905
+#, python-format
+msgid "Select Signature Style"
+msgstr "Selecteer handtekeningstijl"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:501
+#, python-format
+msgid "Select a model to add a filter."
+msgstr "Selecteer een model om een filter op te plaatsen."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:54
+#, python-format
+msgid "Select a view"
+msgstr "Selecteer een weergave"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2845
+#, python-format
+msgid "Selected records"
+msgstr "Geselecteerde regels"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:2503
+#, python-format
+msgid "Selection"
+msgstr "Selectie"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:67
+#, python-format
+msgid "Selection:"
+msgstr "Selectie:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:356
+#, python-format
+msgid "Set Default"
+msgstr "Als standaard instellen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:48
+#, python-format
+msgid "Set Defaults"
+msgstr "Instellen standaardwaarden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:394
+#, python-format
+msgid "Set a Cover Image"
+msgstr "Afbeelding"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:19
+#, python-format
+msgid "Settings"
+msgstr "Instellingen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1275
+#, python-format
+msgid "Share with all users"
+msgstr "Deel met alle gebruikers"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:100
+#, python-format
+msgid "Shortcuts"
+msgstr "Sneltoetsen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/apps.js:150
+#, python-format
+msgid "Showing locally available modules"
+msgstr "Lokaal beschikbare modules worden weergegeven"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/signature.js:128
+#, python-format
+msgid "Signature"
+msgstr "Handtekening"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:39
+#, python-format
+msgid "Size:"
+msgstr "Grootte:"
+
+#. module: web
+#: code:addons/web/controllers/main.py:1142
+#, python-format
+msgid "Something horrible happened"
+msgstr "Er is iets verschrikkelijks gebeurd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:104
+#, python-format
+msgid "Special:"
+msgstr "Speciaal:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:408
+#, python-format
+msgid "Stacked"
+msgstr "Gestapeld"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/misc.js:14
+#, python-format
+msgid "Still loading..."
+msgstr "Nog steeds aan het laden..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/misc.js:15
+#, python-format
+msgid "Still loading...<br />Please be patient."
+msgstr "Nog bezig met laden...<br />Even geduld aub."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/name_and_signature.xml:76
+#, python-format
+msgid "Style"
+msgstr "Stijl"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:917
+#: code:addons/web/static/src/xml/name_and_signature.xml:96
+#, python-format
+msgid "Styles"
+msgstr "Stijlen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/web_calendar.xml:98
+#, python-format
+msgid "Summary:"
+msgstr "Samenvatting:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1450
+#, python-format
+msgid "Support"
+msgstr "Ondersteuning"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2167
+#, python-format
+msgid "Switch Off"
+msgstr "Uitschakelen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2168
+#, python-format
+msgid "Switch On"
+msgstr "Inschakelen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:586
+#, python-format
+msgid "Syntax error"
+msgstr "Syntax fout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:2013
+#, python-format
+msgid "Tags"
+msgstr "Labels"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/misc.js:18
+#, python-format
+msgid "Take a minute to get a coffee,<br />because it's loading..."
+msgstr ""
+"Neem een minuutje om koffie te halen,<br />want het is aan het laden..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1466
+#, python-format
+msgid "Tap on the list to change company"
+msgstr "Klik op de lijst om van bedrijf te wisselen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:40
+#, python-format
+msgid "Technical Translation"
+msgstr "Technische vertaling"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_clean
+msgid "Tel:"
+msgstr "Tel:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:411
+#, python-format
+msgid "Text"
+msgstr "Tekst"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:540
+#: code:addons/web/static/src/js/widgets/domain_selector.js:586
+#, python-format
+msgid "The domain you entered is not properly formed"
+msgstr "Het ingegegevn domein is niet correct opgebouwd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/model_field_selector.js:428
+#, python-format
+msgid ""
+"The field chain is not valid. Did you maybe use a non-existing field name or"
+" followed a non-relational field?"
+msgstr ""
+"Het gekoppelde veld is niet correct. Heeft u wellicht een niet bestaande "
+"veld naam gebruikt of een veld zonder relatie gevolgd?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1672
+#, python-format
+msgid "The field is empty, there's nothing to save !"
+msgstr "Het veld is leeg. Er is niets om op te slaan!"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/basic/basic_controller.js:532
+#: code:addons/web/static/src/js/widgets/attach_document.js:65
+#, python-format
+msgid "The following fields are invalid:"
+msgstr "De volgende velden zijn ongeldig:"
+
+#. module: web
+#: code:addons/web/controllers/main.py:824
+#, python-format
+msgid "The new password and its confirmation must be identical."
+msgstr "Het nieuwe wachtwoord en haar bevestiging moeten identiek zijn."
+
+#. module: web
+#: code:addons/web/controllers/main.py:835
+#, python-format
+msgid ""
+"The old password you provided is incorrect, your password was not changed."
+msgstr ""
+"Het oude wachtwoord wat u heeft ingevoerd is niet correct. Uw wachtwoord is "
+"niet gewijzigd."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:265
+#, python-format
+msgid ""
+"The operation was interrupted. This usually means that the current operation"
+" is taking too much time."
+msgstr ""
+"De bewerking is onderbroken. Dit betekent meestal dat de huidige bewerking "
+"te lang duurt."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/basic/basic_controller.js:84
+#, python-format
+msgid ""
+"The record has been modified, your changes will be discarded. Do you want to"
+" proceed?"
+msgstr ""
+"Het record is aangepast en wijzigingen worden genegeerd. Wilt u doorgaan?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1465
+#, python-format
+msgid "The selected file exceed the maximum file size of %s."
+msgstr ""
+"Het geselecteerde bestand overschreed de maximum toegelaten grootte van %s."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:1834
+#, python-format
+msgid ""
+"The type of the field '%s' must be a many2many field with a relation to "
+"'ir.attachment' model."
+msgstr ""
+"Het type van het veld '%s' moet een many2many veld zijn met een relatie naar"
+" het 'ir.attachment' model."
+
+#. module: web
+#: code:addons/web/controllers/main.py:1522
+#, python-format
+msgid ""
+"There are too many rows (%s rows, limit: 65535) to export as Excel 97-2003 "
+"(.xls) format. Consider splitting the export."
+msgstr ""
+"Er zijn te veel rijen (%srijen, limiet: 65535) om te exporteren als Excel "
+"97-2003 (.xls) formaat. Gelieve de export te splitsen."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:132
+#, python-format
+msgid "There is no available image to be set as cover."
+msgstr "Er is geen afbeelding beschikbaar om in te stellen als omslagfoto."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1482
+#, python-format
+msgid "There was a problem while uploading your file"
+msgstr "Er is een probleem met het uploaden van uw bestand."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:17
+#, python-format
+msgid "This Month"
+msgstr "Deze maand"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:18
+#, python-format
+msgid "This Quarter"
+msgstr "Dit kwartaal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:16
+#, python-format
+msgid "This Week"
+msgstr "Deze week"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:19
+#, python-format
+msgid "This Year"
+msgstr "Dit jaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/date_picker.js:197
+#, python-format
+msgid "This date is on the future. Make sure it is what you expected."
+msgstr "Deze datum is in de toekomst. Bent u zeker dat u dit verwacht?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:475
+#, python-format
+msgid "This domain is not supported."
+msgstr "Dit domein is niet ondersteund."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/name_and_signature.xml:89
+#, python-format
+msgid "This file is invalid. Please select an image."
+msgstr "Dit bestand is ongeldig. Gelieve een afbeelding te selecteren."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/favorite_menu.js:87
+#, python-format
+msgid ""
+"This filter is global and will be removed for everybody if you continue."
+msgstr ""
+"Dit filter is voor iedereen en zal dus ook voor iedereen worden verwijderd "
+"als u doorgaat."
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.preview_externalreport
+msgid "This is a sample of an external report."
+msgstr "Dit is een voorbeeld van een externe rapportage."
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.preview_internalreport
+msgid "This is a sample of an internal report."
+msgstr "Dit is een voorbeeld van een intern rapport."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:958
+#, python-format
+msgid "Time"
+msgstr "Tijd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1088
+#, python-format
+msgid "Time Ranges"
+msgstr "Tijdsbereiken"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/special_fields.js:95
+#, python-format
+msgid ""
+"Timezone Mismatch : The timezone of your browser doesn't match the selected "
+"one. The time in Odoo is displayed according to the timezone set on your "
+"user's preferences."
+msgstr ""
+"Tijdzone komt niet overeen: de tijdzone van uw browser komt niet overeen met"
+" de geselecteerde tijdzone. De tijd in Odoo wordt weergegeven volgens de "
+"tijdzone die is ingesteld op de voorkeuren van uw gebruiker."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:15
+#: code:addons/web/static/src/xml/web_calendar.xml:76
+#: code:addons/web/static/src/xml/web_calendar.xml:90
+#, python-format
+msgid "Today"
+msgstr "Vandaag"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2179
+#, python-format
+msgid "Toggle"
+msgstr "Schakelen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:28
+#, python-format
+msgid "Toggle Timelines"
+msgstr "Wissel tijdlijnen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:615
+#: code:addons/web/static/src/js/views/pivot/pivot_model.js:649
+#: code:addons/web/static/src/js/views/pivot/pivot_model.js:796
+#, python-format
+msgid "Total"
+msgstr "Totaal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:241
+#: code:addons/web/static/src/js/services/crash_manager.js:36
+#, python-format
+msgid "Traceback:"
+msgstr "Traceback:"
+
+#. module: web
+#: selection:ir.actions.act_window.view,view_mode:0
+msgid "Tree"
+msgstr "Lijst"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/field_utils.js:62
+#, python-format
+msgid "True"
+msgstr "Waar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:468
+#, python-format
+msgid ""
+"Try to add some records, or make sure\n"
+"                that there is at least one measure and no active filter in the search bar."
+msgstr ""
+"Probeer een aantal records toe te voegen of zorg ervoor\n"
+" dat er minimaal één maat en geen actief filter in de zoekbalk staat."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:644
+#, python-format
+msgid ""
+"Try to add some records, or make sure that there is no active filter in the "
+"search bar."
+msgstr ""
+"Probeer records toe te voegen of kijk goed of er geen filter actief is in de"
+" zoekbalk."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:378
+#, python-format
+msgid "Trying to reconnect..."
+msgstr "Probeer opnieuw verbinding te maken..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:25
+#, python-format
+msgid "Type:"
+msgstr "Soort:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:1297
+#, python-format
+msgid "URL"
+msgstr "URL"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/action_manager_report.js:24
+#, python-format
+msgid ""
+"Unable to find Wkhtmltopdf on this system. The report will be shown in html."
+msgstr ""
+"Wkhtmltopdf kon niet gevonden worden op het systeem. Dit rapport wordt "
+"getoond in HTML."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_controller.js:165
+#, python-format
+msgid "Unarchive"
+msgstr "Dearchiveren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:28
+#, python-format
+msgid "Unarchive All"
+msgstr "Dearchiveer alle"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/calendar/calendar_model.js:591
+#: code:addons/web/static/src/js/views/graph/graph_model.js:275
+#: code:addons/web/static/src/js/views/graph/graph_renderer.js:130
+#: code:addons/web/static/src/js/views/kanban/kanban_column.js:77
+#: code:addons/web/static/src/js/views/kanban/kanban_column.js:80
+#: code:addons/web/static/src/js/views/kanban/kanban_renderer_mobile.js:296
+#: code:addons/web/static/src/js/views/list/list_renderer.js:584
+#: code:addons/web/static/src/js/views/list/list_renderer.js:587
+#: code:addons/web/static/src/js/views/pivot/pivot_model.js:1101
+#, python-format
+msgid "Undefined"
+msgstr "Niet gedefinieerd"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:17
+#, python-format
+msgid "Unfold"
+msgstr "Uitvouwen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:228
+#, python-format
+msgid "Unknown CORS error"
+msgstr "Onbekende CORS fout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/py_utils.js:303
+#, python-format
+msgid "Unknown nonliteral type "
+msgstr "Onbekend nonliteral type "
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_editable_renderer.js:865
+#, python-format
+msgid "Unlink row "
+msgstr "Rij verwijderen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/_deprecated/data.js:752
+#, python-format
+msgid "Unnamed"
+msgstr "Naamloos"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/pivot/pivot_view.js:117
+#, python-format
+msgid "Untitled"
+msgstr "Geen titel"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1296
+#, python-format
+msgid "Update data (import-compatible export)"
+msgstr "Data bijwerken (import-compatibele export)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/upgrade_fields.js:69
+#, python-format
+msgid "Upgrade now"
+msgstr "Upgrade nu"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1512
+#, python-format
+msgid "Upgrade to enterprise"
+msgstr "Upgrade naar enterprise"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1506
+#, python-format
+msgid "Upgrade to future versions"
+msgstr "Upgrade naar toekomstige versies"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:411
+#, python-format
+msgid "Upload and Set"
+msgstr "Uploaden en instellen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:868
+#: code:addons/web/static/src/xml/base.xml:942
+#, python-format
+msgid "Upload your file"
+msgstr "Upload uw bestand"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1000
+#, python-format
+msgid "Uploaded"
+msgstr "Geupload"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:996
+#, python-format
+msgid "Uploading"
+msgstr "Uploaden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:1998
+#, python-format
+msgid "Uploading Error"
+msgstr "Upload fout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:832
+#: code:addons/web/static/src/xml/base.xml:872
+#: code:addons/web/static/src/xml/base.xml:941
+#, python-format
+msgid "Uploading..."
+msgstr "Uploaden..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1271
+#, python-format
+msgid "Use by default"
+msgstr "Gebruik als standaard"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1290
+#, python-format
+msgid "Use data in a spreadsheet (export all data)"
+msgstr "Gebruik gegevens in een spreadsheet (exporteer alle gegevens)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1275
+#, python-format
+msgid "Users"
+msgstr "Gebruikers"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:17
+#, python-format
+msgid "Validation Error"
+msgstr "Bevestiging fout"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/pivot/pivot_model.js:240
+#: code:addons/web/static/src/js/views/pivot/pivot_renderer.js:177
+#, python-format
+msgid "Variation"
+msgstr "Verschil"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/tools/debug_manager_backend.js:148
+#: code:addons/web/static/src/xml/debug.xml:38
+#, python-format
+msgid "View Fields"
+msgstr "Weergeven velden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:50
+#, python-format
+msgid "View Metadata"
+msgstr "Bekijk medata"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_ir_actions_act_window_view__view_mode
+msgid "View Type"
+msgstr "Soort weergave"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/action_manager.js:540
+#: code:addons/web/static/src/js/chrome/action_manager_report.js:70
+#: code:addons/web/static/src/js/fields/relational_fields.js:1506
+#: code:addons/web/static/src/js/services/crash_manager.js:13
+#: code:addons/web/static/src/js/services/crash_manager.js:14
+#: code:addons/web/static/src/js/views/basic/basic_controller.js:88
+#: code:addons/web/static/src/js/views/control_panel/search/favorite_menu.js:92
+#: code:addons/web/static/src/js/views/list/list_renderer.js:455
+#: code:addons/web/static/src/xml/base.xml:497
+#, python-format
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/attach_document.js:90
+#, python-format
+msgid "Warning : You have to save first before attaching a file."
+msgstr "Waarschuwing: u moet eerst opslaan voordat u een bestand toevoegt."
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.benchmark_suite
+msgid "Web Benchmarks"
+msgstr "Web Benchmarks"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.qunit_mobile_suite
+msgid "Web Mobile Tests"
+msgstr "Web mobiel testen"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.qunit_suite
+msgid "Web Tests"
+msgstr "Web Tests"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+msgid "Web:"
+msgstr "Web:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:32
+#: code:addons/web/static/src/xml/base.xml:450
+#: code:addons/web/static/src/xml/web_calendar.xml:81
+#, python-format
+msgid "Week"
+msgstr "Week"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/rainbow_man.js:37
+#, python-format
+msgid "Well Done!"
+msgstr "Goed gedaan!"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1286
+#, python-format
+msgid "What do you want to do?"
+msgstr "Wat wil je doen?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:29
+#, python-format
+msgid "Widget:"
+msgstr "Widget:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:112
+#, python-format
+msgid "Windows/Linux"
+msgstr "Windows/Linux"
+
+#. module: web
+#: code:addons/web/controllers/main.py:532
+#, python-format
+msgid "Wrong login/password"
+msgstr "Foutieve login/wachtwoord"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2392
+#, python-format
+msgid "Wrong value entered!"
+msgstr "Verkeerde waarde ingevoerd!"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/debug.xml:70
+#, python-format
+msgid "XML ID:"
+msgstr "XML ID:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:35
+#: code:addons/web/static/src/xml/base.xml:453
+#, python-format
+msgid "Year"
+msgstr "Jaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:24
+#: code:addons/web/static/src/xml/base.xml:756
+#: code:addons/web/static/src/xml/kanban.xml:83
+#, python-format
+msgid "Yellow"
+msgstr "Geel"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:295
+#: code:addons/web/static/src/xml/base.xml:55
+#, python-format
+msgid "Yes"
+msgstr "Ja"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:20
+#, python-format
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:392
+#, python-format
+msgid "You are back online"
+msgstr "U bent terug online"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/relational_fields.js:73
+#, python-format
+msgid "You are creating a new %s, are you sure it does not exist yet?"
+msgstr ""
+"U maakt een nieuwe %s aan, weet u dit zeker als deze nog niet bestaat?"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/model_field_selector.js:489
+#, python-format
+msgid "You cannot follow relations for this field chain construction"
+msgstr "U kunt de relaties niet volgen voor deze veld keten constructie."
+
+#. module: web
+#: code:addons/web/controllers/main.py:822
+#, python-format
+msgid "You cannot leave any password empty."
+msgstr "Het is niet toegestaan om de wachtwoord velden leeg te laten."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/misc.js:17
+#, python-format
+msgid ""
+"You may not believe it,<br />but the application is actually loading..."
+msgstr ""
+"Je zou het haast niet geloven,<br />maar de applicatie is wel degelijk aan "
+"het laden..."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/action_manager_report.js:29
+#, python-format
+msgid ""
+"You need to start Odoo with at least two workers to print a pdf version of "
+"the reports."
+msgstr ""
+"U moet Odoo starten met minimaal twee workers om een PDF versie van de "
+"rapporten te kunnen afdrukken."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/action_manager_report.js:26
+#, python-format
+msgid ""
+"You should upgrade your version of Wkhtmltopdf to at least 0.12.0 in order "
+"to get a correct display of headers and footers as well as support for "
+"table-breaking between pages."
+msgstr ""
+"U moet uw versie van Wkhtmltopdf upgraden naar ten minste 0.12.0 om een "
+"correcte weergave van kop- en voetteksten te krijgen, evenals ondersteuning "
+"voor het breken van tabellen tussen pagina's."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:253
+#, python-format
+msgid "Your Odoo session expired. Please refresh the current web page."
+msgstr "Uw Odoo sessie is verlopen. Ververs aub de huidige webpagina."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/action_manager_report.js:22
+#, python-format
+msgid ""
+"Your installation of Wkhtmltopdf seems to be broken. The report will be "
+"shown in html."
+msgstr ""
+"Uw geïnstalleerde Wkhtmltopdf lijkt niet meer te werken. Het rapport wordt "
+"getoond in html."
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/name_and_signature.js:447
+#: code:addons/web/static/src/xml/name_and_signature.xml:44
+#, python-format
+msgid "Your name"
+msgstr "Uw naam"
+
+#. module: web
+#: code:addons/web/controllers/main.py:449
+#, python-format
+msgid ""
+"Your password is the default (admin)! If this system is exposed to untrusted"
+" users it is important to change it immediately for security reasons. I will"
+" keep nagging you about it!"
+msgstr ""
+"Uw wachtwoord is het standaard (admin)! Als dit systeem wordt blootgesteld "
+"aan niet-vertrouwde gebruikers, is het belangrijk om het om "
+"veiligheidsredenen onmiddellijk te wijzigen. Ik zal je er blijven over "
+"zeuren ;-) !"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:251
+#, python-format
+msgid "[No widget %s]"
+msgstr "[Geen widget %s]"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:116
+#, python-format
+msgid "a day ago"
+msgstr "een dag geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:112
+#, python-format
+msgid "about a minute ago"
+msgstr "ongeveer 1 minuut geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:118
+#, python-format
+msgid "about a month ago"
+msgstr "ongeveer 1 maand geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:120
+#, python-format
+msgid "about a year ago"
+msgstr "ongeveer 1 jaar geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:114
+#, python-format
+msgid "about an hour ago"
+msgstr "ongeveer 1 uur geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:530
+#, python-format
+msgid "all records"
+msgstr "alle records"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:28
+#, python-format
+msgid "child of"
+msgstr "kind van"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:169
+#: code:addons/web/static/src/js/widgets/domain_selector.js:23
+#, python-format
+msgid "contains"
+msgstr "bevat"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:24
+#, python-format
+msgid "does not contain"
+msgstr "bevat niet"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:170
+#, python-format
+msgid "doesn't contain"
+msgstr "bevat niet"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:278
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:307
+#, python-format
+msgid "greater than"
+msgstr "is groter dan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:280
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:309
+#, python-format
+msgid "greater than or equal to"
+msgstr "groter dan of gelijk aan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:25
+#, python-format
+msgid "in"
+msgstr "in"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:299
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:334
+#: code:addons/web/static/src/js/widgets/domain_selector.js:866
+#: code:addons/web/static/src/xml/base.xml:618
+#, python-format
+msgid "is"
+msgstr "is"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:189
+#, python-format
+msgid "is after"
+msgstr "is na"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:191
+#, python-format
+msgid "is after or equal to"
+msgstr "is na of gelijk aan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:190
+#, python-format
+msgid "is before"
+msgstr "is voor"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:192
+#, python-format
+msgid "is before or equal to"
+msgstr "is voor of gelijk aan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:193
+#, python-format
+msgid "is between"
+msgstr "Is tussen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:171
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:187
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:276
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:305
+#, python-format
+msgid "is equal to"
+msgstr "Is gelijk aan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:353
+#, python-format
+msgid "is false"
+msgstr "is onwaar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:335
+#: code:addons/web/static/src/js/widgets/domain_selector.js:867
+#, python-format
+msgid "is not"
+msgstr "is niet"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:18
+#, python-format
+msgid "is not ="
+msgstr "is niet ="
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:172
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:188
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:277
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:306
+#, python-format
+msgid "is not equal to"
+msgstr "is niet gelijk aan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:174
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:195
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:283
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:312
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:337
+#: code:addons/web/static/src/js/widgets/domain_selector.js:37
+#, python-format
+msgid "is not set"
+msgstr "is niet ingesteld"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:173
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:194
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:282
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:311
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:336
+#: code:addons/web/static/src/js/widgets/domain_selector.js:36
+#, python-format
+msgid "is set"
+msgstr "is ingesteld"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:352
+#, python-format
+msgid "is true"
+msgstr "is waar"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/utils.js:326
+#, python-format
+msgid "kMGTPE"
+msgstr "kMGTPE"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:279
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:308
+#, python-format
+msgid "less than"
+msgstr "kleiner dan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/core/translation.js:111
+#, python-format
+msgid "less than a minute ago"
+msgstr "minder dan een minuut geleden"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:281
+#: code:addons/web/static/src/js/views/control_panel/search/search_filters.js:310
+#, python-format
+msgid "less than or equal to"
+msgstr "kleiner dan of gelijk aan"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:620
+#, python-format
+msgid "not"
+msgstr "niet"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:219
+#, python-format
+msgid "not a valid integer"
+msgstr "geen geldig getal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:230
+#, python-format
+msgid "not a valid number"
+msgstr "geen geldig getal"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:26
+#, python-format
+msgid "not in"
+msgstr "niet in"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:677
+#, python-format
+msgid "not set (false)"
+msgstr "niet ingesteld (onwaar)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:539
+#, python-format
+msgid "of the following rules:"
+msgstr "in de volgende regels:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:554
+#, python-format
+msgid "of:"
+msgstr "of:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/control_panel/search/search_facet.js:95
+#: code:addons/web/static/src/js/views/control_panel/search/search_facet.js:97
+#: code:addons/web/static/src/xml/base.xml:611
+#: code:addons/web/static/src/xml/base.xml:1196
+#, python-format
+msgid "or"
+msgstr "of"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:29
+#, python-format
+msgid "parent of"
+msgstr "bovenliggende"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:495
+#, python-format
+msgid "record(s)"
+msgstr "record(s)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:42
+#, python-format
+msgid "remaining)"
+msgstr "resterend)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:620
+#, python-format
+msgid "set"
+msgstr "instellen"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/domain_selector.js:677
+#, python-format
+msgid "set (true)"
+msgstr "ingesteld (waar)"
