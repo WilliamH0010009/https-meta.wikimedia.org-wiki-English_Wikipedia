@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <menuitem icon="terp-purchase" id="menu_purchase_root" name="Purchase Management"
+            groups="group_purchase_user"/>
+
+       <record model="ir.ui.view" id="purchase_order_calendar">
+            <field name="name">purchase.order.calendar</field>
+            <field name="model">purchase.order</field>
+            <field name="type">calendar</field>
+            <field name="priority" eval="2"/>
+            <field name="arch" type="xml">
+                <calendar string="Calendar View" date_start="minimum_planned_date" color="partner_id">
+                    <field name="name"/>
+                    <field name="amount_total"/>
+                    <field name="partner_id"/>
+                </calendar>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="view_purchase_order_graph">
+            <field name="name">purchase.order.graph</field>
+            <field name="model">purchase.order</field>
+            <field name="type">graph</field>
+            <field name="arch" type="xml">
+                <graph string="Purchase Order" type="bar">
+                    <field name="partner_id"/>
+                    <field name="amount_total" operator="+"/>
+                </graph>
+            </field>
+        </record>
+
+        <record id="purchase_order_form" model="ir.ui.view">
+            <field name="name">purchase.order.form</field>
+            <field name="model">purchase.order</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Purchase Order">
+                    <group col="6" colspan="4">
+                        <field name="name" select="1"/>
+                        <field name="date_order" select="2"/>
+                        <field name="invoiced" select="2"/>
+                        <newline/>
+                        <field name="warehouse_id" on_change="onchange_warehouse_id(warehouse_id)"/>
+                        <field name="origin" select="2"/>
+                        <field name="shipped" select="2"/>
+                    </group>
+                    <notebook colspan="4">
+                        <page string="Purchase Order">
+                            <field name="partner_id" on_change="onchange_partner_id(partner_id)" select="1" domain="[('supplier','=', 1)]"/>
+                            <field name="partner_address_id"/>
+                            <field domain="[('type','=','purchase')]" name="pricelist_id"/>
+                            <field name="partner_ref" select="2"/>
+                            <newline/>
+                            <field colspan="4" name="order_line" nolabel="1" mode="tree,form">
+                                <tree colors="red:date_planned&lt;=current_date" string="Purchase Order Lines">
+                                    <field name="date_planned"/>
+                                    <field name="name"/>
+                                    <field name="product_id"/>
+                                    <field name="product_qty"/>
+                                    <field name="product_uom"/>
+                                    <field name="price_unit"/>
+                                    <field name="price_subtotal"/>
+                                </tree>
+                                <!-- default form view -->
+                            </field>
+                            <group col="7" colspan="4">
+                                <field name="amount_untaxed" sum="Untaxed amount"/>
+                                <field name="amount_tax"/>
+                                <field name="amount_total" sum="Total amount"/>
+                                <button name="button_dummy" states="draft" string="Compute" type="object"/>
+                            </group>
+                            <group col="11" colspan="4">
+                                <field name="state" readonly="1"/>
+                                <button name="purchase_confirm" states="draft" string="Confirm Purchase Order" icon="gtk-execute"/>
+                                <button name="purchase_appbuyer" states="wait_auth" string="Approve Purchase" icon="gtk-ok"/>
+                                <button name="purchase_approve" states="confirmed" string="Approved by Supplier" icon="gtk-ok"/>
+                                <button name="purchase_cancel" states="draft,confirmed,wait_auth" string="Cancel Purchase Order" icon="gtk-cancel"/>
+                                <button name="action_cancel_draft" states="cancel" string="Set to Draft" type="object" icon="gtk-convert"/>
+                                <button name="action_cancel" states="approved,except_picking,except_invoice" string="Cancel Purchase Order" type="object" icon="gtk-cancel"/>
+
+                                <button name="picking_ok" states="except_picking" string="Manually Corrected" icon="gtk-convert"/>
+                                <button name="invoice_ok" states="except_invoice" string="Manually Corrected" icon="gtk-convert"/>
+                            </group>
+                        </page>
+                        <page string="Delivery &amp; Invoices" groups="account.group_account_user">
+                            <group colspan="2" col="2">
+                                <separator string="Delivery" colspan="2"/>
+                                <field name="dest_address_id" on_change="onchange_dest_address_id(dest_address_id)"/>
+                                <field name="minimum_planned_date"/>
+                                <field name="location_id"/>
+                            </group>
+                            <group colspan="2" col="2">
+                                <separator string="Invoice Control" colspan="2"/>
+                                <field name="invoice_method"/>
+                                <field name="invoice_id" readonly="1"/>
+                                <field name="fiscal_position" groups="base.group_extended"/>
+                            </group>
+                            <newline/>
+                            <separator string="Purchase Control" colspan="4"/>
+                            <field name="validator"/>
+                            <field name="date_approve"/>
+                        </page>
+                        <page string="Notes">
+                            <field colspan="4" name="notes" nolabel="1"/>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+
+        <record id="purchase_form_action" model="ir.actions.act_window">
+            <field name="name">Purchase Orders</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">purchase.order</field>
+            <field name="view_mode">tree,form,calendar,graph</field>
+        </record>
+        <menuitem action="purchase_form_action" id="menu_purchase_form_action" parent="purchase.menu_purchase_root"/>
+
+        <record id="purchase_form_action2" model="ir.actions.act_window">
+            <field name="name">Request For Quotations</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">purchase.order</field>
+            <field name="domain">[('state','=','draft')]</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,graph</field>
+        </record>
+        <menuitem action="purchase_form_action2" id="menu_purchase_order_draft" parent="purchase.menu_purchase_form_action"/>
+
+        <record id="purchase_form_action3" model="ir.actions.act_window">
+            <field name="name">Purchase Order Waiting Approval</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">purchase.order</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,graph</field>
+            <field name="domain">[('state','=','confirmed')]</field>
+        </record>
+        <menuitem action="purchase_form_action3" id="menu_purchase_form_action3" parent="purchase.menu_purchase_form_action"/>
+
+        <record id="purchase_form_action4" model="ir.actions.act_window">
+            <field name="name">Purchase Orders in Progress</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">purchase.order</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,graph</field>
+            <field name="domain">[('state','=','approved')]</field>
+        </record>
+        <menuitem action="purchase_form_action4" id="menu_purchase_form_action4" parent="purchase.menu_purchase_form_action"/>
+
+        <record id="purchase_form_action_new" model="ir.actions.act_window">
+            <field name="name">New Purchase Order</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">purchase.order</field>
+            <field name="view_mode">form,tree</field>
+        </record>
+        <menuitem action="purchase_form_action_new" id="menu_purchase_form_action_new" parent="purchase.menu_purchase_root"/>
+
+
+        <record id="purchase_order_tree" model="ir.ui.view">
+            <field name="name">purchase.order.tree</field>
+            <field name="model">purchase.order</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Purchase Order">
+                    <field name="name" string="Reference"/>
+                    <field name="date_order"/>
+                    <field name="minimum_planned_date"/>
+                    <field name="partner_id"/>
+                    <field name="location_id"/>
+                    <field name="invoiced_rate" widget="progressbar"/>
+                    <field name="shipped_rate" widget="progressbar"/>
+                    <field name="amount_untaxed"/>
+                    <field name="origin"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="purchase_order_line_form" model="ir.ui.view">
+            <field name="name">purchase.order.line.form</field>
+            <field name="model">purchase.order.line</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Purchase Order Line">
+                    <notebook colspan="4">
+                        <page string="Order Line">
+                            <field colspan="4" context="partner_id=parent.partner_id,quantity=product_qty,pricelist=parent.pricelist_id,uom=product_uom,warehouse=parent.warehouse_id" name="product_id" on_change="product_id_change(parent.pricelist_id,product_id,product_qty,product_uom,parent.partner_id, parent.date_order, parent.fiscal_position)"/>
+                            <field context="partner_id=parent.partner_id,quantity=product_qty,pricelist=parent.pricelist_id,uom=product_uom,warehouse=parent.warehouse_id" name="product_qty" on_change="product_id_change(parent.pricelist_id,product_id,product_qty,product_uom,parent.partner_id, parent.date_order, parent.fiscal_position)"/>
+                            <field name="product_uom" on_change="product_uom_change(parent.pricelist_id,product_id,product_qty,product_uom,parent.partner_id, parent.date_order, parent.fiscal_position)"/>
+                            <field colspan="4" name="name"/>
+                            <field name="date_planned"/>
+                            <field name="price_unit"/>
+                            <label colspan="2"/>
+                            <field name="price_subtotal" readonly="1"/>
+                        </page>
+                        <page string="Notes">
+                            <field colspan="4" name="notes" nolabel="1"/>
+                        </page>
+                        <page string="History" groups="base.group_extended,stock.group_stock_user">
+                               <separator colspan="4" string="Stock Moves"/>
+                               <field colspan="4" name="move_ids" nolabel="1" widget="many2many"/>
+                        </page>
+                        <page string="Invoicing" groups="account.group_account_user">
+                            <field name="account_analytic_id" colspan="4"/>
+                            <separator colspan="4" string="Taxes"/>
+                            <field colspan="4" nolabel="1" name="taxes_id" domain="[('parent_id','=',False),('type_tax_use','!=','sale')]"/>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+
+        <record id="purchase_order_line_tree" model="ir.ui.view">
+            <field name="name">purchase.order.line.tree</field>
+            <field name="model">purchase.order.line</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree colors="red:date_planned&lt;=current_date" string="Purchase Order Lines">
+                    <field name="order_id"/>
+                    <field name="name"/>
+                    <field name="date_planned"/>
+                    <field name="product_id"/>
+                    <field name="product_qty"/>
+                    <field name="product_uom"/>
+                    <field name="price_unit"/>
+                    <field name="price_subtotal"/>
+                </tree>
+            </field>
+        </record>
+
+        <act_window
+            context="{'partner_id': active_id}"
+            domain="[('partner_id', '=', active_id)]"
+            id="act_res_partner_2_purchase_order"
+            name="Purchase orders"
+            res_model="purchase.order"
+            src_model="res.partner"/>
+
+        <act_window
+            domain="[('product_id','=',active_id)]" 
+            id="action_purchase_line_product_tree"
+            name="Product purchases"
+            res_model="purchase.order.line" 
+            src_model="product.product"/> 
+                     
+    </data>
+</openerp>

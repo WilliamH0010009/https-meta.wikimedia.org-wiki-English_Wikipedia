@@ -1,0 +1,471 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* hr_attendance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 5.0.12\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2010-09-02 13:55:51+0000\n"
+"PO-Revision-Date: 2010-09-02 13:55:51+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_attendance
+#: field:hr.employee,state:0
+#: model:ir.model,name:hr_attendance.model_hr_attendance
+msgid "Attendance"
+msgstr "Assiduidade"
+
+#. module: hr_attendance
+#: constraint:ir.model:0
+msgid "The Object name must start with x_ and not contain any special character !"
+msgstr "O nome do objecto deve começar com x_ e não pode conter um carácter especial!"
+
+#. module: hr_attendance
+#: wizard_view:hr.si_so,init:0
+#: wizard_view:hr.si_so,si_ask_so:0
+#: wizard_view:hr.si_so,so_ask_si:0
+#: model:ir.actions.wizard,name:hr_attendance.si_so
+#: model:ir.ui.menu,name:hr_attendance.menu_si_so
+msgid "Sign in / Sign out"
+msgstr "Entrar / Sair"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/hr_attendance.py:0
+#, python-format
+msgid "You tried to sign with a date anterior to another event !\nTry to contact the administrator to correct attendances."
+msgstr "You tried to sign with a date anterior to another event !\nTry to contact the administrator to correct attendances."
+
+#. module: hr_attendance
+#: rml:report.hr.timesheet.attendance.error:0
+msgid "(*) A positive delay means that the employee worked less than recorded."
+msgstr "(*) Um atraso positivo significa que o empregado trabalhou menos do que o gravado"
+
+#. module: hr_attendance
+#: view:hr.attendance:0
+msgid "Employee attendances"
+msgstr "Presenças do empregado"
+
+#. module: hr_attendance
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "XML inválido para a arquitectura de vista"
+
+#. module: hr_attendance
+#: wizard_view:hr.si_so,init:0
+msgid "You are now ready to sign in or out of the attendance follow up"
+msgstr "Você já pode registar ou sair do seguimento de presenças"
+
+#. module: hr_attendance
+#: selection:hr.action.reason,action_type:0
+#: wizard_button:hr.si_so,init,so_test:0
+#: wizard_button:hr.si_so,so_ask_si,so:0
+msgid "Sign out"
+msgstr "Sair"
+
+#. module: hr_attendance
+#: rml:report.hr.timesheet.attendance.error:0
+msgid "Delay"
+msgstr "Atraso"
+
+#. module: hr_attendance
+#: wizard_field:hr.si_so,init,name:0
+#: wizard_field:hr.si_so,si_ask_so,name:0
+#: wizard_field:hr.si_so,so_ask_si,name:0
+msgid "Employee's name"
+msgstr "Nome do empregado"
+
+#. module: hr_attendance
+#: wizard_button:hr.attendance.print_month,init,print:0
+#: wizard_button:hr.attendance.print_week,init,print:0
+msgid "Print Timesheet"
+msgstr "Print Timesheet"
+
+#. module: hr_attendance
+#: model:ir.actions.wizard,name:hr_attendance.wizard_attendance_error
+msgid "Print Attendance Error Report"
+msgstr "Imprimir relatório de erro de presença"
+
+#. module: hr_attendance
+#: wizard_view:hr.si_so,si_ask_so:0
+msgid "You did not sign out the last time. Please enter the date and time you signed out."
+msgstr "You did not sign out the last time. Please enter the date and time you signed out."
+
+#. module: hr_attendance
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome de modelo inválido na definição da acção"
+
+#. module: hr_attendance
+#: model:ir.actions.wizard,name:hr_attendance.print_week
+msgid "Print Timesheet by week"
+msgstr "Print Timesheet by week"
+
+#. module: hr_attendance
+#: field:hr.attendance,employee_id:0
+msgid "Employee"
+msgstr "Empregado"
+
+#. module: hr_attendance
+#: wizard_field:hr.si_so,si_ask_so,last_time:0
+msgid "Your last sign out"
+msgstr "A sua ultima saída"
+
+#. module: hr_attendance
+#: wizard_view:hr.attendance.print_week,init:0
+#: wizard_view:hr.attendance.report,init:0
+msgid "Select a time span"
+msgstr "Select a time span"
+
+#. module: hr_attendance
+#: rml:report.hr.timesheet.attendance.error:0
+msgid "Date Recorded"
+msgstr "Data gravado"
+
+#. module: hr_attendance
+#: selection:hr.attendance,action:0
+#: view:hr.employee:0
+msgid "Sign In"
+msgstr "Entrar"
+
+#. module: hr_attendance
+#: rml:report.hr.timesheet.attendance.error:0
+msgid "Total period:"
+msgstr "Período total:"
+
+#. module: hr_attendance
+#: field:hr.attendance,action_desc:0
+#: model:ir.model,name:hr_attendance.model_hr_action_reason
+msgid "Action reason"
+msgstr "Motivo da acção"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "March"
+msgstr "March"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "August"
+msgstr "August"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "May"
+msgstr "May"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/wizard/sign_in_out.py:0
+#, python-format
+msgid "A sign-out must be right after a sign-in !"
+msgstr "A saída deve estar depois da entrada !"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "June"
+msgstr "June"
+
+#. module: hr_attendance
+#: model:ir.actions.wizard,name:hr_attendance.print_month
+msgid "Print Timesheet by month"
+msgstr "Print Timesheet by month"
+
+#. module: hr_attendance
+#: selection:hr.attendance,action:0
+#: view:hr.employee:0
+msgid "Sign Out"
+msgstr "Sair"
+
+#. module: hr_attendance
+#: model:ir.module.module,shortdesc:hr_attendance.module_meta_information
+msgid "Attendances Of Employees"
+msgstr "Attendances Of Employees"
+
+#. module: hr_attendance
+#: field:hr.action.reason,name:0
+msgid "Reason"
+msgstr "Motivo"
+
+#. module: hr_attendance
+#: constraint:hr.attendance:0
+msgid "Error: Sign in (resp. Sign out) must follow Sign out (resp. Sign in)"
+msgstr "Error: Sign in (resp. Sign out) must follow Sign out (resp. Sign in)"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/wizard/sign_in_out.py:0
+#, python-format
+msgid "The sign-out date must be in the past"
+msgstr "A data de saída deve estar no passado"
+
+#. module: hr_attendance
+#: rml:report.hr.timesheet.attendance.error:0
+msgid "Date Signed"
+msgstr "Data de assinatura"
+
+#. module: hr_attendance
+#: field:hr.attendance,name:0
+msgid "Date"
+msgstr "Data"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "July"
+msgstr "July"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/hr_attendance.py:0
+#, python-format
+msgid "You tried to sign out with a date anterior to another event !\nTry to contact the administrator to correct attendances."
+msgstr "You tried to sign out with a date anterior to another event !\nTry to contact the administrator to correct attendances."
+
+#. module: hr_attendance
+#: view:hr.action.reason:0
+msgid "Attendance reasons"
+msgstr "Rasões de presença"
+
+#. module: hr_attendance
+#: wizard_field:hr.attendance.print_week,init,init_date:0
+#: wizard_field:hr.attendance.report,init,init_date:0
+msgid "Starting Date"
+msgstr "Starting Date"
+
+#. module: hr_attendance
+#: selection:hr.employee,state:0
+msgid "Present"
+msgstr "Presente"
+
+#. module: hr_attendance
+#: selection:hr.employee,state:0
+msgid "Absent"
+msgstr "Ausente"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "February"
+msgstr "February"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "October"
+msgstr "October"
+
+#. module: hr_attendance
+#: wizard_button:hr.si_so,so_wo_si,end:0
+msgid "Ok"
+msgstr "Ok"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/wizard/sign_in_out.py:0
+#, python-format
+msgid "The Sign-in date must be in the past"
+msgstr "A data de entrada deve estar no passado"
+
+#. module: hr_attendance
+#: wizard_field:hr.attendance.print_month,init,year:0
+msgid "Year"
+msgstr "Year"
+
+#. module: hr_attendance
+#: rml:report.hr.timesheet.attendance.error:0
+msgid "Min Delay"
+msgstr "Atraso mínimo"
+
+#. module: hr_attendance
+#: field:hr.action.reason,action_type:0
+msgid "Action's type"
+msgstr "Tipo da acção"
+
+#. module: hr_attendance
+#: view:hr.action.reason:0
+msgid "Define attendance reason"
+msgstr "Definir rasões de presença"
+
+#. module: hr_attendance
+#: selection:hr.action.reason,action_type:0
+#: wizard_button:hr.si_so,init,si_test:0
+#: wizard_button:hr.si_so,si_ask_so,si:0
+msgid "Sign in"
+msgstr "Entrar"
+
+#. module: hr_attendance
+#: wizard_view:hr.attendance.report,init:0
+msgid "Analysis Information"
+msgstr "Analysis Information"
+
+#. module: hr_attendance
+#: wizard_field:hr.si_so,init,state:0
+msgid "Current state"
+msgstr "Estado actual"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "January"
+msgstr "January"
+
+#. module: hr_attendance
+#: wizard_view:hr.si_so,so_wo_si:0
+msgid "Sign-Out Entry must follow Sign-In."
+msgstr "Sign-Out Entry must follow Sign-In."
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "April"
+msgstr "April"
+
+#. module: hr_attendance
+#: model:ir.actions.act_window,name:hr_attendance.open_view_attendance
+#: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance
+#: model:ir.ui.menu,name:hr_attendance.menu_open_view_attendance
+msgid "Attendances"
+msgstr "Presenças"
+
+#. module: hr_attendance
+#: rml:report.hr.timesheet.attendance.error:0
+msgid "Attendance Errors"
+msgstr "Erros de presenças"
+
+#. module: hr_attendance
+#: field:hr.attendance,action:0
+#: selection:hr.attendance,action:0
+msgid "Action"
+msgstr "Acção"
+
+#. module: hr_attendance
+#: wizard_button:hr.attendance.report,init,print:0
+msgid "Print Attendance Report"
+msgstr "Print Attendance Report"
+
+#. module: hr_attendance
+#: model:ir.actions.act_window,name:hr_attendance.open_view_attendance_reason
+#: model:ir.ui.menu,name:hr_attendance.menu_open_view_attendance_reason
+msgid "Attendance Reasons"
+msgstr "Rasões de presença"
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "November"
+msgstr "November"
+
+#. module: hr_attendance
+#: wizard_view:hr.attendance.report,init:0
+msgid "Bellow this delay, the error is considered to be voluntary"
+msgstr "Bellow this delay, the error is considered to be voluntary"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/wizard/sign_in_out.py:0
+#, python-format
+msgid "UserError"
+msgstr "Erro de utilizador"
+
+#. module: hr_attendance
+#: wizard_field:hr.attendance.report,init,max_delay:0
+msgid "Max. Delay (Min)"
+msgstr "Max. Delay (Min)"
+
+#. module: hr_attendance
+#: wizard_view:hr.attendance.print_week,init:0
+msgid "Select a starting and a end date"
+msgstr "Select a starting and a end date"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/wizard/print_attendance_error.py:0
+#, python-format
+msgid "No Data Available"
+msgstr "No Data Available"
+
+#. module: hr_attendance
+#: wizard_field:hr.attendance.print_week,init,end_date:0
+#: wizard_field:hr.attendance.report,init,end_date:0
+msgid "Ending Date"
+msgstr "Ending Date"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/wizard/print_attendance_error.py:0
+#, python-format
+msgid "No records found for your selection!"
+msgstr "No records found for your selection!"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/hr_attendance.py:0
+#, python-format
+msgid "You tried to sign in with a date anterior to another event !\nTry to contact the administrator to correct attendances."
+msgstr "You tried to sign in with a date anterior to another event !\nTry to contact the administrator to correct attendances."
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "September"
+msgstr "September"
+
+#. module: hr_attendance
+#: model:ir.actions.report.xml,name:hr_attendance.attendance_error_report
+msgid "Attendance Error Report"
+msgstr "Relatório de erro das presenças"
+
+#. module: hr_attendance
+#: view:hr.attendance:0
+msgid "Employee attendance"
+msgstr "Presença do empregado"
+
+#. module: hr_attendance
+#: wizard_view:hr.attendance.print_month,init:0
+msgid "Select a month"
+msgstr "Select a month"
+
+#. module: hr_attendance
+#: wizard_field:hr.attendance.print_month,init,month:0
+msgid "Month"
+msgstr "Month"
+
+#. module: hr_attendance
+#: model:ir.module.module,description:hr_attendance.module_meta_information
+msgid "This module aims to manage employee's attendances."
+msgstr "This module aims to manage employee's attendances."
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/hr_attendance.py:0
+#: wizard_view:hr.si_so,so_wo_si:0
+#, python-format
+msgid "Warning"
+msgstr "Warning"
+
+#. module: hr_attendance
+#: wizard_view:hr.si_so,so_ask_si:0
+msgid "You did not sign in the last time. Please enter the date and time you signed in."
+msgstr "You did not sign in the last time. Please enter the date and time you signed in."
+
+#. module: hr_attendance
+#: selection:hr.attendance.print_month,init,month:0
+msgid "December"
+msgstr "December"
+
+#. module: hr_attendance
+#: wizard_button:hr.attendance.print_month,init,end:0
+#: wizard_button:hr.attendance.print_week,init,end:0
+#: wizard_button:hr.attendance.report,init,end:0
+#: wizard_button:hr.si_so,init,end:0
+#: wizard_button:hr.si_so,si_ask_so,end:0
+#: wizard_button:hr.si_so,so_ask_si,end:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: hr_attendance
+#: rml:report.hr.timesheet.attendance.error:0
+msgid "Operation"
+msgstr "Operação"
+
+#. module: hr_attendance
+#: wizard_field:hr.si_so,so_ask_si,last_time:0
+msgid "Your last sign in"
+msgstr "A sua ultima entrada"
+
+#. module: hr_attendance
+#: code:addons/hr_attendance/wizard/sign_in_out.py:0
+#, python-format
+msgid "A sign-in must be right after a sign-out !"
+msgstr "A entrada deve estar depois da saída !"
+

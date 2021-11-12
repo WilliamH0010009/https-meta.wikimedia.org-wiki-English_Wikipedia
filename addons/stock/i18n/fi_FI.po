@@ -1,0 +1,2656 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* stock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 5.0.12\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2010-09-02 13:45:06+0000\n"
+"PO-Revision-Date: 2010-09-02 13:45:06+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock
+#: field:product.product,track_outgoing:0
+msgid "Track Outgoing Lots"
+msgstr "Track Outgoing Lots"
+
+#. module: stock
+#: selection:stock.location,allocation_method:0
+msgid "LIFO"
+msgstr "LIFO"
+
+#. module: stock
+#: field:stock.location,chained_location_id:0
+msgid "Chained Location If Fixed"
+msgstr "Ketjutettu paikka jos kiinteä"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_SAVE"
+msgstr "STOCK_SAVE"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_15
+msgid "Sub Products"
+msgstr "Alituotteet"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-account"
+msgstr "terp-account"
+
+#. module: stock
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Virheellinen mallin nimi toimenpiteen määrittelyssä."
+
+#. module: stock
+#: model:ir.module.module,shortdesc:stock.module_meta_information
+#: model:ir.ui.menu,name:stock.menu_stock_root
+msgid "Stock Management"
+msgstr "Varastonhallinta"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_SORT_ASCENDING"
+msgstr "STOCK_SORT_ASCENDING"
+
+#. module: stock
+#: field:stock.production.lot.revision,indice:0
+msgid "Revision"
+msgstr "Revisio"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MEDIA_FORWARD"
+msgstr "STOCK_MEDIA_FORWARD"
+
+#. module: stock
+#: rml:lot.location:0
+msgid "Total :"
+msgstr "Total :"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_ZOOM_100"
+msgstr "STOCK_ZOOM_100"
+
+#. module: stock
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+msgid "UoM"
+msgstr "Mittayksikkö"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.return_picking
+msgid "Return packing"
+msgstr "Paluupakkaus"
+
+#. module: stock
+#: field:product.category,property_stock_journal:0
+msgid "Stock journal"
+msgstr "Varastopäiväkirja"
+
+#. module: stock
+#: wizard_view:stock.fill_inventory,init:0
+msgid "Fill Inventory for specific location"
+msgstr "Täytä varastoluettelo määritetylle paikalle"
+
+#. module: stock
+#: model:ir.actions.report.xml,name:stock.report_picking_list
+#: view:stock.picking:0
+#: field:stock.picking.move.wizard,picking_id:0
+msgid "Packing list"
+msgstr "Pakkauslista"
+
+#. module: stock
+#: code:addons/stock/report_stock.py:0
+#, python-format
+msgid "You cannot delete any record!"
+msgstr "Et voi poistaa tietueita!"
+
+#. module: stock
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+msgid "Amount"
+msgstr "Summa"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Products Received"
+msgstr "Vastaanotetut tuotteet"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_return.py:0
+#, python-format
+msgid "Warning !"
+msgstr "Warning !"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree4
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree4
+msgid "Incoming Products"
+msgstr "Saapuvat tuotteet"
+
+#. module: stock
+#: field:stock.picking,name:0
+#: field:stock.tracking,serial:0
+msgid "Reference"
+msgstr "Viite"
+
+#. module: stock
+#: wizard_field:stock.invoice_onshipping,init,group:0
+msgid "Group by partner"
+msgstr "Ryhmä kumppanittain"
+
+#. module: stock
+#: field:stock.picking,address_id:0
+msgid "Partner"
+msgstr "Kumppani"
+
+#. module: stock
+#: help:product.product,track_incoming:0
+msgid "Force to use a Production Lot during receptions"
+msgstr "Pakota käyttämään tuotantoerää vastaanotossa"
+
+#. module: stock
+#: field:stock.move,move_history_ids:0
+#: field:stock.move,move_history_ids2:0
+msgid "Move History"
+msgstr "Siirrä historia"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_production_lot
+#: field:stock.production.lot.revision,lot_id:0
+#: field:stock.report.prodlots,prodlot_id:0
+msgid "Production lot"
+msgstr "Tuotantoerä"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_NEW"
+msgstr "STOCK_NEW"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_CANCEL"
+msgstr "STOCK_CANCEL"
+
+#. module: stock
+#: selection:stock.location,usage:0
+msgid "Internal Location"
+msgstr "Sisäinen paikka"
+
+#. module: stock
+#: view:stock.inventory:0
+msgid "Confirm Inventory"
+msgstr "Hyväksy inventaario"
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "State"
+msgstr "Tila"
+
+#. module: stock
+#: field:stock.location,stock_real_value:0
+msgid "Real Stock Value"
+msgstr "Todellinen varasto"
+
+#. module: stock
+#: view:stock.move:0
+msgid "UOM"
+msgstr "Mittayksikkö"
+
+#. module: stock
+#: selection:stock.move,state:0
+#: selection:stock.picking,state:0
+#: field:stock.production.lot,stock_available:0
+msgid "Available"
+msgstr "Saatavilla"
+
+#. module: stock
+#: view:stock.move:0
+msgid "Make Parcel"
+msgstr "Tee paketti"
+
+#. module: stock
+#: wizard_view:stock.partial_picking,end2:0
+msgid "Packing result"
+msgstr "Pakkauksen tulos"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_QUIT"
+msgstr "STOCK_QUIT"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_inventory.py:0
+#, python-format
+msgid "No product in this location."
+msgstr "Tuotetta ei ole tässä paikassa."
+
+#. module: stock
+#: field:stock.warehouse,lot_output_id:0
+msgid "Location Output"
+msgstr "Lähtevien paikka"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_GOTO_TOP"
+msgstr "STOCK_GOTO_TOP"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_ABOUT"
+msgstr "STOCK_ABOUT"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-hr"
+msgstr "terp-hr"
+
+#. module: stock
+#: field:stock.location,usage:0
+msgid "Location Type"
+msgstr "Paikan tyyppi"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_invoice_onshipping.py:0
+#, python-format
+msgid "Invoice cannot be created from Packing."
+msgstr "Pakkauksesta ei voida luoda laskua."
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-purchase"
+msgstr "terp-purchase"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DND"
+msgstr "STOCK_DND"
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "["
+msgstr "["
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Products Sent"
+msgstr "Lähetetyt tuotteet"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree6
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree6
+msgid "Internal Moves"
+msgstr "Sisäiset siirrot"
+
+#. module: stock
+#: field:stock.move,product_packaging:0
+msgid "Packaging"
+msgstr "Paketointi"
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "Order(Origin)"
+msgstr "Tilaus (Lähde)"
+
+#. module: stock
+#: rml:lot.location:0
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+msgid "Grand Total:"
+msgstr "Grand Total:"
+
+#. module: stock
+#: view:stock.location:0
+#: field:stock.location,comment:0
+msgid "Additional Information"
+msgstr "Lisätiedot"
+
+#. module: stock
+#: selection:stock.invoice_onshipping,init,type:0
+msgid "Customer Refund"
+msgstr "Asiakashyvitys"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_FLOPPY"
+msgstr "STOCK_FLOPPY"
+
+#. module: stock
+#: view:stock.production.lot.revision:0
+msgid "Production Lot Revisions"
+msgstr "Tuotantoerien revisiot"
+
+#. module: stock
+#: view:stock.location:0
+msgid "Stock location"
+msgstr "Varastopaikka"
+
+#. module: stock
+#: field:stock.location,complete_name:0
+#: field:stock.location,name:0
+msgid "Location Name"
+msgstr "Paikan nimi"
+
+#. module: stock
+#: view:stock.inventory:0
+msgid "Posted Inventory"
+msgstr "Kirjattu inventaario"
+
+#. module: stock
+#: view:stock.move:0
+#: view:stock.picking:0
+msgid "Move Information"
+msgstr "Siirtotiedot"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Unreceived Products"
+msgstr "Ei vastaanotetut tuotteet"
+
+#. module: stock
+#: field:stock.inventory,state:0
+#: field:stock.move,state:0
+#: field:stock.picking,state:0
+msgid "Status"
+msgstr "Tila"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_customers
+msgid "Customers"
+msgstr "Asiakkaat"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_UNDERLINE"
+msgstr "STOCK_UNDERLINE"
+
+#. module: stock
+#: view:stock.picking.move.wizard:0
+msgid "Move Lines"
+msgstr "Siirron rivit"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_track_line.py:0
+#, python-format
+msgid "Caution!"
+msgstr "Caution!"
+
+#. module: stock
+#: wizard_field:stock.fill_inventory,init,recursive:0
+msgid "Include all childs for the location"
+msgstr "Sisällytä kaikki alemmat tälle paikalle"
+
+#. module: stock
+#: field:product.template,property_stock_procurement:0
+msgid "Procurement Location"
+msgstr "Hankinnan paikka"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_production_lot_form
+#: model:ir.ui.menu,name:stock.menu_action_production_lot_form
+msgid "Production Lots"
+msgstr "Tuotantoerät"
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "Recipient"
+msgstr "Vastaanottaja"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.track_line
+msgid "Track line"
+msgstr "Seurannan rivi"
+
+#. module: stock
+#: field:stock.location,child_ids:0
+msgid "Contains"
+msgstr "Sisältää"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_BOLD"
+msgstr "STOCK_BOLD"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-graph"
+msgstr "terp-graph"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Future Receptions"
+msgstr "Future Receptions"
+
+#. module: stock
+#: rml:lot.location:0
+#: field:stock.inventory.line,product_qty:0
+#: field:stock.move,product_qty:0
+#: rml:stock.picking.list:0
+#: field:stock.report.prodlots,name:0
+msgid "Quantity"
+msgstr "Määrä"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Process Now"
+msgstr "Käsittele nyt"
+
+#. module: stock
+#: field:stock.location,address_id:0
+msgid "Location Address"
+msgstr "Paikan osoite"
+
+#. module: stock
+#: help:stock.move,prodlot_id:0
+msgid "Production lot is used to put a serial number on the production"
+msgstr "Tuotantoerää käytetään antamaan tuotannolle sarjanumero"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_13
+msgid "Stock Level 1"
+msgstr "Varaston taso 1"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MEDIA_REWIND"
+msgstr "STOCK_MEDIA_REWIND"
+
+#. module: stock
+#: field:stock.warehouse,lot_input_id:0
+msgid "Location Input"
+msgstr "Saapuvien paikka"
+
+#. module: stock
+#: view:res.partner:0
+msgid "Stock Properties"
+msgstr "Varaston ominaisuudet"
+
+#. module: stock
+#: wizard_button:stock.partial_picking,init,split:0
+msgid "Make Picking"
+msgstr "Suorita keräily"
+
+#. module: stock
+#: model:stock.location,name:stock.location_procurement
+msgid "Procurements"
+msgstr "Hankinnat"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_3
+msgid "IT Suppliers"
+msgstr "IT-toimittajat"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_move_form3
+#: model:ir.ui.menu,name:stock.menu_action_move_form3
+msgid "Draft Moves"
+msgstr "Luonnossiirrot"
+
+#. module: stock
+#: field:report.stock.lines.date,product_id:0
+msgid "Product Id"
+msgstr "Tuotekoodi"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Future P&L"
+msgstr "Future P&L"
+
+#. module: stock
+#: view:res.partner:0
+msgid "Sales & Purchases"
+msgstr "Myynti ja hankinta"
+
+#. module: stock
+#: selection:stock.invoice_onshipping,init,type:0
+msgid "Customer Invoice"
+msgstr "Asiakaslasku"
+
+#. module: stock
+#: field:product.template,property_stock_inventory:0
+msgid "Inventory Location"
+msgstr "Inventaarion paikka"
+
+#. module: stock
+#: help:product.product,track_production:0
+msgid "Force to use a Production Lot during production order"
+msgstr "Pakota käyttämään tuotantoerää tuotantotilauksessa"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_CUT"
+msgstr "STOCK_CUT"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_ZOOM_IN"
+msgstr "STOCK_ZOOM_IN"
+
+#. module: stock
+#: help:product.template,property_stock_inventory:0
+msgid "For the current product (template), this stock location will be used, instead of the default one, as the source location for stock moves generated when you do an inventory"
+msgstr "Tuotteelle käytetään tässä määritettyä varaston lähdepaikkaa oletuksen asemasta luotaessa varastonsiirtoja inventaariota varten"
+
+#. module: stock
+#: help:product.category,property_stock_account_output_categ:0
+msgid "This account will be used to value the output stock"
+msgstr "Tätä tiliä käytetään lähtevän varaston arvottamiseen"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "Bad Lot Assignation !"
+msgstr "Bad Lot Assignation !"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_ZOOM_FIT"
+msgstr "STOCK_ZOOM_FIT"
+
+#. module: stock
+#: help:product.category,property_stock_journal:0
+msgid "This journal will be used for the accounting move generated by stock move"
+msgstr "Tätä päiväkirjaa käytetään varastonsiirtojen luomille kirjanpitomerkinnöille"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_calendar_delivery
+#: model:ir.ui.menu,name:stock.menu_picking_calendar_delivery
+msgid "Calendar of Deliveries"
+msgstr "Toimituskalenteri"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_stock_product_location_open
+msgid "Stock by Location"
+msgstr "Varasto paikoittain"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_SAVE_AS"
+msgstr "STOCK_SAVE_AS"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_report_prodlots
+msgid "Stock report by production lots"
+msgstr "Varastoraportti tuotantoerien perusteella"
+
+#. module: stock
+#: field:stock.location,stock_virtual:0
+msgid "Virtual Stock"
+msgstr "Näennäinen varasto"
+
+#. module: stock
+#: selection:stock.location,usage:0
+msgid "View"
+msgstr "Näkymä"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DIALOG_ERROR"
+msgstr "STOCK_DIALOG_ERROR"
+
+#. module: stock
+#: field:stock.location,parent_left:0
+msgid "Left Parent"
+msgstr "Vasen ylempi"
+
+#. module: stock
+#: field:report.stock.lines.date,create_date:0
+msgid "Latest Date of Inventory"
+msgstr "Edellisen inventaarion pvm."
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_INDEX"
+msgstr "STOCK_INDEX"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_partial_picking.py:0
+#, python-format
+msgid "Back Order %s Assigned to this Packing."
+msgstr "Back Order %s Assigned to this Packing."
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_GOTO_BOTTOM"
+msgstr "STOCK_GOTO_BOTTOM"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_form
+#: model:ir.ui.menu,name:stock.menu_action_picking_form
+msgid "New Reception Packing"
+msgstr "Uusi vastaanoton pakkaus"
+
+#. module: stock
+#: wizard_field:mrp.stock.move.track,init,quantity:0
+msgid "Quantity per lot"
+msgstr "Quantity per lot"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_move_form2
+#: model:ir.ui.menu,name:stock.menu_action_move_form2
+#: view:stock.move:0
+#: view:stock.picking:0
+msgid "Stock Moves"
+msgstr "Varastosiirrot"
+
+#. module: stock
+#: field:product.template,property_stock_production:0
+msgid "Production Location"
+msgstr "Tuotannon paikka"
+
+#. module: stock
+#: field:stock.move,tracking_id:0
+msgid "Tracking Lot"
+msgstr "Seurannan erä"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_GO_FORWARD"
+msgstr "STOCK_GO_FORWARD"
+
+#. module: stock
+#: field:stock.production.lot.revision,author_id:0
+msgid "Author"
+msgstr "Tekijä"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_UNDELETE"
+msgstr "STOCK_UNDELETE"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_EXECUTE"
+msgstr "STOCK_EXECUTE"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DIALOG_QUESTION"
+msgstr "STOCK_DIALOG_QUESTION"
+
+#. module: stock
+#: selection:stock.location,chained_auto_packing:0
+msgid "Manual Operation"
+msgstr "Manuaalinen toimenpide"
+
+#. module: stock
+#: field:stock.picking,date_done:0
+msgid "Date Done"
+msgstr "Valmis pvm."
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "Expected Shipping Date"
+msgstr "Odotettu toimituspäivä"
+
+#. module: stock
+#: view:stock.tracking:0
+msgid "Tracking/Serial"
+msgstr "Seuranta / snro"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_SELECT_FONT"
+msgstr "STOCK_SELECT_FONT"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_PASTE"
+msgstr "STOCK_PASTE"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_locations_partner
+msgid "Partner Locations"
+msgstr "Kumppanien paikat"
+
+#. module: stock
+#: help:stock.move,tracking_id:0
+msgid "Tracking lot is the code that will be put on the logistical unit/pallet"
+msgstr "Seurantaerä on koodi joka annetaan logistiselle yksikölle / lavalle"
+
+#. module: stock
+#: view:stock.tracking:0
+msgid "Tracking Number"
+msgstr "Seurantanumero"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_7
+msgid "European Customers"
+msgstr "Eurooppalaiset asiakkaat"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-stock"
+msgstr "terp-stock"
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "Packing List:"
+msgstr "Pakkauslista:"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#: code:addons/stock/wizard/wizard_invoice_onshipping.py:0
+#, python-format
+msgid "UserError"
+msgstr "UserError"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MEDIA_RECORD"
+msgstr "STOCK_MEDIA_RECORD"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "You can only delete draft moves."
+msgstr "Voit poistaa ainoastaan luonnossiirtoja."
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Calendar View"
+msgstr "Kalenterinäkymä"
+
+#. module: stock
+#: wizard_field:stock.location.products,init,from_date:0
+msgid "From"
+msgstr "Mistä"
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "Non Assigned Products:"
+msgstr "Ei luovutetut tuotteet:"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Invoice Control"
+msgstr "Laskunhallinta"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_production_lot_revision
+msgid "Production lot revisions"
+msgstr "Tuotantoerän revisiot"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Packing Done"
+msgstr "Pakkaus valmis"
+
+#. module: stock
+#: selection:stock.move,state:0
+#: selection:stock.picking,state:0
+msgid "Waiting"
+msgstr "Odottaa"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree2
+#: model:ir.actions.act_window,name:stock.action_picking_tree7
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree7
+#: model:ir.ui.menu,name:stock.menu_picking_waiting
+msgid "Available Packing"
+msgstr "Pakkaukset saatavilla"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_warehouse
+#: view:stock.warehouse:0
+msgid "Warehouse"
+msgstr "Varastorakennus"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-report"
+msgstr "terp-report"
+
+#. module: stock
+#: wizard_field:stock.invoice_onshipping,init,type:0
+msgid "Type"
+msgstr "Tyyppi"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_5
+msgid "Generic IT Suppliers"
+msgstr "Yleiset IT-toimittajat"
+
+#. module: stock
+#: model:ir.actions.report.xml,name:stock.report_location_overview_all
+msgid "Location Content (With children)"
+msgstr "Paikan sisältö (alempineen)"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_FILE"
+msgstr "STOCK_FILE"
+
+#. module: stock
+#: field:report.stock.lines.date,id:0
+msgid "Inventory Line Id"
+msgstr "Varastorivin koodi"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_EDIT"
+msgstr "STOCK_EDIT"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_CONNECT"
+msgstr "STOCK_CONNECT"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_all
+#: model:ir.ui.menu,name:stock.menu_action_picking_all
+#: wizard_field:stock.picking.make,init,pickings:0
+msgid "Packing"
+msgstr "Pakkaus"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_GO_DOWN"
+msgstr "STOCK_GO_DOWN"
+
+#. module: stock
+#: field:res.partner,property_stock_customer:0
+#: selection:stock.location,usage:0
+msgid "Customer Location"
+msgstr "Asiakkaan paikka"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_OK"
+msgstr "STOCK_OK"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree9
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree9
+msgid "New Internal Packing"
+msgstr "Uusi sisäinen pakkaus"
+
+#. module: stock
+#: view:stock.inventory:0
+msgid "General Informations"
+msgstr "Yleiset tiedot"
+
+#. module: stock
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Virheellinen XML näkymäarkkitehtuurille!"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action3
+#: model:ir.actions.wizard,name:stock.action2
+#: model:ir.actions.wizard,name:stock.action_lot4
+msgid "Downstream traceability"
+msgstr "Lähtevien seuranta"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_14
+msgid "Finished products"
+msgstr "Valmiit tuoteet"
+
+#. module: stock
+#: field:stock.location,location_id:0
+msgid "Parent Location"
+msgstr "Ylempi paikka"
+
+#. module: stock
+#: field:stock.inventory,date:0
+msgid "Date create"
+msgstr "Luontipäivä"
+
+#. module: stock
+#: wizard_button:inventory.merge.stock.zero,init,merge:0
+msgid "Set to Zero"
+msgstr "Aseta nollaksi"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_product_stock_move_open
+msgid "All Stock Moves"
+msgstr "Kaikki varastonsiirrot"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_UNINDENT"
+msgstr "STOCK_UNINDENT"
+
+#. module: stock
+#: field:res.partner,property_stock_supplier:0
+#: selection:stock.location,usage:0
+msgid "Supplier Location"
+msgstr "Toimittajien paikat"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_HELP"
+msgstr "STOCK_HELP"
+
+#. module: stock
+#: selection:stock.move,priority:0
+msgid "Urgent"
+msgstr "Kiireellinen"
+
+#. module: stock
+#: help:product.category,property_stock_account_input_categ:0
+msgid "This account will be used to value the input stock"
+msgstr "Tätä tiliä käytetään saapuvan varaston arvottamiseen"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_return.py:0
+#, python-format
+msgid "Invoice state"
+msgstr "Laskun tila"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_UNDO"
+msgstr "STOCK_UNDO"
+
+#. module: stock
+#: field:stock.move,date:0
+#: field:stock.tracking,date:0
+msgid "Date Created"
+msgstr "Luontipäivä"
+
+#. module: stock
+#: selection:stock.picking,type:0
+msgid "Sending Goods"
+msgstr "Lähetetään tavarat"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Cancel Availability"
+msgstr "Peru saatavuus"
+
+#. module: stock
+#: field:stock.inventory,move_ids:0
+msgid "Created Moves"
+msgstr "Luodut siirrot"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_GO_BACK"
+msgstr "STOCK_GO_BACK"
+
+#. module: stock
+#: selection:stock.picking,invoice_state:0
+msgid "To Be Invoiced"
+msgstr "Tullaan laskuttamaan"
+
+#. module: stock
+#: view:product.product:0
+#: view:product.template:0
+msgid "Counter-Part Locations Properties"
+msgstr "Vastaavat paikkatiedot"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Delivered Qty"
+msgstr "Toimitettu määrä"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_JUSTIFY_FILL"
+msgstr "STOCK_JUSTIFY_FILL"
+
+#. module: stock
+#: view:stock.move:0
+#: field:stock.move,date_planned:0
+msgid "Date"
+msgstr "Päivämäärä"
+
+#. module: stock
+#: view:product.product:0
+msgid "Stocks"
+msgstr "Varastot"
+
+#. module: stock
+#: field:stock.location,allocation_method:0
+msgid "Allocation Method"
+msgstr "Allokaation tyyppi"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-administration"
+msgstr "terp-administration"
+
+#. module: stock
+#: field:stock.warehouse,lot_stock_id:0
+msgid "Location Stock"
+msgstr "Paikan varasto"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_APPLY"
+msgstr "STOCK_APPLY"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_invoice_onshipping.py:0
+#, python-format
+msgid "Invoice is not created"
+msgstr "Laskua ei ole luotu"
+
+#. module: stock
+#: code:addons/stock/wizard/inventory_merge.py:0
+#, python-format
+msgid "Merging is only allowed on draft inventories."
+msgstr "Yhdistäminen on sallittu vain luonnosinventoinneille."
+
+#. module: stock
+#: code:addons/stock/wizard/inventory_merge.py:0
+#, python-format
+msgid "Please select at least two inventories."
+msgstr "Valitse vähintään kaksi inventointia."
+
+#. module: stock
+#: wizard_view:stock.partial_picking,end2:0
+msgid "The packing has been successfully made !"
+msgstr "Pakkaus on tehty onnistuneesti!"
+
+#. module: stock
+#: field:stock.move,address_id:0
+#: field:stock.picking.move.wizard,address_id:0
+msgid "Dest. Address"
+msgstr "Kohteen osoite"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_inventory_form
+#: model:ir.ui.menu,name:stock.menu_action_inventory_form
+msgid "Periodical Inventory"
+msgstr "Jaksoittainen inventaario"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-crm"
+msgstr "terp-crm"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_STRIKETHROUGH"
+msgstr "STOCK_STRIKETHROUGH"
+
+#. module: stock
+#: rml:lot.stock.overview_all:0
+#: field:stock.incoterms,code:0
+msgid "Code"
+msgstr "Koodi"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-partner"
+msgstr "terp-partner"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "You can not remove a lot line !"
+msgstr "Eräriviä ei voida poistaa!"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_inventory_form_draft
+#: model:ir.ui.menu,name:stock.menu_action_inventory_form_draft
+msgid "Draft Periodical Inventories"
+msgstr "Luonnos jaksoittaiset inventaariot"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_PREFERENCES"
+msgstr "STOCK_PREFERENCES"
+
+#. module: stock
+#: wizard_button:inventory.merge,init,end:0
+#: wizard_button:inventory.merge.stock.zero,init,end:0
+#: wizard_button:mrp.stock.move.track,init,end:0
+#: wizard_button:stock.fill_inventory,init,end:0
+#: wizard_button:stock.invoice_onshipping,init,end:0
+#: wizard_button:stock.location.products,init,end:0
+#: view:stock.move:0
+#: wizard_button:stock.move.split,init,end:0
+#: wizard_button:stock.partial_picking,init,end:0
+#: view:stock.picking:0
+#: wizard_button:stock.picking.make,init,end:0
+#: view:stock.picking.move.wizard:0
+#: wizard_button:stock.return.picking,init,end:0
+msgid "Cancel"
+msgstr "Peruuta"
+
+#. module: stock
+#: view:stock.move:0
+#: view:stock.picking:0
+msgid "Split in production lots"
+msgstr "Jaa tuotantoeriin"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_inventory
+#: field:stock.inventory,name:0
+#: field:stock.inventory.line,inventory_id:0
+#: selection:stock.location,usage:0
+msgid "Inventory"
+msgstr "Inventaario"
+
+#. module: stock
+#: view:product.template:0
+msgid "Information"
+msgstr "Tiedot"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_return.py:0
+#, python-format
+msgid "Provide the quantities of the returned products."
+msgstr "Ilmoita palautettujen tuotteiden määrät."
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MISSING_IMAGE"
+msgstr "STOCK_MISSING_IMAGE"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_REMOVE"
+msgstr "STOCK_REMOVE"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_tracking
+msgid "Stock Tracking Lots"
+msgstr "Varaston seurantaerät"
+
+#. module: stock
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+#: field:stock.move,price_unit:0
+msgid "Unit Price"
+msgstr "Yksikköhinta"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Process Later"
+msgstr "Käsittele myöhemmin"
+
+#. module: stock
+#: help:res.partner,property_stock_supplier:0
+msgid "This stock location will be used, instead of the default one, as the source location for goods you receive from the current partner"
+msgstr "Kun vastaanotat tavaraa kumppanilta käytetään tässä määritettyä lähdepaikkaa oletuksen asemasta"
+
+#. module: stock
+#: field:stock.warehouse,partner_address_id:0
+msgid "Owner Address"
+msgstr "Omistajan osoite"
+
+#. module: stock
+#: field:stock.location,parent_right:0
+msgid "Right Parent"
+msgstr "Oikea ylempi"
+
+#. module: stock
+#: field:stock.picking,origin:0
+msgid "Origin Reference"
+msgstr "Lähdeviite"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_move_form4
+#: model:ir.ui.menu,name:stock.menu_action_move_form4
+msgid "Available Moves"
+msgstr "Mahdolliset siirrot"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Received Qty"
+msgstr "Vastaanotettu määrä"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_HARDDISK"
+msgstr "STOCK_HARDDISK"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_relate_picking
+msgid "Related Picking"
+msgstr "Liittyvä keräily"
+
+#. module: stock
+#: field:stock.incoterms,name:0
+#: field:stock.move,name:0
+#: field:stock.picking.move.wizard,name:0
+#: field:stock.warehouse,name:0
+msgid "Name"
+msgstr "Nimi"
+
+#. module: stock
+#: view:stock.inventory.line:0
+msgid "Stock Inventory Lines"
+msgstr "Varaston inventaarion rivit"
+
+#. module: stock
+#: wizard_button:stock.location.products,init,open:0
+msgid "Open Products"
+msgstr "Avaa tuotteet"
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "]"
+msgstr "]"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Input Packing List"
+msgstr "Saapuva pakkauslista"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_picking
+#: field:stock.move,picking_id:0
+msgid "Packing List"
+msgstr "Pakkauslista"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_COPY"
+msgstr "STOCK_COPY"
+
+#. module: stock
+#: selection:stock.invoice_onshipping,init,type:0
+msgid "Supplier Refund"
+msgstr "Toimittajan hyvitys"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_move
+msgid "Stock Move"
+msgstr "Varastonsiirto"
+
+#. module: stock
+#: field:product.category,property_stock_account_output_categ:0
+#: field:product.template,property_stock_account_output:0
+msgid "Stock Output Account"
+msgstr "Lähtevän varaston tili"
+
+#. module: stock
+#: selection:stock.location,chained_auto_packing:0
+msgid "Automatic No Step Added"
+msgstr "Automaattinen ei lisätä porrasta"
+
+#. module: stock
+#: wizard_view:stock.location.products,init:0
+msgid "Stock Location Analysis"
+msgstr "Varaston paikka-analyysi"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_CDROM"
+msgstr "STOCK_CDROM"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_invoice_onshipping.py:0
+#, python-format
+msgid "Invoice is already created."
+msgstr "Lasku on jo luotu."
+
+#. module: stock
+#: selection:stock.picking,invoice_state:0
+msgid "Not from Packing"
+msgstr "Ei pakkauksesta"
+
+#. module: stock
+#: view:stock.location:0
+msgid "Chained Locations"
+msgstr "Ketjutetut paikat"
+
+#. module: stock
+#: model:stock.location,name:stock.location_inventory
+msgid "Inventory loss"
+msgstr "Varastohävikki"
+
+#. module: stock
+#: field:stock.production.lot,ref:0
+msgid "Internal Ref"
+msgstr "Sisäinen viite"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_REFRESH"
+msgstr "STOCK_REFRESH"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Products: "
+msgstr "Tuotteet: "
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_STOP"
+msgstr "STOCK_STOP"
+
+#. module: stock
+#: wizard_view:mrp.stock.move.track,init:0
+msgid "Tracking a move"
+msgstr "Tracking a move"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_FIND_AND_REPLACE"
+msgstr "STOCK_FIND_AND_REPLACE"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Validate"
+msgstr "Hyväksy"
+
+#. module: stock
+#: field:product.product,track_incoming:0
+msgid "Track Incoming Lots"
+msgstr "Track Incoming Lots"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DIALOG_WARNING"
+msgstr "STOCK_DIALOG_WARNING"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Future Qty"
+msgstr "Future Qty"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_CONVERT"
+msgstr "STOCK_CONVERT"
+
+#. module: stock
+#: field:stock.move,note:0
+#: view:stock.picking:0
+#: field:stock.picking,note:0
+msgid "Notes"
+msgstr "Huomautukset"
+
+#. module: stock
+#: field:stock.picking,move_lines:0
+#: field:stock.picking.move.wizard,move_ids:0
+msgid "Move lines"
+msgstr "Siirron rivit"
+
+#. module: stock
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+msgid "Value"
+msgstr "Arvo"
+
+#. module: stock
+#: field:stock.picking,type:0
+msgid "Shipping Type"
+msgstr "Lähetyksen tyyppi"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_product_location_open
+msgid "Products"
+msgstr "Tuotteet"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_return.py:0
+#: selection:stock.location,chained_location_type:0
+#, python-format
+msgid "None"
+msgstr "None"
+
+#. module: stock
+#: field:stock.picking,move_type:0
+msgid "Delivery Method"
+msgstr "Toimitustapa"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.partial_picking
+msgid "Partial packing"
+msgstr "Osittainen pakkaus"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-calendar"
+msgstr "terp-calendar"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_ITALIC"
+msgstr "STOCK_ITALIC"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_YES"
+msgstr "STOCK_YES"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_stock_picking_move_wizard
+msgid "Fill From Unreceived Products"
+msgstr "Täytä ei-vastaanotetuista tuotteista"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "P&L Qty"
+msgstr "P&L Määrä"
+
+#. module: stock
+#: field:stock.move,move_dest_id:0
+msgid "Dest. Move"
+msgstr "Kohde siirto"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_inventory_form_new
+#: model:ir.ui.menu,name:stock.menu_action_inventory_form_new
+msgid "New Periodical Inventory"
+msgstr "Uusi jaksoittainen inventaario"
+
+#. module: stock
+#: field:stock.production.lot,revisions:0
+msgid "Revisions"
+msgstr "Revisiot"
+
+#. module: stock
+#: selection:stock.location,allocation_method:0
+msgid "FIFO"
+msgstr "FIFO"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree2_delivery
+#: model:ir.ui.menu,name:stock.menu_picking_waiting_delivery
+msgid "Delivery Orders to Process"
+msgstr "Lähetys"
+
+#. module: stock
+#: field:stock.move,priority:0
+msgid "Priority"
+msgstr "Prioriteetti"
+
+#. module: stock
+#: wizard_field:inventory.merge.stock.zero,init,location_id:0
+#: model:ir.model,name:stock.model_stock_location
+#: rml:lot.location:0
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+#: wizard_field:stock.fill_inventory,init,location_id:0
+#: field:stock.inventory.line,location_id:0
+#: field:stock.picking,location_id:0
+#: rml:stock.picking.list:0
+#: field:stock.report.prodlots,location_id:0
+msgid "Location"
+msgstr "Paikka"
+
+#. module: stock
+#: field:stock.picking,invoice_state:0
+msgid "Invoice Status"
+msgstr "Laskun tila"
+
+#. module: stock
+#: rml:lot.location:0
+msgid "Units"
+msgstr "Units"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_JUSTIFY_LEFT"
+msgstr "STOCK_JUSTIFY_LEFT"
+
+#. module: stock
+#: view:stock.inventory:0
+msgid "Cancel Inventory"
+msgstr "Peruuta inventaario"
+
+#. module: stock
+#: model:ir.actions.report.xml,name:stock.report_product_history
+msgid "Future Stock Forecast"
+msgstr "Tulevan varaston ennuste"
+
+#. module: stock
+#: code:addons/stock/report_stock.py:0
+#, python-format
+msgid "Error !"
+msgstr "Virhe!"
+
+#. module: stock
+#: model:ir.module.module,description:stock.module_meta_information
+msgid "OpenERP Stock Management module can manage multi-warehouses, multi and structured stock locations.\n"
+"Thanks to the double entry management, the inventory controlling is powerful and flexible:\n"
+"* Moves history and planning,\n"
+"* Different inventory methods (FIFO, LIFO, ...)\n"
+"* Stock valuation (standard or average price, ...)\n"
+"* Robustness faced with Inventory differences\n"
+"* Automatic reordering rules (stock level, JIT, ...)\n"
+"* Bar code supported\n"
+"* Rapid detection of mistakes through double entry system\n"
+"* Traceability (upstream/downstream, production lots, serial number, ...)\n"
+"    "
+msgstr "OpenERP:in varastonhallinnalla voi hallita useita varastorakennuksia sekä monirakenteisia varastopaikkoja.\n"
+"Kiitos kahdenkertaisen järjestelmän, varaston hallinta on tehokasta ja joustavaa:\n"
+"* Siirtojen historia ja suunnittelu\n"
+"* Useita varastoinnin menetelmiä (FIFO, LIFO...)\n"
+"* Varaston arvotus (standardi- tai keskihinta...)\n"
+"* Luotettavuus varaston poikkeamissa\n"
+"* Automaattiset uudelleenjärjestelyt (varastosaldo, JIT...)\n"
+"* Viivakoodit ovat tuettuna\n"
+"* Virheiden nopea havaitseminen kahdenkertaisuuden avulla\n"
+"* Seuranta (tulo-/lähtoliikenne, tuotantoerät, sarjanumerot...)\n"
+"    "
+
+#. module: stock
+#: selection:stock.location,chained_location_type:0
+msgid "Fixed Location"
+msgstr "Kiinteä paikka"
+
+#. module: stock
+#: constraint:ir.model:0
+msgid "The Object name must start with x_ and not contain any special character !"
+msgstr "Objektin nimen tulee alkaa x_ ja se ei saa sisältää erikoismerkkejä!"
+
+#. module: stock
+#: field:stock.picking,min_date:0
+msgid "Planned Date"
+msgstr "Suunniteltu päivämäärä"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_track_line.py:0
+#, python-format
+msgid "No production sequence defined"
+msgstr "Tuotannon sarjaa ei ole määritetty!"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree
+msgid "Outgoing Products"
+msgstr "Lähtevät tuotteet"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_COLOR_PICKER"
+msgstr "STOCK_COLOR_PICKER"
+
+#. module: stock
+#: model:ir.actions.report.xml,name:stock.report_lot_location
+msgid "Lots by location"
+msgstr "Erät paikoittain"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DELETE"
+msgstr "STOCK_DELETE"
+
+#. module: stock
+#: model:account.journal,name:stock.stock_journal
+msgid "Stock Journal"
+msgstr "Varastopäiväkirja"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_CLEAR"
+msgstr "STOCK_CLEAR"
+
+#. module: stock
+#: field:stock.production.lot,date:0
+msgid "Created Date"
+msgstr "Luontipäivä"
+
+#. module: stock
+#: selection:stock.location,usage:0
+msgid "Procurement"
+msgstr "Hankinta"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_4
+msgid "Maxtor Suppliers"
+msgstr "Maxtor toimittajat"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Force Availability"
+msgstr "Pakota saatavuus"
+
+#. module: stock
+#: wizard_view:stock.location.products,init:0
+msgid "View Stock of Products"
+msgstr "Näytä tuotteiden varasto"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-mrp"
+msgstr "terp-mrp"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree3_delivery
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree3_delivery
+msgid "Future Delivery Orders"
+msgstr "Tulevat toimitustilaukset"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_GO_UP"
+msgstr "STOCK_GO_UP"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_SORT_DESCENDING"
+msgstr "STOCK_SORT_DESCENDING"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_tracking_form
+#: model:ir.ui.menu,name:stock.menu_action_tracking_form
+msgid "Tracking Lots"
+msgstr "Seurantaerät"
+
+#. module: stock
+#: wizard_button:inventory.merge,init,merge:0
+msgid "Yes"
+msgstr "Kyllä"
+
+#. module: stock
+#: field:stock.inventory,inventory_line_id:0
+msgid "Inventories"
+msgstr "Tavaraluettelot"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_HOME"
+msgstr "STOCK_HOME"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_PROPERTIES"
+msgstr "STOCK_PROPERTIES"
+
+#. module: stock
+#: field:stock.location,stock_real:0
+msgid "Real Stock"
+msgstr "Todellinen varasto"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.wizard_fill_inventory
+#: wizard_view:stock.fill_inventory,init:0
+#: wizard_button:stock.fill_inventory,init,fill_inventory:0
+msgid "Fill Inventory"
+msgstr "Täytä varastolista"
+
+#. module: stock
+#: wizard_view:stock.invoice_onshipping,init:0
+msgid "Create invoices"
+msgstr "Luo laskut"
+
+#. module: stock
+#: field:stock.production.lot.revision,date:0
+msgid "Revision Date"
+msgstr "Revision pvm."
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "Lot"
+msgstr "Erä"
+
+#. module: stock
+#: wizard_view:inventory.merge.stock.zero,init:0
+msgid "Set Stock to Zero"
+msgstr "Aseta varasto nollaan"
+
+#. module: stock
+#: field:stock.move,product_uos_qty:0
+msgid "Quantity (UOS)"
+msgstr "Määrä (myyntiyksikköä)"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree5
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree5
+msgid "Packing to Process"
+msgstr "Käsiteltävä pakkaus"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MEDIA_STOP"
+msgstr "STOCK_MEDIA_STOP"
+
+#. module: stock
+#: view:stock.move:0
+msgid "Set Available"
+msgstr "Aseta saataville"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.make_picking
+#: wizard_view:stock.picking.make,init:0
+msgid "Make packing"
+msgstr "Tee pakkaus"
+
+#. module: stock
+#: wizard_field:stock.partial_picking,end2,back_order_notification:0
+#: field:stock.picking,backorder_id:0
+msgid "Back Order"
+msgstr "Back Order"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DND_MULTIPLE"
+msgstr "STOCK_DND_MULTIPLE"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_return.py:0
+#, python-format
+msgid "You cannot return a packing with a product quantity zero or less!"
+msgstr "You cannot return a packing with a product quantity zero or less!"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_SPELL_CHECK"
+msgstr "STOCK_SPELL_CHECK"
+
+#. module: stock
+#: field:stock.incoterms,active:0
+#: field:stock.location,active:0
+#: field:stock.picking,active:0
+#: field:stock.tracking,active:0
+msgid "Active"
+msgstr "Aktiivinen"
+
+#. module: stock
+#: view:product.template:0
+msgid "Properties"
+msgstr "Ominaisuudet"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "Error, no partner !"
+msgstr "Virhe, ei kumppania!"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_incoterms_tree
+#: model:ir.model,name:stock.model_stock_incoterms
+#: model:ir.ui.menu,name:stock.menu_action_incoterms_tree
+#: view:stock.incoterms:0
+msgid "Incoterms"
+msgstr "INCOTERMS"
+
+#. module: stock
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+msgid "Total:"
+msgstr "Total:"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DIALOG_AUTHENTICATION"
+msgstr "STOCK_DIALOG_AUTHENTICATION"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_ZOOM_OUT"
+msgstr "STOCK_ZOOM_OUT"
+
+#. module: stock
+#: wizard_field:mrp.stock.move.track,init,tracking_prefix:0
+msgid "Tracking prefix"
+msgstr "Tracking prefix"
+
+#. module: stock
+#: selection:stock.location,allocation_method:0
+msgid "Nearest"
+msgstr "Lähin"
+
+#. module: stock
+#: wizard_field:stock.location.products,init,to_date:0
+msgid "To"
+msgstr "päättyen"
+
+#. module: stock
+#: field:stock.production.lot.revision,name:0
+msgid "Revision Name"
+msgstr "Revision nimi"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_SELECT_COLOR"
+msgstr "STOCK_SELECT_COLOR"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_PRINT"
+msgstr "STOCK_PRINT"
+
+#. module: stock
+#: view:product.category:0
+msgid "Accounting Stock Properties"
+msgstr "Varaston kirjanpidon ominaisuudet"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_NO"
+msgstr "STOCK_NO"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_workshop
+msgid "Workshop"
+msgstr "Työpaja"
+
+#. module: stock
+#: selection:stock.inventory,state:0
+#: selection:stock.move,state:0
+#: selection:stock.picking,state:0
+msgid "Done"
+msgstr "Valmis"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_locations_virtual
+msgid "Virtual Locations"
+msgstr "Näennäiset paikat"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_GOTO_FIRST"
+msgstr "STOCK_GOTO_FIRST"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_company
+msgid "Tiny sprl"
+msgstr "Tiny sprl"
+
+#. module: stock
+#: field:stock.inventory,date_done:0
+msgid "Date done"
+msgstr "Valmis pvm."
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "Please put a partner on the picking list if you want to generate invoice."
+msgstr "Aseta kumppani keräilylistaan jos haluat luoda laskun."
+
+#. module: stock
+#: selection:stock.move,priority:0
+msgid "Not urgent"
+msgstr "Ei kiireellinen"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_CLOSE"
+msgstr "STOCK_CLOSE"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_warehouse_form
+#: model:ir.ui.menu,name:stock.menu_action_warehouse_form
+msgid "Warehouses"
+msgstr "Varastorakennukset"
+
+#. module: stock
+#: help:product.product,track_outgoing:0
+msgid "Force to use a Production Lot during deliveries"
+msgstr "Pakota käyttämään tuotantoerää toimituksissa"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Split move lines in two"
+msgstr "Jaa siirtorivi kahteen"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "There is no journal defined '\\n"
+"                            'on the product category: \"%s\" (id: %d)"
+msgstr "There is no journal defined '\\n"
+"                            'on the product category: \"%s\" (id: %d)"
+
+#. module: stock
+#: wizard_field:stock.invoice_onshipping,init,journal_id:0
+msgid "Destination Journal"
+msgstr "Kohde päiväkirja"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_stock_production_lot_2_stock_report_prodlots
+#: model:stock.location,name:stock.stock_location_stock
+msgid "Stock"
+msgstr "Varasto"
+
+#. module: stock
+#: rml:lot.location:0
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+#: field:stock.inventory.line,product_id:0
+#: field:stock.move,product_id:0
+#: field:stock.production.lot,product_id:0
+#: field:stock.report.prodlots,product_id:0
+msgid "Product"
+msgstr "Tuote"
+
+#. module: stock
+#: wizard_button:stock.return.picking,init,return:0
+msgid "Return"
+msgstr "Palauta"
+
+#. module: stock
+#: field:stock.picking,auto_picking:0
+msgid "Auto-Packing"
+msgstr "Automaattipakkaus"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "You are moving %.2f products but only %.2f available in this lot."
+msgstr "You are moving %.2f products but only %.2f available in this lot."
+
+#. module: stock
+#: field:stock.move,product_uos:0
+msgid "Product UOS"
+msgstr "Tuotteen myyntiyksikkö"
+
+#. module: stock
+#: field:stock.location,posz:0
+msgid "Height (Z)"
+msgstr "Korkeus (Z)"
+
+#. module: stock
+#: field:stock.inventory.line,product_uom:0
+#: field:stock.move,product_uom:0
+msgid "Product UOM"
+msgstr "Tuotteen mittayksikkö"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "You cannot remove the picking which is in %s state !"
+msgstr "You cannot remove the picking which is in %s state !"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "There is no stock output account defined ' \\n"
+"                                        'for this product: \"%s\" (id: %d)"
+msgstr "There is no stock output account defined ' \\n"
+"                                        'for this product: \"%s\" (id: %d)"
+
+#. module: stock
+#: rml:lot.stock.overview:0
+#: rml:lot.stock.overview_all:0
+msgid "Variants"
+msgstr "Variaatiot"
+
+#. module: stock
+#: field:stock.location,posx:0
+msgid "Corridor (X)"
+msgstr "Käytävä (X)"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_suppliers
+msgid "Suppliers"
+msgstr "Toimittajat"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_JUMP_TO"
+msgstr "STOCK_JUMP_TO"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-tools"
+msgstr "terp-tools"
+
+#. module: stock
+#: model:ir.actions.report.xml,name:stock.report_location_overview
+msgid "Location Overview"
+msgstr "Paikan yleiskuva"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.location_product
+msgid "Products by Location"
+msgstr "Tuotteet paikoittain"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DIALOG_INFO"
+msgstr "STOCK_DIALOG_INFO"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.move_split
+msgid "Split move line"
+msgstr "Jaa siirron rivi"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-sale"
+msgstr "terp-sale"
+
+#. module: stock
+#: field:stock.production.lot,name:0
+msgid "Serial"
+msgstr "Sarjanumero"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_ADD"
+msgstr "STOCK_ADD"
+
+#. module: stock
+#: field:stock.location,chained_delay:0
+msgid "Chained Delay (days)"
+msgstr "Ketjun viive (päivää)"
+
+#. module: stock
+#: field:stock.move,location_id:0
+msgid "Source Location"
+msgstr "Lähteen paikka"
+
+#. module: stock
+#: view:product.template:0
+msgid "Accounting Entries"
+msgstr "Kirjanpidon merkinnät"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MEDIA_PAUSE"
+msgstr "STOCK_MEDIA_PAUSE"
+
+#. module: stock
+#: view:product.product:0
+msgid "Lots"
+msgstr "Erät"
+
+#. module: stock
+#: selection:stock.picking,move_type:0
+msgid "All at once"
+msgstr "Kaikki kerralla"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Future Productions"
+msgstr "Future Productions"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_return.py:0
+#, python-format
+msgid "Return lines"
+msgstr "Palautuksen rivit"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_stock_line_date
+#: model:ir.model,name:stock.model_report_stock_lines_date
+#: model:ir.ui.menu,name:stock.menu_report_stock_line_date
+#: view:report.stock.lines.date:0
+msgid "Dates of Inventories"
+msgstr "Tavaraluetteloiden pvm."
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_PRINT_PREVIEW"
+msgstr "STOCK_PRINT_PREVIEW"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_FIND"
+msgstr "STOCK_FIND"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_inventory.py:0
+#, python-format
+msgid "Message !"
+msgstr "Viesti!"
+
+#. module: stock
+#: view:stock.inventory:0
+msgid "Lot Inventory"
+msgstr "Erän tavaraluettelo"
+
+#. module: stock
+#: help:stock.location,chained_auto_packing:0
+msgid "This is used only if you selected a chained location type.\n"
+"The 'Automatic Move' value will create a stock move after the current one that will be validated automatically. With 'Manual Operation', the stock move has to be validated by a worker. With 'Automatic No Step Added', the location is replaced in the original move."
+msgstr "Tätä käytetään vain jos olet valinnut ketjutetun paikkatyypin.\n"
+"\"Automaattinen siirto\" luo varastonsiirron nykyisen jälkeen, ja se hyväksytään automaattisesti. \"Manuaalinen toimenpide\" tarkoittaa että käyttäjän on hyväksyttävä siirto. Jos valitset \"Automaattinen ei lisätä porrasta\", alkuperäisen siirron paikka korvataan."
+
+#. module: stock
+#: field:stock.location,icon:0
+msgid "Icon"
+msgstr "Icon"
+
+#. module: stock
+#: field:stock.tracking,name:0
+msgid "Tracking"
+msgstr "Seuranta"
+
+#. module: stock
+#: wizard_button:mrp.stock.move.track,init,track:0
+#: wizard_button:stock.picking.make,init,make:0
+msgid "Ok"
+msgstr "Ok"
+
+#. module: stock
+#: help:product.template,property_stock_account_input:0
+msgid "This account will be used, instead of the default one, to value input stock"
+msgstr "Tätä tiliä käytetään oletuksen asemasta saapuvan varaston arvottamiseen"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_8
+msgid "Non European Customers"
+msgstr "Ei-eurooppalaiset asiakkat"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#: code:addons/stock/wizard/wizard_track_line.py:0
+#, python-format
+msgid "Error!"
+msgstr "Virhe!"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_components
+msgid "Components"
+msgstr "Komponentit"
+
+#. module: stock
+#: wizard_view:inventory.merge,init:0
+msgid "Do you want to merge theses inventories ?"
+msgstr "Haluatko yhdistää nämä tavaraluettelot?"
+
+#. module: stock
+#: selection:stock.move,state:0
+#: selection:stock.picking,state:0
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#. module: stock
+#: field:stock.picking,max_date:0
+msgid "Max. Planned Date"
+msgstr "Max. arvioitu pvm."
+
+#. module: stock
+#: selection:stock.picking,type:0
+msgid "Getting Goods"
+msgstr "Tavaroita otetaan"
+
+#. module: stock
+#: view:stock.location:0
+msgid "Stock Location"
+msgstr "Varaston paikkatiedot"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MEDIA_PLAY"
+msgstr "STOCK_MEDIA_PLAY"
+
+#. module: stock
+#: code:addons/stock/wizard/inventory_merge.py:0
+#: code:addons/stock/wizard/inventory_merge_zero.py:0
+#, python-format
+msgid "Warning"
+msgstr "Varoitus"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree_delivery
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree_delivery
+msgid "Delivery Orders"
+msgstr "Toimitustilaukset"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_OPEN"
+msgstr "STOCK_OPEN"
+
+#. module: stock
+#: help:res.partner,property_stock_customer:0
+msgid "This stock location will be used, instead of the default one, as the destination location for goods you send to this partner"
+msgstr "Tätä varastopaikkaa käytetään oletuksen asemasta kohdepaikkana kun lähetät tavaraa tälle kumppanille"
+
+#. module: stock
+#: selection:stock.move,state:0
+#: selection:stock.picking,state:0
+msgid "Confirmed"
+msgstr "Vahvistettu"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MEDIA_PREVIOUS"
+msgstr "STOCK_MEDIA_PREVIOUS"
+
+#. module: stock
+#: view:stock.move:0
+msgid "Confirm"
+msgstr "Vahvista"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Check Availability"
+msgstr "Tarkista saatavuus"
+
+#. module: stock
+#: wizard_view:inventory.merge,init:0
+#: model:ir.actions.wizard,name:stock.wizard_merge_inventory
+msgid "Merge inventories"
+msgstr "Yhdistä tavaraluettelot"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_location_tree
+#: model:ir.ui.menu,name:stock.menu_action_location_tree
+msgid "Stock Locations Structure"
+msgstr "Varaston paikkojen rakenne"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DISCONNECT"
+msgstr "STOCK_DISCONNECT"
+
+#. module: stock
+#: help:product.template,property_stock_account_output:0
+msgid "This account will be used, instead of the default one, to value output stock"
+msgstr "Tätä tiliä käytetään oletuksen asemasta lähtevän varaston arvottamiseen"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Confirm (Do Not Process Now)"
+msgstr "Vahvista (älä käsittele nyt)"
+
+#. module: stock
+#: field:stock.tracking,move_ids:0
+msgid "Moves Tracked"
+msgstr "Seurattavat siirrot"
+
+#. module: stock
+#: model:ir.ui.menu,name:stock.next_id_61
+msgid "Reporting"
+msgstr "Raportointi"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.wizard_invoice_onshipping
+#: wizard_button:stock.invoice_onshipping,init,create_invoice:0
+msgid "Create invoice"
+msgstr "Luo lasku"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_NETWORK"
+msgstr "STOCK_NETWORK"
+
+#. module: stock
+#: model:ir.ui.menu,name:stock.menu_stock_configuration
+msgid "Configuration"
+msgstr "Konfiguraatio"
+
+#. module: stock
+#: code:addons/stock/wizard/inventory_merge_zero.py:0
+#, python-format
+msgid "Please select one and only one inventory !"
+msgstr "Valitse yksi ja ainoastaan yksi varasto!"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Future Deliveries"
+msgstr "Future Deliveries"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-project"
+msgstr "terp-project"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_product_product_2_stock_report_prodlots
+#: model:ir.actions.act_window,name:stock.act_stock_location_2_stock_report_prodlots
+#: model:ir.actions.act_window,name:stock.action_stock_report_prodlots_form
+#: model:ir.ui.menu,name:stock.menu_stock_report_prodlots
+#: view:stock.report.prodlots:0
+msgid "Stock by Lots"
+msgstr "Varasto erinä"
+
+#. module: stock
+#: field:stock.move,auto_validate:0
+msgid "Auto Validate"
+msgstr "Automaattinen hyväksyntä"
+
+#. module: stock
+#: rml:stock.picking.list:0
+msgid "Weight"
+msgstr "Weight"
+
+#. module: stock
+#: field:stock.location,chained_auto_packing:0
+#: selection:stock.location,chained_auto_packing:0
+msgid "Automatic Move"
+msgstr "Automaattinen siirto"
+
+#. module: stock
+#: field:stock.location,stock_virtual_value:0
+msgid "Virtual Stock Value"
+msgstr "Näennäinen varasto"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_GOTO_LAST"
+msgstr "STOCK_GOTO_LAST"
+
+#. module: stock
+#: selection:stock.picking,invoice_state:0
+msgid "Invoiced"
+msgstr "Laskutettu"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_DIRECTORY"
+msgstr "STOCK_DIRECTORY"
+
+#. module: stock
+#: help:product.template,property_stock_production:0
+msgid "For the current product (template), this stock location will be used, instead of the default one, as the source location for stock moves generated by production orders"
+msgstr "Tuotteelle käytetään tässä määritettyä varaston lähdepaikka oletuksen asemasta luotaessa varastonsiirtoja tuotantotilauksia varten"
+
+#. module: stock
+#: view:stock.picking.move.wizard:0
+msgid "Add"
+msgstr "Lisää"
+
+#. module: stock
+#: selection:stock.picking,type:0
+msgid "Internal"
+msgstr "Sisäinen"
+
+#. module: stock
+#: selection:stock.inventory,state:0
+#: selection:stock.move,state:0
+#: selection:stock.picking,state:0
+msgid "Draft"
+msgstr "Luonnos"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_JUSTIFY_CENTER"
+msgstr "STOCK_JUSTIFY_CENTER"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_picking_tree3
+#: model:ir.actions.act_window,name:stock.action_picking_tree8
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree3
+#: model:ir.ui.menu,name:stock.menu_action_picking_tree8
+msgid "Confirmed Packing Waiting Availability"
+msgstr "Pakkaus vahvistettu odottaa saatavuutta"
+
+#. module: stock
+#: field:stock.location,posy:0
+msgid "Shelves (Y)"
+msgstr "Hyllyt (Y)"
+
+#. module: stock
+#: model:ir.actions.wizard,name:stock.wizard_merge_inventory_zero
+msgid "Set Stock to 0"
+msgstr "Aseta varasto 0"
+
+#. module: stock
+#: view:stock.location:0
+msgid "Localisation"
+msgstr "Paikallistaminen"
+
+#. module: stock
+#: wizard_view:inventory.merge.stock.zero,init:0
+msgid "Do you want to set stocks to zero ?"
+msgstr "Haluatko asettaa varastot nolliksi?"
+
+#. module: stock
+#: selection:stock.picking,move_type:0
+msgid "Direct Delivery"
+msgstr "Suora toimitus"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_REVERT_TO_SAVED"
+msgstr "STOCK_REVERT_TO_SAVED"
+
+#. module: stock
+#: field:product.product,track_production:0
+msgid "Track Production Lots"
+msgstr "Seuraa tuotantoeriä"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Unplanned Qty"
+msgstr "Ei suunniteltu määrä"
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Split in Two"
+msgstr "Jaa kahteen"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_product_stock_move_futur_open
+msgid "Future Stock Moves"
+msgstr "Tulevat varastonsiirrot"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Future Stock"
+msgstr "Future Stock"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#: code:addons/stock/wizard/wizard_invoice_onshipping.py:0
+#, python-format
+msgid "Error"
+msgstr "Virhe"
+
+#. module: stock
+#: help:product.template,property_stock_procurement:0
+msgid "For the current product (template), this stock location will be used, instead of the default one, as the source location for stock moves generated by procurements"
+msgstr "Tuotteelle käytetään tässä määritettyä varaston lähdepaikkaa oletuksen asemasta luotaessa varastonsiirtoja hankintoja varten"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_picking_move_wizard
+msgid "stock.picking.move.wizard"
+msgstr "stock.picking.move.wizard"
+
+#. module: stock
+#: model:res.request.link,name:stock.req_link_tracking
+#: field:stock.move,prodlot_id:0
+#: view:stock.production.lot:0
+msgid "Production Lot"
+msgstr "Tuotantoerä"
+
+#. module: stock
+#: model:ir.ui.menu,name:stock.menu_traceability
+#: model:ir.ui.menu,name:stock.next_id_62
+msgid "Traceability"
+msgstr "Seuranta"
+
+#. module: stock
+#: field:stock.picking,date:0
+msgid "Date Order"
+msgstr "Tilaus pvm."
+
+#. module: stock
+#: selection:stock.invoice_onshipping,init,type:0
+msgid "Supplier Invoice"
+msgstr "Toimittajan lasku"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_return.py:0
+#, python-format
+msgid "to be invoiced"
+msgstr "laskutetaan"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_location_form
+#: model:ir.ui.menu,name:stock.menu_action_location_form
+msgid "Locations"
+msgstr "Paikkatiedot"
+
+#. module: stock
+#: help:stock.move,date_planned:0
+msgid "Scheduled date for the movement of the products or real date if the move is done."
+msgstr "Scheduled date for the movement of the products or real date if the move is done."
+
+#. module: stock
+#: view:stock.picking:0
+msgid "General Information"
+msgstr "Yleistiedot"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "terp-product"
+msgstr "terp-product"
+
+#. module: stock
+#: wizard_button:stock.partial_picking,end2,end:0
+msgid "Close"
+msgstr "Sulje"
+
+#. module: stock
+#: model:ir.actions.report.xml,name:stock.report_move_labels
+msgid "Print Item Labels"
+msgstr "Tulosta tuotelaput"
+
+#. module: stock
+#: view:stock.move:0
+msgid "Moves"
+msgstr "Siirrot"
+
+#. module: stock
+#: field:stock.move,location_dest_id:0
+#: field:stock.picking,location_dest_id:0
+msgid "Dest. Location"
+msgstr "Kohdepaikka"
+
+#. module: stock
+#: wizard_button:stock.move.split,init,split:0
+msgid "Split"
+msgstr "Jaa"
+
+#. module: stock
+#: field:stock.location,account_id:0
+msgid "Inventory Account"
+msgstr "Inventaariotili"
+
+#. module: stock
+#: wizard_view:inventory.merge.stock.zero,init:0
+msgid "Set Stocks to Zero"
+msgstr "Aseta varastot nolliksi"
+
+#. module: stock
+#: model:stock.location,name:stock.location_production
+#: selection:stock.location,usage:0
+msgid "Production"
+msgstr "Tuotanto"
+
+#. module: stock
+#: model:ir.ui.menu,name:stock.menu_traceability_low
+msgid "Low Level"
+msgstr "Matala taso"
+
+#. module: stock
+#: code:addons/stock/wizard/wizard_track_line.py:0
+#, python-format
+msgid "Before splitting the production lots,make sure this move has a Picking attached !\nYou must save the move before performing this operation."
+msgstr "Before splitting the production lots,make sure this move has a Picking attached !\nYou must save the move before performing this operation."
+
+#. module: stock
+#: rml:stock.picking.list:0
+#: field:stock.production.lot.revision,description:0
+msgid "Description"
+msgstr "Kuvaus"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_INDENT"
+msgstr "STOCK_INDENT"
+
+#. module: stock
+#: selection:stock.picking,type:0
+msgid "Delivery"
+msgstr "Toimitus"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action5
+#: model:ir.actions.wizard,name:stock.action4
+#: model:ir.actions.wizard,name:stock.action_lot2
+msgid "Upstream traceability"
+msgstr "Tulevien seuranta"
+
+#. module: stock
+#: code:addons/stock/product.py:0
+#, python-format
+msgid "Produced Qty"
+msgstr "Tuotettu määrä"
+
+#. module: stock
+#: field:product.category,property_stock_account_input_categ:0
+#: field:product.template,property_stock_account_input:0
+msgid "Stock Input Account"
+msgstr "Saapuvan varaston tili"
+
+#. module: stock
+#: field:stock.location,chained_location_type:0
+msgid "Chained Location Type"
+msgstr "Ketjutettu paikkatyyppi"
+
+#. module: stock
+#: selection:stock.location,chained_location_type:0
+msgid "Customer"
+msgstr "Asiakas"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_location_tree_3
+#: model:ir.ui.menu,name:stock.menu_action_location_tree_3
+msgid "Locations' Values"
+msgstr "Paikkojen arvot"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "There is no stock input account defined ' \\n"
+"                                        'for this product: \"%s\" (id: %d)"
+msgstr "There is no stock input account defined ' \\n"
+"                                        'for this product: \"%s\" (id: %d)"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_output
+msgid "Output"
+msgstr "Lähtevä"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_JUSTIFY_RIGHT"
+msgstr "STOCK_JUSTIFY_RIGHT"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_inventory_line
+msgid "Inventory line"
+msgstr "Varastoluettelon rivi"
+
+#. module: stock
+#: code:addons/stock/stock.py:0
+#, python-format
+msgid "You can not create new moves."
+msgstr "You can not create new moves."
+
+#. module: stock
+#: view:stock.picking:0
+msgid "Others info"
+msgstr "Muut tiedot"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_MEDIA_NEXT"
+msgstr "STOCK_MEDIA_NEXT"
+
+#. module: stock
+#: view:stock.move:0
+#: view:stock.picking:0
+msgid "Move State"
+msgstr "Siirron tila"
+
+#. module: stock
+#: selection:stock.location,icon:0
+msgid "STOCK_REDO"
+msgstr "STOCK_REDO"
+
+#. module: stock
+#: model:stock.location,name:stock.stock_location_locations
+msgid "Physical Locations"
+msgstr "Aineelliset paikat"
+

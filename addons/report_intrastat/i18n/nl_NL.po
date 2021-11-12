@@ -1,0 +1,272 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* report_intrastat
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 5.0.12\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2010-09-02 13:43:23+0000\n"
+"PO-Revision-Date: 2010-09-02 13:43:23+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: report_intrastat
+#: constraint:ir.model:0
+msgid "The Object name must start with x_ and not contain any special character !"
+msgstr "De objectnaam moet beginnen met x_ en mag geen speciale tekens bevatten !"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Canceled Invoice"
+msgstr "Geannuleerde factuur"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Disc. (%)"
+msgstr "Korting (%)"
+
+#. module: report_intrastat
+#: model:ir.actions.act_window,name:report_intrastat.action_report_intrastat_tree
+#: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat
+msgid "Intrastat (this month)"
+msgstr "Intrastat (deze maand)"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Supplier Invoice"
+msgstr "Leveranciersfactuur"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Unit Price"
+msgstr "Prijs per eenheid"
+
+#. module: report_intrastat
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Ongeldige modelnaam in de actie-definitie."
+
+#. module: report_intrastat
+#: field:report.intrastat,name:0
+msgid "Period"
+msgstr "Period"
+
+#. module: report_intrastat
+#: model:ir.ui.menu,name:report_intrastat.next_id_90
+msgid "All Months"
+msgstr "Alle maanden"
+
+#. module: report_intrastat
+#: selection:report.intrastat,type:0
+msgid "Import"
+msgstr "Importeren"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "VAT :"
+msgstr "BTW :"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Document"
+msgstr "Document"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "PRO-FORMA"
+msgstr "PROFORMA"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Taxes:"
+msgstr "Belastingen:"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+#: field:report.intrastat.code,description:0
+msgid "Description"
+msgstr "Omschrijving"
+
+#. module: report_intrastat
+#: field:report.intrastat,type:0
+msgid "Type"
+msgstr "Soort"
+
+#. module: report_intrastat
+#: model:ir.actions.report.xml,name:report_intrastat.invoice_intrastat_id
+msgid "Invoice Intrastat"
+msgstr "Invoice Intrastat"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Invoice Date"
+msgstr "Factuurdatum"
+
+#. module: report_intrastat
+#: model:ir.module.module,shortdesc:report_intrastat.module_meta_information
+msgid "Intrastat Reporting - Reporting"
+msgstr "Intrastat Reporting - Reporting"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Tel. :"
+msgstr "Tel. :"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Base"
+msgstr "Basis"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Quantity"
+msgstr "Aantal"
+
+#. module: report_intrastat
+#: model:ir.ui.menu,name:report_intrastat.next_id_89
+msgid "This Month"
+msgstr "Deze maand"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Partner Ref."
+msgstr "Relatie ref."
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Total (inclu. taxes):"
+msgstr "Totaal (incl. belastingen)"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Refund"
+msgstr "Terugbetaling"
+
+#. module: report_intrastat
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Ongeldige XML voor weergave!"
+
+#. module: report_intrastat
+#: model:ir.model,name:report_intrastat.model_report_intrastat
+msgid "Intrastat report"
+msgstr "Intrastat-aangifte"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Invoice"
+msgstr "Factuur"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Taxes"
+msgstr "Belastingen"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Amount"
+msgstr "Bedrag"
+
+#. module: report_intrastat
+#: view:report.intrastat:0
+msgid "Intrastat Data"
+msgstr "Intrastat-gegevens"
+
+#. module: report_intrastat
+#: field:report.intrastat,value:0
+msgid "Value"
+msgstr "Waarde"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+#: model:ir.actions.act_window,name:report_intrastat.action_report_intrastat_tree_all
+#: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_all
+msgid "Intrastat"
+msgstr "Intrastat"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Draft Invoice"
+msgstr "Concept factuur"
+
+#. module: report_intrastat
+#: field:report.intrastat,supply_units:0
+msgid "Supply Units"
+msgstr "Supply Units"
+
+#. module: report_intrastat
+#: model:ir.model,name:report_intrastat.model_report_intrastat_code
+#: field:product.template,intrastat_id:0
+#: field:report.intrastat,intrastat_id:0
+#: view:report.intrastat.code:0
+msgid "Intrastat code"
+msgstr "Intrastat-code"
+
+#. module: report_intrastat
+#: field:report.intrastat,ref:0
+msgid "Origin"
+msgstr "Origin"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+#: field:report.intrastat,weight:0
+msgid "Weight"
+msgstr "Massa"
+
+#. module: report_intrastat
+#: field:res.country,intrastat:0
+msgid "Intrastat member"
+msgstr "Intrastat member"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Tax"
+msgstr "Belasting"
+
+#. module: report_intrastat
+#: field:report.intrastat,code:0
+msgid "Country code"
+msgstr "Landcode"
+
+#. module: report_intrastat
+#: field:report.intrastat,currency_id:0
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: report_intrastat
+#: selection:report.intrastat,type:0
+msgid "Export"
+msgstr "Export"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Fax :"
+msgstr "Fax :"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Supplier Refund"
+msgstr "Creditfactuur inkoop"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Total (excl. taxes):"
+msgstr "Totaal (excl. belastingen):"
+
+#. module: report_intrastat
+#: rml:account.invoice.intrastat:0
+msgid "Price"
+msgstr "Prijs"
+
+#. module: report_intrastat
+#: model:ir.actions.act_window,name:report_intrastat.action_report_intrastat_code_tree
+#: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_code
+#: field:report.intrastat.code,name:0
+msgid "Intrastat Code"
+msgstr "Intrastat-code"
+

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <menuitem icon="terp-partner" id="menu_base_partner" name="Partners" sequence="0"/>
+
+        <menuitem id="menu_base_config" name="Configuration" parent="menu_base_partner" sequence="1"
+            groups="group_system"/>
+
+        <!--
+    ================================
+    Function
+    ================================
+    -->
+        <record id="view_partner_function_form" model="ir.ui.view">
+            <field name="name">res.partner.function.form</field>
+            <field name="model">res.partner.function</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Partner Functions">
+                    <field name="name" select="1"/>
+                    <field name="code" select="1"/>
+                </form>
+            </field>
+        </record>
+        <record id="view_partner_function_tree" model="ir.ui.view">
+            <field name="name">res.partner.function.tree</field>
+            <field name="model">res.partner.function</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Partner Functions">
+                    <field name="code"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+        <record id="action_partner_function_form" model="ir.actions.act_window">
+            <field name="name">Partner Functions</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.function</field>
+            <field name="view_type">form</field>
+        </record>
+        <menuitem action="action_partner_function_form" id="menu_partner_function_form" parent="base.menu_base_config"/>
+
+        <!--
+    =====================
+    Partner Address
+    =====================
+    -->
+        <record id="view_partner_address_tree" model="ir.ui.view">
+            <field name="name">res.partner.address.tree</field>
+            <field name="model">res.partner.address</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Partner Addresses">
+                    <field name="partner_id"/>
+                    <field name="name"/>
+                    <field name="zip"/>
+                    <field name="city"/>
+                    <field name="country_id"/>
+                </tree>
+            </field>
+        </record>
+        <record id="action_partner_addess_tree" model="ir.actions.act_window">
+            <field name="name">Partner Contacts</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.address</field>
+            <field name="view_type">tree</field>
+            <field name="view_id" ref="view_partner_address_tree"/>
+        </record>
+
+        <record id="view_partner_address_form1" model="ir.ui.view">
+            <field name="name">res.partner.address.form1</field>
+            <field name="model">res.partner.address</field>
+            <field name="type">form</field>
+            <field eval="8" name="priority"/>
+            <field name="arch" type="xml">
+                <form string="Partner Address">
+                    <field colspan="4" name="partner_id" select="1"/>
+                    <newline/>
+                    <field name="name" select="1"/>
+                    <field domain="[('domain', '=', 'contact')]" name="title"/>
+                    <field name="function"/>
+                    <field name="type" select="2"/>
+                    <field name="street" select="2"/>
+                    <field name="street2"/>
+                    <newline/>
+                    <field name="zip" select="2"/>
+                    <field name="city" select="2"/>
+                    <newline/>
+                    <field completion="1" name="country_id" select="1"/>
+                    <field name="state_id" select="2"/>
+                    <newline/>
+                    <field name="phone" select="2"/>
+                    <field name="fax"/>
+                    <newline/>
+                    <field name="mobile" select="2"/>
+                    <field name="email" select="2" widget="email"/>
+                    <field name="active" select="2"/>
+                </form>
+            </field>
+        </record>
+        <record id="action_partner_address_form" model="ir.actions.act_window">
+            <field name="name">Partner Addresses</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.address</field>
+            <field name="view_type">form</field>
+        </record>
+        <record id="action_partner_address_form_view1" model="ir.actions.act_window.view">
+            <field eval="10" name="sequence"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_partner_address_tree"/>
+            <field name="act_window_id" ref="action_partner_address_form"/>
+        </record>
+        <record id="action_partner_address_form_view2" model="ir.actions.act_window.view">
+            <field eval="20" name="sequence"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_partner_address_form1"/>
+            <field name="act_window_id" ref="action_partner_address_form"/>
+        </record>
+        <menuitem action="action_partner_address_form" id="menu_partner_address_form" parent="base.menu_base_partner"/>
+
+        <!--
+    =========================================
+    the short form used in the partner form
+    =========================================
+    -->
+        <record id="view_partner_address_form2" model="ir.ui.view">
+            <field name="name">res.partner.address.form2</field>
+            <field name="model">res.partner.address</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Contacts">
+                    <field name="name" select="1"/>
+                    <field domain="[('domain', '=', 'contact')]" name="title"/>
+                    <field name="street"/>
+                    <field name="street2"/>
+                    <field name="type" select="2"/>
+                    <field name="function"/>
+                    <newline/>
+                    <field name="zip" select="2"/>
+                    <field name="city" select="2"/>
+                    <newline/>
+                    <field completion="1" name="country_id" select="1"/>
+                    <field name="state_id" select="2"/>
+                    <newline/>
+                    <field name="phone"/>
+                    <field name="fax"/>
+                    <newline/>
+                    <field name="mobile"/>
+                    <field name="email" widget="email"/>
+                </form>
+            </field>
+        </record>
+
+        <!--
+    =======================
+    Partner Titles
+    =======================
+    -->
+        <record id="view_partner_title_form" model="ir.ui.view">
+            <field name="name">res.partner.title.form</field>
+            <field name="model">res.partner.title</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Partner Titles">
+                    <field name="name" select="1"/>
+                    <field name="shortcut" select="1"/>
+                    <field name="domain"/>
+                </form>
+            </field>
+        </record>
+        <record id="action_partner_title" model="ir.actions.act_window">
+            <field name="name">Titles</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.title</field>
+            <field name="view_type">form</field>
+        </record>
+        <menuitem action="action_partner_title" id="menu_partner_title" parent="base.menu_base_config"/>
+
+        <record id="action_partner_title_partner" model="ir.actions.act_window">
+            <field name="name">Partner Titles</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.title</field>
+            <field name="view_type">form</field>
+            <field name="domain">[('domain','=','partner')]</field>
+        </record>
+        <menuitem action="action_partner_title_partner" id="menu_partner_title_partner" parent="menu_partner_title"/>
+
+        <record id="action_partner_title_contact" model="ir.actions.act_window">
+            <field name="name">Contact Titles</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.title</field>
+            <field name="view_type">form</field>
+            <field name="domain">[('domain','=','contact')]</field>
+        </record>
+        <menuitem action="action_partner_title_contact" id="menu_partner_title_contact" parent="menu_partner_title"/>
+
+        <!--
+    =======================
+    Partner
+    =======================
+    -->
+        <record id="view_partner_tree" model="ir.ui.view">
+            <field name="name">res.partner.tree</field>
+            <field name="model">res.partner</field>
+            <field name="type">tree</field>
+            <field eval="8" name="priority"/>
+            <field name="arch" type="xml">
+                <tree string="Partners">
+                    <field name="name"/>
+                    <field name="title"/>
+                    <field name="ref"/>
+                    <field name="city" select="2"/>
+                    <field name="country" select="2"/>
+                    <field name="lang"/>
+                </tree>
+            </field>
+        </record>
+
+
+
+        <record id="view_partner_form" model="ir.ui.view">
+            <field name="name">res.partner.form</field>
+            <field name="model">res.partner</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Partners">
+                    <group colspan="4" col="6">
+                        <field name="name" select="1"/>
+                        <field name="ref" select="1"/>
+                        <field name="customer" select="1"/>
+                        <field domain="[('domain', '=', 'partner')]" name="title"/>
+                        <field name="lang" select="2"/>
+                        <field name="supplier" select="2"/>
+                    </group>
+                    <notebook colspan="4">
+                        <page string="General">
+                            <field colspan="4" mode="form,tree" name="address" nolabel="1" select="1">
+                                <form string="Partner Contacts">
+                                    <field name="name" select="2"/>
+                                    <field domain="[('domain', '=', 'contact')]" name="title" string="Type"/>
+                                    <field name="function"/>
+                                    <field name="type" select="2"/>
+                                    <field name="street" select="2"/>
+                                    <field name="street2"/>
+                                    <newline/>
+                                    <field name="zip" select="2"/>
+                                    <field name="city" select="2"/>
+                                    <newline/>
+                                    <field completion="1" name="country_id" select="2"/>
+                                    <field name="state_id" select="2"/>
+                                    <newline/>
+                                    <field name="phone"/>
+                                    <field name="fax"/>
+                                    <newline/>
+                                    <field name="mobile"/>
+                                    <field name="email" select="2" widget="email"/>
+                                </form>
+                                <tree string="Partner Contacts">
+                                    <field name="name"/>
+                                    <field name="zip"/>
+                                    <field name="city"/>
+                                    <field name="country_id"/>
+                                    <field name="phone"/>
+                                    <field name="email"/>
+                                </tree>
+                            </field>
+                            <separator colspan="4" string="Categories"/>
+                            <field colspan="4" name="category_id" nolabel="1" select="2"/>
+                        </page>
+                        <page string="Sales &amp; Purchases">
+                            <separator string="General Information" colspan="4"/>
+                            <field name="user_id" select="2"/>
+                            <field name="active" select="2"/>
+                            <field name="website" widget="url"/>
+                            <field name="date" select="2"/>
+                            <field name="parent_id"/>
+                            <newline/>
+                        </page>
+                        <page string="History">
+                            <field colspan="4" name="events" nolabel="1" widget="one2many_list"/>
+                        </page>
+                        <page string="Notes">
+                            <field colspan="4" name="comment" nolabel="1"/>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_partner_form" model="ir.actions.act_window">
+            <field name="name">Partners</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_type">form</field>
+        </record>
+        <record id="action_partner_form_view1" model="ir.actions.act_window.view">
+            <field eval="10" name="sequence"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_partner_tree"/>
+            <field name="act_window_id" ref="action_partner_form"/>
+        </record>
+        <record id="action_partner_form_view2" model="ir.actions.act_window.view">
+            <field eval="20" name="sequence"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_partner_form"/>
+            <field name="act_window_id" ref="action_partner_form"/>
+        </record>
+        <menuitem
+            action="action_partner_form"
+            id="menu_partner_form"
+            parent="base.menu_base_partner"
+            sequence="2"/>
+
+        <record id="action_partner_customer_form" model="ir.actions.act_window">
+            <field name="name">Customers Partners</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_type">form</field>
+            <field name="domain">[('customer','=',1)]</field>
+        </record>
+        <menuitem action="action_partner_customer_form" id="menu_partner_customer_form" parent="menu_partner_form"/>
+        <record id="action_partner_supplier_form" model="ir.actions.act_window">
+            <field name="name">Suppliers Partners</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_type">form</field>
+            <field name="domain">[('supplier','=',1)]</field>
+            <field name="context">{'default_customer':0}</field>
+        </record>
+        <menuitem action="action_partner_supplier_form" id="menu_partner_supplier_form" parent="menu_partner_form"/>
+        <record id="action_partner_other_form" model="ir.actions.act_window">
+            <field name="name">Others Partners</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_type">form</field>
+            <field name="domain">[('supplier','&lt;&gt;',1),('customer','&lt;&gt;',1)]</field>
+        </record>
+        <menuitem action="action_partner_other_form" id="menu_partner_other_form" parent="menu_partner_form"/>
+        <record id="action_partner_customer_form_new" model="ir.actions.act_window">
+            <field name="name">New Partner</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form,tree</field>
+        </record>
+        <menuitem
+            action="action_partner_customer_form_new"
+            sequence="50"
+            id="menu_partner_customer_form_new" parent="menu_partner_form"/>
+
+        <record id="view_payterm_form" model="ir.ui.view">
+            <field name="name">res.payterm</field>
+            <field name="model">res.payterm</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Payment Term">
+                    <field colspan="4" name="name"/>
+                </form>
+            </field>
+        </record>
+        <record id="action_payterm_form" model="ir.actions.act_window">
+            <field name="name">Payment term</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.payterm</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="view_payterm_form"/>
+        </record>
+
+        <record id="view_partner_bank_type_form" model="ir.ui.view">
+            <field name="name">res.partner.bank.type.form</field>
+            <field name="model">res.partner.bank.type</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Bank Account Type">
+                    <field name="name" select="1"/>
+                    <field name="code" select="1"/>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_partner_bank_type_tree" model="ir.ui.view">
+            <field name="name">res.partner.bank.type.tree</field>
+            <field name="model">res.partner.bank.type</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Bank Account Type">
+                    <field name="name" select="1"/>
+                    <field name="code" select="1"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="view_partner_bank_form" model="ir.ui.view">
+            <field name="name">res.partner.bank.form</field>
+            <field name="model">res.partner.bank</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Bank account">
+                    <field name="state" select="2"/>
+                    <field name="partner_id" select="1"/>
+                    <newline/>
+                    <field name="acc_number" select="1"/>
+                    <newline/>
+                    <field name="bank"/>
+                    <newline/>
+                    <field name="sequence"/>
+                    <field colspan="4" name="name"/>
+                    <separator colspan="4" string="Bank Account Owner"/>
+                    <field colspan="4" name="owner_name" select="2"/>
+                    <field colspan="4" name="street"/>
+                    <field name="city"/>
+                    <field name="zip"/>
+                    <field completion="1" name="country_id" select="2"/>
+                    <field name="state_id" select="2"/>
+                </form>
+            </field>
+        </record>
+        <record id="view_partner_bank_tree" model="ir.ui.view">
+            <field name="name">res.partner.bank.tree</field>
+            <field name="model">res.partner.bank</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Bank Accounts">
+                    <field name="state"/>
+                    <field name="acc_number"/>
+                    <field name="partner_id"/>
+                    <field name="owner_name"/>
+                </tree>
+            </field>
+        </record>
+
+        <!--
+    ======================
+    Company Architecture
+    ======================
+    -->
+        <record id="view_partner_tree2" model="ir.ui.view">
+            <field name="name">res.partner.tree</field>
+            <field name="model">res.partner</field>
+            <field name="type">tree</field>
+            <field name="field_parent">child_ids</field>
+            <field name="arch" type="xml">
+                <tree string="Partners">
+                    <field name="name"/>
+                    <field name="lang"/>
+                    <field name="ref"/>
+                </tree>
+            </field>
+        </record>
+        <record id="action2" model="ir.actions.act_window">
+            <field name="name">Company Architecture</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="domain">[('id','in',active_ids)]</field>
+            <field name="view_type">tree</field>
+            <field name="view_id" ref="view_partner_tree2"/>
+        </record>
+        <record id="ir_partner_structure" model="ir.values">
+            <field eval="'client_action_multi'" name="key2"/>
+            <field eval="'res.partner'" name="model"/>
+            <field name="name">Company Architecture</field>
+            <field eval="'ir.actions.act_window,'+str(action2)" name="value"/>
+            <field eval="True" name="object"/>
+        </record>
+
+        <!--
+    ======================
+    Categories
+    ======================
+    -->
+        <record id="view_partner_category_form" model="ir.ui.view">
+            <field name="name">res.partner.category.form</field>
+            <field name="model">res.partner.category</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Partner Category">
+                    <field name="name" select="1"/>
+                    <field name="active" select="1"/>
+                    <field name="parent_id"/>
+                </form>
+            </field>
+        </record>
+        <record id="view_partner_category_list" model="ir.ui.view">
+            <field name="name">res.partner.category.list</field>
+            <field name="model">res.partner.category</field>
+            <field name="type">tree</field>
+            <field eval="6" name="priority"/>
+            <field name="arch" type="xml">
+                <tree string="Partner Categories">
+                    <field name="complete_name"/>
+                </tree>
+            </field>
+        </record>
+        <record id="view_partner_category_tree" model="ir.ui.view">
+            <field name="name">res.partner.category.tree</field>
+            <field name="model">res.partner.category</field>
+            <field name="type">tree</field>
+            <field name="field_parent">child_ids</field>
+            <field name="arch" type="xml">
+                <tree string="Partner Categories">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+        <record id="action_partner_category" model="ir.actions.act_window">
+            <field name="name">Partners by Categories</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.category</field>
+            <field name="view_type">tree</field>
+            <field name="view_id" ref="view_partner_category_tree"/>
+            <field name="domain">[('parent_id','=',False)]</field>
+        </record>
+        <menuitem action="action_partner_category" id="menu_partner_category_main" parent="base.menu_partner_form" sequence="1"/>
+
+        <record id="action_partner_by_category" model="ir.actions.act_window">
+			<field name="name">Partner Categories</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[('category_id','child_of', [active_id])]</field>
+            <field name="context">{'category_id':active_id}</field>
+        </record>
+        <record id="ir_action_partner_by_category" model="ir.values">
+            <field eval="'tree_but_open'" name="key2"/>
+            <field eval="'res.partner.category'" name="model"/>
+            <field name="name">Open partners</field>
+            <field eval="'ir.actions.act_window,%d'%action_partner_by_category" name="value"/>
+            <field eval="True" name="object"/>
+        </record>
+
+        <record id="action_partner_category_form" model="ir.actions.act_window">
+            <field name="name">Partner Categories</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.category</field>
+            <field name="view_type">form</field>
+        </record>
+        <menuitem action="action_partner_category_form" id="menu_partner_category_form" parent="base.menu_base_config"/>
+
+        <act_window domain="[('partner_id', '=', active_id)]"
+            id="act_res_partner_event" name="Events"
+            res_model="res.partner.event"
+            src_model="res.partner"/>
+
+    </data>
+</openerp>
