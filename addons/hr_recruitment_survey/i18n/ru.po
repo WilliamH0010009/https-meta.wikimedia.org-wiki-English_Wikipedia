@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_recruitment_survey
+# 
+# Translators:
+# Viktor Pogrebniak <vp@aifil.ru>, 2017
+# Gennady Marchenko <gennadym@gmail.com>, 2017
+# Collex100, 2017
+# Sergey Vilizhanin, 2017
+# Vasiliy Korobatov <korobatov@gmail.com>, 2019
+# Martin Trigaux, 2020
+# ILMIR <karamov@it-projects.info>, 2020
+# Irina Fedulova <istartlin@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-12 07:31+0000\n"
+"PO-Revision-Date: 2016-08-26 11:13+0000\n"
+"Last-Translator: Irina Fedulova <istartlin@gmail.com>, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
+msgid ""
+"<span class=\"o_stat_text\">Consult</span>\n"
+"                        <span class=\"o_stat_text\">Interview</span>"
+msgstr ""
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
+msgid ""
+"<span class=\"o_stat_text\">Start</span>\n"
+"                        <span class=\"o_stat_text\">Interview</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Начать</span>\n"
+"                        <span class=\"o_stat_text\">Интервью</span>"
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
+msgid "Answer related job question"
+msgstr "Ответить на вопрос, связанный с вакансией"
+
+#. module: hr_recruitment_survey
+#: model:ir.model,name:hr_recruitment_survey.model_hr_applicant
+msgid "Applicant"
+msgstr "Соискатель"
+
+#. module: hr_recruitment_survey
+#: model:ir.model.fields,help:hr_recruitment_survey.field_hr_applicant__survey_id
+#: model:ir.model.fields,help:hr_recruitment_survey.field_hr_job__survey_id
+msgid ""
+"Choose an interview form for this job position and you will be able to "
+"print/answer this interview from all applicants who apply for this job"
+msgstr ""
+"Выберите форму собеседования на эту должность, и вы сможете "
+"распечатать/провести это собеседование со всеми соискателями, претендующими "
+"на эту работу"
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.view_hr_job_kanban_inherit
+msgid "Create Interview Form"
+msgstr ""
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_job_survey_inherit
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.view_hr_job_kanban_inherit
+msgid "Display Interview Form"
+msgstr "Открыть схему собеседования"
+
+#. module: hr_recruitment_survey
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_applicant__display_name
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_job__display_name
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#. module: hr_recruitment_survey
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_applicant__id
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_job__id
+msgid "ID"
+msgstr "Идентификатор"
+
+#. module: hr_recruitment_survey
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_job__survey_id
+msgid "Interview Form"
+msgstr "Форма интервью"
+
+#. module: hr_recruitment_survey
+#: code:addons/hr_recruitment_survey/models/hr_job.py:0
+#, python-format
+msgid "Interview Form : %s"
+msgstr ""
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.res_config_settings_view_form
+msgid "Interview Forms"
+msgstr "Формы интервью"
+
+#. module: hr_recruitment_survey
+#: model:ir.model,name:hr_recruitment_survey.model_hr_job
+msgid "Job Position"
+msgstr "Должность"
+
+#. module: hr_recruitment_survey
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_applicant____last_update
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_job____last_update
+msgid "Last Modified on"
+msgstr "Последнее изменение"
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.view_hr_job_kanban_inherit
+msgid "Preview Interview"
+msgstr ""
+
+#. module: hr_recruitment_survey
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_applicant__response_id
+msgid "Response"
+msgstr "Ответ"
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
+msgid "See interview report"
+msgstr ""
+
+#. module: hr_recruitment_survey
+#: code:addons/hr_recruitment_survey/models/hr_job.py:0
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_applicant__survey_id
+#, python-format
+msgid "Survey"
+msgstr "Опрос"
