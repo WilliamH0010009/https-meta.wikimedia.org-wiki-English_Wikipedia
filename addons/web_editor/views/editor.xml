@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="wysiwyg_iframe_editor_assets" name="Editor assets for wysiwyg iframe content" groups="base.group_user">
+    <t t-call-assets="web.assets_common"/>
+    <t t-call-assets="web.assets_frontend" t-js="false"/>
+    <t t-call-assets="web_editor.assets_wysiwyg"/>
+</template>
+
+<template id="compiled_assets_wysiwyg" name="Wysiwyg Editor" groups="base.group_public,base.group_portal,base.group_user">
+    <t t-call-assets="web_editor.assets_wysiwyg"/>
+</template>
+
+<template id="assets_edit_html_field" name="Wysiwyg Editor Assets for html field (style-inline)" groups="base.group_user,base.group_portal">
+    <t t-call-assets="web.assets_common" t-js="false"/>
+    <t t-call-assets="web_editor.assets_wysiwyg" t-js="false"/>
+</template>
+
+<!--
+    The web_editor.colorpicker template regroups section of colorpicker menu for website customization
+    (text foreground/background but also snippet background color option).
+    As it is presentend below, the colorpicker tag regroups a set of .o_colorpicker_section with name,
+    icon-class and icon-content as data. These will be used to build the colorpicker dropdowns.
+
+    Redefinition can edit section content, add sections or even remove them. If no section is found when
+    building a colorpicker dropdown, the template content will be used without changes as the colorpicker
+    dropdown content.
+
+    Sections should contain a set of button with a data-color attribute. When selecting such a button to
+    edit style, the "bg-x" class or the "text-x" will be automatically added.
+
+    If a color is no longer used you need to add the d-none class to it and not remove it from this file !!
+    Else you will no longer be able to use them.
+-->
+<template id="web_editor.colorpicker" name="Color-Picker" groups="base.group_user">
+    <colorpicker>
+        <div class="o_colorpicker_section" data-name="theme">
+            <button t-foreach="5" t-as="i" t-attf-data-color="o-color-#{i + 1}"></button>
+        </div>
+        <div class="o_colorpicker_section" data-name="common">
+            <button data-color="black"></button>
+            <button data-color="900"></button>
+            <button data-color="800"></button>
+            <button data-color="700" class="d-none"></button>
+            <button data-color="600"></button>
+            <button data-color="500" class="d-none"></button>
+            <button data-color="400"></button>
+            <button data-color="300" class="d-none"></button>
+            <button data-color="200"></button>
+            <button data-color="100"></button>
+            <button data-color="white"></button>
+        </div>
+        <div class="o_colorpicker_section" data-name="transparent_grayscale">
+            <button data-color="black-15"></button>
+            <button data-color="black-25"></button>
+            <button data-color="black-50"></button>
+            <button data-color="black-75"></button>
+            <button data-color="white-25"></button>
+            <button data-color="white-50"></button>
+            <button data-color="white-75"></button>
+            <button data-color="white-85"></button>
+        </div>
+    </colorpicker>
+</template>
+</odoo>
