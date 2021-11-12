@@ -1,0 +1,254 @@
+# German translation for openobject-addons
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-02-08 00:37+0000\n"
+"PO-Revision-Date: 2012-09-21 13:48+0000\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-05-29 07:22+0000\n"
+"X-Generator: Launchpad (build 16640)\n"
+
+#. module: sale_layout
+#: sql_constraint:sale.order:0
+msgid "Order Reference must be unique per Company!"
+msgstr "Die Bestellreferenz muss je Firma eindeutig sein"
+
+#. module: sale_layout
+#: selection:sale.order.line,layout_type:0
+msgid "Sub Total"
+msgstr "Zwischensumme"
+
+#. module: sale_layout
+#: selection:sale.order.line,layout_type:0
+msgid "Title"
+msgstr "Überschrift"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Disc. (%)"
+msgstr "Rab. (%)"
+
+#. module: sale_layout
+#: selection:sale.order.line,layout_type:0
+msgid "Note"
+msgstr "Bemerkung"
+
+#. module: sale_layout
+#: field:sale.order.line,layout_type:0
+msgid "Line Type"
+msgstr "Zeilenart"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Order N°"
+msgstr "Bestellnummer"
+
+#. module: sale_layout
+#: field:sale.order,abstract_line_ids:0
+msgid "Order Lines"
+msgstr "Auftragspositionen"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Disc.(%)"
+msgstr "Rabatt (%)"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Unit Price"
+msgstr "Einzelpreis"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Invoice Lines"
+msgstr "Rechnungspositionen"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "UoM"
+msgstr "ME"
+
+#. module: sale_layout
+#: selection:sale.order.line,layout_type:0
+msgid "Product"
+msgstr "Produkt"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Our Salesman"
+msgstr "Unser Verkäufer"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Tel. :"
+msgstr "Tel.:"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Quantity"
+msgstr "Menge"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Quotation N°"
+msgstr "Angebot Nr."
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "VAT"
+msgstr "USt."
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Make Invoice"
+msgstr "Rechnung anlegen"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Properties"
+msgstr "Eigenschaften"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Invoice address :"
+msgstr "Rechnungsanschrift:"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Fax :"
+msgstr "Fax:"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Notes"
+msgstr "Bemerkungen"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Date Ordered"
+msgstr "Bestelldatum"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Shipping address :"
+msgstr "Lieferanschrift:"
+
+#. module: sale_layout
+#: view:sale.order:0
+#: report:sale.order.layout:0
+msgid "Taxes"
+msgstr "Steuern"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Net Total :"
+msgstr "Nettobetrag:"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Total :"
+msgstr "Bruttobetrag:"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Payment Terms"
+msgstr "Zahlungsbedingungen"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "History"
+msgstr "Verlauf"
+
+#. module: sale_layout
+#: selection:sale.order.line,layout_type:0
+msgid "Separator Line"
+msgstr "Trennlinie"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Your Reference"
+msgstr "Ihre Referenz"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Quotation Date"
+msgstr "Angebotsdatum"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "TVA :"
+msgstr "USt.:"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Qty"
+msgstr "Anzahl"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "States"
+msgstr "Zustände"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Sales order lines"
+msgstr "Auftragspositionen"
+
+#. module: sale_layout
+#: model:ir.actions.report.xml,name:sale_layout.sale_order_1
+msgid "Order with Layout"
+msgstr "Auftrag mit Layout"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Extra Info"
+msgstr "Zusatzinfo"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Taxes :"
+msgstr "Steuern:"
+
+#. module: sale_layout
+#: selection:sale.order.line,layout_type:0
+msgid "Page Break"
+msgstr "Seitenumbruch"
+
+#. module: sale_layout
+#: model:ir.model,name:sale_layout.model_sale_order
+msgid "Sales Order"
+msgstr "Verkaufsauftrag"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Order Line"
+msgstr "Auftragsposition"
+
+#. module: sale_layout
+#: report:sale.order.layout:0
+msgid "Price"
+msgstr "Preis"
+
+#. module: sale_layout
+#: model:ir.model,name:sale_layout.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Auftragsposition"
+
+#. module: sale_layout
+#: view:sale.order:0
+msgid "Stock Moves"
+msgstr "Lagerbuchungen"
